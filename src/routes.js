@@ -1,6 +1,6 @@
 const apicache = require('apicache');
 
-const hashes = require('./hashes');
+const hashes = require('./hashes/hashes');
 
 const cache = apicache.middleware;
 
