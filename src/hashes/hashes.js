@@ -200,6 +200,7 @@ function getHashes() {
     '9bc59d4d5f93e22ad9a78d4ff0a21298',
     '87b4684e77d3be6536e280137927f159',
     '50a72368b06e3f88a9c4a2748ced6e72',
+    '67ed3e3d1b6c0f58941a4a59362add44',
   ];
 }
 module.exports = {
