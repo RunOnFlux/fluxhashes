@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-'use strict';
 
 // Verifies the signed hash list against the pinned public keys, the way a consumer will.
 //
@@ -20,8 +19,8 @@ const SPKI_ED25519_PREFIX = Buffer.from('302a300506032b6570032100', 'hex');
 // Must match SIGNING.md and the set consumers pin. Any one of them verifying is enough, which is
 // what lets a second key take over without updating consumers.
 const PINNED_PUBLIC_KEYS = [
-  '3023cb5e01dc22257ac5c31c4d12106cd0d58fa2005f867b3fdc5d303f6446ec',   // 1, CI
-  'fee7b0ccf2323954af68a249eaa61f957239eb222329e08a5b6a50ced649bae8',   // 2, cold
+  '3023cb5e01dc22257ac5c31c4d12106cd0d58fa2005f867b3fdc5d303f6446ec', // 1, CI
+  'fee7b0ccf2323954af68a249eaa61f957239eb222329e08a5b6a50ced649bae8', // 2, cold
 ];
 
 function verifyDocument(document, publicKeysHex) {
@@ -50,11 +49,10 @@ function verifyDocument(document, publicKeysHex) {
 
 function main(argv) {
   const root = path.join(__dirname, '..');
-  const document = JSON.parse(fs.readFileSync(
-    argv[0] || path.join(root, 'src', 'hashes', 'hashlist-signed.json'), 'utf8',
-  ));
+  const signedPath = argv[0] || path.join(root, 'src', 'hashes', 'hashlist-signed.json');
+  const document = JSON.parse(fs.readFileSync(signedPath, 'utf8'));
   // eslint-disable-next-line global-require
-  const hashes = require(path.join(root, 'src', 'hashes', 'hashes')).getHashes();
+  const hashes = require('../src/hashes/hashes').getHashes();
 
   const payload = verifyDocument(document, PINNED_PUBLIC_KEYS);
 

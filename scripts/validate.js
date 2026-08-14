@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-'use strict';
 
 // Shape-checks what this repository publishes.
 //
@@ -24,7 +23,7 @@ function check(condition, message) {
 
 function validateHashes() {
   // eslint-disable-next-line global-require
-  const hashes = require(path.join(ROOT, 'src', 'hashes', 'hashes')).getHashes();
+  const hashes = require('../src/hashes/hashes').getHashes();
 
   check(Array.isArray(hashes), 'hashes.js did not return an array');
   if (!Array.isArray(hashes)) return null;

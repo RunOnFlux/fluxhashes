@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-'use strict';
 
 // Signs the hash list this repository publishes, so consumers can verify it came from us rather
 // than trusting the transport or whatever relayed it.
@@ -79,7 +78,7 @@ function main() {
   }
 
   // eslint-disable-next-line global-require
-  const hashes = require(path.join(ROOT, 'src', 'hashes', 'hashes')).getHashes();
+  const hashes = require('../src/hashes/hashes').getHashes();
   const previous = previousDocument();
 
   // Re-signing an unchanged list would burn a sequence for nothing, and every node would have to
