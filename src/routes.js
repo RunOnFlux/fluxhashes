@@ -6,6 +6,11 @@ const hashes = require('./hashes/hashes');
 
 const cache = apicache.middleware;
 
+// Only successful responses are cached. By default apicache stores whatever the handler returned,
+// including the 404 below -- so a request arriving before the first document was published would
+// pin that 404 for the full cache window, well after the document existed.
+const cacheSuccess = apicache.newInstance({ statusCodes: { include: [200] } }).middleware;
+
 const HASHLIST = path.join(__dirname, 'hashes', 'hashlist-signed.json');
 
 module.exports = (app) => {
@@ -13,7 +18,7 @@ module.exports = (app) => {
   // server or whatever relayed the response. Served alongside the unsigned array, not instead of it.
   //
   // Must come before the catch-all below, which would otherwise answer this path with the array.
-  app.get('/hashlist', cache('5 minutes'), (req, res) => {
+  app.get('/hashlist', cacheSuccess('5 minutes'), (req, res) => {
     fs.readFile(HASHLIST, 'utf8', (error, document) => {
       if (error) {
         // Nothing signed has been published yet. 404 rather than an empty or partial document,
