@@ -1,0 +1,61 @@
+name: sign-hashlist
+
+# Signs the hash list this repository publishes, so consumers can verify it came from us.
+#
+# Runs unattended: RunOnFlux/flux CI already pushes each new hash here, and this signs whatever that
+# push produced. Nothing to approve, and no cross-repository dispatch or token needed.
+#
+# Deliberately NOT triggered by pull_request_target or pull_request: this repository is public and
+# either would expose the signing key to a fork.
+
+on:
+  push:
+    branches: [master]
+    paths: ['src/hashes/hashes.js']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Two runs signing at once would both read the same sequence, and one would publish over the other
+# under a sequence already used.
+concurrency:
+  group: sign-hashlist
+  cancel-in-progress: false
+
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sign
+        id: sign
+        env:
+          HASHLIST_SIGNING_SEED_B64: ${{ secrets.HASHLIST_SIGNING_SEED_B64 }}
+        run: node scripts/sign-hashlist.js >> "$GITHUB_OUTPUT"
+
+      # Against the published public keys, not the signing key. A mangled secret produces a
+      # well-formed document that no consumer will accept; this makes that a red run rather than a
+      # document that looks published and satisfies nobody.
+      - name: Verify what was just signed
+        if: steps.sign.outputs.changed == 'true'
+        run: node scripts/verify-hashlist.js
+
+      # Commits the signed document only. The trigger above watches src/hashes/hashes.js, so this
+      # cannot retrigger itself.
+      - name: Publish
+        if: steps.sign.outputs.changed == 'true'
+        run: |
+          git config user.email 'runonfluxbot@gmail.com'
+          git config user.name 'policy-bot'
+          git add src/hashes/hashlist-signed.json
+          if git diff --cached --quiet; then
+            echo "nothing changed, not publishing"
+            exit 0
+          fi
+          git commit -m "Sign hash list seq $(node -p "JSON.parse(Buffer.from(require('./src/hashes/hashlist-signed.json').payload_b64,'base64')).seq")"
+          git push
