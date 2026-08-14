@@ -52,10 +52,15 @@ jobs:
         run: |
           git config user.email 'runonfluxbot@gmail.com'
           git config user.name 'policy-bot'
-          git add src/hashes/hashlist-signed.json
-          if git diff --cached --quiet; then
+          # Scoped to the one path, both times. A bare `git commit` would sweep in anything else a
+          # previous step left staged, and a bare `git diff --cached` would call that a change and
+          # publish a document that had not moved.
+          SIGNED=src/hashes/hashlist-signed.json
+          git add "$SIGNED"
+          if git diff --cached --quiet -- "$SIGNED"; then
             echo "nothing changed, not publishing"
             exit 0
           fi
-          git commit -m "Sign hash list seq $(node -p "JSON.parse(Buffer.from(require('./src/hashes/hashlist-signed.json').payload_b64,'base64')).seq")"
+          SEQ=$(node -p "JSON.parse(Buffer.from(require('./$SIGNED').payload_b64,'base64')).seq")
+          git commit --quiet -m "Sign hash list seq $SEQ" -- "$SIGNED"
           git push
