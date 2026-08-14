@@ -1,0 +1,23 @@
+name: validate
+
+# The published list is served by requiring it, so a file that does not load takes the endpoint down.
+# Flux CI checks its own edit before pushing; this covers the other way the list changes, which is by
+# hand.
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/validate.js
