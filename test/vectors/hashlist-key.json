@@ -1,0 +1,6 @@
+{
+  "note": "TEST KEY. Committed so the vector can be regenerated. Signs nothing the network trusts.",
+  "derivation": "sha256('fluxos-hashlist-interop-vector-test-key-not-for-production')",
+  "seed_b64": "9RxIUq+szQNlRtpnI7K9lm9Rui18LJxkfQ28p0m9K9E=",
+  "public_key_hex": "d4b4591e5109c6512820f60f22c1ae61d0d8e0f7df7c2f3e51daeb573fc79063"
+}
