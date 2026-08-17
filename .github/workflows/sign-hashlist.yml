@@ -32,35 +32,54 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Sign
-        id: sign
+      # Sign, verify, publish -- as one step, because the push can race a publish from flux CI, and
+      # recovering from that means re-syncing to origin/master and signing again from scratch: the
+      # list may have gained an entry between attempts. Without the retry, a lost race leaves the
+      # newest hash unsigned until the next time hashes.js changes, which could be days.
+      #
+      # The verification runs against the published public keys, not the signing key. A mangled
+      # secret produces a well-formed document that no consumer will accept; verifying here makes
+      # that a red run rather than a document that looks published and satisfies nobody.
+      #
+      # Commits the signed document and the provenance record only, both times, scoped to those
+      # paths. The trigger above watches src/hashes/hashes.js, so this cannot retrigger itself.
+      - name: Sign and publish
         env:
           HASHLIST_SIGNING_SEED_B64: ${{ secrets.HASHLIST_SIGNING_SEED_B64 }}
-        run: node scripts/sign-hashlist.js >> "$GITHUB_OUTPUT"
-
-      # Against the published public keys, not the signing key. A mangled secret produces a
-      # well-formed document that no consumer will accept; this makes that a red run rather than a
-      # document that looks published and satisfies nobody.
-      - name: Verify what was just signed
-        if: steps.sign.outputs.changed == 'true'
-        run: node scripts/verify-hashlist.js
-
-      # Commits the signed document only. The trigger above watches src/hashes/hashes.js, so this
-      # cannot retrigger itself.
-      - name: Publish
-        if: steps.sign.outputs.changed == 'true'
         run: |
           git config user.email 'runonfluxbot@gmail.com'
           git config user.name 'policy-bot'
-          # Scoped to the one path, both times. A bare `git commit` would sweep in anything else a
-          # previous step left staged, and a bare `git diff --cached` would call that a change and
-          # publish a document that had not moved.
+
           SIGNED=src/hashes/hashlist-signed.json
-          git add "$SIGNED"
-          if git diff --cached --quiet -- "$SIGNED"; then
-            echo "nothing changed, not publishing"
-            exit 0
-          fi
-          SEQ=$(node -p "JSON.parse(Buffer.from(require('./$SIGNED').payload_b64,'base64')).seq")
-          git commit --quiet -m "Sign hash list seq $SEQ" -- "$SIGNED"
-          git push
+          PROVENANCE=src/hashes/provenance.json
+
+          for attempt in 1 2 3; do
+            git fetch --quiet origin master
+            git reset --quiet --hard origin/master
+
+            CHANGED=$(node scripts/sign-hashlist.js)
+            if [ "$CHANGED" != "changed=true" ]; then
+              echo "list unchanged, nothing to sign"
+              exit 0
+            fi
+
+            node scripts/verify-hashlist.js
+
+            git add "$SIGNED" "$PROVENANCE"
+            if git diff --cached --quiet -- "$SIGNED" "$PROVENANCE"; then
+              echo "nothing changed, not publishing"
+              exit 0
+            fi
+
+            SEQ=$(node -p "JSON.parse(Buffer.from(require('./$SIGNED').payload_b64,'base64')).seq")
+            git commit --quiet -m "Sign hash list seq $SEQ" -- "$SIGNED" "$PROVENANCE"
+
+            if git push --quiet; then
+              echo "published seq $SEQ"
+              exit 0
+            fi
+            echo "push raced with a publish from flux CI, retrying"
+          done
+
+          echo "could not publish after 3 attempts"
+          exit 1
