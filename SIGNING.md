@@ -5,6 +5,30 @@ it came from us rather than trusting the transport or whatever relayed it.
 
 It is published **alongside** `src/hashes/hashes.js`, not instead of it. Both are served.
 
+## The document
+
+`{ payload_b64, sig_b64 }`, where the payload is the exact signed bytes — a JSON object
+`{ seq, issued_at, hashes }`. The signature covers the transmitted bytes, so verification never
+depends on signer and verifier agreeing about JSON key order or whitespace.
+
+`seq` increases by one per signing run and never restarts. Its high-water mark is recorded in the
+provenance record beside the document, and the signer takes the next sequence from whichever of the
+two is higher — so losing the document, however that happens, does not reset the sequence.
+`validate.js` refuses a document whose sequence is not exactly the recorded high-water.
+
+## The provenance record
+
+`src/hashes/provenance.json`, outside the signed payload, with two writers:
+
+- **flux CI** adds a row per published hash — `published` date, `commit`, `branch`, `tag` — in the
+  same commit that edits `hashes.js`. This is what makes an entry attributable later: the list
+  itself is opaque md5s, and the commit that produced an entry can stop existing (a force-push, a
+  branch deleted after merge). A tag push fills in the `tag` field on the existing row.
+- **the signing run** stamps `signed` — the sequence and `issued_at` it signed at — in the same
+  commit as the signed document.
+
+Rows exist only for hashes published since the record was introduced; older entries have none.
+
 ## Keys
 
 Consumers pin a set of public keys and accept a document signed by any one of them, so a second key

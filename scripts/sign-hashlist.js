@@ -15,6 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const OUTPUT = path.join(ROOT, 'src', 'hashes', 'hashlist-signed.json');
+const PROVENANCE = path.join(ROOT, 'src', 'hashes', 'provenance.json');
 
 // A raw 32-byte Ed25519 seed is not directly importable; Node wants PKCS8. The prefix is fixed for
 // the algorithm, so prepending it is enough.
@@ -39,9 +40,12 @@ function rawPublicKey(privateKey) {
   return spki.subarray(SPKI_ED25519_PREFIX_LENGTH);
 }
 
-function buildSignedDocument(seq, hashes, privateKey) {
+function buildSignedDocument(seq, issuedAt, hashes, privateKey) {
   if (!Number.isInteger(seq) || seq < 1) {
     throw new Error('seq must be a positive integer');
+  }
+  if (typeof issuedAt !== 'string' || Number.isNaN(Date.parse(issuedAt))) {
+    throw new Error('issued_at must be a parseable date string');
   }
   if (!Array.isArray(hashes) || hashes.length === 0) {
     throw new Error('hashes must be a non-empty array');
@@ -50,7 +54,7 @@ function buildSignedDocument(seq, hashes, privateKey) {
     throw new Error('every hash must be a lowercase 32-character md5');
   }
 
-  const payload = Buffer.from(JSON.stringify({ seq, hashes }), 'utf8');
+  const payload = Buffer.from(JSON.stringify({ seq, issued_at: issuedAt, hashes }), 'utf8');
   const signature = crypto.sign(null, payload, privateKey);
 
   return {
@@ -59,16 +63,38 @@ function buildSignedDocument(seq, hashes, privateKey) {
   };
 }
 
-// The sequence lives in the published document rather than in a file beside it, so there is nothing
-// to drift out of step with what was actually signed. A consumer refuses a document whose sequence
-// is below the highest it has accepted, so an older validly-signed list cannot be replayed over a
-// newer one.
 function previousDocument() {
   if (!fs.existsSync(OUTPUT)) {
     return null;
   }
   const document = JSON.parse(fs.readFileSync(OUTPUT, 'utf8'));
   return JSON.parse(Buffer.from(document.payload_b64, 'base64').toString('utf8'));
+}
+
+// The provenance record carries the highest sequence ever signed, in a file committed alongside the
+// list. The sequence is taken from whichever of the two is higher, so losing the signed document --
+// however that happens -- cannot restart the sequence at 1: a fresh document signed under an old
+// sequence would be refused by any consumer already holding a newer one, and the failure would be
+// silent because the run that produced it is green.
+//
+// Absence of the record is the state before the first signing run and is fine. A record that exists
+// but does not parse is not: treating it as absent is exactly the restart this exists to prevent.
+function readProvenance() {
+  if (!fs.existsSync(PROVENANCE)) {
+    return null;
+  }
+  const record = JSON.parse(fs.readFileSync(PROVENANCE, 'utf8'));
+  if (record.signed !== undefined && record.signed !== null
+      && (!Number.isInteger(record.signed.seq) || record.signed.seq < 1)) {
+    throw new Error(`provenance signed.seq is not a positive integer: ${record.signed.seq}`);
+  }
+  return record;
+}
+
+function writeProvenance(record, seq, issuedAt) {
+  const updated = record || { hashes: {} };
+  updated.signed = { seq, issued_at: issuedAt };
+  fs.writeFileSync(PROVENANCE, `${JSON.stringify(updated, null, 2)}\n`);
 }
 
 function main() {
@@ -80,6 +106,7 @@ function main() {
   // eslint-disable-next-line global-require
   const hashes = require('../src/hashes/hashes').getHashes();
   const previous = previousDocument();
+  const provenance = readProvenance();
 
   // Re-signing an unchanged list would burn a sequence for nothing, and every node would have to
   // fetch and verify a document identical to the one it already holds.
@@ -91,11 +118,17 @@ function main() {
     return;
   }
 
-  const seq = previous ? previous.seq + 1 : 1;
+  const highWater = Math.max(
+    previous ? previous.seq : 0,
+    provenance && provenance.signed ? provenance.signed.seq : 0,
+  );
+  const seq = highWater + 1;
+  const issuedAt = new Date().toISOString();
   const privateKey = privateKeyFromSeed(seedB64);
-  const document = buildSignedDocument(seq, hashes, privateKey);
+  const document = buildSignedDocument(seq, issuedAt, hashes, privateKey);
 
   fs.writeFileSync(OUTPUT, `${JSON.stringify(document, null, 2)}\n`);
+  writeProvenance(provenance, seq, issuedAt);
   process.stderr.write(`signed seq ${seq} over ${hashes.length} hashes\n`);
   process.stderr.write(`public key (raw, hex): ${rawPublicKey(privateKey).toString('hex')}\n`);
   process.stdout.write('changed=true\n');
@@ -110,4 +143,6 @@ if (require.main === module) {
   }
 }
 
-module.exports = { privateKeyFromSeed, rawPublicKey, buildSignedDocument };
+module.exports = {
+  privateKeyFromSeed, rawPublicKey, buildSignedDocument, readProvenance,
+};
