@@ -44,14 +44,17 @@ can take over without those consumers needing an update.
 
 | key | public key (raw ed25519, hex) | custody | use |
 |---|---|---|---|
-| 1 | `3023cb5e01dc22257ac5c31c4d12106cd0d58fa2005f867b3fdc5d303f6446ec` | CI, secret `HASHLIST_SIGNING_SEED_B64` in the `hashlist-signing` environment | day to day |
+| 1 | `14837066068b258bfbd0749702056f7065361af44aed48761834744391cbbaaa` | CI, secret `HASHLIST_SIGNING_SEED_B64` in the `hashlist-signing` environment | day to day |
 | 2 | `fee7b0ccf2323954af68a249eaa61f957239eb222329e08a5b6a50ced649bae8` | cold, offline | continuity only |
 
 ### Key 1
 
-Generated 2026-08-14 straight into the secret `HASHLIST_SIGNING_SEED_B64`, which lives in the
+Generated 2026-08-24 straight into the secret `HASHLIST_SIGNING_SEED_B64`, which lives in the
 `hashlist-signing` GitHub Environment whose deployment branch policy admits `master` only — a
 workflow run on any other ref is refused before its first step, so a branch push cannot read it.
+(This replaced the 2026-08-14 key, which had only ever lived as a repository-level secret: a
+secret's value cannot be moved into an environment, and nothing had ever consumed the old key, so
+regenerating was free.)
 **There is no copy of the private half anywhere else, on purpose** — key 2 covers its loss, and a
 second copy would only widen where it can leak from.
 
