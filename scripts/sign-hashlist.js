@@ -242,8 +242,12 @@ function main() {
       const label = refLabel(ref);
       if (!work.has(sha)) {
         work.set(sha, label);
-      } else if (label.tag && !work.get(sha).tag) {
-        work.get(sha).tag = label.tag;
+      } else {
+        // A commit arriving as branch tip and tag in the same run keeps both labels, whichever
+        // ref was seen first.
+        const existing = work.get(sha);
+        if (label.tag && !existing.tag) existing.tag = label.tag;
+        if (label.branch && !existing.branch) existing.branch = label.branch;
       }
     });
   }
@@ -322,8 +326,10 @@ function main() {
   );
   const newList = retained.concat(additions);
 
-  // Monotonicity, asserted independently of the construction above: an entry leaves the list only
-  // when the ledger says so. A regeneration bug must be a red run, never a signed loss.
+  // Monotonicity: an entry leaves the list only when the ledger says so. The append-with-cull
+  // construction above cannot trip this today -- it exists so that a future change to true
+  // regeneration-from-rows turns a dropped entry into a red run, never a signed loss
+  // (mutation-tested: it catches exactly that).
   const surviving = new Set(newList);
   currentList.forEach((hash) => {
     if (!surviving.has(hash) && !culled.has(hash)) {
