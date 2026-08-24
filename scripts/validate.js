@@ -3,8 +3,10 @@
 // Shape-checks what this repository publishes.
 //
 // The list is served by requiring it, so a file that does not load takes the endpoint down rather
-// than merely publishing something odd. Flux CI checks its own edit before pushing, but the list is
-// also edited by hand -- a cull removes entries in bulk -- and that path had nothing in front of it.
+// than merely publishing something odd. The three outputs have one writer -- the signer, which
+// runs this as a self-check before pushing -- so no legitimate commit can fail here: a red
+// validate on master always means the generator or the repository rules are broken, which is the
+// point of running it everywhere.
 //
 // This checks shape only. Whether a particular hash *should* be listed is not knowable from here:
 // removing one that is still in use looks identical to removing one that is obsolete.
@@ -15,6 +17,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const SIGNED = path.join(ROOT, 'src', 'hashes', 'hashlist-signed.json');
 const PROVENANCE = path.join(ROOT, 'src', 'hashes', 'provenance.json');
+const LEDGER = path.join(ROOT, 'src', 'hashes', 'ledger.json');
 
 const failures = [];
 
@@ -42,10 +45,11 @@ function validateHashes() {
   return hashes;
 }
 
-// The provenance record has two writers -- flux CI adds a row per published hash, the signing run
-// stamps the sequence it signed at -- and a malformed edit from either would take the signer down.
-// Not every hash has a row: the record starts empty against a list that predates it.
-function validateProvenance() {
+// The provenance record has one writer -- the signer, which owns the attribution rows, the
+// commit-to-hash map, the refs snapshot its reconciler diffs against, and the sequence high-water.
+// A malformed record takes the signer down, so shape is enforced here and on every PR. A
+// grandfathered row (derived false) predates derivation and has no commit to point at.
+function validateProvenance(hashes) {
   if (!fs.existsSync(PROVENANCE)) {
     process.stderr.write('no provenance record yet, skipping\n');
     return null;
@@ -73,18 +77,70 @@ function validateProvenance() {
   const rows = record.hashes || {};
   Object.entries(rows).forEach(([hash, row]) => {
     check(/^[0-9a-f]{32}$/.test(hash), `provenance row key is not a lowercase md5: ${hash}`);
+    const commitOk = row && (
+      (typeof row.commit === 'string' && /^[0-9a-f]{40}$/.test(row.commit))
+      || (row.commit === null && row.derived !== true)
+    );
     check(
       row && typeof row === 'object'
         && typeof row.published === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(row.published)
-        && typeof row.commit === 'string' && /^[0-9a-f]{40}$/.test(row.commit)
+        && commitOk
         && (row.branch === null || typeof row.branch === 'string')
-        && (row.tag === null || typeof row.tag === 'string'),
+        && (row.tag === null || typeof row.tag === 'string')
+        && (row.derived === undefined || typeof row.derived === 'boolean'),
       `provenance row is malformed: ${hash}`,
     );
   });
 
-  process.stderr.write(`provenance: ${Object.keys(rows).length} rows, signed seq ${record.signed ? record.signed.seq : 'none'}\n`);
+  Object.entries(record.commits || {}).forEach(([sha, hash]) => {
+    check(/^[0-9a-f]{40}$/.test(sha), `commits map key is not a 40-character sha: ${sha}`);
+    check(typeof hash === 'string' && /^[0-9a-f]{32}$/.test(hash), `commits map value is not a lowercase md5: ${hash}`);
+  });
+  Object.entries(record.refs || {}).forEach(([ref, sha]) => {
+    check(ref.startsWith('refs/'), `refs snapshot key is not a ref: ${ref}`);
+    check(typeof sha === 'string' && /^[0-9a-f]{40}$/.test(sha), `refs snapshot value is not a 40-character sha: ${ref}`);
+  });
+
+  // Post-cutover (the snapshot exists), membership is generated from the rows: a listed hash
+  // without a row means the generator and its record have diverged.
+  if (record.refs && hashes) {
+    const unattributed = hashes.filter((hash) => !rows[hash]);
+    check(unattributed.length === 0, `${unattributed.length} listed hashes have no provenance row: ${unattributed.slice(0, 3)}`);
+  }
+
+  process.stderr.write(`provenance: ${Object.keys(rows).length} rows, ${Object.keys(record.commits || {}).length} commits, ${Object.keys(record.refs || {}).length} refs, signed seq ${record.signed ? record.signed.seq : 'none'}\n`);
   return record;
+}
+
+// The ledger is the human-edited input: cull marks reviewed through PRs. A cull may still be
+// listed here -- the signer applies it on its next run -- so consistency with the list is not
+// checkable; shape is.
+function validateLedger() {
+  if (!fs.existsSync(LEDGER)) {
+    process.stderr.write('no ledger yet, skipping\n');
+    return;
+  }
+
+  let ledger;
+  try {
+    ledger = JSON.parse(fs.readFileSync(LEDGER, 'utf8'));
+  } catch (error) {
+    check(false, `ledger does not parse: ${error.message}`);
+    return;
+  }
+
+  check(Array.isArray(ledger.culls), 'ledger.culls is not an array');
+  (Array.isArray(ledger.culls) ? ledger.culls : []).forEach((cull, i) => {
+    check(
+      cull && typeof cull === 'object'
+        && typeof cull.hash === 'string' && /^[0-9a-f]{32}$/.test(cull.hash)
+        && typeof cull.reason === 'string' && cull.reason.length > 0
+        && typeof cull.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(cull.date),
+      `ledger cull ${i} is malformed: ${JSON.stringify(cull)}`,
+    );
+  });
+
+  process.stderr.write(`ledger: ${Array.isArray(ledger.culls) ? ledger.culls.length : 0} culls\n`);
 }
 
 // The signed copy is written by CI and only exists once it has run, so its absence is not a failure
@@ -141,7 +197,8 @@ function validateSigned(hashes, provenance) {
 
 function main() {
   const hashes = validateHashes();
-  const provenance = validateProvenance();
+  const provenance = validateProvenance(hashes);
+  validateLedger();
   validateSigned(hashes, provenance);
 
   if (failures.length) {
