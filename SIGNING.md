@@ -26,7 +26,11 @@ workflow**, which derives every post-cutover entry itself from commits it fetche
   makes an entry attributable later: the list itself is opaque md5s, and the commit that produced
   an entry can stop existing (a force-push, a branch deleted after merge). First attribution wins;
   a new tag on a known commit annotates the existing row. Rows with `derived: false` predate
-  derivation (grandfathered at cutover) and have no commit to point at.
+  derivation (grandfathered at cutover) and have no commit to point at. **Read the signature accordingly**:
+  it says these are the hashes this repository published at this sequence, and for `derived: true`
+  rows it additionally means the signer fetched that commit and computed that hash itself. It
+  attests no provenance for grandfathered rows — those were carried across at cutover from the
+  unsigned list, on the authority of whatever published them at the time.
 - a **commits map** (`sha → hash`) so nothing is fetched or hashed twice, and a **refs snapshot**
   of the flux remote, which is what the reconciler diffs against — a publication request that gets
   lost is repaired by the next run reconciling the full delta.
@@ -96,6 +100,12 @@ environment — the one bypass on the master ruleset, which otherwise admits onl
 rotate: generate a fresh keypair, replace the repository deploy key and the environment secret;
 the ruleset's `DeployKey` bypass covers whatever write keys the repository holds, so it needs no
 change — which is also why the repository must hold exactly this one write deploy key.
+
+The workflow also **pins GitHub's SSH host key** — a single `ssh-ed25519` line written to a
+`known_hosts` file for the push, rather than trusting whatever `ssh-keyscan` returns at run time.
+It is a rotation touchpoint: if GitHub ever rotates that key the push fails host verification and
+the signing run goes red, which looks like a credential fault and is not one. The fix is to update
+the pinned line in `.github/workflows/sign-hashlist.yml` against GitHub's published fingerprints.
 
 ## Trust
 
