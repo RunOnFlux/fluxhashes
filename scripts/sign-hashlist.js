@@ -34,6 +34,14 @@ const FLUX_REMOTE = process.env.FLUX_REMOTE || 'https://github.com/RunOnFlux/flu
 // LC_ALL=C pins the sort.
 const TREE_HASH_PIPELINE = "find ./ZelBack -type f -exec md5sum {} + | awk '{print $1}' | LC_ALL=C sort | md5sum | awk '{printf $1}'";
 
+// md5 of an empty stream. The pipeline yields it whenever nothing was hashed -- ZelBack absent
+// (find errors; without pipefail the status is awk's, so the failure is otherwise invisible) or
+// present but holding no regular files (find succeeds and emits nothing, which pipefail cannot
+// see). Both must be refused: the value is a well-formed 32-hex hash that means "a node whose
+// ZelBack contains no files is genuine FluxOS", and membership is monotonic, so listing it once
+// costs a cull PR to undo.
+const EMPTY_TREE_HASH = 'd41d8cd98f00b204e9800998ecf8427e';
+
 // A raw 32-byte Ed25519 seed is not directly importable; Node wants PKCS8. The prefix is fixed for
 // the algorithm, so prepending it is enough.
 const PKCS8_ED25519_PREFIX = Buffer.from('302e020100300506032b657004220420', 'hex');
@@ -161,9 +169,14 @@ function deriveTreeHash(cache, sha) {
   const worktree = path.join(parent, 'wt');
   try {
     git(['worktree', 'add', '--quiet', '--detach', worktree, sha], { cwd: cache });
-    const hash = execFileSync('bash', ['-c', TREE_HASH_PIPELINE], { cwd: worktree, encoding: 'utf8' }).trim();
+    // -o pipefail rather than folding it into the constant, so TREE_HASH_PIPELINE stays byte-identical
+    // to the one flux CI runs -- that identity is what makes claimed_hash comparable at all.
+    const hash = execFileSync('bash', ['-o', 'pipefail', '-c', TREE_HASH_PIPELINE], { cwd: worktree, encoding: 'utf8' }).trim();
     if (!/^[0-9a-f]{32}$/.test(hash)) {
       throw new Error(`tree hash pipeline produced "${hash}"`);
+    }
+    if (hash === EMPTY_TREE_HASH) {
+      throw new Error('nothing was hashed -- this commit has no ZelBack files. Refusing to list the empty-tree hash');
     }
     return hash;
   } finally {
