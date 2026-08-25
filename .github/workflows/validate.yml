@@ -47,3 +47,10 @@ jobs:
           fi
 
       - run: node scripts/validate.js
+
+      # The reconciler's own logic, driven against a local fake flux remote: bootstrap, derivation,
+      # claimed-hash mismatch, culls, duplicates, corruption, a wiped document, v1 compatibility,
+      # and the empty-tree hash. No network and no secrets -- it builds its own git remote in a
+      # temp dir, so it runs on fork pull requests like everything else here.
+      - name: Reconciler tests
+        run: npm test
