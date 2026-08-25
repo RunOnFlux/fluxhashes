@@ -2,8 +2,10 @@ name: sign-hashlist
 
 # The single writer of everything src/hashes/ serves. It derives what it signs: a run fetches new
 # flux commits from the official repository, hashes their trees itself, and publishes list, signed
-# document and provenance in one commit. Requests carry pointers, never content -- flux CI's
-# dispatch token has Actions permission only.
+# document and provenance in one commit. Requests carry pointers, never hash values -- flux CI's
+# dispatch token has Actions permission only. That bounds the credential rather than vouching for
+# the tree: a fork network shares one object store, so a dispatched commit may be any commit ever
+# pushed to flux or to a public fork of it. scripts/sign-hashlist.js states the bound in full.
 #
 # Level-triggered: every run reconciles the full delta between the flux remote's refs and the
 # snapshot in the provenance record, so a dispatch lost to the concurrency group's

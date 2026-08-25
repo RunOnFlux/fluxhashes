@@ -5,9 +5,17 @@
 // Reconciles the published list against RunOnFlux/flux itself: diffs the remote's refs against the
 // snapshot in the provenance record, fetches each new commit, computes its ZelBack tree hash from
 // the bytes it fetched, and emits hashes.js, the signed document and the provenance record together.
-// A hash value can enter the list through no other path. A dispatch carries pointers, never
-// content, so the credential that sends one needs no write authority -- and the signature means
-// "this commit's tree hashes to this value", not "this was in the repository when I ran".
+// A dispatch carries pointers, never hash values, so the credential that sends one needs no write
+// authority -- and the signature means "this commit's tree hashes to this value", not "this was in
+// the repository when I ran".
+//
+// That bounds the credential; it does not vouch for the tree. GitHub shares one object store across
+// a fork network, so every commit ever pushed to any public fork of flux stays anonymously fetchable
+// by SHA from the official remote -- and a dispatched commit matching no ref is still derived, on
+// purpose, because a branch can move past a commit before we look. So a dispatch is trusted to name
+// a commit reachable in flux's object store, forks included, which is a much larger set than "a tree
+// RunOnFlux authored". The credential is held only by principals who can already land a branch on
+// flux and get a hash listed that way; this is the same trust boundary, not a defence against it.
 //
 // The payload is signed and transmitted as exact bytes in base64, so verification never depends on
 // the signer and the verifier agreeing about JSON key order or whitespace.
