@@ -223,6 +223,7 @@ function getHashes() {
     'c4bd8724ff2581b990eb7a2bfea4470f',
     '1bfcf0dcc7dc6584ffbd297f400d5f15',
     '0d33976d23eb61651f875ab7f5389813',
+    '152524d7acce5425909dfe5a24f66868',
   ];
 }
 
