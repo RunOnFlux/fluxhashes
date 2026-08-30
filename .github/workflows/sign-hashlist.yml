@@ -1,0 +1,126 @@
+name: sign-hashlist
+
+# The single writer of everything src/hashes/ serves. It derives what it signs: a run fetches new
+# flux commits from the official repository, hashes their trees itself, and publishes list, signed
+# document and provenance in one commit. Requests carry pointers, never hash values -- flux CI's
+# dispatch token has Actions permission only. That bounds the credential rather than vouching for
+# the tree: a fork network shares one object store, so a dispatched commit may be any commit ever
+# pushed to flux or to a public fork of it. scripts/sign-hashlist.js states the bound in full.
+#
+# Level-triggered: every run reconciles the full delta between the flux remote's refs and the
+# snapshot in the provenance record, so a dispatch lost to the concurrency group's
+# newest-pending-wins cancellation is repaired by whichever run survives, and the daily sweep
+# bounds the tail when nothing follows.
+#
+# Deliberately NOT triggered by pull_request_target or pull_request: this repository is public and
+# either would expose the secrets to a fork. The push trigger watches only the human-edited ledger,
+# which this workflow never writes, so it cannot retrigger itself. Both secrets live in the
+# environment below, whose deployment branch policy admits master only -- a branch run is refused
+# before its first step.
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: 'flux commit SHA to publish'
+        required: false
+      ref:
+        description: 'ref name the caller saw (label of last resort, never authority)'
+        required: false
+      ref_type:
+        description: 'branch or tag (label of last resort)'
+        required: false
+      claimed_hash:
+        description: 'tree hash the caller computed -- a tripwire, never an input to the list'
+        required: false
+  push:
+    branches: [master]
+    paths: ['src/hashes/ledger.json']
+  schedule:
+    - cron: '43 3 * * *'
+
+# The push happens over SSH with the deploy key -- the ruleset's one bypass -- so the run token
+# needs read only.
+permissions:
+  contents: read
+
+# Two runs signing at once would both read the same sequence, and one would publish over the other
+# under a sequence already used.
+concurrency:
+  group: sign-hashlist
+  cancel-in-progress: false
+
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    environment: hashlist-signing
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '20'
+
+      # Reconcile, sign, verify, publish -- as one step, because the push can race a human PR
+      # merge, and recovering means re-syncing to origin/master and reconciling again from scratch.
+      #
+      # The verification runs against the published public keys, not the signing key: a mangled
+      # secret produces a well-formed document that no consumer will accept, and verifying here
+      # makes that a red run rather than a document that looks published and satisfies nobody.
+      - name: Reconcile, sign and publish
+        env:
+          HASHLIST_SIGNING_SEED_B64: ${{ secrets.HASHLIST_SIGNING_SEED_B64 }}
+          HASHLIST_DEPLOY_KEY: ${{ secrets.HASHLIST_DEPLOY_KEY }}
+          DISPATCH_COMMIT: ${{ inputs.commit }}
+          DISPATCH_REF: ${{ inputs.ref }}
+          DISPATCH_REF_TYPE: ${{ inputs.ref_type }}
+          DISPATCH_CLAIMED_HASH: ${{ inputs.claimed_hash }}
+        run: |
+          umask 077
+          printf '%s\n' "$HASHLIST_DEPLOY_KEY" > "$RUNNER_TEMP/deploy_key"
+          printf 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl\n' > "$RUNNER_TEMP/known_hosts"
+          export GIT_SSH_COMMAND="ssh -F /dev/null -i $RUNNER_TEMP/deploy_key -o IdentitiesOnly=yes -o UserKnownHostsFile=$RUNNER_TEMP/known_hosts"
+
+          git config user.email 'runonfluxbot@gmail.com'
+          git config user.name 'hashlist-signer'
+
+          LIST=src/hashes/hashes.js
+          SIGNED=src/hashes/hashlist-signed.json
+          PROVENANCE=src/hashes/provenance.json
+
+          for attempt in 1 2 3; do
+            git fetch --quiet origin master
+            git reset --quiet --hard origin/master
+
+            RESULT=$(node scripts/sign-hashlist.js)
+            case "$RESULT" in
+              changed=false)
+                echo 'nothing to publish'
+                exit 0
+                ;;
+              changed=state)
+                node scripts/validate.js
+                git add "$PROVENANCE"
+                git commit --quiet -m 'Reconcile flux refs' -- "$PROVENANCE"
+                ;;
+              changed=signed)
+                node scripts/verify-hashlist.js
+                node scripts/validate.js
+                git add "$LIST" "$SIGNED" "$PROVENANCE"
+                SEQ=$(node -p "JSON.parse(Buffer.from(require('./$SIGNED').payload_b64,'base64')).seq")
+                git commit --quiet -m "Sign hash list seq $SEQ" -- "$LIST" "$SIGNED" "$PROVENANCE"
+                ;;
+              *)
+                echo "unexpected reconciler output: $RESULT"
+                exit 1
+                ;;
+            esac
+
+            if git push --quiet "git@github.com:${GITHUB_REPOSITORY}.git" HEAD:master; then
+              echo "published ($RESULT)"
+              exit 0
+            fi
+            echo 'push raced a human merge, retrying'
+          done
+
+          echo 'could not publish after 3 attempts'
+          exit 1
