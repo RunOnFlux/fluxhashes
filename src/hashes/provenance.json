@@ -1791,10 +1791,18 @@
       "branch": "feat/dos-residential-non-arcane",
       "tag": null,
       "derived": true
+    },
+    "2fff869a57c8098467fe5de629b13b28": {
+      "published": "2026-08-31",
+      "commit": "77aa5716d8e98eca3c3dbe1bd07fe73f7a5dbf2c",
+      "branch": "fix/container-not-found-crash-and-spurious-uninstall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
-    "5258adbeb0e0258998c0a884536782c45a94bcf3": "677f0cff2d4ee8ca5281c81b5a3cd93a"
+    "5258adbeb0e0258998c0a884536782c45a94bcf3": "677f0cff2d4ee8ca5281c81b5a3cd93a",
+    "77aa5716d8e98eca3c3dbe1bd07fe73f7a5dbf2c": "2fff869a57c8098467fe5de629b13b28"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -1926,7 +1934,7 @@
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "f40ae6e9bb277a422198910fb712a59dff72e30e",
+    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "77aa5716d8e98eca3c3dbe1bd07fe73f7a5dbf2c",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -2327,7 +2335,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 1,
-    "issued_at": "2026-08-31T08:37:48.993Z"
+    "seq": 2,
+    "issued_at": "2026-08-31T08:53:16.891Z"
   }
 }
