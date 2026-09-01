@@ -1910,6 +1910,13 @@
       "branch": "fix/same-ip-port-collision",
       "tag": null,
       "derived": true
+    },
+    "d11e8aa1dd69d5c581c05aa19445bad5": {
+      "published": "2026-09-01",
+      "commit": "b1d78edf9c15a58135a6e2b66dba562bfaf53fd2",
+      "branch": "fix/hosting-is-not-owning",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -1920,7 +1927,8 @@
     "823d2ccd0d38a4c503dccfbced707d1f8d322115": "6ca66e348d40b3fadae163ed257df4b5",
     "78fbfe9dd901fd12e87b936498bea46561d55451": "351d6053b8a1032bf1a864c4c3046119",
     "487cbd0f6255d6f862b0970f258fdac2616cc692": "41bf3c9230068f8e75e23abdc5f8804f",
-    "fd7659e90376d10a714ad5a6e5921290a712df55": "9419f1396d8eceda412d55c33c9930a5"
+    "fd7659e90376d10a714ad5a6e5921290a712df55": "9419f1396d8eceda412d55c33c9930a5",
+    "b1d78edf9c15a58135a6e2b66dba562bfaf53fd2": "d11e8aa1dd69d5c581c05aa19445bad5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2062,7 +2070,7 @@
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
-    "refs/heads/fix/hosting-is-not-owning": "487cbd0f6255d6f862b0970f258fdac2616cc692",
+    "refs/heads/fix/hosting-is-not-owning": "b1d78edf9c15a58135a6e2b66dba562bfaf53fd2",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
@@ -2454,7 +2462,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 3,
-    "issued_at": "2026-09-01T08:40:43.618Z"
+    "seq": 4,
+    "issued_at": "2026-09-01T08:42:48.031Z"
   }
 }
