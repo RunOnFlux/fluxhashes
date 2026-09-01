@@ -1968,7 +1968,8 @@
     "760a2dfbaaacdafc0a7000f1093a11dc36f1a78e": "b4e4d3273474c60bb1ea00d132c0ce89",
     "0431a6b5d40d966a382c4f620db5aa5fea49da52": "06779cc6717187066ab83ee7b1249838",
     "9b95d3174ca50d8cca6f3aea9ebf30bd7de48f28": "b1cd3822326adc9964dff9bdbd6ee992",
-    "5f872b34004ff61fa9ea375f75a384319b307988": "83202ec79496d43812bba001b1991c8d"
+    "5f872b34004ff61fa9ea375f75a384319b307988": "83202ec79496d43812bba001b1991c8d",
+    "5d98b87c29110b1721116560036b34511870284d": "83202ec79496d43812bba001b1991c8d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2015,7 +2016,7 @@
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
-    "refs/heads/feat/dos-residential-non-arcane": "5f872b34004ff61fa9ea375f75a384319b307988",
+    "refs/heads/feat/dos-residential-non-arcane": "5d98b87c29110b1721116560036b34511870284d",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
