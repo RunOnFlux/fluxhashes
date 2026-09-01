@@ -1966,6 +1966,13 @@
       "branch": "fix/same-ip-port-collision",
       "tag": null,
       "derived": true
+    },
+    "67885ca103d676764b04a4c51d535ea9": {
+      "published": "2026-09-01",
+      "commit": "7523568a371703a8c06d9d1eff05844418ade9da",
+      "branch": "feat/dos-residential-non-arcane",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -1988,7 +1995,8 @@
     "ea98e2d0d1fc8cf5b3eec50e4ee2115fec202fe5": "06779cc6717187066ab83ee7b1249838",
     "574435f617bec47ef26765820ddc87c5109784a8": "89c1c1bf9e90f8d7120d9e92402677c5",
     "bbebe935f1326a4da8f912167577fce3f8392cc8": "b1cd3822326adc9964dff9bdbd6ee992",
-    "18a7054319f95f0437007b15322d95bbfc78b636": "ca8fa98972cdba17a03ac43798371d97"
+    "18a7054319f95f0437007b15322d95bbfc78b636": "ca8fa98972cdba17a03ac43798371d97",
+    "7523568a371703a8c06d9d1eff05844418ade9da": "67885ca103d676764b04a4c51d535ea9"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2035,7 +2043,7 @@
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
-    "refs/heads/feat/dos-residential-non-arcane": "574435f617bec47ef26765820ddc87c5109784a8",
+    "refs/heads/feat/dos-residential-non-arcane": "7523568a371703a8c06d9d1eff05844418ade9da",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
@@ -2522,7 +2530,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 11,
-    "issued_at": "2026-09-01T10:55:30.293Z"
+    "seq": 12,
+    "issued_at": "2026-09-01T10:57:55.111Z"
   }
 }
