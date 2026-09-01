@@ -1997,7 +1997,8 @@
     "bbebe935f1326a4da8f912167577fce3f8392cc8": "b1cd3822326adc9964dff9bdbd6ee992",
     "18a7054319f95f0437007b15322d95bbfc78b636": "ca8fa98972cdba17a03ac43798371d97",
     "7523568a371703a8c06d9d1eff05844418ade9da": "67885ca103d676764b04a4c51d535ea9",
-    "d64f5ec94abf36384af0bb18ab461e36d150eb5e": "06779cc6717187066ab83ee7b1249838"
+    "d64f5ec94abf36384af0bb18ab461e36d150eb5e": "06779cc6717187066ab83ee7b1249838",
+    "3ee1c829bab88b2583bddba86f2574666aa3c36e": "06779cc6717187066ab83ee7b1249838"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2052,7 +2053,7 @@
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
-    "refs/heads/feat/release-gate": "d64f5ec94abf36384af0bb18ab461e36d150eb5e",
+    "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
     "refs/heads/feat/volume-file-operations": "1f2a4bf3aabc3a03727a869e5ded6abd67443cb4",
