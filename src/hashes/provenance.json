@@ -1924,6 +1924,13 @@
       "branch": "fix/same-ip-port-collision",
       "tag": null,
       "derived": true
+    },
+    "b4e4d3273474c60bb1ea00d132c0ce89": {
+      "published": "2026-09-01",
+      "commit": "760a2dfbaaacdafc0a7000f1093a11dc36f1a78e",
+      "branch": "feat/dos-residential-non-arcane",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -1936,7 +1943,8 @@
     "487cbd0f6255d6f862b0970f258fdac2616cc692": "41bf3c9230068f8e75e23abdc5f8804f",
     "fd7659e90376d10a714ad5a6e5921290a712df55": "9419f1396d8eceda412d55c33c9930a5",
     "b1d78edf9c15a58135a6e2b66dba562bfaf53fd2": "d11e8aa1dd69d5c581c05aa19445bad5",
-    "da0989777d017ba6a5c1404262f116ee38323d03": "6929fa2b0a71e6fb4107eff6585f04de"
+    "da0989777d017ba6a5c1404262f116ee38323d03": "6929fa2b0a71e6fb4107eff6585f04de",
+    "760a2dfbaaacdafc0a7000f1093a11dc36f1a78e": "b4e4d3273474c60bb1ea00d132c0ce89"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -1983,7 +1991,7 @@
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
-    "refs/heads/feat/dos-residential-non-arcane": "227d4e11d8d53e76cf8f100de81c4dcd5f4df658",
+    "refs/heads/feat/dos-residential-non-arcane": "760a2dfbaaacdafc0a7000f1093a11dc36f1a78e",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
@@ -2470,7 +2478,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 5,
-    "issued_at": "2026-09-01T08:43:22.627Z"
+    "seq": 6,
+    "issued_at": "2026-09-01T08:46:59.563Z"
   }
 }
