@@ -1896,6 +1896,13 @@
       "branch": "chore/eslint-cleanup",
       "tag": null,
       "derived": true
+    },
+    "41bf3c9230068f8e75e23abdc5f8804f": {
+      "published": "2026-09-01",
+      "commit": "487cbd0f6255d6f862b0970f258fdac2616cc692",
+      "branch": "fix/hosting-is-not-owning",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -1904,7 +1911,8 @@
     "9181984364207a2c83433e3e6e8b3d06718c1de7": "b41c8619f805ed6b7b10cf9c2063533c",
     "227d4e11d8d53e76cf8f100de81c4dcd5f4df658": "5407d7092fe39d009e1a591a77438417",
     "823d2ccd0d38a4c503dccfbced707d1f8d322115": "6ca66e348d40b3fadae163ed257df4b5",
-    "78fbfe9dd901fd12e87b936498bea46561d55451": "351d6053b8a1032bf1a864c4c3046119"
+    "78fbfe9dd901fd12e87b936498bea46561d55451": "351d6053b8a1032bf1a864c4c3046119",
+    "487cbd0f6255d6f862b0970f258fdac2616cc692": "41bf3c9230068f8e75e23abdc5f8804f"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2046,7 +2054,7 @@
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
-    "refs/heads/fix/hosting-is-not-owning": "823d2ccd0d38a4c503dccfbced707d1f8d322115",
+    "refs/heads/fix/hosting-is-not-owning": "487cbd0f6255d6f862b0970f258fdac2616cc692",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
@@ -2438,7 +2446,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 1,
-    "issued_at": "2026-09-01T07:25:34.418Z"
+    "seq": 2,
+    "issued_at": "2026-09-01T08:29:07.720Z"
   }
 }
