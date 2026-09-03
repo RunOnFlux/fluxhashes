@@ -2015,6 +2015,13 @@
       "branch": "feat/dos-residential-non-arcane",
       "tag": null,
       "derived": true
+    },
+    "ef702215226535b983df03ccaa58dd77": {
+      "published": "2026-09-03",
+      "commit": "cf1e32a598ea713968b41c7cb0db1cdca4d7c35d",
+      "branch": "fix/app-state-sync-liveness",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2055,7 +2062,8 @@
     "9a12057aa53b8e17b26c8cf7c46e6fc6f8aed042": "810dbd92ac4c4cec2650fc991bcdcaae",
     "bff099f6aac8b8f05ad66dee924c084bd81a4e47": "8ad927518ce5f37406aed39700134082",
     "88079c0a74664f8e0016b1c8be08d5d9937e8318": "9d7787432d7a02a1ed7ee152422740b3",
-    "cf2ffa309308a7ee620b332eec69a3692f51741b": "9d7787432d7a02a1ed7ee152422740b3"
+    "cf2ffa309308a7ee620b332eec69a3692f51741b": "9d7787432d7a02a1ed7ee152422740b3",
+    "cf1e32a598ea713968b41c7cb0db1cdca4d7c35d": "ef702215226535b983df03ccaa58dd77"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2181,6 +2189,7 @@
     "refs/heads/feature/upnp_delay_fix": "903b7c052205d044951ae349bf631c5cfff55499",
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
+    "refs/heads/fix/app-state-sync-liveness": "cf1e32a598ea713968b41c7cb0db1cdca4d7c35d",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
@@ -2589,7 +2598,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 18,
-    "issued_at": "2026-09-03T08:43:28.102Z"
+    "seq": 19,
+    "issued_at": "2026-09-03T17:27:04.851Z"
   }
 }
