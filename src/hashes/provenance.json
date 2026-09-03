@@ -2022,6 +2022,13 @@
       "branch": "fix/app-state-sync-liveness",
       "tag": null,
       "derived": true
+    },
+    "22ee44cec53adc5c8767ddf3a768133a": {
+      "published": "2026-09-03",
+      "commit": "da53344eb3995a3a658bcffd4ae0f906503ba7bb",
+      "branch": "feat/support-team-fluxid-list",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2063,7 +2070,8 @@
     "bff099f6aac8b8f05ad66dee924c084bd81a4e47": "8ad927518ce5f37406aed39700134082",
     "88079c0a74664f8e0016b1c8be08d5d9937e8318": "9d7787432d7a02a1ed7ee152422740b3",
     "cf2ffa309308a7ee620b332eec69a3692f51741b": "9d7787432d7a02a1ed7ee152422740b3",
-    "cf1e32a598ea713968b41c7cb0db1cdca4d7c35d": "ef702215226535b983df03ccaa58dd77"
+    "cf1e32a598ea713968b41c7cb0db1cdca4d7c35d": "ef702215226535b983df03ccaa58dd77",
+    "da53344eb3995a3a658bcffd4ae0f906503ba7bb": "22ee44cec53adc5c8767ddf3a768133a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2119,6 +2127,7 @@
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
+    "refs/heads/feat/support-team-fluxid-list": "da53344eb3995a3a658bcffd4ae0f906503ba7bb",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
     "refs/heads/feat/volume-file-operations": "1f2a4bf3aabc3a03727a869e5ded6abd67443cb4",
@@ -2598,7 +2607,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 19,
-    "issued_at": "2026-09-03T17:27:04.851Z"
+    "seq": 20,
+    "issued_at": "2026-09-03T18:37:22.877Z"
   }
 }
