@@ -2043,6 +2043,13 @@
       "branch": "fix/container-not-found-crash-and-spurious-uninstall",
       "tag": null,
       "derived": true
+    },
+    "bd465bd3975477f7dea91cd8d61c1ee9": {
+      "published": "2026-09-04",
+      "commit": "5e08a8d52533f7e5b1028d46853be1bc4ebe8cf3",
+      "branch": "fix/container-not-found-crash-and-spurious-uninstall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2088,7 +2095,8 @@
     "da53344eb3995a3a658bcffd4ae0f906503ba7bb": "22ee44cec53adc5c8767ddf3a768133a",
     "2bf6a89c9ab217f24f22c9e0ff21e8df2a25cc2c": "22ee44cec53adc5c8767ddf3a768133a",
     "fdb226dffcdbcbe3c2ec228ec1af2db03c1f8e6b": "420cf68e80e1627b2034cba1bcb0de96",
-    "cb464fbab3ab517edd16b4c2f4f27ca2b17aad10": "8a2b4f7d275bc22bfb28be1c0682665a"
+    "cb464fbab3ab517edd16b4c2f4f27ca2b17aad10": "8a2b4f7d275bc22bfb28be1c0682665a",
+    "5e08a8d52533f7e5b1028d46853be1bc4ebe8cf3": "bd465bd3975477f7dea91cd8d61c1ee9"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2222,7 +2230,7 @@
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "cb464fbab3ab517edd16b4c2f4f27ca2b17aad10",
+    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "5e08a8d52533f7e5b1028d46853be1bc4ebe8cf3",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -2624,7 +2632,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 22,
-    "issued_at": "2026-09-04T09:48:26.854Z"
+    "seq": 23,
+    "issued_at": "2026-09-04T10:02:10.924Z"
   }
 }
