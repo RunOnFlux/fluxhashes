@@ -2057,6 +2057,13 @@
       "branch": "fix/app-state-sync-liveness",
       "tag": null,
       "derived": true
+    },
+    "fd8d3cbb72d497daa08fdf727a02edc8": {
+      "published": "2026-09-04",
+      "commit": "12e382d9b4ea8f153d960ac0016fc3101e89f0dc",
+      "branch": "fix/container-not-found-crash-and-spurious-uninstall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2104,7 +2111,8 @@
     "fdb226dffcdbcbe3c2ec228ec1af2db03c1f8e6b": "420cf68e80e1627b2034cba1bcb0de96",
     "cb464fbab3ab517edd16b4c2f4f27ca2b17aad10": "8a2b4f7d275bc22bfb28be1c0682665a",
     "5e08a8d52533f7e5b1028d46853be1bc4ebe8cf3": "bd465bd3975477f7dea91cd8d61c1ee9",
-    "6443badfa205ffb17ef2ab4b52ed4d25e8dc9d1e": "1b1a52ace3eb9873978d2ea5cc2fccb6"
+    "6443badfa205ffb17ef2ab4b52ed4d25e8dc9d1e": "1b1a52ace3eb9873978d2ea5cc2fccb6",
+    "12e382d9b4ea8f153d960ac0016fc3101e89f0dc": "fd8d3cbb72d497daa08fdf727a02edc8"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2238,7 +2246,7 @@
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "5e08a8d52533f7e5b1028d46853be1bc4ebe8cf3",
+    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "12e382d9b4ea8f153d960ac0016fc3101e89f0dc",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -2640,7 +2648,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 24,
-    "issued_at": "2026-09-04T12:52:04.583Z"
+    "seq": 25,
+    "issued_at": "2026-09-04T13:03:16.277Z"
   }
 }
