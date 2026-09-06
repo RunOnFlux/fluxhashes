@@ -2120,6 +2120,13 @@
       "branch": "fix/container-not-found-crash-and-spurious-uninstall",
       "tag": null,
       "derived": true
+    },
+    "409d90a2e5f9c5c8736162d40b253310": {
+      "published": "2026-09-06",
+      "commit": "5b18eb5f4e21f4fe3411396a3d6a7abac3c804fe",
+      "branch": "fix/container-not-found-crash-and-spurious-uninstall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2178,7 +2185,8 @@
     "a0572fe83e74ca2173290f765465439010585845": "43e58d5a963d723cf6f56cf956b1bdb1",
     "3c8beb651c447488aff0a8b668d938c1f9eea35f": "91c25e8b3b483137870d722f48b269a4",
     "f1e2e308d91ee878e744c77bcd2314b96e35f508": "43e58d5a963d723cf6f56cf956b1bdb1",
-    "fcdde5cd3a05c73a781d43369030d9174354e0bb": "91c25e8b3b483137870d722f48b269a4"
+    "fcdde5cd3a05c73a781d43369030d9174354e0bb": "91c25e8b3b483137870d722f48b269a4",
+    "5b18eb5f4e21f4fe3411396a3d6a7abac3c804fe": "409d90a2e5f9c5c8736162d40b253310"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2312,7 +2320,7 @@
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "fcdde5cd3a05c73a781d43369030d9174354e0bb",
+    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "5b18eb5f4e21f4fe3411396a3d6a7abac3c804fe",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -2714,7 +2722,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 33,
-    "issued_at": "2026-09-06T09:30:04.594Z"
+    "seq": 34,
+    "issued_at": "2026-09-06T16:39:53.237Z"
   }
 }
