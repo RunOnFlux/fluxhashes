@@ -2148,6 +2148,13 @@
       "branch": "fix/container-not-found-crash-and-spurious-uninstall",
       "tag": null,
       "derived": true
+    },
+    "914adb35609ee7ceacd95d4264d5f2a5": {
+      "published": "2026-09-07",
+      "commit": "b1788fa91ed5b014e041613053e4474caed61278",
+      "branch": "fix/container-not-found-crash-and-spurious-uninstall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2210,7 +2217,8 @@
     "5b18eb5f4e21f4fe3411396a3d6a7abac3c804fe": "409d90a2e5f9c5c8736162d40b253310",
     "404bd2d8bb1dee0278210f488b2505a7134c2b4c": "7e7483ef470edc933c833ab8933b0d70",
     "ccff2d0436398975b14e53b36303817a8b8e768d": "1bf5f885d36c4363e32783297f9c70dc",
-    "38766b4395ae6c975437c394faed1159c6f5c362": "aa5b6d81c065e10db492af861a8ada0e"
+    "38766b4395ae6c975437c394faed1159c6f5c362": "aa5b6d81c065e10db492af861a8ada0e",
+    "b1788fa91ed5b014e041613053e4474caed61278": "914adb35609ee7ceacd95d4264d5f2a5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2344,7 +2352,7 @@
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "38766b4395ae6c975437c394faed1159c6f5c362",
+    "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "b1788fa91ed5b014e041613053e4474caed61278",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -2746,7 +2754,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 37,
-    "issued_at": "2026-09-07T13:25:49.400Z"
+    "seq": 38,
+    "issued_at": "2026-09-07T15:23:00.529Z"
   }
 }
