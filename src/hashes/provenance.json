@@ -2162,6 +2162,13 @@
       "branch": "fix/container-not-found-crash-and-spurious-uninstall",
       "tag": null,
       "derived": true
+    },
+    "49cf6587dcb290f9246cd4bd0c764c68": {
+      "published": "2026-09-07",
+      "commit": "0c9fc4b3b93ed34dd118df855ab974e67d4ca981",
+      "branch": "feat/support-team-fluxid-list",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2227,7 +2234,8 @@
     "38766b4395ae6c975437c394faed1159c6f5c362": "aa5b6d81c065e10db492af861a8ada0e",
     "b1788fa91ed5b014e041613053e4474caed61278": "914adb35609ee7ceacd95d4264d5f2a5",
     "a4877cc5691198572c459987ec3e0e0a585ce578": "33f63958af4face7300603379d02292b",
-    "cfb784a9bebe7afffd351c766fe6fd22046842e7": "33f63958af4face7300603379d02292b"
+    "cfb784a9bebe7afffd351c766fe6fd22046842e7": "33f63958af4face7300603379d02292b",
+    "0c9fc4b3b93ed34dd118df855ab974e67d4ca981": "49cf6587dcb290f9246cd4bd0c764c68"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2283,7 +2291,7 @@
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
-    "refs/heads/feat/support-team-fluxid-list": "2bf6a89c9ab217f24f22c9e0ff21e8df2a25cc2c",
+    "refs/heads/feat/support-team-fluxid-list": "0c9fc4b3b93ed34dd118df855ab974e67d4ca981",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
     "refs/heads/feat/volume-file-operations": "1f2a4bf3aabc3a03727a869e5ded6abd67443cb4",
@@ -2763,7 +2771,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 39,
-    "issued_at": "2026-09-07T20:47:34.688Z"
+    "seq": 40,
+    "issued_at": "2026-09-07T21:38:57.557Z"
   }
 }
