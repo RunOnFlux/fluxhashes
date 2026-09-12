@@ -2190,6 +2190,13 @@
       "branch": "fix/api-refinements",
       "tag": null,
       "derived": true
+    },
+    "9f94d5faf6ef5c18a272ffb53d3bf6a3": {
+      "published": "2026-09-12",
+      "commit": "98c782b79bcc0d94995b33125c91532f844b0571",
+      "branch": "fix/blocked-apps-and-spawner-pool",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2266,7 +2273,8 @@
     "9c9a3ca9a1a0dfdcad469e90e13eba5eb4f70557": "f91c1a1ec2604642ddd69edc121d18b6",
     "db63ecdb3d0df93b8d38a261cf6dbfc5ebfafc72": "f91c1a1ec2604642ddd69edc121d18b6",
     "9971f5764f3f5c3af37e435744f4b287b8539e05": "f91c1a1ec2604642ddd69edc121d18b6",
-    "7d3413ea1a2f06f5fcd7607e9628727cfcbe282e": "1ae8d98cc91f41c83e3c188b3ba8f31f"
+    "7d3413ea1a2f06f5fcd7607e9628727cfcbe282e": "1ae8d98cc91f41c83e3c188b3ba8f31f",
+    "98c782b79bcc0d94995b33125c91532f844b0571": "9f94d5faf6ef5c18a272ffb53d3bf6a3"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2400,6 +2408,7 @@
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
+    "refs/heads/fix/blocked-apps-and-spawner-pool": "98c782b79bcc0d94995b33125c91532f844b0571",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
@@ -2805,7 +2814,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 43,
-    "issued_at": "2026-09-12T14:32:11.064Z"
+    "seq": 44,
+    "issued_at": "2026-09-12T15:39:10.918Z"
   }
 }
