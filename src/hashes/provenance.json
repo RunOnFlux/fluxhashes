@@ -2197,6 +2197,20 @@
       "branch": "fix/blocked-apps-and-spawner-pool",
       "tag": null,
       "derived": true
+    },
+    "c466be2cc73411c84c9265cd0c5b976a": {
+      "published": "2026-09-12",
+      "commit": "1c5f8cac2679ce0fcf04240e961e06b13d5006f8",
+      "branch": "fix/enterprise-placement",
+      "tag": null,
+      "derived": true
+    },
+    "d2103663bfcd1de8f8f74604bc37f103": {
+      "published": "2026-09-12",
+      "commit": "d672952ab7a4848941262c169a0b0f3029ef9882",
+      "branch": "fix/peer-gated-readiness",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2274,7 +2288,9 @@
     "db63ecdb3d0df93b8d38a261cf6dbfc5ebfafc72": "f91c1a1ec2604642ddd69edc121d18b6",
     "9971f5764f3f5c3af37e435744f4b287b8539e05": "f91c1a1ec2604642ddd69edc121d18b6",
     "7d3413ea1a2f06f5fcd7607e9628727cfcbe282e": "1ae8d98cc91f41c83e3c188b3ba8f31f",
-    "98c782b79bcc0d94995b33125c91532f844b0571": "9f94d5faf6ef5c18a272ffb53d3bf6a3"
+    "98c782b79bcc0d94995b33125c91532f844b0571": "9f94d5faf6ef5c18a272ffb53d3bf6a3",
+    "1c5f8cac2679ce0fcf04240e961e06b13d5006f8": "c466be2cc73411c84c9265cd0c5b976a",
+    "d672952ab7a4848941262c169a0b0f3029ef9882": "d2103663bfcd1de8f8f74604bc37f103"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2417,6 +2433,7 @@
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
+    "refs/heads/fix/enterprise-placement": "1c5f8cac2679ce0fcf04240e961e06b13d5006f8",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
@@ -2426,6 +2443,7 @@
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
+    "refs/heads/fix/peer-gated-readiness": "d672952ab7a4848941262c169a0b0f3029ef9882",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
     "refs/heads/fix/preserve-hash-in-enterprise-apps": "fcf39a03b4b5ed01aa3f6820a1e8109bfca07d68",
@@ -2814,7 +2832,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 44,
-    "issued_at": "2026-09-12T15:39:10.918Z"
+    "seq": 45,
+    "issued_at": "2026-09-12T18:50:17.458Z"
   }
 }
