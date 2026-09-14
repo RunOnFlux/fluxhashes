@@ -2335,7 +2335,9 @@
     "d583b42d28a0e8d001b8e8daf15bdb36b508e84b": "9a35233f84421863170c513b60d217aa",
     "18611768372c03c77f61a7f8a5d19d863cfa02c5": "f4e981a69d261cb054d018acc827df07",
     "f5a61351445d0ed05de18ab5208d9ab4f54bf68f": "9a35233f84421863170c513b60d217aa",
-    "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba": "f4e981a69d261cb054d018acc827df07"
+    "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba": "f4e981a69d261cb054d018acc827df07",
+    "34ac8d54b081f7904fce36449a0b272bccc4d863": "f4e981a69d261cb054d018acc827df07",
+    "9c10cefb3dab157bea8039fa845bd4fb2a8f7d9f": "9a35233f84421863170c513b60d217aa"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2375,7 +2377,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "09439ec259cd3c99e4bdb4bea792783e06578e5b",
+    "refs/heads/development": "34ac8d54b081f7904fce36449a0b272bccc4d863",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -2478,7 +2480,7 @@
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
-    "refs/heads/fix/enterprise-placement": "f5a61351445d0ed05de18ab5208d9ab4f54bf68f",
+    "refs/heads/fix/enterprise-placement": "9c10cefb3dab157bea8039fa845bd4fb2a8f7d9f",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
