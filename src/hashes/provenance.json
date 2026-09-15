@@ -2274,6 +2274,13 @@
       "branch": "fix/geolocation-cache-is-not-the-response",
       "tag": null,
       "derived": true
+    },
+    "85a86a3692279bb546cd1bcd44fc7962": {
+      "published": "2026-09-15",
+      "commit": "d9311106de5affa3f1acb76e70449d00def9bb85",
+      "branch": "fix/geolocation-cache-is-not-the-response",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2371,7 +2378,8 @@
     "d81cbb328dd569d0566f6f8872fa255e43cbd53a": "8d11d482fa4a275c753de92db3a81d71",
     "174086df4bd41040e6fe5076262f3ad497d99a54": "17748b41aaa095881366e7d3ef337fd6",
     "f904c9f51dabe3760961a038f34e1b5004c7b4fc": "17748b41aaa095881366e7d3ef337fd6",
-    "e8f0d46f0110e9c25ed7592fd771d2dc43ea2c24": "1d21501e81b197ca26742107e55d4cb3"
+    "e8f0d46f0110e9c25ed7592fd771d2dc43ea2c24": "1d21501e81b197ca26742107e55d4cb3",
+    "d9311106de5affa3f1acb76e70449d00def9bb85": "85a86a3692279bb546cd1bcd44fc7962"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2518,7 +2526,7 @@
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
-    "refs/heads/fix/geolocation-cache-is-not-the-response": "e8f0d46f0110e9c25ed7592fd771d2dc43ea2c24",
+    "refs/heads/fix/geolocation-cache-is-not-the-response": "d9311106de5affa3f1acb76e70449d00def9bb85",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -2914,7 +2922,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 52,
-    "issued_at": "2026-09-15T11:51:35.283Z"
+    "seq": 53,
+    "issued_at": "2026-09-15T11:52:58.772Z"
   }
 }
