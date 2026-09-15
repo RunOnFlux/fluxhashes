@@ -2253,6 +2253,13 @@
       "branch": "fix/api-refinements",
       "tag": null,
       "derived": true
+    },
+    "8d11d482fa4a275c753de92db3a81d71": {
+      "published": "2026-09-15",
+      "commit": "28b24fb36135be664d94c5707dbedba305021cf3",
+      "branch": "fix/enterprise-placement",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2345,7 +2352,8 @@
     "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba": "f4e981a69d261cb054d018acc827df07",
     "34ac8d54b081f7904fce36449a0b272bccc4d863": "f4e981a69d261cb054d018acc827df07",
     "9c10cefb3dab157bea8039fa845bd4fb2a8f7d9f": "9a35233f84421863170c513b60d217aa",
-    "b9b41d609d61c926bbd80f67ef0b1402ca0caa40": "dc4aa56d41346a16c2c0d5e32994f7e2"
+    "b9b41d609d61c926bbd80f67ef0b1402ca0caa40": "dc4aa56d41346a16c2c0d5e32994f7e2",
+    "28b24fb36135be664d94c5707dbedba305021cf3": "8d11d482fa4a275c753de92db3a81d71"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2488,7 +2496,7 @@
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
-    "refs/heads/fix/enterprise-placement": "9c10cefb3dab157bea8039fa845bd4fb2a8f7d9f",
+    "refs/heads/fix/enterprise-placement": "28b24fb36135be664d94c5707dbedba305021cf3",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
@@ -2887,7 +2895,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 49,
-    "issued_at": "2026-09-14T14:33:18.826Z"
+    "seq": 50,
+    "issued_at": "2026-09-15T09:00:14.760Z"
   }
 }
