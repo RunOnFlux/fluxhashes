@@ -2337,6 +2337,13 @@
       "branch": "fix/local-mounts-and-coldstart-scaffolding",
       "tag": null,
       "derived": true
+    },
+    "3b0bb95f40062e656920308bc4e2a3a9": {
+      "published": "2026-09-17",
+      "commit": "eb9c8dbd9248302d572f8cf15e608617a77dc28e",
+      "branch": "fix/geolocation-cache-is-not-the-response",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2444,7 +2451,8 @@
     "21953b40de27edb3e8b9431a9542bb0e5134e478": "b26a8a93ded72eb3d78bd640a3ed173e",
     "f5b11c08e88f90aa32bcc430e1b4df2ddace239e": "b26a8a93ded72eb3d78bd640a3ed173e",
     "a453e475928b369fff78d6d91a7e999608211d54": "0456374192748ffd5c84c9747945e46a",
-    "87b659bbb7de0b48751c57b99e924a601c52834d": "ebd2dd6f85e4ab19944514f180a6be0c"
+    "87b659bbb7de0b48751c57b99e924a601c52834d": "ebd2dd6f85e4ab19944514f180a6be0c",
+    "eb9c8dbd9248302d572f8cf15e608617a77dc28e": "3b0bb95f40062e656920308bc4e2a3a9"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2592,7 +2600,7 @@
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
-    "refs/heads/fix/geolocation-cache-is-not-the-response": "d9311106de5affa3f1acb76e70449d00def9bb85",
+    "refs/heads/fix/geolocation-cache-is-not-the-response": "eb9c8dbd9248302d572f8cf15e608617a77dc28e",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -2989,7 +2997,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 61,
-    "issued_at": "2026-09-17T07:50:48.829Z"
+    "seq": 62,
+    "issued_at": "2026-09-17T09:09:42.051Z"
   }
 }
