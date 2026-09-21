@@ -2505,6 +2505,13 @@
       "branch": "fix/app-volume-placement",
       "tag": null,
       "derived": true
+    },
+    "67f623fff523d7133d7f4dac723907ea": {
+      "published": "2026-09-21",
+      "commit": "e5dfd1d7f1808d153fa88a84b3d4c4f1d736b7a6",
+      "branch": "fix/compliance-sweep-follows-policy",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2643,7 +2650,8 @@
     "6b4d19ab997797155dd0941a61931487d68b73ad": "a2bf7b65f4f95f1ea682525a46a11a0e",
     "2fb4ef948229b4542d5bf527b415b7b402853f00": "8329531952126fba78a12c321c92bf5c",
     "9881c0e99b9097219eafcbd08101e5ddd349ff13": "d9d721973f425780d713f808afb1ea61",
-    "6ba248fe4258d14d8e53ed200d9ea1a634a236bc": "03c23d39b0e5d8844a72f8fb14393dfc"
+    "6ba248fe4258d14d8e53ed200d9ea1a634a236bc": "03c23d39b0e5d8844a72f8fb14393dfc",
+    "e5dfd1d7f1808d153fa88a84b3d4c4f1d736b7a6": "67f623fff523d7133d7f4dac723907ea"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2782,6 +2790,7 @@
     "refs/heads/fix/blocked-apps-and-spawner-pool": "69905d6ce7287c5b7554d550f4c5eda827fceba0",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
+    "refs/heads/fix/compliance-sweep-follows-policy": "e5dfd1d7f1808d153fa88a84b3d4c4f1d736b7a6",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
@@ -3190,7 +3199,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 81,
-    "issued_at": "2026-09-21T14:36:57.856Z"
+    "seq": 82,
+    "issued_at": "2026-09-21T14:39:34.192Z"
   }
 }
