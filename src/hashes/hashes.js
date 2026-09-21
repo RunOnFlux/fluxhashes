@@ -380,6 +380,8 @@ function getHashes() {
     'deb10eb8746f25367e6239d092351ce8',
     '2980ead163a385df33fb015abc65c571',
     '111236ca60a49af7020978eae401d6d4',
+    'e24dbe11d26eae2e75da38be620d6130',
+    '3c891bb83b85aa75a7bb5131e7eb9694',
   ];
 }
 
