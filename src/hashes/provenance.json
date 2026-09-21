@@ -2540,6 +2540,13 @@
       "branch": "fix/app-volume-placement",
       "tag": null,
       "derived": true
+    },
+    "405805accd3e95d0e73e44409abbde27": {
+      "published": "2026-09-21",
+      "commit": "3942436a7ef4bf5f08b1947076410a2467f90b10",
+      "branch": "fix/local-mounts-and-coldstart-scaffolding",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2683,7 +2690,8 @@
     "a14681c73ac8853e64eb7e619aa8956e503e4a05": "4b62daa4c0fbc699ade955d9030fbbf8",
     "6a4db87263a7543aa32fbec0b447d15b485c9af7": "ba3c876175e415010df6e3ba6908664e",
     "268b68bcab026b0e5b756729c20af515d4ac02de": "5da916791c0dd8df9e949bb82a85b105",
-    "d00e2c41939a93ea37413e6b40e7f5af75ef7544": "a3fba4dbfc8a735f91a7a17f2ab290b0"
+    "d00e2c41939a93ea37413e6b40e7f5af75ef7544": "a3fba4dbfc8a735f91a7a17f2ab290b0",
+    "3942436a7ef4bf5f08b1947076410a2467f90b10": "405805accd3e95d0e73e44409abbde27"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2837,7 +2845,7 @@
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
-    "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "87b659bbb7de0b48751c57b99e924a601c52834d",
+    "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "3942436a7ef4bf5f08b1947076410a2467f90b10",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
@@ -3231,7 +3239,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 86,
-    "issued_at": "2026-09-21T14:58:26.191Z"
+    "seq": 87,
+    "issued_at": "2026-09-21T15:10:20.432Z"
   }
 }
