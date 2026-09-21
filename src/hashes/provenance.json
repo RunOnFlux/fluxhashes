@@ -2470,6 +2470,20 @@
       "branch": "fix/security-audit-findings",
       "tag": null,
       "derived": true
+    },
+    "c4662bdeedb0879008e41161bcb8f38c": {
+      "published": "2026-09-21",
+      "commit": "0638db772a435740a164f157af0a96d30841e95d",
+      "branch": "fix/app-volume-placement",
+      "tag": null,
+      "derived": true
+    },
+    "a2bf7b65f4f95f1ea682525a46a11a0e": {
+      "published": "2026-09-21",
+      "commit": "6b4d19ab997797155dd0941a61931487d68b73ad",
+      "branch": "fix/security-audit-findings",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2603,7 +2617,9 @@
     "2f9e6949290a86672e2fb89475355de18bfa232b": "205604febd559b8af271bdcefbb46f0d",
     "d4d91d05381e9a6050a7692767fb999eaab9c093": "5fbbda16de3436db163273152228867c",
     "cf3f8bc25803b287a99f3a7e0ee3026b60f9e2b6": "74ddcead407e39dfbc2ba8c51539add5",
-    "336d34b08227f48ec500fe645a9822e0138a1f4c": "811a66d5312419183add5a6fa7ca94f8"
+    "336d34b08227f48ec500fe645a9822e0138a1f4c": "811a66d5312419183add5a6fa7ca94f8",
+    "0638db772a435740a164f157af0a96d30841e95d": "c4662bdeedb0879008e41161bcb8f38c",
+    "6b4d19ab997797155dd0941a61931487d68b73ad": "a2bf7b65f4f95f1ea682525a46a11a0e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2734,7 +2750,7 @@
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
-    "refs/heads/fix/app-volume-placement": "cf3f8bc25803b287a99f3a7e0ee3026b60f9e2b6",
+    "refs/heads/fix/app-volume-placement": "0638db772a435740a164f157af0a96d30841e95d",
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
@@ -2771,7 +2787,7 @@
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
-    "refs/heads/fix/security-audit-findings": "336d34b08227f48ec500fe645a9822e0138a1f4c",
+    "refs/heads/fix/security-audit-findings": "6b4d19ab997797155dd0941a61931487d68b73ad",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -3150,7 +3166,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 77,
-    "issued_at": "2026-09-21T13:37:56.858Z"
+    "seq": 78,
+    "issued_at": "2026-09-21T13:46:50.339Z"
   }
 }
