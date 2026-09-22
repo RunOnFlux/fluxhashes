@@ -2757,6 +2757,13 @@
       "branch": "fix/local-mounts-and-coldstart-scaffolding",
       "tag": null,
       "derived": true
+    },
+    "5bc27303e232f8bcbf1f531987e28f0a": {
+      "published": "2026-09-22",
+      "commit": "9fc71553626eaa310ee670b7d57169b8384c4a85",
+      "branch": "fix/security-audit-findings",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2941,7 +2948,8 @@
     "b8e66367f4a664fcba065397e23623201754d4cb": "10bc060ebcbb21498aea7e8dcf71c5e7",
     "d63d5b9913d7cca9399f4d757920931ffe7555ad": "10bc060ebcbb21498aea7e8dcf71c5e7",
     "212a296ae1c383907b0e94d3c4b21041adeb6542": "b0496baf0c7ac39bbfa7bff7a57eef97",
-    "0bea2c166cf239c290398153e205c0c10d0f845b": "b0496baf0c7ac39bbfa7bff7a57eef97"
+    "0bea2c166cf239c290398153e205c0c10d0f845b": "b0496baf0c7ac39bbfa7bff7a57eef97",
+    "9fc71553626eaa310ee670b7d57169b8384c4a85": "5bc27303e232f8bcbf1f531987e28f0a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3110,7 +3118,7 @@
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
-    "refs/heads/fix/security-audit-findings": "4774d08933477d44ffb2036b36fb36f7c8a434a1",
+    "refs/heads/fix/security-audit-findings": "9fc71553626eaa310ee670b7d57169b8384c4a85",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -3489,7 +3497,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 110,
-    "issued_at": "2026-09-22T14:33:01.788Z"
+    "seq": 111,
+    "issued_at": "2026-09-22T15:28:27.042Z"
   }
 }
