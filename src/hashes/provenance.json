@@ -2750,6 +2750,13 @@
       "branch": "development",
       "tag": null,
       "derived": true
+    },
+    "b0496baf0c7ac39bbfa7bff7a57eef97": {
+      "published": "2026-09-22",
+      "commit": "212a296ae1c383907b0e94d3c4b21041adeb6542",
+      "branch": "fix/local-mounts-and-coldstart-scaffolding",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2932,7 +2939,8 @@
     "61b9441a6d294c8da2710bc594a1efa73781f870": "29754d20a3905b25bf628624d0898865",
     "da0e9a05980210c465e6f8f19175750100376fee": "b2b362073ce45264e7b7bd7d60493e80",
     "b8e66367f4a664fcba065397e23623201754d4cb": "10bc060ebcbb21498aea7e8dcf71c5e7",
-    "d63d5b9913d7cca9399f4d757920931ffe7555ad": "10bc060ebcbb21498aea7e8dcf71c5e7"
+    "d63d5b9913d7cca9399f4d757920931ffe7555ad": "10bc060ebcbb21498aea7e8dcf71c5e7",
+    "212a296ae1c383907b0e94d3c4b21041adeb6542": "b0496baf0c7ac39bbfa7bff7a57eef97"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3086,7 +3094,7 @@
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
-    "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "61b9441a6d294c8da2710bc594a1efa73781f870",
+    "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
@@ -3480,7 +3488,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 109,
-    "issued_at": "2026-09-22T13:44:46.221Z"
+    "seq": 110,
+    "issued_at": "2026-09-22T14:33:01.788Z"
   }
 }
