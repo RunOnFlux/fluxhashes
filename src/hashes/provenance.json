@@ -2694,6 +2694,13 @@
       "branch": "fix/compliance-sweep-follows-policy",
       "tag": null,
       "derived": true
+    },
+    "6fde0f6de132205aa02ea7c31f6988f5": {
+      "published": "2026-09-22",
+      "commit": "b34c47aaac7b4e39327e9d1f2365e54411fa81aa",
+      "branch": "fix/security-audit-findings",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2865,7 +2872,8 @@
     "89012124ceaad5d7ae289dd5f9f748087ade8071": "3c891bb83b85aa75a7bb5131e7eb9694",
     "991c1875187ce543e355399aacb2e39ee52a0002": "d16cb82a4b09555abc3202f6c29507b9",
     "1dd92d11453a06f935e709a1fac05ee562aade95": "318ddc6c17b117470251f05eb8585814",
-    "94108e0bd3ec3e95198b6435059c42e1300fec1f": "4bfdbead96906315fc178a0106f83f47"
+    "94108e0bd3ec3e95198b6435059c42e1300fec1f": "4bfdbead96906315fc178a0106f83f47",
+    "b34c47aaac7b4e39327e9d1f2365e54411fa81aa": "6fde0f6de132205aa02ea7c31f6988f5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3034,7 +3042,7 @@
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
-    "refs/heads/fix/security-audit-findings": "991c1875187ce543e355399aacb2e39ee52a0002",
+    "refs/heads/fix/security-audit-findings": "b34c47aaac7b4e39327e9d1f2365e54411fa81aa",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -3413,7 +3421,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 101,
-    "issued_at": "2026-09-22T09:48:09.343Z"
+    "seq": 102,
+    "issued_at": "2026-09-22T10:02:03.641Z"
   }
 }
