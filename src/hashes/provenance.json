@@ -2687,6 +2687,13 @@
       "branch": "fix/local-mounts-and-coldstart-scaffolding",
       "tag": null,
       "derived": true
+    },
+    "4bfdbead96906315fc178a0106f83f47": {
+      "published": "2026-09-22",
+      "commit": "94108e0bd3ec3e95198b6435059c42e1300fec1f",
+      "branch": "fix/compliance-sweep-follows-policy",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2857,7 +2864,8 @@
     "bdc7de26093db83126c1353f28c3cee284b89d35": "e24dbe11d26eae2e75da38be620d6130",
     "89012124ceaad5d7ae289dd5f9f748087ade8071": "3c891bb83b85aa75a7bb5131e7eb9694",
     "991c1875187ce543e355399aacb2e39ee52a0002": "d16cb82a4b09555abc3202f6c29507b9",
-    "1dd92d11453a06f935e709a1fac05ee562aade95": "318ddc6c17b117470251f05eb8585814"
+    "1dd92d11453a06f935e709a1fac05ee562aade95": "318ddc6c17b117470251f05eb8585814",
+    "94108e0bd3ec3e95198b6435059c42e1300fec1f": "4bfdbead96906315fc178a0106f83f47"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2996,7 +3004,7 @@
     "refs/heads/fix/blocked-apps-and-spawner-pool": "69905d6ce7287c5b7554d550f4c5eda827fceba0",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/compliance-sweep-follows-policy": "e5dfd1d7f1808d153fa88a84b3d4c4f1d736b7a6",
+    "refs/heads/fix/compliance-sweep-follows-policy": "94108e0bd3ec3e95198b6435059c42e1300fec1f",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
@@ -3405,7 +3413,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 100,
-    "issued_at": "2026-09-22T09:15:20.763Z"
+    "seq": 101,
+    "issued_at": "2026-09-22T09:48:09.343Z"
   }
 }
