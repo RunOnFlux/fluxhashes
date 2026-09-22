@@ -2673,6 +2673,13 @@
       "branch": "fix/security-audit-findings",
       "tag": null,
       "derived": true
+    },
+    "d16cb82a4b09555abc3202f6c29507b9": {
+      "published": "2026-09-22",
+      "commit": "991c1875187ce543e355399aacb2e39ee52a0002",
+      "branch": "fix/security-audit-findings",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2841,7 +2848,8 @@
     "4e52e847e7d550b4d331b4a8b6a44a9dbd5f87ad": "111236ca60a49af7020978eae401d6d4",
     "b4eb29a2f4af5671fea5f8c15fc4f036f7a69cd4": "111236ca60a49af7020978eae401d6d4",
     "bdc7de26093db83126c1353f28c3cee284b89d35": "e24dbe11d26eae2e75da38be620d6130",
-    "89012124ceaad5d7ae289dd5f9f748087ade8071": "3c891bb83b85aa75a7bb5131e7eb9694"
+    "89012124ceaad5d7ae289dd5f9f748087ade8071": "3c891bb83b85aa75a7bb5131e7eb9694",
+    "991c1875187ce543e355399aacb2e39ee52a0002": "d16cb82a4b09555abc3202f6c29507b9"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3010,7 +3018,7 @@
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
-    "refs/heads/fix/security-audit-findings": "89012124ceaad5d7ae289dd5f9f748087ade8071",
+    "refs/heads/fix/security-audit-findings": "991c1875187ce543e355399aacb2e39ee52a0002",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -3389,7 +3397,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 98,
-    "issued_at": "2026-09-21T20:41:20.534Z"
+    "seq": 99,
+    "issued_at": "2026-09-22T08:15:38.916Z"
   }
 }
