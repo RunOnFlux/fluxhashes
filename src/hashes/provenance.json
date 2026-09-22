@@ -2743,6 +2743,13 @@
       "branch": "fix/compliance-sweep-follows-policy",
       "tag": null,
       "derived": true
+    },
+    "10bc060ebcbb21498aea7e8dcf71c5e7": {
+      "published": "2026-09-22",
+      "commit": "b8e66367f4a664fcba065397e23623201754d4cb",
+      "branch": "development",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2923,7 +2930,8 @@
     "e036909f605f641ec0318c2fc95646f376632731": "2cfb42e94031e0fb841661b7c1cb53b0",
     "4774d08933477d44ffb2036b36fb36f7c8a434a1": "0ac85ca60cf9e405411e389c385255d7",
     "61b9441a6d294c8da2710bc594a1efa73781f870": "29754d20a3905b25bf628624d0898865",
-    "da0e9a05980210c465e6f8f19175750100376fee": "b2b362073ce45264e7b7bd7d60493e80"
+    "da0e9a05980210c465e6f8f19175750100376fee": "b2b362073ce45264e7b7bd7d60493e80",
+    "b8e66367f4a664fcba065397e23623201754d4cb": "10bc060ebcbb21498aea7e8dcf71c5e7"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2963,7 +2971,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "074adae73b7577e3e46fa07590d8cd0e81eca3a5",
+    "refs/heads/development": "b8e66367f4a664fcba065397e23623201754d4cb",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -3471,7 +3479,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 108,
-    "issued_at": "2026-09-22T13:29:10.088Z"
+    "seq": 109,
+    "issued_at": "2026-09-22T13:44:46.221Z"
   }
 }
