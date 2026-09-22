@@ -2931,7 +2931,8 @@
     "4774d08933477d44ffb2036b36fb36f7c8a434a1": "0ac85ca60cf9e405411e389c385255d7",
     "61b9441a6d294c8da2710bc594a1efa73781f870": "29754d20a3905b25bf628624d0898865",
     "da0e9a05980210c465e6f8f19175750100376fee": "b2b362073ce45264e7b7bd7d60493e80",
-    "b8e66367f4a664fcba065397e23623201754d4cb": "10bc060ebcbb21498aea7e8dcf71c5e7"
+    "b8e66367f4a664fcba065397e23623201754d4cb": "10bc060ebcbb21498aea7e8dcf71c5e7",
+    "d63d5b9913d7cca9399f4d757920931ffe7555ad": "10bc060ebcbb21498aea7e8dcf71c5e7"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3070,7 +3071,7 @@
     "refs/heads/fix/blocked-apps-and-spawner-pool": "69905d6ce7287c5b7554d550f4c5eda827fceba0",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
-    "refs/heads/fix/compliance-sweep-follows-policy": "da0e9a05980210c465e6f8f19175750100376fee",
+    "refs/heads/fix/compliance-sweep-follows-policy": "d63d5b9913d7cca9399f4d757920931ffe7555ad",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
