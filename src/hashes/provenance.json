@@ -2722,6 +2722,13 @@
       "branch": "fix/local-mounts-and-coldstart-scaffolding",
       "tag": null,
       "derived": true
+    },
+    "0ac85ca60cf9e405411e389c385255d7": {
+      "published": "2026-09-22",
+      "commit": "4774d08933477d44ffb2036b36fb36f7c8a434a1",
+      "branch": "fix/security-audit-findings",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2899,7 +2906,8 @@
     "177c95f3090e1e7f50bcd7ef961520deb23f63fa": "4ef1f583d985d4abc616b068959ebfd1",
     "074adae73b7577e3e46fa07590d8cd0e81eca3a5": "ef305cb02c9de235ece4a2af61093970",
     "d56bcb314f612eec7491af12f384c9b778412d57": "4ef1f583d985d4abc616b068959ebfd1",
-    "e036909f605f641ec0318c2fc95646f376632731": "2cfb42e94031e0fb841661b7c1cb53b0"
+    "e036909f605f641ec0318c2fc95646f376632731": "2cfb42e94031e0fb841661b7c1cb53b0",
+    "4774d08933477d44ffb2036b36fb36f7c8a434a1": "0ac85ca60cf9e405411e389c385255d7"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3068,7 +3076,7 @@
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
-    "refs/heads/fix/security-audit-findings": "d56bcb314f612eec7491af12f384c9b778412d57",
+    "refs/heads/fix/security-audit-findings": "4774d08933477d44ffb2036b36fb36f7c8a434a1",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -3447,7 +3455,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 105,
-    "issued_at": "2026-09-22T11:10:43.130Z"
+    "seq": 106,
+    "issued_at": "2026-09-22T12:32:47.658Z"
   }
 }
