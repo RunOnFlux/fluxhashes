@@ -2762,7 +2762,7 @@
       "published": "2026-09-22",
       "commit": "9fc71553626eaa310ee670b7d57169b8384c4a85",
       "branch": "fix/security-audit-findings",
-      "tag": null,
+      "tag": "v8.19.0",
       "derived": true
     },
     "1a4079ba52ffc8d7cd2a04f73f882812": {
@@ -2960,7 +2960,8 @@
     "d33a0648cf942ce6ef4718f420a077c0f35eaf26": "5bc27303e232f8bcbf1f531987e28f0a",
     "5e7809290e48abe7cadb717fb9cf32a8e843f594": "5bc27303e232f8bcbf1f531987e28f0a",
     "0be22ef3683f0b8d3bdff02aabab8a55c6f4341d": "5bc27303e232f8bcbf1f531987e28f0a",
-    "b50fd0a4082ea94e54c76ad19c1f699d4033c804": "1a4079ba52ffc8d7cd2a04f73f882812"
+    "b50fd0a4082ea94e54c76ad19c1f699d4033c804": "1a4079ba52ffc8d7cd2a04f73f882812",
+    "b1ab06e76a57be776fb8c7059acccacebbccc770": "5bc27303e232f8bcbf1f531987e28f0a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3162,7 +3163,7 @@
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
     "refs/heads/localhost": "4a07e7313e7d6934f16e0c193be6356bf83a6823",
-    "refs/heads/master": "10d0954964beb938b4a89ea9891f914a82ac2ac1",
+    "refs/heads/master": "b1ab06e76a57be776fb8c7059acccacebbccc770",
     "refs/heads/masterB": "2fd11101e8dc66274fbd698dd9a4aecd8b0491d8",
     "refs/heads/masterDev": "3b9325dc8af3db04a2fe342244e29b9d9a34d78c",
     "refs/heads/mongod-gpg": "9e60c845e87193e2a9bc7d6178c96c4ab820e9e1",
@@ -3492,6 +3493,7 @@
     "refs/tags/v8.17.0": "0c88389e37663f93c91b9c53d9c8b781c41fdb48",
     "refs/tags/v8.17.1": "60cb6fca9a1496fd0c4b235788dfa72ef4edb325",
     "refs/tags/v8.18.0": "10d0954964beb938b4a89ea9891f914a82ac2ac1",
+    "refs/tags/v8.19.0": "b1ab06e76a57be776fb8c7059acccacebbccc770",
     "refs/tags/v8.2.0": "d2abb0f2cf3dace79152bd05d4c6bb80fb70d744",
     "refs/tags/v8.3.0": "aa7c19aa686d24f9bee5d6302d46dad945f1926b",
     "refs/tags/v8.3.1": "96ccd537335d02e8d823dc83d95edeb7005852b3",
