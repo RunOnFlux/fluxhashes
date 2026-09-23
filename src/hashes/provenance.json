@@ -2771,6 +2771,20 @@
       "branch": "feat/compress-several-sources",
       "tag": null,
       "derived": true
+    },
+    "df5f4e5e178eb0ae7c38d3fbe4b48481": {
+      "published": "2026-09-23",
+      "commit": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
+      "branch": "fix/8.19-follow-ups",
+      "tag": null,
+      "derived": true
+    },
+    "5c45b5c21de69770e451d79a363710dc": {
+      "published": "2026-09-23",
+      "commit": "22fcfbe454dfaab3dffc9382c181176ffe19616a",
+      "branch": "fix/crossing-dial",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2961,7 +2975,9 @@
     "5e7809290e48abe7cadb717fb9cf32a8e843f594": "5bc27303e232f8bcbf1f531987e28f0a",
     "0be22ef3683f0b8d3bdff02aabab8a55c6f4341d": "5bc27303e232f8bcbf1f531987e28f0a",
     "b50fd0a4082ea94e54c76ad19c1f699d4033c804": "1a4079ba52ffc8d7cd2a04f73f882812",
-    "b1ab06e76a57be776fb8c7059acccacebbccc770": "5bc27303e232f8bcbf1f531987e28f0a"
+    "b1ab06e76a57be776fb8c7059acccacebbccc770": "5bc27303e232f8bcbf1f531987e28f0a",
+    "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619": "df5f4e5e178eb0ae7c38d3fbe4b48481",
+    "22fcfbe454dfaab3dffc9382c181176ffe19616a": "5c45b5c21de69770e451d79a363710dc"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3090,6 +3106,7 @@
     "refs/heads/feature/upnp_delay_fix": "903b7c052205d044951ae349bf631c5cfff55499",
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
+    "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
@@ -3104,6 +3121,7 @@
     "refs/heads/fix/compliance-sweep-follows-policy": "da0e9a05980210c465e6f8f19175750100376fee",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
+    "refs/heads/fix/crossing-dial": "22fcfbe454dfaab3dffc9382c181176ffe19616a",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
@@ -3511,7 +3529,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 112,
-    "issued_at": "2026-09-23T07:52:44.206Z"
+    "seq": 113,
+    "issued_at": "2026-09-23T14:29:51.224Z"
   }
 }
