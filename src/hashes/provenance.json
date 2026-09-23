@@ -2764,6 +2764,13 @@
       "branch": "fix/security-audit-findings",
       "tag": null,
       "derived": true
+    },
+    "1a4079ba52ffc8d7cd2a04f73f882812": {
+      "published": "2026-09-23",
+      "commit": "b50fd0a4082ea94e54c76ad19c1f699d4033c804",
+      "branch": "feat/compress-several-sources",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2952,7 +2959,8 @@
     "9fc71553626eaa310ee670b7d57169b8384c4a85": "5bc27303e232f8bcbf1f531987e28f0a",
     "d33a0648cf942ce6ef4718f420a077c0f35eaf26": "5bc27303e232f8bcbf1f531987e28f0a",
     "5e7809290e48abe7cadb717fb9cf32a8e843f594": "5bc27303e232f8bcbf1f531987e28f0a",
-    "0be22ef3683f0b8d3bdff02aabab8a55c6f4341d": "5bc27303e232f8bcbf1f531987e28f0a"
+    "0be22ef3683f0b8d3bdff02aabab8a55c6f4341d": "5bc27303e232f8bcbf1f531987e28f0a",
+    "b50fd0a4082ea94e54c76ad19c1f699d4033c804": "1a4079ba52ffc8d7cd2a04f73f882812"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -2998,6 +3006,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
+    "refs/heads/feat/compress-several-sources": "b50fd0a4082ea94e54c76ad19c1f699d4033c804",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
@@ -3500,7 +3509,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 111,
-    "issued_at": "2026-09-22T15:28:27.042Z"
+    "seq": 112,
+    "issued_at": "2026-09-23T07:52:44.206Z"
   }
 }
