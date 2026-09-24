@@ -2799,6 +2799,13 @@
       "branch": "feature/remove-g-discount-usd-rounding",
       "tag": null,
       "derived": true
+    },
+    "af3c5875ebf30185ea395e9e40152498": {
+      "published": "2026-09-24",
+      "commit": "f8893efbc1ad4c65b4f4e178d9f020225b417abd",
+      "branch": "feature/remove-g-discount-usd-rounding",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2993,7 +3000,8 @@
     "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619": "df5f4e5e178eb0ae7c38d3fbe4b48481",
     "22fcfbe454dfaab3dffc9382c181176ffe19616a": "5c45b5c21de69770e451d79a363710dc",
     "bff46eb3e380d9a03433b87bd0f5d7d2410f8b00": "cba9dac485b8017dbc63f149a3adb93c",
-    "6531236ca1f140b6d3889a548f84739e25cc915e": "39318fe294e0ea3aa5fb75fc9aeec2ff"
+    "6531236ca1f140b6d3889a548f84739e25cc915e": "39318fe294e0ea3aa5fb75fc9aeec2ff",
+    "f8893efbc1ad4c65b4f4e178d9f020225b417abd": "af3c5875ebf30185ea395e9e40152498"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3099,7 +3107,7 @@
     "refs/heads/feature/port_check_logic_rebase": "6945ad02cdcd31d8d0310e16074fe14a82ee02d1",
     "refs/heads/feature/rebuildAppsCol": "2cb028dd0104e3504c05bf42e97af2a525ec52f7",
     "refs/heads/feature/registry_tokens": "2fcdcba2fb9b5457ca8f63e0ee10aaf4da229c52",
-    "refs/heads/feature/remove-g-discount-usd-rounding": "6531236ca1f140b6d3889a548f84739e25cc915e",
+    "refs/heads/feature/remove-g-discount-usd-rounding": "f8893efbc1ad4c65b4f4e178d9f020225b417abd",
     "refs/heads/feature/remove_crux_id": "e8cd507ecf62ee472318b3642f3bba1729d1daa0",
     "refs/heads/feature/remove_terminal_workaround": "64f21a0ab0d6828a7f5465bed730f4cdd46a57b2",
     "refs/heads/feature/rentedresources": "71517f102caac600f8e93ab4d455c069ffc8916f",
@@ -3546,7 +3554,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 115,
-    "issued_at": "2026-09-24T15:56:49.227Z"
+    "seq": 116,
+    "issued_at": "2026-09-24T16:11:36.734Z"
   }
 }
