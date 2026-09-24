@@ -2785,6 +2785,13 @@
       "branch": "fix/crossing-dial",
       "tag": null,
       "derived": true
+    },
+    "cba9dac485b8017dbc63f149a3adb93c": {
+      "published": "2026-09-24",
+      "commit": "bff46eb3e380d9a03433b87bd0f5d7d2410f8b00",
+      "branch": "feat/compress-several-sources",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -2977,7 +2984,8 @@
     "b50fd0a4082ea94e54c76ad19c1f699d4033c804": "1a4079ba52ffc8d7cd2a04f73f882812",
     "b1ab06e76a57be776fb8c7059acccacebbccc770": "5bc27303e232f8bcbf1f531987e28f0a",
     "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619": "df5f4e5e178eb0ae7c38d3fbe4b48481",
-    "22fcfbe454dfaab3dffc9382c181176ffe19616a": "5c45b5c21de69770e451d79a363710dc"
+    "22fcfbe454dfaab3dffc9382c181176ffe19616a": "5c45b5c21de69770e451d79a363710dc",
+    "bff46eb3e380d9a03433b87bd0f5d7d2410f8b00": "cba9dac485b8017dbc63f149a3adb93c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3023,7 +3031,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
-    "refs/heads/feat/compress-several-sources": "b50fd0a4082ea94e54c76ad19c1f699d4033c804",
+    "refs/heads/feat/compress-several-sources": "bff46eb3e380d9a03433b87bd0f5d7d2410f8b00",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
@@ -3529,7 +3537,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 113,
-    "issued_at": "2026-09-23T14:29:51.224Z"
+    "seq": 114,
+    "issued_at": "2026-09-24T09:40:42.602Z"
   }
 }
