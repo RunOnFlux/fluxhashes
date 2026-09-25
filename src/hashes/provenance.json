@@ -2820,6 +2820,13 @@
       "branch": "feat/compress-several-sources",
       "tag": null,
       "derived": true
+    },
+    "16379f485d76083906f1fd19790dd1c4": {
+      "published": "2026-09-25",
+      "commit": "eab6aa822469c2aac3b1973cc48bd786e9b35b91",
+      "branch": "development",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3018,7 +3025,8 @@
     "f8893efbc1ad4c65b4f4e178d9f020225b417abd": "af3c5875ebf30185ea395e9e40152498",
     "cc7778367468a9ccafe54cf2d5c1ddee1fdb9f05": "df5f4e5e178eb0ae7c38d3fbe4b48481",
     "ad9ff98fcc3afb72e959b6de40a92c149305ed20": "f65c3e1bc36165df5f8b3c21ef545927",
-    "b066961f2418a63576d162f824973a935c4514a7": "69a64be6a47114b8d068721a581876d3"
+    "b066961f2418a63576d162f824973a935c4514a7": "69a64be6a47114b8d068721a581876d3",
+    "eab6aa822469c2aac3b1973cc48bd786e9b35b91": "16379f485d76083906f1fd19790dd1c4"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3058,7 +3066,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "ad9ff98fcc3afb72e959b6de40a92c149305ed20",
+    "refs/heads/development": "eab6aa822469c2aac3b1973cc48bd786e9b35b91",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -3571,7 +3579,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 118,
-    "issued_at": "2026-09-25T10:46:06.968Z"
+    "seq": 119,
+    "issued_at": "2026-09-25T10:56:34.120Z"
   }
 }
