@@ -2825,7 +2825,7 @@
       "published": "2026-09-25",
       "commit": "eab6aa822469c2aac3b1973cc48bd786e9b35b91",
       "branch": "development",
-      "tag": null,
+      "tag": "v8.20.0",
       "derived": true
     }
   },
@@ -3027,7 +3027,8 @@
     "ad9ff98fcc3afb72e959b6de40a92c149305ed20": "f65c3e1bc36165df5f8b3c21ef545927",
     "b066961f2418a63576d162f824973a935c4514a7": "69a64be6a47114b8d068721a581876d3",
     "eab6aa822469c2aac3b1973cc48bd786e9b35b91": "16379f485d76083906f1fd19790dd1c4",
-    "eb9ffab969d5cbfed9c5bac94fa06180a08d9ab2": "16379f485d76083906f1fd19790dd1c4"
+    "eb9ffab969d5cbfed9c5bac94fa06180a08d9ab2": "16379f485d76083906f1fd19790dd1c4",
+    "3ca1ab9f994a9bc75ee63726871af2dfcc22c7cc": "16379f485d76083906f1fd19790dd1c4"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3232,7 +3233,7 @@
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
     "refs/heads/localhost": "4a07e7313e7d6934f16e0c193be6356bf83a6823",
-    "refs/heads/master": "b1ab06e76a57be776fb8c7059acccacebbccc770",
+    "refs/heads/master": "3ca1ab9f994a9bc75ee63726871af2dfcc22c7cc",
     "refs/heads/masterB": "2fd11101e8dc66274fbd698dd9a4aecd8b0491d8",
     "refs/heads/masterDev": "3b9325dc8af3db04a2fe342244e29b9d9a34d78c",
     "refs/heads/mongod-gpg": "9e60c845e87193e2a9bc7d6178c96c4ab820e9e1",
@@ -3564,6 +3565,7 @@
     "refs/tags/v8.18.0": "10d0954964beb938b4a89ea9891f914a82ac2ac1",
     "refs/tags/v8.19.0": "b1ab06e76a57be776fb8c7059acccacebbccc770",
     "refs/tags/v8.2.0": "d2abb0f2cf3dace79152bd05d4c6bb80fb70d744",
+    "refs/tags/v8.20.0": "3ca1ab9f994a9bc75ee63726871af2dfcc22c7cc",
     "refs/tags/v8.3.0": "aa7c19aa686d24f9bee5d6302d46dad945f1926b",
     "refs/tags/v8.3.1": "96ccd537335d02e8d823dc83d95edeb7005852b3",
     "refs/tags/v8.4.0": "dc8da715684b30cf62577febec59ff5f883107b2",
