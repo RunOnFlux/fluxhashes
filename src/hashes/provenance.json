@@ -2855,6 +2855,13 @@
       "branch": "fix/synced-restart-after-fluxos-restart",
       "tag": null,
       "derived": true
+    },
+    "9af6db3b03aef5fe992a9ed8e04fb166": {
+      "published": "2026-09-29",
+      "commit": "0030f471f4b9c8da0d205f48f0b94e64c3ed0dba",
+      "branch": "fix/verified-peer-identity",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3061,7 +3068,8 @@
     "a08db3daace09cefff495d51d8199d3e2cec9cea": "2f068672217c1bb4279cfe11abf6704d",
     "3da5d54840a5d11faa2eee5284f73d826c84eb6f": "b80132526ddae291fffd0fb7af9644ce",
     "a626eb6dd4290a98541d79e9707e1b8e3d6397cc": "f29258c561597986ec1f850ea89ff3d9",
-    "29fa42c37836df817e470a6196efc965d43fa0e1": "0bf3ef3dbe4a554c786298f857b76668"
+    "29fa42c37836df817e470a6196efc965d43fa0e1": "0bf3ef3dbe4a554c786298f857b76668",
+    "0030f471f4b9c8da0d205f48f0b94e64c3ed0dba": "9af6db3b03aef5fe992a9ed8e04fb166"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3252,6 +3260,7 @@
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
+    "refs/heads/fix/verified-peer-identity": "0030f471f4b9c8da0d205f48f0b94e64c3ed0dba",
     "refs/heads/fix/version-compat-sync-replay": "df9e4c8c7e1b421c141a6e7bfddd4e83c499251f",
     "refs/heads/fix/zelappsinformation-ghost-fields": "8cabb4d9f8ec78da2a597e46ee861c7f10f18ba1",
     "refs/heads/fixgsyncthingpercomponent": "b86493e0f9037a8130314a4cf4535fdad021fec2",
@@ -3618,7 +3627,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 123,
-    "issued_at": "2026-09-29T08:10:26.278Z"
+    "seq": 124,
+    "issued_at": "2026-09-29T08:12:27.221Z"
   }
 }
