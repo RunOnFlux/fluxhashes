@@ -3143,7 +3143,8 @@
     "3c4e13c1a810fa0608092018ed9051ed13b0cfdb": "d20c8a890bcae65a9ba4282aedebb967",
     "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d": "005f0b3d9453c8230a165a39c4cf5d5a",
     "9d8bfc2d51bdfddef05a176d2e8f8214858badee": "005f0b3d9453c8230a165a39c4cf5d5a",
-    "f5b74cbd49627c862089a8cfed39a91bdbb835e8": "1895eb71ca9deaea761f7d35dfc44bee"
+    "f5b74cbd49627c862089a8cfed39a91bdbb835e8": "1895eb71ca9deaea761f7d35dfc44bee",
+    "ef1d3a9146fba680f940c84c9bb54e811f753175": "1aa501b433f5ec1993342b0749318a91"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3326,7 +3327,7 @@
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
-    "refs/heads/fix/synced-restart-after-fluxos-restart": "3bdc89e91c868a9c7b7ab0476046301a4c87f670",
+    "refs/heads/fix/synced-restart-after-fluxos-restart": "ef1d3a9146fba680f940c84c9bb54e811f753175",
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
