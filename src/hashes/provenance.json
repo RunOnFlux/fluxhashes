@@ -2883,6 +2883,13 @@
       "branch": "fix/verified-peer-identity",
       "tag": null,
       "derived": true
+    },
+    "f4f8739f29964f778af0f87360179bdb": {
+      "published": "2026-09-29",
+      "commit": "dc1404d72db4338cc323b234057022d9630ab134",
+      "branch": "fix/synced-restart-after-fluxos-restart",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3094,7 +3101,8 @@
     "5d6c4438ffd41ada54c3d7edf4cff855ec8c9811": "e201abf7edbb157b07b2316bba31b8e3",
     "e477186c37c1be1685800530d886fcb3791f4e9f": "0bac7edc767be9e619ee833d294d78b1",
     "0413d54bd06542091361df85003da23ee9329c7b": "e201abf7edbb157b07b2316bba31b8e3",
-    "0c091a59a48502f813cf1f9a87e963d1d3c419b5": "259a33a334dcee8f912db8e3633022cb"
+    "0c091a59a48502f813cf1f9a87e963d1d3c419b5": "259a33a334dcee8f912db8e3633022cb",
+    "dc1404d72db4338cc323b234057022d9630ab134": "f4f8739f29964f778af0f87360179bdb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3277,7 +3285,7 @@
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
-    "refs/heads/fix/synced-restart-after-fluxos-restart": "0413d54bd06542091361df85003da23ee9329c7b",
+    "refs/heads/fix/synced-restart-after-fluxos-restart": "dc1404d72db4338cc323b234057022d9630ab134",
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "a626eb6dd4290a98541d79e9707e1b8e3d6397cc",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
@@ -3652,7 +3660,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 127,
-    "issued_at": "2026-09-29T11:01:22.295Z"
+    "seq": 128,
+    "issued_at": "2026-09-29T11:11:22.150Z"
   }
 }
