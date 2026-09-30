@@ -2981,6 +2981,34 @@
       "branch": "fix/g-folder-ownership-sync",
       "tag": null,
       "derived": true
+    },
+    "f5cb07b70d22f822a082082da987a7df": {
+      "published": "2026-09-30",
+      "commit": "14642f3d51a74419e665bacea6f1faa304e6174c",
+      "branch": "fix/g-folder-ownership-sync",
+      "tag": null,
+      "derived": true
+    },
+    "c2a34d64e0217c08d1e34ec9fa647e83": {
+      "published": "2026-09-30",
+      "commit": "d0e430221325f02415099fcb69fc0a4a816b91b2",
+      "branch": "fix/g-paused-start",
+      "tag": null,
+      "derived": true
+    },
+    "8812416ea7020550cb1a7241b379f898": {
+      "published": "2026-09-30",
+      "commit": "03bb7883ecb96c984ba73511fd1a3aa2128e8e35",
+      "branch": "fix/g-primary-role",
+      "tag": null,
+      "derived": true
+    },
+    "216e7d3643ea79cdb36ecbd6671ff3aa": {
+      "published": "2026-09-30",
+      "commit": "e891cca2f9013fe3656a375a2d32107baf45acf2",
+      "branch": "fix/verified-peer-identity",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3212,7 +3240,11 @@
     "3b363928626799053b218ff3c9f83fb8bb2a5190": "44561521cf02baf2b665ad8c9808b963",
     "1afc7d73733383a393f906e1d7f0e39b6f263cee": "44561521cf02baf2b665ad8c9808b963",
     "d6cb32834912da85e9a614c492e310d2640aefbf": "44561521cf02baf2b665ad8c9808b963",
-    "3ecdc388b9c636a8e8cf5e5adfa81e06c2bba253": "f913c307da694da0ed3873e4d4696090"
+    "3ecdc388b9c636a8e8cf5e5adfa81e06c2bba253": "f913c307da694da0ed3873e4d4696090",
+    "14642f3d51a74419e665bacea6f1faa304e6174c": "f5cb07b70d22f822a082082da987a7df",
+    "d0e430221325f02415099fcb69fc0a4a816b91b2": "c2a34d64e0217c08d1e34ec9fa647e83",
+    "03bb7883ecb96c984ba73511fd1a3aa2128e8e35": "8812416ea7020550cb1a7241b379f898",
+    "e891cca2f9013fe3656a375a2d32107baf45acf2": "216e7d3643ea79cdb36ecbd6671ff3aa"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3366,9 +3398,10 @@
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
-    "refs/heads/fix/g-folder-ownership-sync": "3ecdc388b9c636a8e8cf5e5adfa81e06c2bba253",
+    "refs/heads/fix/g-folder-ownership-sync": "14642f3d51a74419e665bacea6f1faa304e6174c",
     "refs/heads/fix/g-install-requires-peer-sync": "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7",
-    "refs/heads/fix/g-primary-role": "d6cb32834912da85e9a614c492e310d2640aefbf",
+    "refs/heads/fix/g-paused-start": "d0e430221325f02415099fcb69fc0a4a816b91b2",
+    "refs/heads/fix/g-primary-role": "03bb7883ecb96c984ba73511fd1a3aa2128e8e35",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
@@ -3406,7 +3439,7 @@
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
-    "refs/heads/fix/verified-peer-identity": "63bdd9818898f96a5c47cecd9c5b0c4ecb6c9808",
+    "refs/heads/fix/verified-peer-identity": "e891cca2f9013fe3656a375a2d32107baf45acf2",
     "refs/heads/fix/version-compat-sync-replay": "df9e4c8c7e1b421c141a6e7bfddd4e83c499251f",
     "refs/heads/fix/zelappsinformation-ghost-fields": "8cabb4d9f8ec78da2a597e46ee861c7f10f18ba1",
     "refs/heads/fixgsyncthingpercomponent": "b86493e0f9037a8130314a4cf4535fdad021fec2",
@@ -3773,7 +3806,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 141,
-    "issued_at": "2026-09-30T10:16:03.924Z"
+    "seq": 142,
+    "issued_at": "2026-09-30T19:33:44.765Z"
   }
 }
