@@ -2960,6 +2960,13 @@
       "branch": "fix/syncthing-post-routes",
       "tag": null,
       "derived": true
+    },
+    "fcfe628d6d122babb062768a71796054": {
+      "published": "2026-09-30",
+      "commit": "c876514e166e25a7c976c5bf1133da8cd804489e",
+      "branch": "fix/g-primary-role",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3185,7 +3192,8 @@
     "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7": "ab594b9a5f0c829e048e73ebcc5b47e4",
     "5b57f47d8f95211283b4bce18dbf2a99d4efb64e": "c9c15a2eb8eef49b916f8d025bbb1a5f",
     "63bdd9818898f96a5c47cecd9c5b0c4ecb6c9808": "082f10087c4e698e8025fcfe69ff2823",
-    "117674abdc1c8c67a7445d2420e97fe8f4d211b3": "b71606ac7fe7a019475f8c113b40cd3f"
+    "117674abdc1c8c67a7445d2420e97fe8f4d211b3": "b71606ac7fe7a019475f8c113b40cd3f",
+    "c876514e166e25a7c976c5bf1133da8cd804489e": "fcfe628d6d122babb062768a71796054"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3341,6 +3349,7 @@
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
     "refs/heads/fix/g-folder-ownership-sync": "5b57f47d8f95211283b4bce18dbf2a99d4efb64e",
     "refs/heads/fix/g-install-requires-peer-sync": "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7",
+    "refs/heads/fix/g-primary-role": "c876514e166e25a7c976c5bf1133da8cd804489e",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
@@ -3745,7 +3754,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 138,
-    "issued_at": "2026-09-30T07:28:41.818Z"
+    "seq": 139,
+    "issued_at": "2026-09-30T07:35:59.396Z"
   }
 }
