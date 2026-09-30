@@ -2953,6 +2953,13 @@
       "branch": "fix/verified-peer-identity",
       "tag": null,
       "derived": true
+    },
+    "b71606ac7fe7a019475f8c113b40cd3f": {
+      "published": "2026-09-30",
+      "commit": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
+      "branch": "fix/syncthing-post-routes",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3177,7 +3184,8 @@
     "c9995310b26306dd98e93e3906df51b0519dee3f": "24da7a011dc75782c547bbd6fe12ce66",
     "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7": "ab594b9a5f0c829e048e73ebcc5b47e4",
     "5b57f47d8f95211283b4bce18dbf2a99d4efb64e": "c9c15a2eb8eef49b916f8d025bbb1a5f",
-    "63bdd9818898f96a5c47cecd9c5b0c4ecb6c9808": "082f10087c4e698e8025fcfe69ff2823"
+    "63bdd9818898f96a5c47cecd9c5b0c4ecb6c9808": "082f10087c4e698e8025fcfe69ff2823",
+    "117674abdc1c8c67a7445d2420e97fe8f4d211b3": "b71606ac7fe7a019475f8c113b40cd3f"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3365,6 +3373,7 @@
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
+    "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
@@ -3736,7 +3745,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 137,
-    "issued_at": "2026-09-30T06:30:53.559Z"
+    "seq": 138,
+    "issued_at": "2026-09-30T07:28:41.818Z"
   }
 }
