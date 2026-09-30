@@ -2974,6 +2974,13 @@
       "branch": "fix/g-primary-role",
       "tag": null,
       "derived": true
+    },
+    "f913c307da694da0ed3873e4d4696090": {
+      "published": "2026-09-30",
+      "commit": "3ecdc388b9c636a8e8cf5e5adfa81e06c2bba253",
+      "branch": "fix/g-folder-ownership-sync",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3204,7 +3211,8 @@
     "efdfb3ed47af80ef6cad07201efb3b4dd2d45b02": "44561521cf02baf2b665ad8c9808b963",
     "3b363928626799053b218ff3c9f83fb8bb2a5190": "44561521cf02baf2b665ad8c9808b963",
     "1afc7d73733383a393f906e1d7f0e39b6f263cee": "44561521cf02baf2b665ad8c9808b963",
-    "d6cb32834912da85e9a614c492e310d2640aefbf": "44561521cf02baf2b665ad8c9808b963"
+    "d6cb32834912da85e9a614c492e310d2640aefbf": "44561521cf02baf2b665ad8c9808b963",
+    "3ecdc388b9c636a8e8cf5e5adfa81e06c2bba253": "f913c307da694da0ed3873e4d4696090"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3358,7 +3366,7 @@
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
-    "refs/heads/fix/g-folder-ownership-sync": "5b57f47d8f95211283b4bce18dbf2a99d4efb64e",
+    "refs/heads/fix/g-folder-ownership-sync": "3ecdc388b9c636a8e8cf5e5adfa81e06c2bba253",
     "refs/heads/fix/g-install-requires-peer-sync": "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7",
     "refs/heads/fix/g-primary-role": "d6cb32834912da85e9a614c492e310d2640aefbf",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
@@ -3765,7 +3773,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 140,
-    "issued_at": "2026-09-30T08:20:44.227Z"
+    "seq": 141,
+    "issued_at": "2026-09-30T10:16:03.924Z"
   }
 }
