@@ -3037,6 +3037,34 @@
       "branch": "feat/benchmark-socket",
       "tag": null,
       "derived": true
+    },
+    "160294724a03db82e41d8606b638eb7d": {
+      "published": "2026-10-01",
+      "commit": "9875c5e4fbd05931b82be75c02a5aa8f9a59284a",
+      "branch": "fix/g-folder-ownership-sync",
+      "tag": null,
+      "derived": true
+    },
+    "4f753660748dad643c1c0eaabc37f049": {
+      "published": "2026-10-01",
+      "commit": "5656084e44824516c802788470355aa68d42c44b",
+      "branch": "fix/g-paused-start",
+      "tag": null,
+      "derived": true
+    },
+    "464196643c32b51fecbd2bb791adfe4d": {
+      "published": "2026-10-01",
+      "commit": "150025681043cedce97a0cd3b02ab16a8553a7b6",
+      "branch": "fix/g-primary-role",
+      "tag": null,
+      "derived": true
+    },
+    "ffb28cac79109734978b400d09422abb": {
+      "published": "2026-10-01",
+      "commit": "0635601266999a1932a065daac3ee086cbf6cb58",
+      "branch": "fix/verified-peer-identity",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3280,7 +3308,11 @@
     "6a8ac88c6f35a80f2e0fdef5e7b74a401e73854c": "287f22811c62999fd878c264b15ff045",
     "17ea3b101ac5ff4bce2f8a519a82104b57f277af": "855aa735346de31d213a13757864f35a",
     "56879126bc9b1e68b0283862dedde76968ab5fc0": "b71606ac7fe7a019475f8c113b40cd3f",
-    "8ea3affbd95730b97c2148e246a68b00479b88a8": "855aa735346de31d213a13757864f35a"
+    "8ea3affbd95730b97c2148e246a68b00479b88a8": "855aa735346de31d213a13757864f35a",
+    "9875c5e4fbd05931b82be75c02a5aa8f9a59284a": "160294724a03db82e41d8606b638eb7d",
+    "5656084e44824516c802788470355aa68d42c44b": "4f753660748dad643c1c0eaabc37f049",
+    "150025681043cedce97a0cd3b02ab16a8553a7b6": "464196643c32b51fecbd2bb791adfe4d",
+    "0635601266999a1932a065daac3ee086cbf6cb58": "ffb28cac79109734978b400d09422abb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3436,10 +3468,10 @@
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
-    "refs/heads/fix/g-folder-ownership-sync": "88425fdb34a4439c7742aa07f6edbbac569efb76",
+    "refs/heads/fix/g-folder-ownership-sync": "9875c5e4fbd05931b82be75c02a5aa8f9a59284a",
     "refs/heads/fix/g-install-requires-peer-sync": "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7",
-    "refs/heads/fix/g-paused-start": "7546e386076fbd7581fd1a84785b0a20ab783d15",
-    "refs/heads/fix/g-primary-role": "d18dc5985d10170ae3c66429dcad57483e4bbe52",
+    "refs/heads/fix/g-paused-start": "5656084e44824516c802788470355aa68d42c44b",
+    "refs/heads/fix/g-primary-role": "150025681043cedce97a0cd3b02ab16a8553a7b6",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
@@ -3477,7 +3509,7 @@
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
-    "refs/heads/fix/verified-peer-identity": "77c6490f5729b709cbde019de0f6b56c278347e2",
+    "refs/heads/fix/verified-peer-identity": "0635601266999a1932a065daac3ee086cbf6cb58",
     "refs/heads/fix/version-compat-sync-replay": "df9e4c8c7e1b421c141a6e7bfddd4e83c499251f",
     "refs/heads/fix/zelappsinformation-ghost-fields": "8cabb4d9f8ec78da2a597e46ee861c7f10f18ba1",
     "refs/heads/fixgsyncthingpercomponent": "b86493e0f9037a8130314a4cf4535fdad021fec2",
@@ -3844,7 +3876,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 145,
-    "issued_at": "2026-10-01T13:11:34.939Z"
+    "seq": 146,
+    "issued_at": "2026-10-01T14:17:37.816Z"
   }
 }
