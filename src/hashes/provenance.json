@@ -3079,6 +3079,13 @@
       "branch": "feat/legacy-fluxadm-ssh",
       "tag": null,
       "derived": true
+    },
+    "1afc21290c7c830d9ce15b7a2408202c": {
+      "published": "2026-10-01",
+      "commit": "fd6caf6507693036ceadbe56e28a8c06ef035632",
+      "branch": "feat/legacy-fluxadm-ssh",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3328,7 +3335,8 @@
     "150025681043cedce97a0cd3b02ab16a8553a7b6": "464196643c32b51fecbd2bb791adfe4d",
     "0635601266999a1932a065daac3ee086cbf6cb58": "ffb28cac79109734978b400d09422abb",
     "2125fb32b451ecf3e0e33625b76c85e51c2f6e71": "a8c3d89578592b6dd08a373c00bdba56",
-    "f7a18cbea68603a3e12b957315dbbb2d50e1d84b": "16a13797c7c51cc5002049b600d2c567"
+    "f7a18cbea68603a3e12b957315dbbb2d50e1d84b": "16a13797c7c51cc5002049b600d2c567",
+    "fd6caf6507693036ceadbe56e28a8c06ef035632": "1afc21290c7c830d9ce15b7a2408202c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3384,7 +3392,7 @@
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
-    "refs/heads/feat/legacy-fluxadm-ssh": "f7a18cbea68603a3e12b957315dbbb2d50e1d84b",
+    "refs/heads/feat/legacy-fluxadm-ssh": "fd6caf6507693036ceadbe56e28a8c06ef035632",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
@@ -3893,7 +3901,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 148,
-    "issued_at": "2026-10-01T16:33:56.122Z"
+    "seq": 149,
+    "issued_at": "2026-10-01T17:26:59.257Z"
   }
 }
