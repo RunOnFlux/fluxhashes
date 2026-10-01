@@ -3030,6 +3030,13 @@
       "branch": "feat/uplink-tunnel-detection",
       "tag": null,
       "derived": true
+    },
+    "855aa735346de31d213a13757864f35a": {
+      "published": "2026-10-01",
+      "commit": "17ea3b101ac5ff4bce2f8a519a82104b57f277af",
+      "branch": "feat/benchmark-socket",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3270,7 +3277,8 @@
     "7546e386076fbd7581fd1a84785b0a20ab783d15": "410b06fe9dfee6524d1914a1c3233988",
     "d18dc5985d10170ae3c66429dcad57483e4bbe52": "3080839bbc2c432717d1cfceb51a6026",
     "77c6490f5729b709cbde019de0f6b56c278347e2": "216e7d3643ea79cdb36ecbd6671ff3aa",
-    "6a8ac88c6f35a80f2e0fdef5e7b74a401e73854c": "287f22811c62999fd878c264b15ff045"
+    "6a8ac88c6f35a80f2e0fdef5e7b74a401e73854c": "287f22811c62999fd878c264b15ff045",
+    "17ea3b101ac5ff4bce2f8a519a82104b57f277af": "855aa735346de31d213a13757864f35a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3315,6 +3323,7 @@
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
+    "refs/heads/feat/benchmark-socket": "17ea3b101ac5ff4bce2f8a519a82104b57f277af",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
@@ -3833,7 +3842,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 144,
-    "issued_at": "2026-10-01T09:59:43.861Z"
+    "seq": 145,
+    "issued_at": "2026-10-01T13:11:34.939Z"
   }
 }
