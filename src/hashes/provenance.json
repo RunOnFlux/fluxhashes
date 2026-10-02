@@ -3114,6 +3114,13 @@
       "branch": "fix/verified-peer-identity",
       "tag": null,
       "derived": true
+    },
+    "b7ce6acc25cd89e3b324c2bee52ca430": {
+      "published": "2026-10-02",
+      "commit": "2a74eec6492bff0f645433e301951a3f68013cd6",
+      "branch": "fix/far-nodes-dockerhub-connect-timeout",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3372,7 +3379,8 @@
     "fc6d80a460e61ad5e1719b7f583ceddd2e176bf8": "143d0c4274d456c1ce09fc2adf423504",
     "d420d614a65efadbb69117004b8e6ef7eb9a7196": "9fc5df64d4c846a356e87be43605effd",
     "ea989c0605cfe4b00e2952651b0ca9a32949679c": "619dbfce91da4fd0fb413e5daeb6c8e5",
-    "420f63b72df81678cd177eb326664ff70a69bce9": "8bc12eb45ac84f32c2e59a5f1536bb3b"
+    "420f63b72df81678cd177eb326664ff70a69bce9": "8bc12eb45ac84f32c2e59a5f1536bb3b",
+    "2a74eec6492bff0f645433e301951a3f68013cd6": "b7ce6acc25cd89e3b324c2bee52ca430"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3527,6 +3535,7 @@
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
+    "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "2a74eec6492bff0f645433e301951a3f68013cd6",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
     "refs/heads/fix/g-folder-ownership-sync": "fc6d80a460e61ad5e1719b7f583ceddd2e176bf8",
@@ -3937,7 +3946,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 150,
-    "issued_at": "2026-10-01T18:28:50.052Z"
+    "seq": 151,
+    "issued_at": "2026-10-02T20:25:50.209Z"
   }
 }
