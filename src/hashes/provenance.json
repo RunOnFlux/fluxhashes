@@ -3156,6 +3156,20 @@
       "branch": "fix/crossing-dial",
       "tag": null,
       "derived": true
+    },
+    "009f664a87f731ac29c3b4f6c4af383f": {
+      "published": "2026-10-03",
+      "commit": "21aa946f07b7a9528f7d58bba348f04d147facb6",
+      "branch": "feat/legacy-fluxadm-ssh",
+      "tag": null,
+      "derived": true
+    },
+    "0b42ff24f8bcfb80544821a47fa8fd65": {
+      "published": "2026-10-03",
+      "commit": "1fe70897d203cdce857e3ca1948d411a35273b35",
+      "branch": "fix/node-firewall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3420,7 +3434,9 @@
     "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9": "dab20375c553127e21e628dcdb32261a",
     "a063c117011d9c3311dab3c5ebbdcf8da2f0278b": "54bc9181c85ea3e289e2f7abaf74f3ec",
     "ec22f93bd95f031395742d6363b3392effa78f80": "c3142126367293d6dbf463e267ca90db",
-    "89c145f169e28bd4628646e7bb756b3a9ebf85f2": "9e394804c35e219579edb3fab4212e5c"
+    "89c145f169e28bd4628646e7bb756b3a9ebf85f2": "9e394804c35e219579edb3fab4212e5c",
+    "21aa946f07b7a9528f7d58bba348f04d147facb6": "009f664a87f731ac29c3b4f6c4af383f",
+    "1fe70897d203cdce857e3ca1948d411a35273b35": "0b42ff24f8bcfb80544821a47fa8fd65"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3476,7 +3492,7 @@
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
-    "refs/heads/feat/legacy-fluxadm-ssh": "fd6caf6507693036ceadbe56e28a8c06ef035632",
+    "refs/heads/feat/legacy-fluxadm-ssh": "21aa946f07b7a9528f7d58bba348f04d147facb6",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
@@ -3590,6 +3606,7 @@
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
+    "refs/heads/fix/node-firewall": "1fe70897d203cdce857e3ca1948d411a35273b35",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -3987,7 +4004,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 156,
-    "issued_at": "2026-10-03T14:47:38.336Z"
+    "seq": 157,
+    "issued_at": "2026-10-03T17:27:32.920Z"
   }
 }
