@@ -3135,6 +3135,13 @@
       "branch": "fix/far-nodes-dockerhub-connect-timeout",
       "tag": null,
       "derived": true
+    },
+    "54bc9181c85ea3e289e2f7abaf74f3ec": {
+      "published": "2026-10-03",
+      "commit": "a063c117011d9c3311dab3c5ebbdcf8da2f0278b",
+      "branch": "fix/registry-private-address-guard",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3396,7 +3403,8 @@
     "420f63b72df81678cd177eb326664ff70a69bce9": "8bc12eb45ac84f32c2e59a5f1536bb3b",
     "2a74eec6492bff0f645433e301951a3f68013cd6": "b7ce6acc25cd89e3b324c2bee52ca430",
     "3192e7af01e79db43e3961b70c8e596c96a10328": "005e09d3f45e5bb6104c792efc1b06ff",
-    "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9": "dab20375c553127e21e628dcdb32261a"
+    "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9": "dab20375c553127e21e628dcdb32261a",
+    "a063c117011d9c3311dab3c5ebbdcf8da2f0278b": "54bc9181c85ea3e289e2f7abaf74f3ec"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3573,6 +3581,7 @@
     "refs/heads/fix/process_apps": "4c308f31a54d9d86a341e97c6edd90a1e98251bd",
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
+    "refs/heads/fix/registry-private-address-guard": "a063c117011d9c3311dab3c5ebbdcf8da2f0278b",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
@@ -3962,7 +3971,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 153,
-    "issued_at": "2026-10-03T09:00:43.328Z"
+    "seq": 154,
+    "issued_at": "2026-10-03T09:35:33.439Z"
   }
 }
