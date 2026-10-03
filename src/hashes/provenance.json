@@ -3128,6 +3128,13 @@
       "branch": "fix/far-nodes-dockerhub-connect-timeout",
       "tag": null,
       "derived": true
+    },
+    "dab20375c553127e21e628dcdb32261a": {
+      "published": "2026-10-03",
+      "commit": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
+      "branch": "fix/far-nodes-dockerhub-connect-timeout",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3388,7 +3395,8 @@
     "ea989c0605cfe4b00e2952651b0ca9a32949679c": "619dbfce91da4fd0fb413e5daeb6c8e5",
     "420f63b72df81678cd177eb326664ff70a69bce9": "8bc12eb45ac84f32c2e59a5f1536bb3b",
     "2a74eec6492bff0f645433e301951a3f68013cd6": "b7ce6acc25cd89e3b324c2bee52ca430",
-    "3192e7af01e79db43e3961b70c8e596c96a10328": "005e09d3f45e5bb6104c792efc1b06ff"
+    "3192e7af01e79db43e3961b70c8e596c96a10328": "005e09d3f45e5bb6104c792efc1b06ff",
+    "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9": "dab20375c553127e21e628dcdb32261a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3543,7 +3551,7 @@
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
-    "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "3192e7af01e79db43e3961b70c8e596c96a10328",
+    "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
     "refs/heads/fix/g-folder-ownership-sync": "fc6d80a460e61ad5e1719b7f583ceddd2e176bf8",
@@ -3954,7 +3962,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 152,
-    "issued_at": "2026-10-02T20:32:31.370Z"
+    "seq": 153,
+    "issued_at": "2026-10-03T09:00:43.328Z"
   }
 }
