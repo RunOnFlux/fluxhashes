@@ -3233,6 +3233,34 @@
       "branch": "fix/app-update-after-expiry",
       "tag": null,
       "derived": true
+    },
+    "5dfc1027ac45a8e0e6ff0ebf24c276b7": {
+      "published": "2026-10-04",
+      "commit": "69628e5e65a4f713c5c1cab3a3716ce3457953fb",
+      "branch": "fix/g-folder-ownership-sync",
+      "tag": null,
+      "derived": true
+    },
+    "f73d066763f29007067357813e5366ef": {
+      "published": "2026-10-04",
+      "commit": "c449f679aa7e468bfa029e7c6c4487e33f63fa70",
+      "branch": "fix/g-paused-start",
+      "tag": null,
+      "derived": true
+    },
+    "0093b427b7d139275ec2a0047e9dfa65": {
+      "published": "2026-10-04",
+      "commit": "c3d088095157b17d90715ee75243c02958c11f5e",
+      "branch": "fix/g-primary-role",
+      "tag": null,
+      "derived": true
+    },
+    "e3f92f3b81767e381cb6c958cf3052a4": {
+      "published": "2026-10-04",
+      "commit": "23a2aba5b76545e4d58033398abddf65d07077ab",
+      "branch": "fix/verified-peer-identity",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3511,7 +3539,11 @@
     "1bdc18c2b2aa3f58e8d3dd5f6cf8bfb06a21c06c": "63a0c74c519063a6044fa9dfa2d0b90f",
     "bb4f4233326292cee4e92a18d2c7860cb96fc22e": "eec9c22260f82cfc1c3649832e84c83c",
     "cdcfeae237c01e2b9206e4c776fc9d5e082b99d2": "eec9c22260f82cfc1c3649832e84c83c",
-    "c6687a090ea4eab47c8ca105b50e5ebece7b2c4f": "02d4dce53f74c96f80d8eb17fd3ab599"
+    "c6687a090ea4eab47c8ca105b50e5ebece7b2c4f": "02d4dce53f74c96f80d8eb17fd3ab599",
+    "69628e5e65a4f713c5c1cab3a3716ce3457953fb": "5dfc1027ac45a8e0e6ff0ebf24c276b7",
+    "c449f679aa7e468bfa029e7c6c4487e33f63fa70": "f73d066763f29007067357813e5366ef",
+    "c3d088095157b17d90715ee75243c02958c11f5e": "0093b427b7d139275ec2a0047e9dfa65",
+    "23a2aba5b76545e4d58033398abddf65d07077ab": "e3f92f3b81767e381cb6c958cf3052a4"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3672,10 +3704,10 @@
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
     "refs/heads/fix/fluxos-owned-volume-mounts": "60e7e4da821909fea92634d59cfe88854896b612",
-    "refs/heads/fix/g-folder-ownership-sync": "fc6d80a460e61ad5e1719b7f583ceddd2e176bf8",
+    "refs/heads/fix/g-folder-ownership-sync": "69628e5e65a4f713c5c1cab3a3716ce3457953fb",
     "refs/heads/fix/g-install-requires-peer-sync": "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7",
-    "refs/heads/fix/g-paused-start": "d420d614a65efadbb69117004b8e6ef7eb9a7196",
-    "refs/heads/fix/g-primary-role": "ea989c0605cfe4b00e2952651b0ca9a32949679c",
+    "refs/heads/fix/g-paused-start": "c449f679aa7e468bfa029e7c6c4487e33f63fa70",
+    "refs/heads/fix/g-primary-role": "c3d088095157b17d90715ee75243c02958c11f5e",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
@@ -3716,7 +3748,7 @@
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
-    "refs/heads/fix/verified-peer-identity": "420f63b72df81678cd177eb326664ff70a69bce9",
+    "refs/heads/fix/verified-peer-identity": "23a2aba5b76545e4d58033398abddf65d07077ab",
     "refs/heads/fix/version-compat-sync-replay": "df9e4c8c7e1b421c141a6e7bfddd4e83c499251f",
     "refs/heads/fix/zelappsinformation-ghost-fields": "8cabb4d9f8ec78da2a597e46ee861c7f10f18ba1",
     "refs/heads/fixgsyncthingpercomponent": "b86493e0f9037a8130314a4cf4535fdad021fec2",
@@ -4083,7 +4115,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 166,
-    "issued_at": "2026-10-04T17:13:05.838Z"
+    "seq": 167,
+    "issued_at": "2026-10-04T18:32:51.319Z"
   }
 }
