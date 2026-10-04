@@ -3170,6 +3170,13 @@
       "branch": "fix/node-firewall",
       "tag": null,
       "derived": true
+    },
+    "be1702b3ec5ee473b2644f9cac9d3c76": {
+      "published": "2026-10-04",
+      "commit": "f2e46de0a19d29ed099ef84ed25c2c8f509adc13",
+      "branch": "fix/registry-unavailable-during-rebuild",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3438,7 +3445,8 @@
     "21aa946f07b7a9528f7d58bba348f04d147facb6": "009f664a87f731ac29c3b4f6c4af383f",
     "1fe70897d203cdce857e3ca1948d411a35273b35": "0b42ff24f8bcfb80544821a47fa8fd65",
     "42ac872ee8a17cd33beb48fde74c5ba241a2f5c8": "009f664a87f731ac29c3b4f6c4af383f",
-    "f189abbec9a21bf313df1fcdfbc256e3f1c724f8": "dab20375c553127e21e628dcdb32261a"
+    "f189abbec9a21bf313df1fcdfbc256e3f1c724f8": "dab20375c553127e21e628dcdb32261a",
+    "f2e46de0a19d29ed099ef84ed25c2c8f509adc13": "be1702b3ec5ee473b2644f9cac9d3c76"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3617,6 +3625,7 @@
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "a063c117011d9c3311dab3c5ebbdcf8da2f0278b",
+    "refs/heads/fix/registry-unavailable-during-rebuild": "f2e46de0a19d29ed099ef84ed25c2c8f509adc13",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
@@ -4006,7 +4015,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 157,
-    "issued_at": "2026-10-03T17:27:32.920Z"
+    "seq": 158,
+    "issued_at": "2026-10-04T14:28:12.747Z"
   }
 }
