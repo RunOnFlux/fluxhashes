@@ -3177,6 +3177,13 @@
       "branch": "fix/registry-unavailable-during-rebuild",
       "tag": null,
       "derived": true
+    },
+    "59253716df5e226f2656da31df10600e": {
+      "published": "2026-10-04",
+      "commit": "353ff20d64e8c5fba0bf227e6bd0fa3313eb9502",
+      "branch": "fix/dns-lookup-fallback",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3446,7 +3453,8 @@
     "1fe70897d203cdce857e3ca1948d411a35273b35": "0b42ff24f8bcfb80544821a47fa8fd65",
     "42ac872ee8a17cd33beb48fde74c5ba241a2f5c8": "009f664a87f731ac29c3b4f6c4af383f",
     "f189abbec9a21bf313df1fcdfbc256e3f1c724f8": "dab20375c553127e21e628dcdb32261a",
-    "f2e46de0a19d29ed099ef84ed25c2c8f509adc13": "be1702b3ec5ee473b2644f9cac9d3c76"
+    "f2e46de0a19d29ed099ef84ed25c2c8f509adc13": "be1702b3ec5ee473b2644f9cac9d3c76",
+    "353ff20d64e8c5fba0bf227e6bd0fa3313eb9502": "59253716df5e226f2656da31df10600e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3596,6 +3604,7 @@
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "89c145f169e28bd4628646e7bb756b3a9ebf85f2",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
+    "refs/heads/fix/dns-lookup-fallback": "353ff20d64e8c5fba0bf227e6bd0fa3313eb9502",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
@@ -4015,7 +4024,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 158,
-    "issued_at": "2026-10-04T14:28:12.747Z"
+    "seq": 159,
+    "issued_at": "2026-10-04T14:29:36.414Z"
   }
 }
