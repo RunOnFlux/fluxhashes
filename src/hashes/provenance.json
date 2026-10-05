@@ -3296,6 +3296,13 @@
       "branch": "feat/uplink-tunnel-detection",
       "tag": null,
       "derived": true
+    },
+    "2ad8677a73ad74b5e69dacef604e0f31": {
+      "published": "2026-10-05",
+      "commit": "f9ee08267426fc12e060f5ddf45a7b42a24d72f3",
+      "branch": "fix/crossing-dial",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3583,7 +3590,8 @@
     "8982a9d81cac2b33791d3bd9141c8274d2319b00": "fe59e1ec97b54bf7a3baa6dc25bd5228",
     "8d008bf751a35e3db1da665910ae8543df8e1a4f": "ab5c8bc486421d8af76d9e0246254fb0",
     "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48": "1f7248aeef3c732f14309a4859d94152",
-    "78f77ec295c8b50ce859311ba0d0d48b4742ae49": "45481c0d00bbd31b81b33750d122e22d"
+    "78f77ec295c8b50ce859311ba0d0d48b4742ae49": "45481c0d00bbd31b81b33750d122e22d",
+    "f9ee08267426fc12e060f5ddf45a7b42a24d72f3": "2ad8677a73ad74b5e69dacef604e0f31"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3733,7 +3741,7 @@
     "refs/heads/fix/compliance-sweep-follows-policy": "da0e9a05980210c465e6f8f19175750100376fee",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
-    "refs/heads/fix/crossing-dial": "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48",
+    "refs/heads/fix/crossing-dial": "f9ee08267426fc12e060f5ddf45a7b42a24d72f3",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "353ff20d64e8c5fba0bf227e6bd0fa3313eb9502",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -4156,7 +4164,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 172,
-    "issued_at": "2026-10-05T18:05:35.825Z"
+    "seq": 173,
+    "issued_at": "2026-10-05T18:38:31.703Z"
   }
 }
