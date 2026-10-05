@@ -3261,6 +3261,13 @@
       "branch": "fix/verified-peer-identity",
       "tag": null,
       "derived": true
+    },
+    "1ec40e48aea0725767344c2bee5d81d5": {
+      "published": "2026-10-05",
+      "commit": "2ae79b663375fa068b2edd95b5d797df59b03bf9",
+      "branch": "fix/remote-download-stall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3543,7 +3550,8 @@
     "69628e5e65a4f713c5c1cab3a3716ce3457953fb": "5dfc1027ac45a8e0e6ff0ebf24c276b7",
     "c449f679aa7e468bfa029e7c6c4487e33f63fa70": "f73d066763f29007067357813e5366ef",
     "c3d088095157b17d90715ee75243c02958c11f5e": "0093b427b7d139275ec2a0047e9dfa65",
-    "23a2aba5b76545e4d58033398abddf65d07077ab": "e3f92f3b81767e381cb6c958cf3052a4"
+    "23a2aba5b76545e4d58033398abddf65d07077ab": "e3f92f3b81767e381cb6c958cf3052a4",
+    "2ae79b663375fa068b2edd95b5d797df59b03bf9": "1ec40e48aea0725767344c2bee5d81d5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3726,7 +3734,7 @@
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "a063c117011d9c3311dab3c5ebbdcf8da2f0278b",
     "refs/heads/fix/registry-unavailable-during-rebuild": "f2e46de0a19d29ed099ef84ed25c2c8f509adc13",
-    "refs/heads/fix/remote-download-stall": "f189abbec9a21bf313df1fcdfbc256e3f1c724f8",
+    "refs/heads/fix/remote-download-stall": "2ae79b663375fa068b2edd95b5d797df59b03bf9",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
@@ -4116,7 +4124,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 167,
-    "issued_at": "2026-10-04T18:32:51.319Z"
+    "seq": 168,
+    "issued_at": "2026-10-05T08:59:30.383Z"
   }
 }
