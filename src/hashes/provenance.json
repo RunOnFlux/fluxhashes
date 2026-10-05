@@ -3282,6 +3282,13 @@
       "branch": "fix/app-update-after-expiry",
       "tag": null,
       "derived": true
+    },
+    "1f7248aeef3c732f14309a4859d94152": {
+      "published": "2026-10-05",
+      "commit": "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48",
+      "branch": "fix/crossing-dial",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3567,7 +3574,8 @@
     "23a2aba5b76545e4d58033398abddf65d07077ab": "e3f92f3b81767e381cb6c958cf3052a4",
     "2ae79b663375fa068b2edd95b5d797df59b03bf9": "1ec40e48aea0725767344c2bee5d81d5",
     "8982a9d81cac2b33791d3bd9141c8274d2319b00": "fe59e1ec97b54bf7a3baa6dc25bd5228",
-    "8d008bf751a35e3db1da665910ae8543df8e1a4f": "ab5c8bc486421d8af76d9e0246254fb0"
+    "8d008bf751a35e3db1da665910ae8543df8e1a4f": "ab5c8bc486421d8af76d9e0246254fb0",
+    "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48": "1f7248aeef3c732f14309a4859d94152"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3717,7 +3725,7 @@
     "refs/heads/fix/compliance-sweep-follows-policy": "da0e9a05980210c465e6f8f19175750100376fee",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
-    "refs/heads/fix/crossing-dial": "89c145f169e28bd4628646e7bb756b3a9ebf85f2",
+    "refs/heads/fix/crossing-dial": "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "353ff20d64e8c5fba0bf227e6bd0fa3313eb9502",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -4140,7 +4148,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 170,
-    "issued_at": "2026-10-05T12:26:09.531Z"
+    "seq": 171,
+    "issued_at": "2026-10-05T16:00:00.313Z"
   }
 }
