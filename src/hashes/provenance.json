@@ -3289,6 +3289,13 @@
       "branch": "fix/crossing-dial",
       "tag": null,
       "derived": true
+    },
+    "45481c0d00bbd31b81b33750d122e22d": {
+      "published": "2026-10-05",
+      "commit": "78f77ec295c8b50ce859311ba0d0d48b4742ae49",
+      "branch": "feat/uplink-tunnel-detection",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3575,7 +3582,8 @@
     "2ae79b663375fa068b2edd95b5d797df59b03bf9": "1ec40e48aea0725767344c2bee5d81d5",
     "8982a9d81cac2b33791d3bd9141c8274d2319b00": "fe59e1ec97b54bf7a3baa6dc25bd5228",
     "8d008bf751a35e3db1da665910ae8543df8e1a4f": "ab5c8bc486421d8af76d9e0246254fb0",
-    "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48": "1f7248aeef3c732f14309a4859d94152"
+    "fd4d6f0cfbb1dc3a61b837412bd5da1ccf5e9a48": "1f7248aeef3c732f14309a4859d94152",
+    "78f77ec295c8b50ce859311ba0d0d48b4742ae49": "45481c0d00bbd31b81b33750d122e22d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3638,7 +3646,7 @@
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
     "refs/heads/feat/support-team-fluxid-list": "0c9fc4b3b93ed34dd118df855ab974e67d4ca981",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
-    "refs/heads/feat/uplink-tunnel-detection": "ec22f93bd95f031395742d6363b3392effa78f80",
+    "refs/heads/feat/uplink-tunnel-detection": "78f77ec295c8b50ce859311ba0d0d48b4742ae49",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
     "refs/heads/feat/volume-file-operations": "1f2a4bf3aabc3a03727a869e5ded6abd67443cb4",
     "refs/heads/feature/add_apt_queue": "ec107d72092414ff36da4ca185504d1f1433c900",
@@ -4148,7 +4156,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 171,
-    "issued_at": "2026-10-05T16:00:00.313Z"
+    "seq": 172,
+    "issued_at": "2026-10-05T18:05:35.825Z"
   }
 }
