@@ -3275,6 +3275,13 @@
       "branch": "fix/remote-download-stall",
       "tag": null,
       "derived": true
+    },
+    "ab5c8bc486421d8af76d9e0246254fb0": {
+      "published": "2026-10-05",
+      "commit": "8d008bf751a35e3db1da665910ae8543df8e1a4f",
+      "branch": "fix/app-update-after-expiry",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3559,7 +3566,8 @@
     "c3d088095157b17d90715ee75243c02958c11f5e": "0093b427b7d139275ec2a0047e9dfa65",
     "23a2aba5b76545e4d58033398abddf65d07077ab": "e3f92f3b81767e381cb6c958cf3052a4",
     "2ae79b663375fa068b2edd95b5d797df59b03bf9": "1ec40e48aea0725767344c2bee5d81d5",
-    "8982a9d81cac2b33791d3bd9141c8274d2319b00": "fe59e1ec97b54bf7a3baa6dc25bd5228"
+    "8982a9d81cac2b33791d3bd9141c8274d2319b00": "fe59e1ec97b54bf7a3baa6dc25bd5228",
+    "8d008bf751a35e3db1da665910ae8543df8e1a4f": "ab5c8bc486421d8af76d9e0246254fb0"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3696,7 +3704,7 @@
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
-    "refs/heads/fix/app-update-after-expiry": "c6687a090ea4eab47c8ca105b50e5ebece7b2c4f",
+    "refs/heads/fix/app-update-after-expiry": "8d008bf751a35e3db1da665910ae8543df8e1a4f",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
     "refs/heads/fix/app-volume-placement": "118ee7ed3cd214b45dd4a939c58eab7a38af28e7",
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
@@ -4132,7 +4140,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 169,
-    "issued_at": "2026-10-05T09:05:25.175Z"
+    "seq": 170,
+    "issued_at": "2026-10-05T12:26:09.531Z"
   }
 }
