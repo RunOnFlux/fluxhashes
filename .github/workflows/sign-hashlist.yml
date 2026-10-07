@@ -8,9 +8,8 @@ name: sign-hashlist
 # pushed to flux or to a public fork of it. scripts/sign-hashlist.js states the bound in full.
 #
 # Level-triggered: every run reconciles the full delta between the flux remote's refs and the
-# snapshot in the provenance record, so a dispatch lost to the concurrency group's
-# newest-pending-wins cancellation is repaired by whichever run survives, and the daily sweep
-# bounds the tail when nothing follows.
+# snapshot in the provenance record, so a request cancelled by a newer one is repaired by the
+# run that survives, and the daily sweep bounds the tail when nothing follows.
 #
 # Deliberately NOT triggered by pull_request_target or pull_request: this repository is public and
 # either would expose the secrets to a fork. The push trigger watches only the human-edited ledger,
@@ -44,11 +43,14 @@ on:
 permissions:
   contents: read
 
-# Two runs signing at once would both read the same sequence, and one would publish over the other
-# under a sequence already used.
+# One run at a time, and the newest request takes over: a run that GitHub leaves waiting on the
+# environment gate is cancelled by the next push or the daily sweep instead of holding every later
+# request. Taking over is safe because each attempt resets to origin/master and reconciles from
+# scratch, and the push is a fast-forward: a cancelled run whose push lands late makes the new
+# run's push fail and retry from the new head, so no two documents are published under one sequence.
 concurrency:
   group: sign-hashlist
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   sign:
