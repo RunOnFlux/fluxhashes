@@ -3485,6 +3485,13 @@
       "branch": "feat/registry-status-route",
       "tag": null,
       "derived": true
+    },
+    "921d51e2a9b97b93db31d4c2e59bde07": {
+      "published": "2026-10-08",
+      "commit": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
+      "branch": "feat/registry-status-route",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3800,7 +3807,8 @@
     "19746fd303b2589b8405d29351a93fef43d4897f": "cd14ac0d1e8772e436aedecf5b24a767",
     "8e1c7f0ebac7585285bac1bf7e62be32eadb7c19": "cd14ac0d1e8772e436aedecf5b24a767",
     "574ef74323c1634ce60db707449cbc1321264c3a": "14720fb222bef4e863020ddde8b49dee",
-    "07efa6e6acbc7bae7597a274cc934a3b137da902": "446ecf9922fd4c15c4105fb9c644ee8f"
+    "07efa6e6acbc7bae7597a274cc934a3b137da902": "446ecf9922fd4c15c4105fb9c644ee8f",
+    "2f79fbb7bfe1d28461afd92391d63bc2172c86e5": "921d51e2a9b97b93db31d4c2e59bde07"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3859,7 +3867,7 @@
     "refs/heads/feat/legacy-fluxadm-ssh": "1eed99f75ea4980c752607a6f0b4cbee1fa85038",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
-    "refs/heads/feat/registry-status-route": "07efa6e6acbc7bae7597a274cc934a3b137da902",
+    "refs/heads/feat/registry-status-route": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
     "refs/heads/feat/support-team-fluxid-list": "0c9fc4b3b93ed34dd118df855ab974e67d4ca981",
     "refs/heads/feat/systemd-ready-notify": "4a2303a38dce29d8a88934a21861d3c73d3fed34",
@@ -4376,7 +4384,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 180,
-    "issued_at": "2026-10-08T06:12:42.666Z"
+    "seq": 181,
+    "issued_at": "2026-10-08T07:30:46.390Z"
   }
 }
