@@ -3527,6 +3527,20 @@
       "branch": "fix/registry-unavailable-during-rebuild",
       "tag": null,
       "derived": true
+    },
+    "74dc890ba334c1ec0896ccc3b49c2ddb": {
+      "published": "2026-10-08",
+      "commit": "9a972ac00405e6ee6a3521134c0d5fcde63335a8",
+      "branch": "development",
+      "tag": null,
+      "derived": true
+    },
+    "783cc10d6addf7392640f8e3a7f6ca5d": {
+      "published": "2026-10-08",
+      "commit": "9a0b28defa16c6c8bf3c4b071306cee779f5d35f",
+      "branch": "fix/registry-unavailable-during-rebuild",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3849,7 +3863,9 @@
     "a31025247df8e167053a77d1dbd58cf0e84ab492": "3c321b4dde1d9f7be0e534eb06df7351",
     "74622dadebac6c810e1a17575aa0eac36dd83d87": "c72b76e5c9937122274fa305116f0cbb",
     "a5431e7da0dcadcdb43e959e2f70c832ad68b355": "c72b76e5c9937122274fa305116f0cbb",
-    "cbdb0558073ff576efc1d98b470a9175a1051f79": "a48718287c5d388fa5b01af38445ddb0"
+    "cbdb0558073ff576efc1d98b470a9175a1051f79": "a48718287c5d388fa5b01af38445ddb0",
+    "9a972ac00405e6ee6a3521134c0d5fcde63335a8": "74dc890ba334c1ec0896ccc3b49c2ddb",
+    "9a0b28defa16c6c8bf3c4b071306cee779f5d35f": "783cc10d6addf7392640f8e3a7f6ca5d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3889,7 +3905,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "a5431e7da0dcadcdb43e959e2f70c832ad68b355",
+    "refs/heads/development": "9a972ac00405e6ee6a3521134c0d5fcde63335a8",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -4034,7 +4050,7 @@
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "a344717ce90c666b58bea2c6d6a86979d3ea5e99",
-    "refs/heads/fix/registry-unavailable-during-rebuild": "cbdb0558073ff576efc1d98b470a9175a1051f79",
+    "refs/heads/fix/registry-unavailable-during-rebuild": "9a0b28defa16c6c8bf3c4b071306cee779f5d35f",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
@@ -4427,7 +4443,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 185,
-    "issued_at": "2026-10-08T10:49:14.729Z"
+    "seq": 186,
+    "issued_at": "2026-10-08T11:03:15.885Z"
   }
 }
