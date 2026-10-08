@@ -3541,6 +3541,20 @@
       "branch": "fix/registry-unavailable-during-rebuild",
       "tag": null,
       "derived": true
+    },
+    "c39aace46c56a2abe805bba58c1150ac": {
+      "published": "2026-10-08",
+      "commit": "236f1851fd74478aa5e602f68ca0e24fe432be6a",
+      "branch": "fix/dns-lookup-fallback",
+      "tag": null,
+      "derived": true
+    },
+    "13785aa6f377bcfdc80e197eb87e9537": {
+      "published": "2026-10-08",
+      "commit": "efed7f7ea3cd99af9fd74fbe73be7743c1ad3e2d",
+      "branch": "fix/registry-private-address-guard",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3865,7 +3879,9 @@
     "a5431e7da0dcadcdb43e959e2f70c832ad68b355": "c72b76e5c9937122274fa305116f0cbb",
     "cbdb0558073ff576efc1d98b470a9175a1051f79": "a48718287c5d388fa5b01af38445ddb0",
     "9a972ac00405e6ee6a3521134c0d5fcde63335a8": "74dc890ba334c1ec0896ccc3b49c2ddb",
-    "9a0b28defa16c6c8bf3c4b071306cee779f5d35f": "783cc10d6addf7392640f8e3a7f6ca5d"
+    "9a0b28defa16c6c8bf3c4b071306cee779f5d35f": "783cc10d6addf7392640f8e3a7f6ca5d",
+    "236f1851fd74478aa5e602f68ca0e24fe432be6a": "c39aace46c56a2abe805bba58c1150ac",
+    "efed7f7ea3cd99af9fd74fbe73be7743c1ad3e2d": "13785aa6f377bcfdc80e197eb87e9537"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4018,7 +4034,7 @@
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
-    "refs/heads/fix/dns-lookup-fallback": "9fc19b7cc2d6ce16793e397f0f3d1de4302981b1",
+    "refs/heads/fix/dns-lookup-fallback": "236f1851fd74478aa5e602f68ca0e24fe432be6a",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
@@ -4049,7 +4065,7 @@
     "refs/heads/fix/process_apps": "4c308f31a54d9d86a341e97c6edd90a1e98251bd",
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
-    "refs/heads/fix/registry-private-address-guard": "a344717ce90c666b58bea2c6d6a86979d3ea5e99",
+    "refs/heads/fix/registry-private-address-guard": "efed7f7ea3cd99af9fd74fbe73be7743c1ad3e2d",
     "refs/heads/fix/registry-unavailable-during-rebuild": "9a0b28defa16c6c8bf3c4b071306cee779f5d35f",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
@@ -4443,7 +4459,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 186,
-    "issued_at": "2026-10-08T11:03:15.885Z"
+    "seq": 187,
+    "issued_at": "2026-10-08T18:51:25.720Z"
   }
 }
