@@ -3499,6 +3499,20 @@
       "branch": "feat/systemd-ready-notify",
       "tag": null,
       "derived": true
+    },
+    "8c588d83b0a1aee1afb2d9f03f2764d8": {
+      "published": "2026-10-08",
+      "commit": "a478a14ff4c8417da923312c93f4eda4775de6a4",
+      "branch": "fix/health-reports-unmeasured-hardware",
+      "tag": null,
+      "derived": true
+    },
+    "3c321b4dde1d9f7be0e534eb06df7351": {
+      "published": "2026-10-08",
+      "commit": "a31025247df8e167053a77d1dbd58cf0e84ab492",
+      "branch": "fix/spawn-cadence-one-candidate",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3816,7 +3830,9 @@
     "574ef74323c1634ce60db707449cbc1321264c3a": "14720fb222bef4e863020ddde8b49dee",
     "07efa6e6acbc7bae7597a274cc934a3b137da902": "446ecf9922fd4c15c4105fb9c644ee8f",
     "2f79fbb7bfe1d28461afd92391d63bc2172c86e5": "921d51e2a9b97b93db31d4c2e59bde07",
-    "cd40abd53b734b7963cbfc2539cf01663b293391": "941f40f51128b94b06ecf8a564fced04"
+    "cd40abd53b734b7963cbfc2539cf01663b293391": "941f40f51128b94b06ecf8a564fced04",
+    "a478a14ff4c8417da923312c93f4eda4775de6a4": "8c588d83b0a1aee1afb2d9f03f2764d8",
+    "a31025247df8e167053a77d1dbd58cf0e84ab492": "3c321b4dde1d9f7be0e534eb06df7351"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3984,6 +4000,7 @@
     "refs/heads/fix/g-primary-role": "b9527eac1b1e1c81d33627a4980c1b049863f957",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
+    "refs/heads/fix/health-reports-unmeasured-hardware": "a478a14ff4c8417da923312c93f4eda4775de6a4",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
@@ -4012,6 +4029,7 @@
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
     "refs/heads/fix/socketaddress-index-normalization": "44eaeab86aaaef7a1e42d9e72f0455968b5ec626",
     "refs/heads/fix/soft-redeploy-ent": "0fe783130b510faa21235dfe3f2f21a3cf318102",
+    "refs/heads/fix/spawn-cadence-one-candidate": "a31025247df8e167053a77d1dbd58cf0e84ab492",
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
@@ -4392,7 +4410,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 182,
-    "issued_at": "2026-10-08T08:29:24.177Z"
+    "seq": 183,
+    "issued_at": "2026-10-08T08:34:54.255Z"
   }
 }
