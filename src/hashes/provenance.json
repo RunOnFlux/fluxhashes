@@ -3520,6 +3520,13 @@
       "branch": "fix/spawn-cadence-one-candidate",
       "tag": null,
       "derived": true
+    },
+    "a48718287c5d388fa5b01af38445ddb0": {
+      "published": "2026-10-08",
+      "commit": "cbdb0558073ff576efc1d98b470a9175a1051f79",
+      "branch": "fix/registry-unavailable-during-rebuild",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3841,7 +3848,8 @@
     "a478a14ff4c8417da923312c93f4eda4775de6a4": "8c588d83b0a1aee1afb2d9f03f2764d8",
     "a31025247df8e167053a77d1dbd58cf0e84ab492": "3c321b4dde1d9f7be0e534eb06df7351",
     "74622dadebac6c810e1a17575aa0eac36dd83d87": "c72b76e5c9937122274fa305116f0cbb",
-    "a5431e7da0dcadcdb43e959e2f70c832ad68b355": "c72b76e5c9937122274fa305116f0cbb"
+    "a5431e7da0dcadcdb43e959e2f70c832ad68b355": "c72b76e5c9937122274fa305116f0cbb",
+    "cbdb0558073ff576efc1d98b470a9175a1051f79": "a48718287c5d388fa5b01af38445ddb0"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4026,7 +4034,7 @@
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "a344717ce90c666b58bea2c6d6a86979d3ea5e99",
-    "refs/heads/fix/registry-unavailable-during-rebuild": "f2e46de0a19d29ed099ef84ed25c2c8f509adc13",
+    "refs/heads/fix/registry-unavailable-during-rebuild": "cbdb0558073ff576efc1d98b470a9175a1051f79",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
@@ -4419,7 +4427,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 184,
-    "issued_at": "2026-10-08T09:54:54.242Z"
+    "seq": 185,
+    "issued_at": "2026-10-08T10:49:14.729Z"
   }
 }
