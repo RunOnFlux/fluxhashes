@@ -3513,6 +3513,13 @@
       "branch": "fix/spawn-cadence-one-candidate",
       "tag": null,
       "derived": true
+    },
+    "c72b76e5c9937122274fa305116f0cbb": {
+      "published": "2026-10-08",
+      "commit": "74622dadebac6c810e1a17575aa0eac36dd83d87",
+      "branch": "fix/spawn-cadence-one-candidate",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3832,7 +3839,8 @@
     "2f79fbb7bfe1d28461afd92391d63bc2172c86e5": "921d51e2a9b97b93db31d4c2e59bde07",
     "cd40abd53b734b7963cbfc2539cf01663b293391": "941f40f51128b94b06ecf8a564fced04",
     "a478a14ff4c8417da923312c93f4eda4775de6a4": "8c588d83b0a1aee1afb2d9f03f2764d8",
-    "a31025247df8e167053a77d1dbd58cf0e84ab492": "3c321b4dde1d9f7be0e534eb06df7351"
+    "a31025247df8e167053a77d1dbd58cf0e84ab492": "3c321b4dde1d9f7be0e534eb06df7351",
+    "74622dadebac6c810e1a17575aa0eac36dd83d87": "c72b76e5c9937122274fa305116f0cbb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4029,7 +4037,7 @@
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
     "refs/heads/fix/socketaddress-index-normalization": "44eaeab86aaaef7a1e42d9e72f0455968b5ec626",
     "refs/heads/fix/soft-redeploy-ent": "0fe783130b510faa21235dfe3f2f21a3cf318102",
-    "refs/heads/fix/spawn-cadence-one-candidate": "a31025247df8e167053a77d1dbd58cf0e84ab492",
+    "refs/heads/fix/spawn-cadence-one-candidate": "74622dadebac6c810e1a17575aa0eac36dd83d87",
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
@@ -4410,7 +4418,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 183,
-    "issued_at": "2026-10-08T08:34:54.255Z"
+    "seq": 184,
+    "issued_at": "2026-10-08T09:54:54.242Z"
   }
 }
