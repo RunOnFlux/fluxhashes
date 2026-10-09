@@ -3562,6 +3562,13 @@
       "branch": "feat/systemd-ready-notify",
       "tag": null,
       "derived": true
+    },
+    "1ef7284386cd53908b06c4d462fe993d": {
+      "published": "2026-10-09",
+      "commit": "5445902f14dc675495ead108ee23bf915073b9cc",
+      "branch": "feat/systemd-ready-notify",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3892,7 +3899,8 @@
     "9be2b3e0612e74d63d9072b0dccffc3cfee02cab": "74dc890ba334c1ec0896ccc3b49c2ddb",
     "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff": "74dc890ba334c1ec0896ccc3b49c2ddb",
     "7d8faf5876c30f4678ad87b284fe62b96f50ae8c": "74dc890ba334c1ec0896ccc3b49c2ddb",
-    "e95cad6e8520650b992870f5b0f4c8fb6277ec27": "35e89b2de080a0b6ade884fc64c1cd88"
+    "e95cad6e8520650b992870f5b0f4c8fb6277ec27": "35e89b2de080a0b6ade884fc64c1cd88",
+    "5445902f14dc675495ead108ee23bf915073b9cc": "1ef7284386cd53908b06c4d462fe993d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3954,7 +3962,7 @@
     "refs/heads/feat/registry-status-route": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
     "refs/heads/feat/release-gate": "3ee1c829bab88b2583bddba86f2574666aa3c36e",
     "refs/heads/feat/support-team-fluxid-list": "0c9fc4b3b93ed34dd118df855ab974e67d4ca981",
-    "refs/heads/feat/systemd-ready-notify": "e95cad6e8520650b992870f5b0f4c8fb6277ec27",
+    "refs/heads/feat/systemd-ready-notify": "5445902f14dc675495ead108ee23bf915073b9cc",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
     "refs/heads/feat/uplink-tunnel-detection": "67d3381e69fc740b1e86ed85c4067ffb4abe0201",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
@@ -4471,7 +4479,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 188,
-    "issued_at": "2026-10-09T09:11:13.607Z"
+    "seq": 189,
+    "issued_at": "2026-10-09T10:27:52.291Z"
   }
 }
