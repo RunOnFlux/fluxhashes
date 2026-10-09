@@ -3882,7 +3882,8 @@
     "9a0b28defa16c6c8bf3c4b071306cee779f5d35f": "783cc10d6addf7392640f8e3a7f6ca5d",
     "236f1851fd74478aa5e602f68ca0e24fe432be6a": "c39aace46c56a2abe805bba58c1150ac",
     "efed7f7ea3cd99af9fd74fbe73be7743c1ad3e2d": "13785aa6f377bcfdc80e197eb87e9537",
-    "9be2b3e0612e74d63d9072b0dccffc3cfee02cab": "74dc890ba334c1ec0896ccc3b49c2ddb"
+    "9be2b3e0612e74d63d9072b0dccffc3cfee02cab": "74dc890ba334c1ec0896ccc3b49c2ddb",
+    "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff": "74dc890ba334c1ec0896ccc3b49c2ddb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4050,7 +4051,7 @@
     "refs/heads/fix/g-primary-role": "b9527eac1b1e1c81d33627a4980c1b049863f957",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
-    "refs/heads/fix/harness-keeper-paused-folder": "9be2b3e0612e74d63d9072b0dccffc3cfee02cab",
+    "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/health-reports-unmeasured-hardware": "a478a14ff4c8417da923312c93f4eda4775de6a4",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
