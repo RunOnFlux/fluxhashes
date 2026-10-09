@@ -3576,6 +3576,34 @@
       "branch": "development",
       "tag": null,
       "derived": true
+    },
+    "652d51bddbe9e7bfe957977ca029b20b": {
+      "published": "2026-10-09",
+      "commit": "bfab9ba06a2630c13dc24e1bb292f2fa93523675",
+      "branch": "feat/legacy-fluxadm-ssh",
+      "tag": null,
+      "derived": true
+    },
+    "fb38fce0a2814f950536e097eed3b321": {
+      "published": "2026-10-09",
+      "commit": "dc497d9f6626269130c9af2ea2466febb339d4fb",
+      "branch": "fix/dns-lookup-fallback",
+      "tag": null,
+      "derived": true
+    },
+    "2a6d53121cdfc3774278bca12e7d9bc5": {
+      "published": "2026-10-09",
+      "commit": "aeac00c64e58e488864b4e35332dc9178e19571c",
+      "branch": "fix/node-firewall",
+      "tag": null,
+      "derived": true
+    },
+    "5af190cfd9617a46d0b833af7d2d6da8": {
+      "published": "2026-10-09",
+      "commit": "e20f3da48e062b5155151e8c2ff55458848d0256",
+      "branch": "fix/registry-private-address-guard",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3908,7 +3936,11 @@
     "7d8faf5876c30f4678ad87b284fe62b96f50ae8c": "74dc890ba334c1ec0896ccc3b49c2ddb",
     "e95cad6e8520650b992870f5b0f4c8fb6277ec27": "35e89b2de080a0b6ade884fc64c1cd88",
     "5445902f14dc675495ead108ee23bf915073b9cc": "1ef7284386cd53908b06c4d462fe993d",
-    "941c5d232b40d3906f69930fea97dd858e67ed00": "3a0eb2c51f79394fbe4b4be86f1a040d"
+    "941c5d232b40d3906f69930fea97dd858e67ed00": "3a0eb2c51f79394fbe4b4be86f1a040d",
+    "bfab9ba06a2630c13dc24e1bb292f2fa93523675": "652d51bddbe9e7bfe957977ca029b20b",
+    "dc497d9f6626269130c9af2ea2466febb339d4fb": "fb38fce0a2814f950536e097eed3b321",
+    "aeac00c64e58e488864b4e35332dc9178e19571c": "2a6d53121cdfc3774278bca12e7d9bc5",
+    "e20f3da48e062b5155151e8c2ff55458848d0256": "5af190cfd9617a46d0b833af7d2d6da8"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3964,7 +3996,7 @@
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
-    "refs/heads/feat/legacy-fluxadm-ssh": "1eed99f75ea4980c752607a6f0b4cbee1fa85038",
+    "refs/heads/feat/legacy-fluxadm-ssh": "bfab9ba06a2630c13dc24e1bb292f2fa93523675",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/registry-status-route": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
@@ -4061,7 +4093,7 @@
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
-    "refs/heads/fix/dns-lookup-fallback": "236f1851fd74478aa5e602f68ca0e24fe432be6a",
+    "refs/heads/fix/dns-lookup-fallback": "dc497d9f6626269130c9af2ea2466febb339d4fb",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
@@ -4084,7 +4116,7 @@
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
-    "refs/heads/fix/node-firewall": "907aafa3665981e5ed96be8c85202aecc10b2f70",
+    "refs/heads/fix/node-firewall": "aeac00c64e58e488864b4e35332dc9178e19571c",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
@@ -4093,7 +4125,7 @@
     "refs/heads/fix/process_apps": "4c308f31a54d9d86a341e97c6edd90a1e98251bd",
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
-    "refs/heads/fix/registry-private-address-guard": "efed7f7ea3cd99af9fd74fbe73be7743c1ad3e2d",
+    "refs/heads/fix/registry-private-address-guard": "e20f3da48e062b5155151e8c2ff55458848d0256",
     "refs/heads/fix/registry-unavailable-during-rebuild": "9a0b28defa16c6c8bf3c4b071306cee779f5d35f",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
@@ -4487,7 +4519,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 190,
-    "issued_at": "2026-10-09T11:24:13.278Z"
+    "seq": 191,
+    "issued_at": "2026-10-09T17:04:48.065Z"
   }
 }
