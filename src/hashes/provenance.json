@@ -3569,6 +3569,13 @@
       "branch": "feat/systemd-ready-notify",
       "tag": null,
       "derived": true
+    },
+    "3a0eb2c51f79394fbe4b4be86f1a040d": {
+      "published": "2026-10-09",
+      "commit": "941c5d232b40d3906f69930fea97dd858e67ed00",
+      "branch": "development",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -3900,7 +3907,8 @@
     "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff": "74dc890ba334c1ec0896ccc3b49c2ddb",
     "7d8faf5876c30f4678ad87b284fe62b96f50ae8c": "74dc890ba334c1ec0896ccc3b49c2ddb",
     "e95cad6e8520650b992870f5b0f4c8fb6277ec27": "35e89b2de080a0b6ade884fc64c1cd88",
-    "5445902f14dc675495ead108ee23bf915073b9cc": "1ef7284386cd53908b06c4d462fe993d"
+    "5445902f14dc675495ead108ee23bf915073b9cc": "1ef7284386cd53908b06c4d462fe993d",
+    "941c5d232b40d3906f69930fea97dd858e67ed00": "3a0eb2c51f79394fbe4b4be86f1a040d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -3940,7 +3948,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "7d8faf5876c30f4678ad87b284fe62b96f50ae8c",
+    "refs/heads/development": "941c5d232b40d3906f69930fea97dd858e67ed00",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -4479,7 +4487,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 189,
-    "issued_at": "2026-10-09T10:27:52.291Z"
+    "seq": 190,
+    "issued_at": "2026-10-09T11:24:13.278Z"
   }
 }
