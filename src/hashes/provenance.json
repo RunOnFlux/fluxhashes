@@ -3730,6 +3730,13 @@
       "branch": "fix/upnp-stale-mapping-sweep",
       "tag": null,
       "derived": true
+    },
+    "59bc9c34018945d2b97f097bff0ec720": {
+      "published": "2026-10-10",
+      "commit": "6a6215c099eb969a4324be2ae6f3948a0a252ea6",
+      "branch": "fix/synced-restart-after-fluxos-restart",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4086,7 +4093,8 @@
     "ffd0272312d9fc71fb05a8c377d7d9ec44d0e928": "7848efce9cc7e056b25c5df4635b1607",
     "8dc31dd1b76a6c09a16dcaab7257ed3dc9c91f3d": "bef105053b4983cfc4f645e50418756c",
     "1e7bf0521aea83d3add2dcfb94bdf4240170cc7e": "8dda7151885ea4f1a6dec1285a3b46df",
-    "841e0b75153b674f44fc3e234d11c045abcac525": "ca3fa9b016c3ee0669b4522382071955"
+    "841e0b75153b674f44fc3e234d11c045abcac525": "ca3fa9b016c3ee0669b4522382071955",
+    "6a6215c099eb969a4324be2ae6f3948a0a252ea6": "59bc9c34018945d2b97f097bff0ec720"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4288,7 +4296,7 @@
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
-    "refs/heads/fix/synced-restart-after-fluxos-restart": "1cecccf56378ffe750ac4d48c7e8c09816c47876",
+    "refs/heads/fix/synced-restart-after-fluxos-restart": "6a6215c099eb969a4324be2ae6f3948a0a252ea6",
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
@@ -4666,7 +4674,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 203,
-    "issued_at": "2026-10-10T15:48:33.950Z"
+    "seq": 204,
+    "issued_at": "2026-10-10T19:31:09.912Z"
   }
 }
