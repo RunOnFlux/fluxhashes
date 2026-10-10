@@ -3972,7 +3972,8 @@
     "39f8f08b4834fec1946399534e7b58f3085d1930": "b43a7088d9706cd747434fd8bf30c924",
     "e3e2a1724779a720a0301ce1be3f260758bfa97a": "f76c3a1d673b073296d55846ebd98ebe",
     "477a988b310ca9df5929b2450511a5553fcc6dd9": "6ebc972f89a152b77b01ab239f89095d",
-    "edfee9ab9b48d0b64a89c7d707bd08ab1418c628": "4587b5b4b36440cbd9a7915e8a4a33e2"
+    "edfee9ab9b48d0b64a89c7d707bd08ab1418c628": "4587b5b4b36440cbd9a7915e8a4a33e2",
+    "b2c4c91ea7c38be577996a6758be987b2bb478af": "b43a7088d9706cd747434fd8bf30c924"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4028,7 +4029,7 @@
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
-    "refs/heads/feat/legacy-fluxadm-ssh": "39f8f08b4834fec1946399534e7b58f3085d1930",
+    "refs/heads/feat/legacy-fluxadm-ssh": "b2c4c91ea7c38be577996a6758be987b2bb478af",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/registry-status-route": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
