@@ -3660,6 +3660,13 @@
       "branch": "fix/registry-private-address-guard",
       "tag": null,
       "derived": true
+    },
+    "2551d4fcf3fb0cb94a92ed0e64b31dd1": {
+      "published": "2026-10-10",
+      "commit": "2f0d6732c7380a1b642fc4a10151d1951fe10f40",
+      "branch": "fix/registry-unavailable-during-rebuild",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4005,7 +4012,8 @@
     "161219f9eef30ddea84880be5d5d2c1aac9df26d": "8d0f551348a2fca166fea7f456a46541",
     "c41ce58640df0badbd67b7b9e053be4e2f6e32e4": "3a068b2efed81e2c51b668051b365365",
     "a6566cb03ba292cdb2872e4c630eadd59bd21748": "3dd66699cec47e4bdfed11f84c9c6a87",
-    "fa40f6c0d1f26a7b051ba742b745f14028673dea": "6bd08ab28489c48ebe17a7c7205a6907"
+    "fa40f6c0d1f26a7b051ba742b745f14028673dea": "6bd08ab28489c48ebe17a7c7205a6907",
+    "2f0d6732c7380a1b642fc4a10151d1951fe10f40": "2551d4fcf3fb0cb94a92ed0e64b31dd1"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4191,7 +4199,7 @@
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "fa40f6c0d1f26a7b051ba742b745f14028673dea",
-    "refs/heads/fix/registry-unavailable-during-rebuild": "9a0b28defa16c6c8bf3c4b071306cee779f5d35f",
+    "refs/heads/fix/registry-unavailable-during-rebuild": "2f0d6732c7380a1b642fc4a10151d1951fe10f40",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
@@ -4584,7 +4592,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 193,
-    "issued_at": "2026-10-10T12:07:03.152Z"
+    "seq": 194,
+    "issued_at": "2026-10-10T12:47:41.412Z"
   }
 }
