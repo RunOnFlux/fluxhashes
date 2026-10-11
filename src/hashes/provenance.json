@@ -3737,6 +3737,13 @@
       "branch": "fix/synced-restart-after-fluxos-restart",
       "tag": null,
       "derived": true
+    },
+    "2e6e4f9131e82749c28359601fe9d65e": {
+      "published": "2026-10-11",
+      "commit": "57c2e2b9efaa94a88f7658740e207d4a921a7e0e",
+      "branch": "feat/benchmark-socket",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4094,7 +4101,8 @@
     "8dc31dd1b76a6c09a16dcaab7257ed3dc9c91f3d": "bef105053b4983cfc4f645e50418756c",
     "1e7bf0521aea83d3add2dcfb94bdf4240170cc7e": "8dda7151885ea4f1a6dec1285a3b46df",
     "841e0b75153b674f44fc3e234d11c045abcac525": "ca3fa9b016c3ee0669b4522382071955",
-    "6a6215c099eb969a4324be2ae6f3948a0a252ea6": "59bc9c34018945d2b97f097bff0ec720"
+    "6a6215c099eb969a4324be2ae6f3948a0a252ea6": "59bc9c34018945d2b97f097bff0ec720",
+    "57c2e2b9efaa94a88f7658740e207d4a921a7e0e": "2e6e4f9131e82749c28359601fe9d65e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4139,7 +4147,7 @@
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
-    "refs/heads/feat/benchmark-socket": "8ea3affbd95730b97c2148e246a68b00479b88a8",
+    "refs/heads/feat/benchmark-socket": "57c2e2b9efaa94a88f7658740e207d4a921a7e0e",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
@@ -4674,7 +4682,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 204,
-    "issued_at": "2026-10-10T19:31:09.912Z"
+    "seq": 205,
+    "issued_at": "2026-10-11T07:31:26.111Z"
   }
 }
