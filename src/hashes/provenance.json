@@ -3807,6 +3807,13 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "c0987f21d9fa7df8a9104525a5736e8d": {
+      "published": "2026-10-11",
+      "commit": "85aed05091d95f6ba784d2cd9cabfcfb350bf04a",
+      "branch": "fix/wif-compression",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4178,7 +4185,8 @@
     "b8d102d9c3386ecb302bbab9f139d7d5713d882d": "f3fcdfb41f4bf2a609311931bae19f3f",
     "31de8462fbad282070f75ffc2cc531d8691e1dc4": "91219d85d32797309b42eefbe8755ede",
     "60a5ede311e33414cc5294d8d95de292cf42c3a1": "18fd701e18b7b5c9d21d00e49b4b12ff",
-    "caeed1b56743be995e6257d1c8d779b963160f59": "18fd701e18b7b5c9d21d00e49b4b12ff"
+    "caeed1b56743be995e6257d1c8d779b963160f59": "18fd701e18b7b5c9d21d00e49b4b12ff",
+    "85aed05091d95f6ba784d2cd9cabfcfb350bf04a": "c0987f21d9fa7df8a9104525a5736e8d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4392,6 +4400,7 @@
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
     "refs/heads/fix/version-compat-sync-replay": "df9e4c8c7e1b421c141a6e7bfddd4e83c499251f",
+    "refs/heads/fix/wif-compression": "85aed05091d95f6ba784d2cd9cabfcfb350bf04a",
     "refs/heads/fix/zelappsinformation-ghost-fields": "8cabb4d9f8ec78da2a597e46ee861c7f10f18ba1",
     "refs/heads/fixgsyncthingpercomponent": "b86493e0f9037a8130314a4cf4535fdad021fec2",
     "refs/heads/fixunittests": "e30a07f5233937deae6a821974fd2baeda4679ff",
@@ -4759,7 +4768,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 214,
-    "issued_at": "2026-10-11T14:51:13.995Z"
+    "seq": 215,
+    "issued_at": "2026-10-11T17:27:28.948Z"
   }
 }
