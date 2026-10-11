@@ -3793,6 +3793,13 @@
       "branch": "lab/1830-rebased",
       "tag": null,
       "derived": true
+    },
+    "f3fcdfb41f4bf2a609311931bae19f3f": {
+      "published": "2026-10-11",
+      "commit": "b8d102d9c3386ecb302bbab9f139d7d5713d882d",
+      "branch": "fix/health-reports-unmeasured-hardware",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4160,7 +4167,8 @@
     "f376c7b07c50767768746b14d595714ab2a95a6b": "d1f2b667a7b8bea8a67d9caf8e0b409c",
     "ec9691da48bebd1bd2ba22e2879913442b5388b0": "253977155a5ab06f78f55f06ff0eed99",
     "1af289445be9e7aa169014b2eb2a2ed6ef92de98": "8ff60f7457c89b79abbd36af2a627289",
-    "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6": "91219d85d32797309b42eefbe8755ede"
+    "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6": "91219d85d32797309b42eefbe8755ede",
+    "b8d102d9c3386ecb302bbab9f139d7d5713d882d": "f3fcdfb41f4bf2a609311931bae19f3f"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4329,7 +4337,7 @@
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
-    "refs/heads/fix/health-reports-unmeasured-hardware": "a478a14ff4c8417da923312c93f4eda4775de6a4",
+    "refs/heads/fix/health-reports-unmeasured-hardware": "b8d102d9c3386ecb302bbab9f139d7d5713d882d",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
@@ -4743,7 +4751,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 212,
-    "issued_at": "2026-10-11T14:12:41.014Z"
+    "seq": 213,
+    "issued_at": "2026-10-11T14:13:23.230Z"
   }
 }
