@@ -540,6 +540,7 @@ function getHashes() {
     '50f24f8cae7517c9a95bd6f2ce2553de',
     'd1f2b667a7b8bea8a67d9caf8e0b409c',
     '253977155a5ab06f78f55f06ff0eed99',
+    '8ff60f7457c89b79abbd36af2a627289',
   ];
 }
 
