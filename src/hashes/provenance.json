@@ -3849,6 +3849,13 @@
       "branch": "fix/upnp-stale-mapping-sweep",
       "tag": null,
       "derived": true
+    },
+    "e454f93da71099c310167eba8deca127": {
+      "published": "2026-10-11",
+      "commit": "ab28b192085a212d007f0e509b4f2f44bcfa382d",
+      "branch": "fix/election-forget-unlisted-previous-primary",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4226,7 +4233,8 @@
     "47f05408a0e48b4c2c87fc3c8c80b61d5639a9c4": "bc3f9d69e2f4bb89b24711dd7ee17c45",
     "354dbc16369d0b49a7e43ce808ed09fa2420e509": "18ba988201df95ab919ff16cf8cd2b09",
     "104e97c6f504ed9583b53ac44c4f6b558ac61625": "42094f557fc49b8fe5d2d9368462dfc1",
-    "3e51c478a095de28e2122d0ca4a387ef98fbd3a9": "99d2685c7c914b527e4a5ebe35f0978f"
+    "3e51c478a095de28e2122d0ca4a387ef98fbd3a9": "99d2685c7c914b527e4a5ebe35f0978f",
+    "ab28b192085a212d007f0e509b4f2f44bcfa382d": "e454f93da71099c310167eba8deca127"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4381,6 +4389,7 @@
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "c41ce58640df0badbd67b7b9e053be4e2f6e32e4",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
+    "refs/heads/fix/election-forget-unlisted-previous-primary": "ab28b192085a212d007f0e509b4f2f44bcfa382d",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
@@ -4808,7 +4817,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 219,
-    "issued_at": "2026-10-11T20:45:07.355Z"
+    "seq": 220,
+    "issued_at": "2026-10-11T21:10:32.894Z"
   }
 }
