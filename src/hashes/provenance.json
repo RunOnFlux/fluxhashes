@@ -3800,6 +3800,13 @@
       "branch": "fix/health-reports-unmeasured-hardware",
       "tag": null,
       "derived": true
+    },
+    "18fd701e18b7b5c9d21d00e49b4b12ff": {
+      "published": "2026-10-11",
+      "commit": "60a5ede311e33414cc5294d8d95de292cf42c3a1",
+      "branch": "lab/labnet-profiles",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4169,7 +4176,8 @@
     "1af289445be9e7aa169014b2eb2a2ed6ef92de98": "8ff60f7457c89b79abbd36af2a627289",
     "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6": "91219d85d32797309b42eefbe8755ede",
     "b8d102d9c3386ecb302bbab9f139d7d5713d882d": "f3fcdfb41f4bf2a609311931bae19f3f",
-    "31de8462fbad282070f75ffc2cc531d8691e1dc4": "91219d85d32797309b42eefbe8755ede"
+    "31de8462fbad282070f75ffc2cc531d8691e1dc4": "91219d85d32797309b42eefbe8755ede",
+    "60a5ede311e33414cc5294d8d95de292cf42c3a1": "18fd701e18b7b5c9d21d00e49b4b12ff"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4397,7 +4405,7 @@
     "refs/heads/improvements_requests": "d8c8cdd83d454c5a12ff4afc4de5adadcafff523",
     "refs/heads/increaseimagesize": "b91a5da58a656d318c8ff1f65878d7ac809cd94f",
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
-    "refs/heads/lab/labnet-profiles": "ec9691da48bebd1bd2ba22e2879913442b5388b0",
+    "refs/heads/lab/labnet-profiles": "60a5ede311e33414cc5294d8d95de292cf42c3a1",
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
     "refs/heads/localhost": "4a07e7313e7d6934f16e0c193be6356bf83a6823",
@@ -4750,7 +4758,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 213,
-    "issued_at": "2026-10-11T14:13:23.230Z"
+    "seq": 214,
+    "issued_at": "2026-10-11T14:51:13.995Z"
   }
 }
