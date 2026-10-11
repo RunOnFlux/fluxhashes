@@ -4118,7 +4118,8 @@
     "6a6215c099eb969a4324be2ae6f3948a0a252ea6": "59bc9c34018945d2b97f097bff0ec720",
     "57c2e2b9efaa94a88f7658740e207d4a921a7e0e": "2e6e4f9131e82749c28359601fe9d65e",
     "6984a240368d9c808c256f8662d048fb0037c0ca": "e31c721564651be9efd35c84f02ffc5f",
-    "9dfca3930a9eed2bf419c19ec245fd63e105d40c": "cb9bd9f25ec6f628cdc0167a51c3fa6a"
+    "9dfca3930a9eed2bf419c19ec245fd63e105d40c": "cb9bd9f25ec6f628cdc0167a51c3fa6a",
+    "09ecff1cd927505041c95a765ac85110206a7217": "cb9bd9f25ec6f628cdc0167a51c3fa6a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4327,7 +4328,7 @@
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
-    "refs/heads/fix/upnp-stale-mapping-sweep": "9dfca3930a9eed2bf419c19ec245fd63e105d40c",
+    "refs/heads/fix/upnp-stale-mapping-sweep": "09ecff1cd927505041c95a765ac85110206a7217",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
