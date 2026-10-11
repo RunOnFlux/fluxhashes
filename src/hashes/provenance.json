@@ -3765,6 +3765,13 @@
       "branch": "fix/upnp-stale-mapping-sweep",
       "tag": null,
       "derived": true
+    },
+    "d1f2b667a7b8bea8a67d9caf8e0b409c": {
+      "published": "2026-10-11",
+      "commit": "75d4edb6938f81a30d35205bebfb9633d03e1b5a",
+      "branch": "fix/registry-unavailable-during-rebuild",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4127,7 +4134,8 @@
     "6984a240368d9c808c256f8662d048fb0037c0ca": "e31c721564651be9efd35c84f02ffc5f",
     "9dfca3930a9eed2bf419c19ec245fd63e105d40c": "cb9bd9f25ec6f628cdc0167a51c3fa6a",
     "09ecff1cd927505041c95a765ac85110206a7217": "cb9bd9f25ec6f628cdc0167a51c3fa6a",
-    "909e3319d7425f321326b942be4f0b738282717e": "50f24f8cae7517c9a95bd6f2ce2553de"
+    "909e3319d7425f321326b942be4f0b738282717e": "50f24f8cae7517c9a95bd6f2ce2553de",
+    "75d4edb6938f81a30d35205bebfb9633d03e1b5a": "d1f2b667a7b8bea8a67d9caf8e0b409c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4313,7 +4321,7 @@
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "fa40f6c0d1f26a7b051ba742b745f14028673dea",
-    "refs/heads/fix/registry-unavailable-during-rebuild": "2f0d6732c7380a1b642fc4a10151d1951fe10f40",
+    "refs/heads/fix/registry-unavailable-during-rebuild": "75d4edb6938f81a30d35205bebfb9633d03e1b5a",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
@@ -4708,7 +4716,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 208,
-    "issued_at": "2026-10-11T08:57:20.533Z"
+    "seq": 209,
+    "issued_at": "2026-10-11T09:15:08.264Z"
   }
 }
