@@ -3912,6 +3912,13 @@
       "branch": "development",
       "tag": null,
       "derived": true
+    },
+    "cb5cab0115d5b5a1403108d0d9ffd2bb": {
+      "published": "2026-10-12",
+      "commit": "d94680a88ce473b7e39a1f9a4c86578e014f42b4",
+      "branch": "lab/labnet-profiles",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4299,7 +4306,8 @@
     "0ece30bb3d7c80bacc031bc07e09d99c4665e758": "6425c876356d014afb9ec737406b7539",
     "bb5adc7954dfee14ed546c4b3339f77ac94ce4cd": "2a258269dc524d5855877c0b1b50beed",
     "6638447e67d4c3eca028c553d14c8e55f41b305c": "ad37d6854ed803cc2808e9a084a01473",
-    "c8c73a1a0a537efa63e3f31e4be283215e3e45f8": "0745db8f64304e0deffe72b49d6560eb"
+    "c8c73a1a0a537efa63e3f31e4be283215e3e45f8": "0745db8f64304e0deffe72b49d6560eb",
+    "d94680a88ce473b7e39a1f9a4c86578e014f42b4": "cb5cab0115d5b5a1403108d0d9ffd2bb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4529,7 +4537,7 @@
     "refs/heads/improvements_requests": "d8c8cdd83d454c5a12ff4afc4de5adadcafff523",
     "refs/heads/increaseimagesize": "b91a5da58a656d318c8ff1f65878d7ac809cd94f",
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
-    "refs/heads/lab/labnet-profiles": "0ece30bb3d7c80bacc031bc07e09d99c4665e758",
+    "refs/heads/lab/labnet-profiles": "d94680a88ce473b7e39a1f9a4c86578e014f42b4",
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
     "refs/heads/localhost": "4a07e7313e7d6934f16e0c193be6356bf83a6823",
@@ -4882,7 +4890,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 228,
-    "issued_at": "2026-10-12T08:57:55.998Z"
+    "seq": 229,
+    "issued_at": "2026-10-12T09:30:24.096Z"
   }
 }
