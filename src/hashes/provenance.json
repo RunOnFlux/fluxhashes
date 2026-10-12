@@ -3891,6 +3891,13 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "2a258269dc524d5855877c0b1b50beed": {
+      "published": "2026-10-12",
+      "commit": "bb5adc7954dfee14ed546c4b3339f77ac94ce4cd",
+      "branch": "development",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4275,7 +4282,8 @@
     "aa9060eeae1047ba33f8f5aa3ae1fe266fb133c0": "42094f557fc49b8fe5d2d9368462dfc1",
     "c9cad53ca848efb60ce35b6ddb8919040361eec5": "8bf3e70f77561c3aab2678d34759180c",
     "b1b5fd43cff38a6f5849176bd18503629ca6fdf2": "b663550c24a83baf793e202e2a34eb8e",
-    "0ece30bb3d7c80bacc031bc07e09d99c4665e758": "6425c876356d014afb9ec737406b7539"
+    "0ece30bb3d7c80bacc031bc07e09d99c4665e758": "6425c876356d014afb9ec737406b7539",
+    "bb5adc7954dfee14ed546c4b3339f77ac94ce4cd": "2a258269dc524d5855877c0b1b50beed"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4315,7 +4323,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "b1b5fd43cff38a6f5849176bd18503629ca6fdf2",
+    "refs/heads/development": "bb5adc7954dfee14ed546c4b3339f77ac94ce4cd",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -4858,7 +4866,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 225,
-    "issued_at": "2026-10-12T07:09:00.136Z"
+    "seq": 226,
+    "issued_at": "2026-10-12T08:35:16.682Z"
   }
 }
