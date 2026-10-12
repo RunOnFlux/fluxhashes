@@ -3905,6 +3905,13 @@
       "branch": "fix/health-reports-unmeasured-hardware",
       "tag": null,
       "derived": true
+    },
+    "0745db8f64304e0deffe72b49d6560eb": {
+      "published": "2026-10-12",
+      "commit": "c8c73a1a0a537efa63e3f31e4be283215e3e45f8",
+      "branch": "development",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4291,7 +4298,8 @@
     "b1b5fd43cff38a6f5849176bd18503629ca6fdf2": "b663550c24a83baf793e202e2a34eb8e",
     "0ece30bb3d7c80bacc031bc07e09d99c4665e758": "6425c876356d014afb9ec737406b7539",
     "bb5adc7954dfee14ed546c4b3339f77ac94ce4cd": "2a258269dc524d5855877c0b1b50beed",
-    "6638447e67d4c3eca028c553d14c8e55f41b305c": "ad37d6854ed803cc2808e9a084a01473"
+    "6638447e67d4c3eca028c553d14c8e55f41b305c": "ad37d6854ed803cc2808e9a084a01473",
+    "c8c73a1a0a537efa63e3f31e4be283215e3e45f8": "0745db8f64304e0deffe72b49d6560eb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4331,7 +4339,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "bb5adc7954dfee14ed546c4b3339f77ac94ce4cd",
+    "refs/heads/development": "c8c73a1a0a537efa63e3f31e4be283215e3e45f8",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -4874,7 +4882,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 227,
-    "issued_at": "2026-10-12T08:47:43.323Z"
+    "seq": 228,
+    "issued_at": "2026-10-12T08:57:55.998Z"
   }
 }
