@@ -3926,6 +3926,13 @@
       "branch": "fix/election-forget-unlisted-previous-primary",
       "tag": null,
       "derived": true
+    },
+    "c28f88c37c782ded921c3e9fd5e3f8b0": {
+      "published": "2026-10-13",
+      "commit": "3a54fed5fb7d029fd7b16d7fc8a43e068b26c5c1",
+      "branch": "fix/election-forget-unlisted-previous-primary",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4315,7 +4322,8 @@
     "6638447e67d4c3eca028c553d14c8e55f41b305c": "ad37d6854ed803cc2808e9a084a01473",
     "c8c73a1a0a537efa63e3f31e4be283215e3e45f8": "0745db8f64304e0deffe72b49d6560eb",
     "d94680a88ce473b7e39a1f9a4c86578e014f42b4": "cb5cab0115d5b5a1403108d0d9ffd2bb",
-    "3cec8d3423c7f5802bff81be9f062093da465392": "737517f61cfee3823444d571f99a61d8"
+    "3cec8d3423c7f5802bff81be9f062093da465392": "737517f61cfee3823444d571f99a61d8",
+    "3a54fed5fb7d029fd7b16d7fc8a43e068b26c5c1": "c28f88c37c782ded921c3e9fd5e3f8b0"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4470,7 +4478,7 @@
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "c41ce58640df0badbd67b7b9e053be4e2f6e32e4",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
-    "refs/heads/fix/election-forget-unlisted-previous-primary": "3cec8d3423c7f5802bff81be9f062093da465392",
+    "refs/heads/fix/election-forget-unlisted-previous-primary": "3a54fed5fb7d029fd7b16d7fc8a43e068b26c5c1",
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
@@ -4898,7 +4906,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 230,
-    "issued_at": "2026-10-13T05:23:21.359Z"
+    "seq": 231,
+    "issued_at": "2026-10-13T12:30:27.840Z"
   }
 }
