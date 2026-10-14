@@ -3961,6 +3961,13 @@
       "branch": "fix/read-only-copy-unsynced-writes",
       "tag": null,
       "derived": true
+    },
+    "b76e4ee20664bc6db7a91276f98f66b7": {
+      "published": "2026-10-14",
+      "commit": "f0cfa32c7ea42815bbb174a73b9007aa683f2348",
+      "branch": "fix/read-only-copy-unsynced-writes",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4360,7 +4367,8 @@
     "d249a60496e54e80d51b6c117472798abfab83d7": "adcaa6996078beaff5d62fe95b2774d2",
     "2a6086657ede306dbc2bd5c0c12dc7a6abdc9bf5": "adcaa6996078beaff5d62fe95b2774d2",
     "25c6beef8b49fe36e14304a880dc1031dad0a8c4": "adcaa6996078beaff5d62fe95b2774d2",
-    "8bb204a14cc574e9e1e1182619f30212c089c71c": "c7bff63248d713c3010fa545b710e97b"
+    "8bb204a14cc574e9e1e1182619f30212c089c71c": "c7bff63248d713c3010fa545b710e97b",
+    "f0cfa32c7ea42815bbb174a73b9007aa683f2348": "b76e4ee20664bc6db7a91276f98f66b7"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4544,7 +4552,7 @@
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
     "refs/heads/fix/preserve-hash-in-enterprise-apps": "fcf39a03b4b5ed01aa3f6820a1e8109bfca07d68",
     "refs/heads/fix/process_apps": "4c308f31a54d9d86a341e97c6edd90a1e98251bd",
-    "refs/heads/fix/read-only-copy-unsynced-writes": "8bb204a14cc574e9e1e1182619f30212c089c71c",
+    "refs/heads/fix/read-only-copy-unsynced-writes": "f0cfa32c7ea42815bbb174a73b9007aa683f2348",
     "refs/heads/fix/reconciler-heal-detached-network": "dbfa0614d83812045dd03d0853495b718ec8be72",
     "refs/heads/fix/reconciler-recreate-pruned-app-network": "4db9b3f47662ac1287c7fa71b57a8e706dbd8a1a",
     "refs/heads/fix/registry-private-address-guard": "fa40f6c0d1f26a7b051ba742b745f14028673dea",
@@ -4945,7 +4953,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 235,
-    "issued_at": "2026-10-14T13:53:12.629Z"
+    "seq": 236,
+    "issued_at": "2026-10-14T14:12:23.321Z"
   }
 }
