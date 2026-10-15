@@ -4059,6 +4059,13 @@
       "branch": "fix/hash-sync-stream-stall",
       "tag": null,
       "derived": true
+    },
+    "809d8120b6880d229fcd3eeba940bca6": {
+      "published": "2026-10-15",
+      "commit": "dba8604546cc5906be5b36ce2188a710f26614bb",
+      "branch": "fix/upnp-table-exhaustion",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4476,7 +4483,9 @@
     "21c850ba5d898e77d3a37f98a3498f49221b3077": "4c05e0e4fdcd838b6f30e9aa931e3db2",
     "25e11e1b41a37df8d74579d7cce28fe0df664a4e": "e203a4669ff5c274ceadcb587603b2d5",
     "55aa1e958aad8f6504df4b311adc0bebd674789d": "13f3497f6f95adf016a979766853cc54",
-    "412728e73200e4890f8974656537250a2a803349": "169f953e011fd192147e7a0942a5e344"
+    "412728e73200e4890f8974656537250a2a803349": "169f953e011fd192147e7a0942a5e344",
+    "4ac264a18ec6de4b9b294e3ae2d6841b56cce1fb": "13f3497f6f95adf016a979766853cc54",
+    "dba8604546cc5906be5b36ce2188a710f26614bb": "809d8120b6880d229fcd3eeba940bca6"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4512,7 +4521,7 @@
     "refs/heads/burst": "af8267770ab6b37434c2f2a5047c5cb3cdc4c8a4",
     "refs/heads/checkout-loading": "6d97c7e4ce55fd161db36675b74a914b11b28560",
     "refs/heads/chore/eslint-cleanup": "d2a17375e339e5fa2d4382317053ed6efbb78ed3",
-    "refs/heads/chore/nat-upnp-2": "55aa1e958aad8f6504df4b311adc0bebd674789d",
+    "refs/heads/chore/nat-upnp-2": "4ac264a18ec6de4b9b294e3ae2d6841b56cce1fb",
     "refs/heads/copilot/docker-restart-policy": "719bfd8ea5f526888cca51d3646a1fa40a54253f",
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
@@ -4694,7 +4703,7 @@
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
-    "refs/heads/fix/upnp-table-exhaustion": "259be14fad04e08b8f8219fd854b0f5c7a888b54",
+    "refs/heads/fix/upnp-table-exhaustion": "dba8604546cc5906be5b36ce2188a710f26614bb",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
@@ -5069,7 +5078,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 249,
-    "issued_at": "2026-10-15T15:53:31.914Z"
+    "seq": 250,
+    "issued_at": "2026-10-15T17:09:22.676Z"
   }
 }
