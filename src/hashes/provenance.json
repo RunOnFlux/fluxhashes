@@ -4045,6 +4045,13 @@
       "branch": "feat/fluxos-port-file",
       "tag": null,
       "derived": true
+    },
+    "13f3497f6f95adf016a979766853cc54": {
+      "published": "2026-10-15",
+      "commit": "55aa1e958aad8f6504df4b311adc0bebd674789d",
+      "branch": "chore/nat-upnp-2",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4460,7 +4467,8 @@
     "259be14fad04e08b8f8219fd854b0f5c7a888b54": "163bd985bc281390edaedeaa22d5704b",
     "b7f717e5cb3d9c8c4b676c6e87b72ffe2c8be764": "4c05e0e4fdcd838b6f30e9aa931e3db2",
     "21c850ba5d898e77d3a37f98a3498f49221b3077": "4c05e0e4fdcd838b6f30e9aa931e3db2",
-    "25e11e1b41a37df8d74579d7cce28fe0df664a4e": "e203a4669ff5c274ceadcb587603b2d5"
+    "25e11e1b41a37df8d74579d7cce28fe0df664a4e": "e203a4669ff5c274ceadcb587603b2d5",
+    "55aa1e958aad8f6504df4b311adc0bebd674789d": "13f3497f6f95adf016a979766853cc54"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4496,6 +4504,7 @@
     "refs/heads/burst": "af8267770ab6b37434c2f2a5047c5cb3cdc4c8a4",
     "refs/heads/checkout-loading": "6d97c7e4ce55fd161db36675b74a914b11b28560",
     "refs/heads/chore/eslint-cleanup": "d2a17375e339e5fa2d4382317053ed6efbb78ed3",
+    "refs/heads/chore/nat-upnp-2": "55aa1e958aad8f6504df4b311adc0bebd674789d",
     "refs/heads/copilot/docker-restart-policy": "719bfd8ea5f526888cca51d3646a1fa40a54253f",
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
@@ -5051,7 +5060,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 247,
-    "issued_at": "2026-10-15T13:07:30.113Z"
+    "seq": 248,
+    "issued_at": "2026-10-15T13:57:03.964Z"
   }
 }
