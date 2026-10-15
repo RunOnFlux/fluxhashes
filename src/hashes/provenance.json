@@ -3996,6 +3996,13 @@
       "branch": "feat/geolocation-misplaced",
       "tag": null,
       "derived": true
+    },
+    "af7460b27a22f2eca17b76ee34453f3e": {
+      "published": "2026-10-15",
+      "commit": "2e97b0f406457476a10603d831276f08f2bcb129",
+      "branch": "feat/fluxos-port-file",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4403,7 +4410,8 @@
     "3b8584741e5437d869e16a4f88cca28fe1e1ca8d": "40dd698a431ef581f0b625243871af76",
     "35996da95088f188315fbedcdf12c207384951c7": "7b5ec75d52284fc2eed04ee07e548a97",
     "d91447dea92cc3382a30d43137f0d4f58c876aba": "d7cda796a50b43ff878a1811e646691e",
-    "3925dac8e827d13d3e6c0560054f406cc827496b": "c4bff91290bc8f94bfd76e71708e7994"
+    "3925dac8e827d13d3e6c0560054f406cc827496b": "c4bff91290bc8f94bfd76e71708e7994",
+    "2e97b0f406457476a10603d831276f08f2bcb129": "af7460b27a22f2eca17b76ee34453f3e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4458,6 +4466,7 @@
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
+    "refs/heads/feat/fluxos-port-file": "2e97b0f406457476a10603d831276f08f2bcb129",
     "refs/heads/feat/geolocation-misplaced": "3925dac8e827d13d3e6c0560054f406cc827496b",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
     "refs/heads/feat/kernel-taint-report": "d91447dea92cc3382a30d43137f0d4f58c876aba",
@@ -4992,7 +5001,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 240,
-    "issued_at": "2026-10-15T08:47:09.975Z"
+    "seq": 241,
+    "issued_at": "2026-10-15T11:15:59.134Z"
   }
 }
