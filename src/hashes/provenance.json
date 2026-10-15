@@ -3968,6 +3968,13 @@
       "branch": "fix/read-only-copy-unsynced-writes",
       "tag": "v8.21.1",
       "derived": true
+    },
+    "40dd698a431ef581f0b625243871af76": {
+      "published": "2026-10-15",
+      "commit": "3b8584741e5437d869e16a4f88cca28fe1e1ca8d",
+      "branch": "fix/surplus-trim-reads-enterprise-specs",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4371,7 +4378,8 @@
     "f0cfa32c7ea42815bbb174a73b9007aa683f2348": "b76e4ee20664bc6db7a91276f98f66b7",
     "9017238cc8794a50ef162191dbc18714d6779502": "b76e4ee20664bc6db7a91276f98f66b7",
     "489a16a213cffa026f7d9ee737291b5576a2cc25": "b76e4ee20664bc6db7a91276f98f66b7",
-    "9bb1419690914b1fe98209b56a6c3638b7d11c5c": "b76e4ee20664bc6db7a91276f98f66b7"
+    "9bb1419690914b1fe98209b56a6c3638b7d11c5c": "b76e4ee20664bc6db7a91276f98f66b7",
+    "3b8584741e5437d869e16a4f88cca28fe1e1ca8d": "40dd698a431ef581f0b625243871af76"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4575,6 +4583,7 @@
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
+    "refs/heads/fix/surplus-trim-reads-enterprise-specs": "3b8584741e5437d869e16a4f88cca28fe1e1ca8d",
     "refs/heads/fix/synced-restart-after-fluxos-restart": "104e97c6f504ed9583b53ac44c4f6b558ac61625",
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
@@ -4957,7 +4966,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 236,
-    "issued_at": "2026-10-14T14:12:23.321Z"
+    "seq": 237,
+    "issued_at": "2026-10-15T07:20:06.947Z"
   }
 }
