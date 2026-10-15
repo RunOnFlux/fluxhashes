@@ -4094,6 +4094,13 @@
       "branch": "fix/hash-sync-stream-stall",
       "tag": null,
       "derived": true
+    },
+    "d53224f521e060db14400528a50b8d54": {
+      "published": "2026-10-15",
+      "commit": "aae5618f98acf190847d11954582eaaac677ff88",
+      "branch": "fix/g-standby-directory-revert-loop",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4518,7 +4525,8 @@
     "7078f4a94fc31a7d4643bfb47e428fdd61a85d6d": "afc1bc2ee869a5d662103cd60ac00dd7",
     "8c3a38fdb4ff475f69f22397a94087c2db3f370f": "324085ce3481eb4359bd75f448bc8968",
     "7b9dbedfab26087c02f53eda9c55c20d1c2f933d": "324085ce3481eb4359bd75f448bc8968",
-    "93edd61615b8b67fc4270f44e63d36f6414bc71a": "2ca84a307c6805905f9a06e87481fde0"
+    "93edd61615b8b67fc4270f44e63d36f6414bc71a": "2ca84a307c6805905f9a06e87481fde0",
+    "aae5618f98acf190847d11954582eaaac677ff88": "d53224f521e060db14400528a50b8d54"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4689,6 +4697,7 @@
     "refs/heads/fix/g-install-requires-peer-sync": "d5ddf5008dbf3b1ead61a0fe9c489c9587953eb7",
     "refs/heads/fix/g-paused-start": "9ca54d806e7aa1f915b084db3e71237a80f59ff1",
     "refs/heads/fix/g-primary-role": "b9527eac1b1e1c81d33627a4980c1b049863f957",
+    "refs/heads/fix/g-standby-directory-revert-loop": "aae5618f98acf190847d11954582eaaac677ff88",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
@@ -5111,7 +5120,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 254,
-    "issued_at": "2026-10-15T19:46:35.756Z"
+    "seq": 255,
+    "issued_at": "2026-10-15T20:10:51.535Z"
   }
 }
