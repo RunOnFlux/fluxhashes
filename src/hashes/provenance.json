@@ -4164,6 +4164,13 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "e34ac38af20b5a323115da759929f691": {
+      "published": "2026-10-16",
+      "commit": "1d4980f978b223eeded5b0860c370ed35b45d9cc",
+      "branch": "fix/move-proof-from-the-event-log",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4599,7 +4606,8 @@
     "10b3b9971c305f677621546ad95d59b71aac6f6b": "fc9ee3e8fd2688a35c982a996b618761",
     "ebf1a5d9d118d5e67b20d2053c92529b9cf61659": "8ca45be1006385f93223d12b8d574226",
     "bca71776a134ed8dcf4177083c75202598486bee": "8ca45be1006385f93223d12b8d574226",
-    "e8b6b9d076fdbd2beee076fdefeb823643c0182a": "f66ab5c431418b790986ec483e2eed90"
+    "e8b6b9d076fdbd2beee076fdefeb823643c0182a": "f66ab5c431418b790986ec483e2eed90",
+    "1d4980f978b223eeded5b0860c370ed35b45d9cc": "e34ac38af20b5a323115da759929f691"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4783,6 +4791,7 @@
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
+    "refs/heads/fix/move-proof-from-the-event-log": "1d4980f978b223eeded5b0860c370ed35b45d9cc",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
@@ -5195,7 +5204,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 262,
-    "issued_at": "2026-10-16T08:14:26.825Z"
+    "seq": 263,
+    "issued_at": "2026-10-16T10:18:10.281Z"
   }
 }
