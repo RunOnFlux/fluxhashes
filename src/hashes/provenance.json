@@ -4129,6 +4129,13 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "bb40312a4aadbd8bf0817b6e911a4b9d": {
+      "published": "2026-10-16",
+      "commit": "a816760cb7264e52301042d94ef2d3d8ce0d7fb5",
+      "branch": "feat/fluxos-port-file",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4558,7 +4565,8 @@
     "535d185d6329ccaf56d4e0a61d5b8d5013ec027e": "556d83f1eda5650a5e014a49af12cab5",
     "92e2fed6052c74e9aeef150c927aa95b3f45c92a": "31f4eacf8948bed42b112a18d2e568c7",
     "cfc36aeb5bb1938de352f832ff1f0f8aacb79353": "ab885be5065210d10fa1a20e682507dd",
-    "ea82b011d4e991b42cd234449d5e0b8446914164": "852e9fa283d7397258b3c6f1ce6b4c21"
+    "ea82b011d4e991b42cd234449d5e0b8446914164": "852e9fa283d7397258b3c6f1ce6b4c21",
+    "a816760cb7264e52301042d94ef2d3d8ce0d7fb5": "bb40312a4aadbd8bf0817b6e911a4b9d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4614,7 +4622,7 @@
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
-    "refs/heads/feat/fluxos-port-file": "25e11e1b41a37df8d74579d7cce28fe0df664a4e",
+    "refs/heads/feat/fluxos-port-file": "a816760cb7264e52301042d94ef2d3d8ce0d7fb5",
     "refs/heads/feat/geolocation-misplaced": "3925dac8e827d13d3e6c0560054f406cc827496b",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
     "refs/heads/feat/kernel-taint-report": "d91447dea92cc3382a30d43137f0d4f58c876aba",
@@ -5154,7 +5162,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 258,
-    "issued_at": "2026-10-16T06:37:59.412Z"
+    "seq": 259,
+    "issued_at": "2026-10-16T07:02:43.908Z"
   }
 }
