@@ -4178,6 +4178,13 @@
       "branch": "fix/database-timeouts",
       "tag": null,
       "derived": true
+    },
+    "7aa72b15d2941894746059929a7b91ed": {
+      "published": "2026-10-17",
+      "commit": "3a1e4c3d4705b71bb2f5316ed2c2de576c1db7f6",
+      "branch": "fix/every-g-component",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4616,7 +4623,8 @@
     "e8b6b9d076fdbd2beee076fdefeb823643c0182a": "f66ab5c431418b790986ec483e2eed90",
     "1d4980f978b223eeded5b0860c370ed35b45d9cc": "e34ac38af20b5a323115da759929f691",
     "86a659e8e5af0af0ea529507b5ca1bbe3e3a9151": "0d58d30d505f74aae5cff5baaa90f8c2",
-    "d6f39fd9d7e0aedf3d3ef56019b01cf98bdcf9c7": "0d58d30d505f74aae5cff5baaa90f8c2"
+    "d6f39fd9d7e0aedf3d3ef56019b01cf98bdcf9c7": "0d58d30d505f74aae5cff5baaa90f8c2",
+    "3a1e4c3d4705b71bb2f5316ed2c2de576c1db7f6": "7aa72b15d2941894746059929a7b91ed"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4781,6 +4789,7 @@
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
+    "refs/heads/fix/every-g-component": "3a1e4c3d4705b71bb2f5316ed2c2de576c1db7f6",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
@@ -5214,7 +5223,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 264,
-    "issued_at": "2026-10-16T20:35:41.134Z"
+    "seq": 265,
+    "issued_at": "2026-10-17T08:05:05.757Z"
   }
 }
