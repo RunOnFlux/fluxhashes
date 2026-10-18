@@ -4199,6 +4199,13 @@
       "branch": "feat/game-server-cpu-throttle-exempt",
       "tag": null,
       "derived": true
+    },
+    "5f717d43c276cbb2623ac8b4001db294": {
+      "published": "2026-10-18",
+      "commit": "9da7579269162bc91390845ceb461eafc01285db",
+      "branch": "fix/arcane-no-setcap-node",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4641,7 +4648,8 @@
     "3a1e4c3d4705b71bb2f5316ed2c2de576c1db7f6": "7aa72b15d2941894746059929a7b91ed",
     "16ce6de8d552bdbd046f2ae22e55b35ca85e6733": "b09c2a4ead2ee2142efb2c0dd26bdc3d",
     "b88ffd077a690544797c4cdbd307dc8c428e7627": "c4583d351fe53345f764840e8f6cbac0",
-    "a5d3b92e2cde856085183e6a67476df62502293d": "c4583d351fe53345f764840e8f6cbac0"
+    "a5d3b92e2cde856085183e6a67476df62502293d": "c4583d351fe53345f764840e8f6cbac0",
+    "9da7579269162bc91390845ceb461eafc01285db": "5f717d43c276cbb2623ac8b4001db294"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4788,6 +4796,7 @@
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
     "refs/heads/fix/app-volume-placement": "118ee7ed3cd214b45dd4a939c58eab7a38af28e7",
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
+    "refs/heads/fix/arcane-no-setcap-node": "9da7579269162bc91390845ceb461eafc01285db",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
@@ -5241,7 +5250,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 267,
-    "issued_at": "2026-10-17T19:25:31.469Z"
+    "seq": 268,
+    "issued_at": "2026-10-18T13:09:37.407Z"
   }
 }
