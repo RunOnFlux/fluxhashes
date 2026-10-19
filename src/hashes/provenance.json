@@ -4290,6 +4290,20 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "780cabcf9b69b91a2c7568a1d69de07b": {
+      "published": "2026-10-19",
+      "commit": "b47eafa357fa2ffb47e5397b02c3f365b5a4baa2",
+      "branch": "fix/database-timeouts",
+      "tag": null,
+      "derived": true
+    },
+    "0d30317f3a67eddcd2dbd0079435283a": {
+      "published": "2026-10-19",
+      "commit": "26c9a79d6bd777889391de97b7460bbb0c62b1fe",
+      "branch": "fix/host-stall-dos",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4747,7 +4761,9 @@
     "13923afc99893d759e22c979cbf13823321790c2": "bafef85e65f0f18631697ff7d67d65c7",
     "c352ab11ae03964dd7e9c41a643038372577ca81": "2985155b559ab3d3d5f1fe63dcdc8aef",
     "884d5a92e2a8774bcf9cd093ed11031920303c24": "45c7195aacc344e2e143e610cc9e15ac",
-    "92ad5f1cfccafd12affa20b68609e3c73c883778": "938783fd5eb53fa430243750e09cad98"
+    "92ad5f1cfccafd12affa20b68609e3c73c883778": "938783fd5eb53fa430243750e09cad98",
+    "b47eafa357fa2ffb47e5397b02c3f365b5a4baa2": "780cabcf9b69b91a2c7568a1d69de07b",
+    "26c9a79d6bd777889391de97b7460bbb0c62b1fe": "0d30317f3a67eddcd2dbd0079435283a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4907,7 +4923,7 @@
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
-    "refs/heads/fix/database-timeouts": "c352ab11ae03964dd7e9c41a643038372577ca81",
+    "refs/heads/fix/database-timeouts": "b47eafa357fa2ffb47e5397b02c3f365b5a4baa2",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "c41ce58640df0badbd67b7b9e053be4e2f6e32e4",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -4931,7 +4947,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
-    "refs/heads/fix/host-stall-dos": "884d5a92e2a8774bcf9cd093ed11031920303c24",
+    "refs/heads/fix/host-stall-dos": "26c9a79d6bd777889391de97b7460bbb0c62b1fe",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5351,7 +5367,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 278,
-    "issued_at": "2026-10-19T15:00:41.042Z"
+    "seq": 279,
+    "issued_at": "2026-10-19T15:04:22.436Z"
   }
 }
