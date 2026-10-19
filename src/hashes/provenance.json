@@ -4689,7 +4689,8 @@
     "62cf8bc9f29fc0463b7d9f1e7601a971ca687457": "de3810544caca79bbb86f165d5c5a038",
     "40e342c0ab17de0dfc28a8a10157e497d051d372": "7a2d8a7a132e4c39128fadec1bd9c0d0",
     "bfc2750ac9570ce58bfd05e0115120ef9dc686c4": "9d6d9c0e67e45704eb734f6f7334fbf7",
-    "e0411b7eb3d9a9e63107d85f83ce09f36702fef5": "426bf5445649b33ff1c606ebcb2a0fd3"
+    "e0411b7eb3d9a9e63107d85f83ce09f36702fef5": "426bf5445649b33ff1c606ebcb2a0fd3",
+    "bafd728ede70e81d4f803e7a7e38e903d6d6a462": "426bf5445649b33ff1c606ebcb2a0fd3"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4743,7 +4744,7 @@
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
-    "refs/heads/feat/fluxd-credentials": "e0411b7eb3d9a9e63107d85f83ce09f36702fef5",
+    "refs/heads/feat/fluxd-credentials": "bafd728ede70e81d4f803e7a7e38e903d6d6a462",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "a816760cb7264e52301042d94ef2d3d8ce0d7fb5",
