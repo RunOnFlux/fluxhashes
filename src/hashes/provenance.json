@@ -4262,6 +4262,27 @@
       "branch": "fix/upnp-table-exhaustion",
       "tag": null,
       "derived": true
+    },
+    "bafef85e65f0f18631697ff7d67d65c7": {
+      "published": "2026-10-19",
+      "commit": "13923afc99893d759e22c979cbf13823321790c2",
+      "branch": "feat/fluxd-credentials",
+      "tag": null,
+      "derived": true
+    },
+    "2985155b559ab3d3d5f1fe63dcdc8aef": {
+      "published": "2026-10-19",
+      "commit": "c352ab11ae03964dd7e9c41a643038372577ca81",
+      "branch": "fix/database-timeouts",
+      "tag": null,
+      "derived": true
+    },
+    "45c7195aacc344e2e143e610cc9e15ac": {
+      "published": "2026-10-19",
+      "commit": "884d5a92e2a8774bcf9cd093ed11031920303c24",
+      "branch": "fix/host-stall-dos",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4715,7 +4736,10 @@
     "31bab7020977da8a8917e505a5acd07f87775370": "ac5a44890e38435b653fedc50fd85a30",
     "7527522cff9fc13ca54be10dc29cd10a6a7473cf": "13f3497f6f95adf016a979766853cc54",
     "0c675fe3470350b74a1f53418ce11718693bc658": "e379ac2964ef2c7eff0ef81b142a1df0",
-    "785419660746d11b387cb37aef29bff655ec0d35": "d5035b8207112699e7915b810a216fe8"
+    "785419660746d11b387cb37aef29bff655ec0d35": "d5035b8207112699e7915b810a216fe8",
+    "13923afc99893d759e22c979cbf13823321790c2": "bafef85e65f0f18631697ff7d67d65c7",
+    "c352ab11ae03964dd7e9c41a643038372577ca81": "2985155b559ab3d3d5f1fe63dcdc8aef",
+    "884d5a92e2a8774bcf9cd093ed11031920303c24": "45c7195aacc344e2e143e610cc9e15ac"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4769,7 +4793,7 @@
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
-    "refs/heads/feat/fluxd-credentials": "0c675fe3470350b74a1f53418ce11718693bc658",
+    "refs/heads/feat/fluxd-credentials": "13923afc99893d759e22c979cbf13823321790c2",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "a816760cb7264e52301042d94ef2d3d8ce0d7fb5",
@@ -4875,7 +4899,7 @@
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
-    "refs/heads/fix/database-timeouts": "d6f39fd9d7e0aedf3d3ef56019b01cf98bdcf9c7",
+    "refs/heads/fix/database-timeouts": "c352ab11ae03964dd7e9c41a643038372577ca81",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "c41ce58640df0badbd67b7b9e053be4e2f6e32e4",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -4899,6 +4923,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
+    "refs/heads/fix/host-stall-dos": "884d5a92e2a8774bcf9cd093ed11031920303c24",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5318,7 +5343,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 276,
-    "issued_at": "2026-10-19T14:31:41.550Z"
+    "seq": 277,
+    "issued_at": "2026-10-19T14:42:47.560Z"
   }
 }
