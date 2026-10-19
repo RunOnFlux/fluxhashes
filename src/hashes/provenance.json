@@ -4360,6 +4360,13 @@
       "branch": "fix/syncthing-takeover",
       "tag": null,
       "derived": true
+    },
+    "1a52ba625ca6cfa7093396afebc54012": {
+      "published": "2026-10-19",
+      "commit": "2c97bb02b47d53d0f04922c177a01df87d40226c",
+      "branch": "fix/syncthing-takeover",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4827,7 +4834,8 @@
     "05bbc7b63365c94f494d33cd83cd7f6c094cea88": "56646233716657b9a772e5ada7579bee",
     "40db8b86b98590b309fd2a0cccaf1cd3241dd7c8": "7aab675800ff0eb98507b421f1038f12",
     "9af287d8173d614b802aa8364e7396b400e4ce14": "b9189828652babe5017905973b3dd131",
-    "5033959e40907bd1e7d19ba42e6718816d2aafd7": "b5dda579574354bd91c85407854e5977"
+    "5033959e40907bd1e7d19ba42e6718816d2aafd7": "b5dda579574354bd91c85407854e5977",
+    "2c97bb02b47d53d0f04922c177a01df87d40226c": "1a52ba625ca6cfa7093396afebc54012"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5053,7 +5061,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "5033959e40907bd1e7d19ba42e6718816d2aafd7",
+    "refs/heads/fix/syncthing-takeover": "2c97bb02b47d53d0f04922c177a01df87d40226c",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
@@ -5432,7 +5440,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 284,
-    "issued_at": "2026-10-19T18:38:21.378Z"
+    "seq": 285,
+    "issued_at": "2026-10-19T18:45:07.541Z"
   }
 }
