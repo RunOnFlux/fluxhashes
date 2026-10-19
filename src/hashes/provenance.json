@@ -4325,6 +4325,27 @@
       "branch": "development",
       "tag": null,
       "derived": true
+    },
+    "33bcbf8ff508c67968c198560addf595": {
+      "published": "2026-10-19",
+      "commit": "84b37505f18c464a932fd3c198b335b2962a0cc5",
+      "branch": "fix/database-timeouts",
+      "tag": null,
+      "derived": true
+    },
+    "56646233716657b9a772e5ada7579bee": {
+      "published": "2026-10-19",
+      "commit": "05bbc7b63365c94f494d33cd83cd7f6c094cea88",
+      "branch": "fix/host-stall-dos",
+      "tag": null,
+      "derived": true
+    },
+    "7aab675800ff0eb98507b421f1038f12": {
+      "published": "2026-10-19",
+      "commit": "40db8b86b98590b309fd2a0cccaf1cd3241dd7c8",
+      "branch": "fix/syncthing-takeover",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4787,7 +4808,10 @@
     "26c9a79d6bd777889391de97b7460bbb0c62b1fe": "0d30317f3a67eddcd2dbd0079435283a",
     "c3cd5c6e573e1f1daa8af04cf338147073a1a12c": "5a38ad58c380e4f9d9f346e3c724811a",
     "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc": "707aded5656ab137e5f81fe202b6fe7e",
-    "2723f41bd27ebd6115f3c8ab6e3680d58debe412": "43d674e6188defdfc83289222304421a"
+    "2723f41bd27ebd6115f3c8ab6e3680d58debe412": "43d674e6188defdfc83289222304421a",
+    "84b37505f18c464a932fd3c198b335b2962a0cc5": "33bcbf8ff508c67968c198560addf595",
+    "05bbc7b63365c94f494d33cd83cd7f6c094cea88": "56646233716657b9a772e5ada7579bee",
+    "40db8b86b98590b309fd2a0cccaf1cd3241dd7c8": "7aab675800ff0eb98507b421f1038f12"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4947,7 +4971,7 @@
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
-    "refs/heads/fix/database-timeouts": "b47eafa357fa2ffb47e5397b02c3f365b5a4baa2",
+    "refs/heads/fix/database-timeouts": "84b37505f18c464a932fd3c198b335b2962a0cc5",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "c41ce58640df0badbd67b7b9e053be4e2f6e32e4",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -4971,7 +4995,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
-    "refs/heads/fix/host-stall-dos": "26c9a79d6bd777889391de97b7460bbb0c62b1fe",
+    "refs/heads/fix/host-stall-dos": "05bbc7b63365c94f494d33cd83cd7f6c094cea88",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5013,7 +5037,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "c3cd5c6e573e1f1daa8af04cf338147073a1a12c",
+    "refs/heads/fix/syncthing-takeover": "40db8b86b98590b309fd2a0cccaf1cd3241dd7c8",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
@@ -5392,7 +5416,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 282,
-    "issued_at": "2026-10-19T17:26:47.007Z"
+    "seq": 283,
+    "issued_at": "2026-10-19T18:06:14.546Z"
   }
 }
