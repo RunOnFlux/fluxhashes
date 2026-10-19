@@ -4698,7 +4698,8 @@
     "bfc2750ac9570ce58bfd05e0115120ef9dc686c4": "9d6d9c0e67e45704eb734f6f7334fbf7",
     "e0411b7eb3d9a9e63107d85f83ce09f36702fef5": "426bf5445649b33ff1c606ebcb2a0fd3",
     "bafd728ede70e81d4f803e7a7e38e903d6d6a462": "426bf5445649b33ff1c606ebcb2a0fd3",
-    "31bab7020977da8a8917e505a5acd07f87775370": "ac5a44890e38435b653fedc50fd85a30"
+    "31bab7020977da8a8917e505a5acd07f87775370": "ac5a44890e38435b653fedc50fd85a30",
+    "7527522cff9fc13ca54be10dc29cd10a6a7473cf": "13f3497f6f95adf016a979766853cc54"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4734,7 +4735,7 @@
     "refs/heads/burst": "af8267770ab6b37434c2f2a5047c5cb3cdc4c8a4",
     "refs/heads/checkout-loading": "6d97c7e4ce55fd161db36675b74a914b11b28560",
     "refs/heads/chore/eslint-cleanup": "d2a17375e339e5fa2d4382317053ed6efbb78ed3",
-    "refs/heads/chore/nat-upnp-2": "4ac264a18ec6de4b9b294e3ae2d6841b56cce1fb",
+    "refs/heads/chore/nat-upnp-2": "7527522cff9fc13ca54be10dc29cd10a6a7473cf",
     "refs/heads/copilot/docker-restart-policy": "719bfd8ea5f526888cca51d3646a1fa40a54253f",
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
