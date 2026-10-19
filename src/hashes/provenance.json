@@ -4311,6 +4311,13 @@
       "branch": "fix/syncthing-takeover",
       "tag": null,
       "derived": true
+    },
+    "707aded5656ab137e5f81fe202b6fe7e": {
+      "published": "2026-10-19",
+      "commit": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
+      "branch": "fix/every-g-component",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4771,7 +4778,8 @@
     "92ad5f1cfccafd12affa20b68609e3c73c883778": "938783fd5eb53fa430243750e09cad98",
     "b47eafa357fa2ffb47e5397b02c3f365b5a4baa2": "780cabcf9b69b91a2c7568a1d69de07b",
     "26c9a79d6bd777889391de97b7460bbb0c62b1fe": "0d30317f3a67eddcd2dbd0079435283a",
-    "c3cd5c6e573e1f1daa8af04cf338147073a1a12c": "5a38ad58c380e4f9d9f346e3c724811a"
+    "c3cd5c6e573e1f1daa8af04cf338147073a1a12c": "5a38ad58c380e4f9d9f346e3c724811a",
+    "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc": "707aded5656ab137e5f81fe202b6fe7e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4939,7 +4947,7 @@
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
-    "refs/heads/fix/every-g-component": "3a1e4c3d4705b71bb2f5316ed2c2de576c1db7f6",
+    "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
@@ -5376,7 +5384,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 280,
-    "issued_at": "2026-10-19T17:03:41.922Z"
+    "seq": 281,
+    "issued_at": "2026-10-19T17:22:43.347Z"
   }
 }
