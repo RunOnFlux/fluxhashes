@@ -4877,7 +4877,9 @@
     "d0f4261d086a430ebf3751a71c096f17b1e385cc": "3485b002f50f76bbf69c19c2045da69c",
     "71ea706656340a643b79caca47b4bb8873913757": "8f6bf574624efefab0bbb369027595e3",
     "de126cc093c8809ec78832fd305b60c3704ae9e7": "a41a310cfbf853535d908e98bfb9ede4",
-    "f834c8491eee5926795a6a1673af872c24e01557": "33bcbf8ff508c67968c198560addf595"
+    "f834c8491eee5926795a6a1673af872c24e01557": "33bcbf8ff508c67968c198560addf595",
+    "5cf45c3279c15f476cf84fe03eb8b92aa0e06a77": "b9189828652babe5017905973b3dd131",
+    "5fa1da89808be2ceae687db4b8acdb78df41e3cd": "1a52ba625ca6cfa7093396afebc54012"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5062,7 +5064,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
-    "refs/heads/fix/host-stall-dos": "9af287d8173d614b802aa8364e7396b400e4ce14",
+    "refs/heads/fix/host-stall-dos": "5cf45c3279c15f476cf84fe03eb8b92aa0e06a77",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5104,7 +5106,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "2c97bb02b47d53d0f04922c177a01df87d40226c",
+    "refs/heads/fix/syncthing-takeover": "5fa1da89808be2ceae687db4b8acdb78df41e3cd",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
