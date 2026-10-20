@@ -4381,6 +4381,20 @@
       "branch": "fix/upnp-table-exhaustion",
       "tag": null,
       "derived": true
+    },
+    "3485b002f50f76bbf69c19c2045da69c": {
+      "published": "2026-10-20",
+      "commit": "d0f4261d086a430ebf3751a71c096f17b1e385cc",
+      "branch": "chore/nat-upnp-2",
+      "tag": null,
+      "derived": true
+    },
+    "8f6bf574624efefab0bbb369027595e3": {
+      "published": "2026-10-20",
+      "commit": "71ea706656340a643b79caca47b4bb8873913757",
+      "branch": "fix/upnp-table-exhaustion",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4852,7 +4866,9 @@
     "2c97bb02b47d53d0f04922c177a01df87d40226c": "1a52ba625ca6cfa7093396afebc54012",
     "e281e4fa3735bba0459644bbd73199d89cc82599": "6cc5b0ad558fd527bcef66172524cfb7",
     "5c1c62f343eb0a5d1f3ba57f7a8ae4adf3b1dbe2": "13f3497f6f95adf016a979766853cc54",
-    "225980090408bb76c1f60a48be68a4f08fc170ba": "4bf5dbfc3af8e89af67ba21bbe6a436f"
+    "225980090408bb76c1f60a48be68a4f08fc170ba": "4bf5dbfc3af8e89af67ba21bbe6a436f",
+    "d0f4261d086a430ebf3751a71c096f17b1e385cc": "3485b002f50f76bbf69c19c2045da69c",
+    "71ea706656340a643b79caca47b4bb8873913757": "8f6bf574624efefab0bbb369027595e3"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4888,7 +4904,7 @@
     "refs/heads/burst": "af8267770ab6b37434c2f2a5047c5cb3cdc4c8a4",
     "refs/heads/checkout-loading": "6d97c7e4ce55fd161db36675b74a914b11b28560",
     "refs/heads/chore/eslint-cleanup": "d2a17375e339e5fa2d4382317053ed6efbb78ed3",
-    "refs/heads/chore/nat-upnp-2": "5c1c62f343eb0a5d1f3ba57f7a8ae4adf3b1dbe2",
+    "refs/heads/chore/nat-upnp-2": "d0f4261d086a430ebf3751a71c096f17b1e385cc",
     "refs/heads/copilot/docker-restart-policy": "719bfd8ea5f526888cca51d3646a1fa40a54253f",
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
@@ -5083,7 +5099,7 @@
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
-    "refs/heads/fix/upnp-table-exhaustion": "225980090408bb76c1f60a48be68a4f08fc170ba",
+    "refs/heads/fix/upnp-table-exhaustion": "71ea706656340a643b79caca47b4bb8873913757",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
@@ -5458,7 +5474,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 287,
-    "issued_at": "2026-10-20T08:51:46.947Z"
+    "seq": 288,
+    "issued_at": "2026-10-20T09:21:47.813Z"
   }
 }
