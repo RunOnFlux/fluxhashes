@@ -4430,6 +4430,13 @@
       "branch": "fix/upload-created-folders-inherit-owner",
       "tag": null,
       "derived": true
+    },
+    "be43a1f53ae8c21a61bc0012e45b427e": {
+      "published": "2026-10-21",
+      "commit": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
+      "branch": "fix/upload-created-folders-inherit-owner",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4911,7 +4918,8 @@
     "7fd9a3a8d4b53b641bf30e90d8481570455f71d7": "7a7cbcef1b6f1970d15a6c9d5ce5a423",
     "f68b2fdc6d504362e12d01a19acedd076fcfa335": "68d7247274ecc444486eec98eb75b293",
     "7814b32149e2f94c5993422c2be7c1f964ae8144": "5ccc761701f873af3ae91542e1408d98",
-    "6d9ff8056b7fb3641ad0025f24505e4af279bb5e": "641cac573f12b3530a08d267931dd88d"
+    "6d9ff8056b7fb3641ad0025f24505e4af279bb5e": "641cac573f12b3530a08d267931dd88d",
+    "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399": "be43a1f53ae8c21a61bc0012e45b427e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5141,7 +5149,7 @@
     "refs/heads/fix/syncthing-takeover": "5fa1da89808be2ceae687db4b8acdb78df41e3cd",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
-    "refs/heads/fix/upload-created-folders-inherit-owner": "6d9ff8056b7fb3641ad0025f24505e4af279bb5e",
+    "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
@@ -5518,7 +5526,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 293,
-    "issued_at": "2026-10-21T07:02:32.750Z"
+    "seq": 294,
+    "issued_at": "2026-10-21T07:08:46.951Z"
   }
 }
