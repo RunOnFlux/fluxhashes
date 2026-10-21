@@ -4437,6 +4437,13 @@
       "branch": "fix/upload-created-folders-inherit-owner",
       "tag": null,
       "derived": true
+    },
+    "737f56f14e77ca5883cf745c1c7e4de5": {
+      "published": "2026-10-21",
+      "commit": "1691dfd0bba213c3a876f0662576120740417bbb",
+      "branch": "feat/temp-messages-2h",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4919,7 +4926,8 @@
     "f68b2fdc6d504362e12d01a19acedd076fcfa335": "68d7247274ecc444486eec98eb75b293",
     "7814b32149e2f94c5993422c2be7c1f964ae8144": "5ccc761701f873af3ae91542e1408d98",
     "6d9ff8056b7fb3641ad0025f24505e4af279bb5e": "641cac573f12b3530a08d267931dd88d",
-    "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399": "be43a1f53ae8c21a61bc0012e45b427e"
+    "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399": "be43a1f53ae8c21a61bc0012e45b427e",
+    "1691dfd0bba213c3a876f0662576120740417bbb": "737f56f14e77ca5883cf745c1c7e4de5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -4990,6 +4998,7 @@
     "refs/heads/feat/support-team-fluxid-list": "0c9fc4b3b93ed34dd118df855ab974e67d4ca981",
     "refs/heads/feat/systemd-ready-notify": "5445902f14dc675495ead108ee23bf915073b9cc",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
+    "refs/heads/feat/temp-messages-2h": "1691dfd0bba213c3a876f0662576120740417bbb",
     "refs/heads/feat/uplink-tunnel-detection": "67d3381e69fc740b1e86ed85c4067ffb4abe0201",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
     "refs/heads/feat/volume-file-operations": "1f2a4bf3aabc3a03727a869e5ded6abd67443cb4",
@@ -5526,7 +5535,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 294,
-    "issued_at": "2026-10-21T07:08:46.951Z"
+    "seq": 295,
+    "issued_at": "2026-10-21T07:43:20.314Z"
   }
 }
