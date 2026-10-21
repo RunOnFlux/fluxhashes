@@ -4444,6 +4444,13 @@
       "branch": "feat/temp-messages-2h",
       "tag": null,
       "derived": true
+    },
+    "5b1104cfc7cf2685dcb5658cc638e158": {
+      "published": "2026-10-21",
+      "commit": "541750727abe390f6817fbb0fe64f82d051969ae",
+      "branch": "fix/runningsince-local-truth",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4927,7 +4934,8 @@
     "7814b32149e2f94c5993422c2be7c1f964ae8144": "5ccc761701f873af3ae91542e1408d98",
     "6d9ff8056b7fb3641ad0025f24505e4af279bb5e": "641cac573f12b3530a08d267931dd88d",
     "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399": "be43a1f53ae8c21a61bc0012e45b427e",
-    "1691dfd0bba213c3a876f0662576120740417bbb": "737f56f14e77ca5883cf745c1c7e4de5"
+    "1691dfd0bba213c3a876f0662576120740417bbb": "737f56f14e77ca5883cf745c1c7e4de5",
+    "541750727abe390f6817fbb0fe64f82d051969ae": "5b1104cfc7cf2685dcb5658cc638e158"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5138,6 +5146,7 @@
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
+    "refs/heads/fix/runningsince-local-truth": "541750727abe390f6817fbb0fe64f82d051969ae",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
     "refs/heads/fix/security-audit-findings": "9fc71553626eaa310ee670b7d57169b8384c4a85",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
@@ -5535,7 +5544,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 295,
-    "issued_at": "2026-10-21T07:43:20.314Z"
+    "seq": 296,
+    "issued_at": "2026-10-21T07:46:08.982Z"
   }
 }
