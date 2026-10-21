@@ -4472,6 +4472,13 @@
       "branch": "feat/udp-port-test",
       "tag": null,
       "derived": true
+    },
+    "98505b36a513367b9adc5f712628aceb": {
+      "published": "2026-10-21",
+      "commit": "ce1a9ecacf32291e21469b5d2a588bd68697a135",
+      "branch": "feat/udp-port-test",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4960,7 +4967,8 @@
     "39b1fbc010b20f108c82e322af69d4019970a2b8": "a20f2ab9625ce9f3c2aa919d43b67e59",
     "c8b6834382d4095903da3a49195cd33419c3f832": "10d897fa6b99999c7b4327991db968fc",
     "3c039dd400fc790c87a24c8adb4c725eea3fd500": "9fe374f9fd5fe6c8e40cc9f56a5cf588",
-    "8fe628072e7215c6fd80168b9a65e58a6c5e09d8": "c28fc8f8b07caf2023d704b2fe5652b4"
+    "8fe628072e7215c6fd80168b9a65e58a6c5e09d8": "c28fc8f8b07caf2023d704b2fe5652b4",
+    "ce1a9ecacf32291e21469b5d2a588bd68697a135": "98505b36a513367b9adc5f712628aceb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5032,7 +5040,7 @@
     "refs/heads/feat/systemd-ready-notify": "5445902f14dc675495ead108ee23bf915073b9cc",
     "refs/heads/feat/tampering-incident-model": "58335d3f96feff0ebeb1c2a35049828e7133987b",
     "refs/heads/feat/temp-messages-2h": "39b1fbc010b20f108c82e322af69d4019970a2b8",
-    "refs/heads/feat/udp-port-test": "8fe628072e7215c6fd80168b9a65e58a6c5e09d8",
+    "refs/heads/feat/udp-port-test": "ce1a9ecacf32291e21469b5d2a588bd68697a135",
     "refs/heads/feat/uplink-tunnel-detection": "67d3381e69fc740b1e86ed85c4067ffb4abe0201",
     "refs/heads/feat/v8-enterprise-telemetry-graceful-shutdown": "d386d96a9493ef258303d9eff885706b0e93963d",
     "refs/heads/feat/volume-file-operations": "1f2a4bf3aabc3a03727a869e5ded6abd67443cb4",
@@ -5570,7 +5578,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 299,
-    "issued_at": "2026-10-21T10:00:36.245Z"
+    "seq": 300,
+    "issued_at": "2026-10-21T11:17:28.674Z"
   }
 }
