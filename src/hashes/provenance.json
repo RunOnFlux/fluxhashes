@@ -4633,6 +4633,20 @@
       "branch": "fix/host-stall-dos",
       "tag": null,
       "derived": true
+    },
+    "95dbbb92413056b5018a319113f1d5c2": {
+      "published": "2026-10-22",
+      "commit": "3800a7fe12ceb570222e078b5f94058dbc90ae18",
+      "branch": "fix/announced-apps",
+      "tag": null,
+      "derived": true
+    },
+    "194b1d955b783699a9291de3679528cb": {
+      "published": "2026-10-22",
+      "commit": "d543de56876e39a905a4c4333eb09f3c9b91c1b6",
+      "branch": "fix/syncthing-takeover",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5149,7 +5163,9 @@
     "84efbb5c9fd573011be37dddc31c7391aec44ac3": "e2588b352a4872df35e57f5bf3d2868b",
     "bf981ace38e5f7cb5a4d8a2f5583679fd7a3a680": "21faa55aad5cf7fafcd539f115a92880",
     "a6981824f59826829a0e95c41e2d4cbcd222bcbb": "80e25bfb278ec222d595e64bba2fd93a",
-    "ad0359e732a5fd6bd2f9c55f651cba22c4eed58d": "461fa3ab40eb0b56e8ad96a19c75b02c"
+    "ad0359e732a5fd6bd2f9c55f651cba22c4eed58d": "461fa3ab40eb0b56e8ad96a19c75b02c",
+    "3800a7fe12ceb570222e078b5f94058dbc90ae18": "95dbbb92413056b5018a319113f1d5c2",
+    "d543de56876e39a905a4c4333eb09f3c9b91c1b6": "194b1d955b783699a9291de3679528cb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5294,7 +5310,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
-    "refs/heads/fix/announced-apps": "bf981ace38e5f7cb5a4d8a2f5583679fd7a3a680",
+    "refs/heads/fix/announced-apps": "3800a7fe12ceb570222e078b5f94058dbc90ae18",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
@@ -5382,7 +5398,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "84efbb5c9fd573011be37dddc31c7391aec44ac3",
+    "refs/heads/fix/syncthing-takeover": "d543de56876e39a905a4c4333eb09f3c9b91c1b6",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
@@ -5762,7 +5778,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 317,
-    "issued_at": "2026-10-22T20:17:19.957Z"
+    "seq": 318,
+    "issued_at": "2026-10-22T20:25:33.707Z"
   }
 }
