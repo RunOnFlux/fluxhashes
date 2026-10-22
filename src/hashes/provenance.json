@@ -4500,6 +4500,13 @@
       "branch": "fix/announced-apps",
       "tag": null,
       "derived": true
+    },
+    "4ab0dc6b0812db07eb65301f4f11e5ff": {
+      "published": "2026-10-22",
+      "commit": "c576704a49b1f0628ff09614690f373b12311742",
+      "branch": "fix/database-timeouts",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4994,7 +5001,8 @@
     "78b7a76094075a0dab660d4abf7295ded17b4179": "b7cab9c1a5f5f639feef196411bb852e",
     "215fc218554c48fcbfcc8d3bb5dfb30a3dbdbeae": "0ad6d82ba21c084c6b77f5ae1f8fe7b1",
     "6f3062c576944d82d2ae8cbf8eda3ea0b352ca4d": "0ad6d82ba21c084c6b77f5ae1f8fe7b1",
-    "1b8c208418141260007159b7ded5cffb9aaa9c94": "ede8189157adee9d3bbcab5ea19a4f5d"
+    "1b8c208418141260007159b7ded5cffb9aaa9c94": "ede8189157adee9d3bbcab5ea19a4f5d",
+    "c576704a49b1f0628ff09614690f373b12311742": "4ab0dc6b0812db07eb65301f4f11e5ff"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5158,7 +5166,7 @@
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
-    "refs/heads/fix/database-timeouts": "f834c8491eee5926795a6a1673af872c24e01557",
+    "refs/heads/fix/database-timeouts": "c576704a49b1f0628ff09614690f373b12311742",
     "refs/heads/fix/dep-security-bumps": "cde3a54efb4e53179f867f1e09c3010614224e46",
     "refs/heads/fix/dns-lookup-fallback": "c41ce58640df0badbd67b7b9e053be4e2f6e32e4",
     "refs/heads/fix/download-dotfiles": "42df0d38b93d4548b25be824d60e525d3fcc944a",
@@ -5605,7 +5613,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 303,
-    "issued_at": "2026-10-22T08:48:48.853Z"
+    "seq": 304,
+    "issued_at": "2026-10-22T10:17:12.233Z"
   }
 }
