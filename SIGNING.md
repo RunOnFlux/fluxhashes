@@ -92,20 +92,19 @@ published until consumers were updated with a replacement.
 It does not provide revocation — removing a key from the pinned set requires updating consumers.
 Two keys held in the same place buy nothing; the separation is the point.
 
-### The deploy key
+### The push credential
 
-The signer pushes to `master` over SSH with a write deploy key, `HASHLIST_DEPLOY_KEY` in the same
-environment — the one bypass on the master ruleset, which otherwise admits only reviewed PRs with
-`validate` green (repository admins included). The run's own `GITHUB_TOKEN` stays read-only. To
-rotate: generate a fresh keypair, replace the repository deploy key and the environment secret;
-the ruleset's `DeployKey` bypass covers whatever write keys the repository holds, so it needs no
-change — which is also why the repository must hold exactly this one write deploy key.
+The signer pushes to `master` as the **`fluxhashes-signer` GitHub App** (app id 5423299, owned by
+the RunOnFlux organization, installed on this repository only, Contents read and write) — the one
+bypass on the master ruleset, which otherwise admits only reviewed PRs with `validate` green
+(repository admins included). Each run mints an installation token that expires within the hour;
+the app's private key is `HASHLIST_APP_KEY` in the same environment and its id is the environment
+variable `HASHLIST_APP_ID`. The run's own `GITHUB_TOKEN` stays read-only. Commits are authored and
+pushed as `fluxhashes-signer[bot]`.
 
-The workflow also **pins GitHub's SSH host key** — a single `ssh-ed25519` line written to a
-`known_hosts` file for the push, rather than trusting whatever `ssh-keyscan` returns at run time.
-It is a rotation touchpoint: if GitHub ever rotates that key the push fails host verification and
-the signing run goes red, which looks like a credential fault and is not one. The fix is to update
-the pinned line in `.github/workflows/sign-hashlist.yml` against GitHub's published fingerprints.
+To rotate: generate a new key under the app's **Credentials → Key pairs**, replace the
+environment secret, then delete the old key there. The app id and the ruleset bypass do not
+change.
 
 ## Trust
 
