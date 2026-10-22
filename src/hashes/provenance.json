@@ -4493,6 +4493,13 @@
       "branch": "feat/udp-port-test",
       "tag": null,
       "derived": true
+    },
+    "ede8189157adee9d3bbcab5ea19a4f5d": {
+      "published": "2026-10-22",
+      "commit": "1b8c208418141260007159b7ded5cffb9aaa9c94",
+      "branch": "fix/announced-apps",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -4986,7 +4993,8 @@
     "f397faddc14183661c7642bae1cc42a1eaf0942b": "98505b36a513367b9adc5f712628aceb",
     "78b7a76094075a0dab660d4abf7295ded17b4179": "b7cab9c1a5f5f639feef196411bb852e",
     "215fc218554c48fcbfcc8d3bb5dfb30a3dbdbeae": "0ad6d82ba21c084c6b77f5ae1f8fe7b1",
-    "6f3062c576944d82d2ae8cbf8eda3ea0b352ca4d": "0ad6d82ba21c084c6b77f5ae1f8fe7b1"
+    "6f3062c576944d82d2ae8cbf8eda3ea0b352ca4d": "0ad6d82ba21c084c6b77f5ae1f8fe7b1",
+    "1b8c208418141260007159b7ded5cffb9aaa9c94": "ede8189157adee9d3bbcab5ea19a4f5d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5131,6 +5139,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
+    "refs/heads/fix/announced-apps": "1b8c208418141260007159b7ded5cffb9aaa9c94",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
@@ -5596,7 +5605,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 302,
-    "issued_at": "2026-10-21T15:01:31.468Z"
+    "seq": 303,
+    "issued_at": "2026-10-22T08:48:48.853Z"
   }
 }
