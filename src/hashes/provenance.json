@@ -4542,6 +4542,13 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "54a59f1d824b093939c3d125f54ff041": {
+      "published": "2026-10-22",
+      "commit": "c5d4c7920f1d1c76e7acfbab2273f2ba2c33315e",
+      "branch": "fix/syncthing-takeover",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5042,7 +5049,8 @@
     "7120e4c3c640b799211c2d52ecd6825f5b075d3e": "4f7a75f775cc8866bf5306deb9342464",
     "dffef10238d26268015625cf9f09ccf2cf362e01": "677910143d4c0b8798e2052c8a41bf97",
     "93d6531553eb3d8b9c6c3ff0e227c14c6ec3701b": "7bafa9315c99420ee63571d3abd1a19c",
-    "4408eb35d432d360c4383af24ec61c0b21eea6b5": "610db41edb41e60279f0e4642b27ebf7"
+    "4408eb35d432d360c4383af24ec61c0b21eea6b5": "610db41edb41e60279f0e4642b27ebf7",
+    "c5d4c7920f1d1c76e7acfbab2273f2ba2c33315e": "54a59f1d824b093939c3d125f54ff041"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5274,7 +5282,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "dffef10238d26268015625cf9f09ccf2cf362e01",
+    "refs/heads/fix/syncthing-takeover": "c5d4c7920f1d1c76e7acfbab2273f2ba2c33315e",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
@@ -5330,7 +5338,6 @@
     "refs/heads/syslog_ip_patch": "998f9ca21ad9a8f645b4e881ee216590801571e2",
     "refs/heads/terminal": "e681a78c78c5e73736659d8363dae37ce20d65f2",
     "refs/heads/test/holdout-pending-node": "41b009e9935ae7d7e3cef7a2a09eff2284bb929c",
-    "refs/heads/test/signer-app": "6f3062c576944d82d2ae8cbf8eda3ea0b352ca4d",
     "refs/heads/testAuth": "b52a0d5aa48c6180ad1a453876e814119d46ff2a",
     "refs/heads/ui-tweaks": "f64c49ad7c83164449d55dacb326d33cc7fe3172",
     "refs/heads/update/prices": "4379ed50b34c3b12cdc85ba38ee991989356cfb3",
@@ -5655,7 +5662,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 307,
-    "issued_at": "2026-10-22T11:56:57.653Z"
+    "seq": 308,
+    "issued_at": "2026-10-22T12:09:44.524Z"
   }
 }
