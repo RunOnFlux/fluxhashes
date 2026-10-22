@@ -2,7 +2,7 @@ name: validate
 
 # The published list is served by requiring it, so a file that does not load takes the endpoint
 # down. The signer runs validate.js itself before pushing; this run covers human PRs and stands as
-# the live tripwire on master -- the signer's deploy-key pushes trigger it, so every signing commit
+# the live tripwire on master -- the signer's app-token pushes trigger it, so every signing commit
 # gets a green check and a red one always means something real.
 
 on:
