@@ -38,8 +38,8 @@ on:
   schedule:
     - cron: '43 3 * * *'
 
-# The push happens over SSH with the deploy key -- the ruleset's one bypass -- so the run token
-# needs read only.
+# The push authenticates as the fluxhashes-signer GitHub App -- the ruleset's one bypass -- so the
+# run token needs read only.
 permissions:
   contents: read
 
@@ -57,10 +57,24 @@ jobs:
     runs-on: ubuntu-latest
     environment: hashlist-signing
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      # The repository is public: checkout needs no credential and stores none, so the remote's
+      # only credential is the push token, set inside the publish step.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '20'
+
+      # An installation token for this repository, Contents write and nothing else whatever the
+      # app is later granted. It expires within the hour and is revoked when the job ends.
+      - name: Mint the push token
+        id: push-token
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          app-id: ${{ vars.HASHLIST_APP_ID }}
+          private-key: ${{ secrets.HASHLIST_APP_KEY }}
+          permission-contents: write
 
       # Reconcile, sign, verify, publish -- as one step, because the push can race a human PR
       # merge, and recovering means re-syncing to origin/master and reconciling again from scratch.
@@ -71,19 +85,15 @@ jobs:
       - name: Reconcile, sign and publish
         env:
           HASHLIST_SIGNING_SEED_B64: ${{ secrets.HASHLIST_SIGNING_SEED_B64 }}
-          HASHLIST_DEPLOY_KEY: ${{ secrets.HASHLIST_DEPLOY_KEY }}
+          PUSH_TOKEN: ${{ steps.push-token.outputs.token }}
           DISPATCH_COMMIT: ${{ inputs.commit }}
           DISPATCH_REF: ${{ inputs.ref }}
           DISPATCH_REF_TYPE: ${{ inputs.ref_type }}
           DISPATCH_CLAIMED_HASH: ${{ inputs.claimed_hash }}
         run: |
-          umask 077
-          printf '%s\n' "$HASHLIST_DEPLOY_KEY" > "$RUNNER_TEMP/deploy_key"
-          printf 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl\n' > "$RUNNER_TEMP/known_hosts"
-          export GIT_SSH_COMMAND="ssh -F /dev/null -i $RUNNER_TEMP/deploy_key -o IdentitiesOnly=yes -o UserKnownHostsFile=$RUNNER_TEMP/known_hosts"
-
-          git config user.email 'runonfluxbot@gmail.com'
-          git config user.name 'hashlist-signer'
+          git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git config user.email '346266717+fluxhashes-signer[bot]@users.noreply.github.com'
+          git config user.name 'fluxhashes-signer[bot]'
 
           LIST=src/hashes/hashes.js
           SIGNED=src/hashes/hashlist-signed.json
@@ -117,7 +127,7 @@ jobs:
                 ;;
             esac
 
-            if git push --quiet "git@github.com:${GITHUB_REPOSITORY}.git" HEAD:master; then
+            if git push --quiet origin HEAD:master; then
               echo "published ($RESULT)"
               exit 0
             fi
