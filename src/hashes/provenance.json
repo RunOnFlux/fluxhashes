@@ -4591,6 +4591,34 @@
       "branch": "fix/announced-apps",
       "tag": null,
       "derived": true
+    },
+    "80e25bfb278ec222d595e64bba2fd93a": {
+      "published": "2026-10-22",
+      "commit": "db2a1656a3949faeb50fe9c1de5442e69b6c9e42",
+      "branch": "development",
+      "tag": null,
+      "derived": true
+    },
+    "d02463c1cdc6c6da806fee1f13a117e9": {
+      "published": "2026-10-22",
+      "commit": "897b5e1f2e2ee03b7c24f884258b732b92263024",
+      "branch": "fix/announced-apps",
+      "tag": null,
+      "derived": true
+    },
+    "00bcb9ee9553826706162fae85ad3f1d": {
+      "published": "2026-10-22",
+      "commit": "398ddb77b6c9d55e18611993fff5e1cd284dcedf",
+      "branch": "fix/host-stall-dos",
+      "tag": null,
+      "derived": true
+    },
+    "e2588b352a4872df35e57f5bf3d2868b": {
+      "published": "2026-10-22",
+      "commit": "84efbb5c9fd573011be37dddc31c7391aec44ac3",
+      "branch": "fix/syncthing-takeover",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5100,7 +5128,11 @@
     "5d17bb233e21e6b42f5edec7ebfb8c3e04cf22f6": "c2226c4778384f168268d6220916a3b5",
     "95a13045560d99ed56f8c6b53b1291efd003a80d": "421d48b3ecf488bbfb87f9ceb291ada1",
     "4f16af648aec904d11b3d136c299746c77da41a1": "421d48b3ecf488bbfb87f9ceb291ada1",
-    "e084c5a4b05724b5935482606c56f6e747a01530": "c2226c4778384f168268d6220916a3b5"
+    "e084c5a4b05724b5935482606c56f6e747a01530": "c2226c4778384f168268d6220916a3b5",
+    "db2a1656a3949faeb50fe9c1de5442e69b6c9e42": "80e25bfb278ec222d595e64bba2fd93a",
+    "897b5e1f2e2ee03b7c24f884258b732b92263024": "d02463c1cdc6c6da806fee1f13a117e9",
+    "398ddb77b6c9d55e18611993fff5e1cd284dcedf": "00bcb9ee9553826706162fae85ad3f1d",
+    "84efbb5c9fd573011be37dddc31c7391aec44ac3": "e2588b352a4872df35e57f5bf3d2868b"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5141,7 +5173,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "6f3062c576944d82d2ae8cbf8eda3ea0b352ca4d",
+    "refs/heads/development": "db2a1656a3949faeb50fe9c1de5442e69b6c9e42",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -5245,7 +5277,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
-    "refs/heads/fix/announced-apps": "4f16af648aec904d11b3d136c299746c77da41a1",
+    "refs/heads/fix/announced-apps": "897b5e1f2e2ee03b7c24f884258b732b92263024",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
@@ -5289,7 +5321,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
-    "refs/heads/fix/host-stall-dos": "5f73ed54bdaed225851fb2bdde03a03c6f69a296",
+    "refs/heads/fix/host-stall-dos": "398ddb77b6c9d55e18611993fff5e1cd284dcedf",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5332,7 +5364,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "e084c5a4b05724b5935482606c56f6e747a01530",
+    "refs/heads/fix/syncthing-takeover": "84efbb5c9fd573011be37dddc31c7391aec44ac3",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
@@ -5712,7 +5744,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 314,
-    "issued_at": "2026-10-22T13:23:05.916Z"
+    "seq": 315,
+    "issued_at": "2026-10-22T14:31:24.027Z"
   }
 }
