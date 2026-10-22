@@ -4528,6 +4528,13 @@
       "branch": "fix/syncthing-takeover",
       "tag": null,
       "derived": true
+    },
+    "7bafa9315c99420ee63571d3abd1a19c": {
+      "published": "2026-10-22",
+      "commit": "93d6531553eb3d8b9c6c3ff0e227c14c6ec3701b",
+      "branch": "fix/availability-not-listed",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5026,7 +5033,8 @@
     "c576704a49b1f0628ff09614690f373b12311742": "4ab0dc6b0812db07eb65301f4f11e5ff",
     "20569be88067a9721a7671c03d5f1f71bef05a52": "fcca3c9fc9d69b7a7a8d2edb5ea35a5c",
     "7120e4c3c640b799211c2d52ecd6825f5b075d3e": "4f7a75f775cc8866bf5306deb9342464",
-    "dffef10238d26268015625cf9f09ccf2cf362e01": "677910143d4c0b8798e2052c8a41bf97"
+    "dffef10238d26268015625cf9f09ccf2cf362e01": "677910143d4c0b8798e2052c8a41bf97",
+    "93d6531553eb3d8b9c6c3ff0e227c14c6ec3701b": "7bafa9315c99420ee63571d3abd1a19c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5180,6 +5188,7 @@
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
     "refs/heads/fix/arcane-no-setcap-node": "9da7579269162bc91390845ceb461eafc01285db",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
+    "refs/heads/fix/availability-not-listed": "93d6531553eb3d8b9c6c3ff0e227c14c6ec3701b",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/block-paced-work": "535d185d6329ccaf56d4e0a61d5b8d5013ec027e",
@@ -5637,7 +5646,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 305,
-    "issued_at": "2026-10-22T10:46:07.321Z"
+    "seq": 306,
+    "issued_at": "2026-10-22T11:56:24.349Z"
   }
 }
