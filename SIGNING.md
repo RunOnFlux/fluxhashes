@@ -97,10 +97,15 @@ Two keys held in the same place buy nothing; the separation is the point.
 The signer pushes to `master` as the **`fluxhashes-signer` GitHub App** (app id 5423299, owned by
 the RunOnFlux organization, installed on this repository only, Contents read and write) — the one
 bypass on the master ruleset, which otherwise admits only reviewed PRs with `validate` green
-(repository admins included). Each run mints an installation token that expires within the hour;
-the app's private key is `HASHLIST_APP_KEY` in the same environment and its id is the environment
-variable `HASHLIST_APP_ID`. The run's own `GITHUB_TOKEN` stays read-only. Commits are authored and
-pushed as `fluxhashes-signer[bot]`.
+(repository admins included). Each run mints an installation token limited to Contents write,
+which expires within the hour and is revoked when the job ends; it is set as the remote's
+credential only inside the publish step, and checkout stores no credential. The app's private key
+is `HASHLIST_APP_KEY` in the same environment and its id is the environment variable
+`HASHLIST_APP_ID`. The run's own `GITHUB_TOKEN` stays read-only. Commits are authored and pushed
+as `fluxhashes-signer[bot]`.
+
+Every action in this repository's workflows is pinned to a commit SHA, with its version as a
+trailing comment; moving an action to a newer version means updating both.
 
 To rotate: generate a new key under the app's **Credentials → Key pairs**, replace the
 environment secret, then delete the old key there. The app id and the ruleset bypass do not
