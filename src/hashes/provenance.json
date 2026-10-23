@@ -5321,7 +5321,10 @@
     "033ab443cc245e4d7dc7be950737ed2ea5f19be2": "bc230d82814e43be0f9df0f9a4383e49",
     "a41160daac085df0ee68f673f725996f1274f2d6": "c70e549ffacdaaf41055890963def235",
     "114b9f345cc2bf0a883e3724dbddd96d76bade52": "bb723947519b738730f505aa3c129ebf",
-    "cbdbf7ceb30df44b94ecd059b44cbc1fd021e536": "bc230d82814e43be0f9df0f9a4383e49"
+    "cbdbf7ceb30df44b94ecd059b44cbc1fd021e536": "bc230d82814e43be0f9df0f9a4383e49",
+    "83471c634426ab374282642a820a0fc08a3e5d89": "bb723947519b738730f505aa3c129ebf",
+    "6b4e2fbdd4c166ba67b7d96dc2cef188dd993437": "c70e549ffacdaaf41055890963def235",
+    "fd6d9072393da5b2f97b1acd8e3cace923ebf483": "bc230d82814e43be0f9df0f9a4383e49"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5362,7 +5365,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "db2a1656a3949faeb50fe9c1de5442e69b6c9e42",
+    "refs/heads/development": "83471c634426ab374282642a820a0fc08a3e5d89",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -5466,7 +5469,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
-    "refs/heads/fix/announced-apps": "a41160daac085df0ee68f673f725996f1274f2d6",
+    "refs/heads/fix/announced-apps": "6b4e2fbdd4c166ba67b7d96dc2cef188dd993437",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
@@ -5554,7 +5557,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "cbdbf7ceb30df44b94ecd059b44cbc1fd021e536",
+    "refs/heads/fix/syncthing-takeover": "fd6d9072393da5b2f97b1acd8e3cace923ebf483",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
