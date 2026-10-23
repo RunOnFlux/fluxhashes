@@ -4794,6 +4794,13 @@
       "branch": "fix/syncthing-takeover",
       "tag": null,
       "derived": true
+    },
+    "c97026d0437398742358df08e4ae0230": {
+      "published": "2026-10-23",
+      "commit": "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3",
+      "branch": "feat/btc-message-without-bitcoinjs",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5340,7 +5347,8 @@
     "6b4e2fbdd4c166ba67b7d96dc2cef188dd993437": "c70e549ffacdaaf41055890963def235",
     "fd6d9072393da5b2f97b1acd8e3cace923ebf483": "bc230d82814e43be0f9df0f9a4383e49",
     "2a61a55c93df1325f49b5031d21fbc8b2c070970": "0840c013921a322079de7d694417ff42",
-    "fae8965096373b962b099a2bcfb1d90064af8ef1": "7b41ef06150ef8252e62282b7fd0acc6"
+    "fae8965096373b962b099a2bcfb1d90064af8ef1": "7b41ef06150ef8252e62282b7fd0acc6",
+    "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3": "c97026d0437398742358df08e4ae0230"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5387,7 +5395,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
-    "refs/heads/feat/btc-message-without-bitcoinjs": "e281e4fa3735bba0459644bbd73199d89cc82599",
+    "refs/heads/feat/btc-message-without-bitcoinjs": "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
@@ -5953,7 +5961,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 331,
-    "issued_at": "2026-10-23T19:09:20.835Z"
+    "seq": 332,
+    "issued_at": "2026-10-23T19:20:15.601Z"
   }
 }
