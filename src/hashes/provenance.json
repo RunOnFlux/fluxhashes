@@ -4647,6 +4647,13 @@
       "branch": "fix/syncthing-takeover",
       "tag": null,
       "derived": true
+    },
+    "2f05795a8ec67d1d3b4830ad1d5803c9": {
+      "published": "2026-10-23",
+      "commit": "06f64bea9ad97b6f81b2c0d943277204cd1425f1",
+      "branch": "fix/host-stall-dos",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5165,7 +5172,8 @@
     "a6981824f59826829a0e95c41e2d4cbcd222bcbb": "80e25bfb278ec222d595e64bba2fd93a",
     "ad0359e732a5fd6bd2f9c55f651cba22c4eed58d": "461fa3ab40eb0b56e8ad96a19c75b02c",
     "3800a7fe12ceb570222e078b5f94058dbc90ae18": "95dbbb92413056b5018a319113f1d5c2",
-    "d543de56876e39a905a4c4333eb09f3c9b91c1b6": "194b1d955b783699a9291de3679528cb"
+    "d543de56876e39a905a4c4333eb09f3c9b91c1b6": "194b1d955b783699a9291de3679528cb",
+    "06f64bea9ad97b6f81b2c0d943277204cd1425f1": "2f05795a8ec67d1d3b4830ad1d5803c9"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5355,7 +5363,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
-    "refs/heads/fix/host-stall-dos": "ad0359e732a5fd6bd2f9c55f651cba22c4eed58d",
+    "refs/heads/fix/host-stall-dos": "06f64bea9ad97b6f81b2c0d943277204cd1425f1",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5778,7 +5786,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 318,
-    "issued_at": "2026-10-22T20:25:33.707Z"
+    "seq": 319,
+    "issued_at": "2026-10-23T07:05:18.221Z"
   }
 }
