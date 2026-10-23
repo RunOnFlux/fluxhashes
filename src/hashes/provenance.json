@@ -4759,6 +4759,27 @@
       "branch": "fix/syncthing-takeover",
       "tag": null,
       "derived": true
+    },
+    "c70e549ffacdaaf41055890963def235": {
+      "published": "2026-10-23",
+      "commit": "09780d58e69d9c3b94c87977b7f583c6d812501a",
+      "branch": "fix/announced-apps",
+      "tag": null,
+      "derived": true
+    },
+    "bb723947519b738730f505aa3c129ebf": {
+      "published": "2026-10-23",
+      "commit": "329bbdafeeedf157135410590e6a476f291d16e3",
+      "branch": "fix/host-stall-dos",
+      "tag": null,
+      "derived": true
+    },
+    "bc230d82814e43be0f9df0f9a4383e49": {
+      "published": "2026-10-23",
+      "commit": "033ab443cc245e4d7dc7be950737ed2ea5f19be2",
+      "branch": "fix/syncthing-takeover",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5294,7 +5315,10 @@
     "4229ed87cf2f868d83c2fce8bb895b7a2b0da7e8": "306da69e5e369bbe0135cd1766e04b78",
     "04c155de974c6797903c52dc38f4383e38d1ac85": "9c6bdacb2cb5879d035c138d6e468584",
     "54873da620dc7959140927a6a12d9abd3057704f": "915b0bfbdbf8afd53fd8a456007cbbd0",
-    "8f5351f4d93a53bf8f320379022d118c136f9270": "15002655bfc1d201fe93aca276f1b4d5"
+    "8f5351f4d93a53bf8f320379022d118c136f9270": "15002655bfc1d201fe93aca276f1b4d5",
+    "09780d58e69d9c3b94c87977b7f583c6d812501a": "c70e549ffacdaaf41055890963def235",
+    "329bbdafeeedf157135410590e6a476f291d16e3": "bb723947519b738730f505aa3c129ebf",
+    "033ab443cc245e4d7dc7be950737ed2ea5f19be2": "bc230d82814e43be0f9df0f9a4383e49"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5439,7 +5463,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
-    "refs/heads/fix/announced-apps": "04c155de974c6797903c52dc38f4383e38d1ac85",
+    "refs/heads/fix/announced-apps": "09780d58e69d9c3b94c87977b7f583c6d812501a",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
@@ -5484,7 +5508,7 @@
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "bca71776a134ed8dcf4177083c75202598486bee",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
-    "refs/heads/fix/host-stall-dos": "54873da620dc7959140927a6a12d9abd3057704f",
+    "refs/heads/fix/host-stall-dos": "329bbdafeeedf157135410590e6a476f291d16e3",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/ip-change-hold-in-blocks": "a4a8521eb5f7f6a7715a3f79da54cceeda0036a8",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
@@ -5527,7 +5551,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "8f5351f4d93a53bf8f320379022d118c136f9270",
+    "refs/heads/fix/syncthing-takeover": "033ab443cc245e4d7dc7be950737ed2ea5f19be2",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
@@ -5907,7 +5931,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 329,
-    "issued_at": "2026-10-23T14:31:26.436Z"
+    "seq": 330,
+    "issued_at": "2026-10-23T14:57:46.326Z"
   }
 }
