@@ -5350,7 +5350,9 @@
     "fae8965096373b962b099a2bcfb1d90064af8ef1": "7b41ef06150ef8252e62282b7fd0acc6",
     "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3": "c97026d0437398742358df08e4ae0230",
     "4984df310553e28646c17bc23c5e52554dc43152": "0840c013921a322079de7d694417ff42",
-    "9af013b6345b421f4f32413a39a6585a78c93bac": "7b41ef06150ef8252e62282b7fd0acc6"
+    "9af013b6345b421f4f32413a39a6585a78c93bac": "7b41ef06150ef8252e62282b7fd0acc6",
+    "7b353c1dfde2dfdd52f0e54b693b5d4ebf1e30cb": "7b41ef06150ef8252e62282b7fd0acc6",
+    "29087999daedec4dc06412b1d903b4e9cee29d60": "0840c013921a322079de7d694417ff42"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5391,7 +5393,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "83471c634426ab374282642a820a0fc08a3e5d89",
+    "refs/heads/development": "7b353c1dfde2dfdd52f0e54b693b5d4ebf1e30cb",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -5495,7 +5497,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
-    "refs/heads/fix/announced-apps": "4984df310553e28646c17bc23c5e52554dc43152",
+    "refs/heads/fix/announced-apps": "29087999daedec4dc06412b1d903b4e9cee29d60",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
