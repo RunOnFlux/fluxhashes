@@ -5348,7 +5348,9 @@
     "fd6d9072393da5b2f97b1acd8e3cace923ebf483": "bc230d82814e43be0f9df0f9a4383e49",
     "2a61a55c93df1325f49b5031d21fbc8b2c070970": "0840c013921a322079de7d694417ff42",
     "fae8965096373b962b099a2bcfb1d90064af8ef1": "7b41ef06150ef8252e62282b7fd0acc6",
-    "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3": "c97026d0437398742358df08e4ae0230"
+    "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3": "c97026d0437398742358df08e4ae0230",
+    "4984df310553e28646c17bc23c5e52554dc43152": "0840c013921a322079de7d694417ff42",
+    "9af013b6345b421f4f32413a39a6585a78c93bac": "7b41ef06150ef8252e62282b7fd0acc6"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5493,7 +5495,7 @@
     "refs/heads/file_editor": "04c1775737baf421febcbb4c3a5c78490ea19b28",
     "refs/heads/fix-restore-delete": "d1bc30b7c362892c4fd1987d297a7a5c1c0c2d62",
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
-    "refs/heads/fix/announced-apps": "2a61a55c93df1325f49b5031d21fbc8b2c070970",
+    "refs/heads/fix/announced-apps": "4984df310553e28646c17bc23c5e52554dc43152",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
@@ -5581,7 +5583,7 @@
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
     "refs/heads/fix/syncthing-monitor-hot-loop": "96a8dafbcc5b6f9dfb34739c9f2a00e0fffb2d09",
     "refs/heads/fix/syncthing-post-routes": "117674abdc1c8c67a7445d2420e97fe8f4d211b3",
-    "refs/heads/fix/syncthing-takeover": "fae8965096373b962b099a2bcfb1d90064af8ef1",
+    "refs/heads/fix/syncthing-takeover": "9af013b6345b421f4f32413a39a6585a78c93bac",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
