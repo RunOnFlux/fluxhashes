@@ -4808,6 +4808,13 @@
       "branch": "fix/cloudui-atomic-swap",
       "tag": null,
       "derived": true
+    },
+    "ba1ee4f87d7a2479444e2d06d7e87f2c": {
+      "published": "2026-10-25",
+      "commit": "48a0add939dcd4fb9b04e17a14e88351f6108b83",
+      "branch": "fix/app-input-validation",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5364,7 +5371,8 @@
     "e5f5caefdc5e619969d4c044ef20a30a86c168cc": "0840c013921a322079de7d694417ff42",
     "56b7b23ec944f0d06ef8f70e1fc982a63a9c7d9f": "0840c013921a322079de7d694417ff42",
     "9dfef7f4f7989c6d2fc82d8766ff09e090453de9": "0840c013921a322079de7d694417ff42",
-    "c5eb177b86fa9f81ba3968f65024f0154a8f1bbf": "1b9ee18f0987233094a113468d56a186"
+    "c5eb177b86fa9f81ba3968f65024f0154a8f1bbf": "1b9ee18f0987233094a113468d56a186",
+    "48a0add939dcd4fb9b04e17a14e88351f6108b83": "ba1ee4f87d7a2479444e2d06d7e87f2c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5511,6 +5519,7 @@
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
     "refs/heads/fix/announced-apps": "29087999daedec4dc06412b1d903b4e9cee29d60",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
+    "refs/heads/fix/app-input-validation": "48a0add939dcd4fb9b04e17a14e88351f6108b83",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
@@ -5978,7 +5987,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 333,
-    "issued_at": "2026-10-25T06:41:48.008Z"
+    "seq": 334,
+    "issued_at": "2026-10-25T06:47:23.103Z"
   }
 }
