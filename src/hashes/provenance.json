@@ -4829,6 +4829,13 @@
       "branch": "fix/app-input-validation",
       "tag": null,
       "derived": true
+    },
+    "ea3149a05448a3a0d5c53de452e5b7c9": {
+      "published": "2026-10-25",
+      "commit": "6e7a7a6261604908fadee7333ddcf1178665deac",
+      "branch": "fix/app-input-validation",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5388,7 +5395,8 @@
     "c5eb177b86fa9f81ba3968f65024f0154a8f1bbf": "1b9ee18f0987233094a113468d56a186",
     "48a0add939dcd4fb9b04e17a14e88351f6108b83": "ba1ee4f87d7a2479444e2d06d7e87f2c",
     "b4e7151e0236f218e36484724e8560bf55579457": "4f1196d9e5f856cd0fc5f48c7d0705af",
-    "7c84d6b7d68d43c58e01be51650b16885e242fd1": "264455c0d9fbb1a9a2bc7ec233535e53"
+    "7c84d6b7d68d43c58e01be51650b16885e242fd1": "264455c0d9fbb1a9a2bc7ec233535e53",
+    "6e7a7a6261604908fadee7333ddcf1178665deac": "ea3149a05448a3a0d5c53de452e5b7c9"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5535,7 +5543,7 @@
     "refs/heads/fix/8.19-follow-ups": "01f4df5b8e42b8e6f28b10a68fd000fbb7a9c619",
     "refs/heads/fix/announced-apps": "29087999daedec4dc06412b1d903b4e9cee29d60",
     "refs/heads/fix/api-refinements": "21953b40de27edb3e8b9431a9542bb0e5134e478",
-    "refs/heads/fix/app-input-validation": "7c84d6b7d68d43c58e01be51650b16885e242fd1",
+    "refs/heads/fix/app-input-validation": "6e7a7a6261604908fadee7333ddcf1178665deac",
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
@@ -6003,7 +6011,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 336,
-    "issued_at": "2026-10-25T07:26:56.603Z"
+    "seq": 337,
+    "issued_at": "2026-10-25T08:31:11.601Z"
   }
 }
