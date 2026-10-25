@@ -5448,7 +5448,9 @@
     "a652e838a6fdab5dc728b6475dc5abe9326da447": "e5014199a781c62fd75f09f0ef656b9b",
     "9153d2fc8ebea234e1db99b201eb2c505e0afe5d": "9c50d42c017eba31e220433e6ecbe12b",
     "d69b7d7ee3c8cfeff5d5c13236c0636a53e91af6": "9c50d42c017eba31e220433e6ecbe12b",
-    "e2847cc387457aa989a03a25d8c8517640cb20ae": "78498806339d7f1be36dfc5c63c29850"
+    "e2847cc387457aa989a03a25d8c8517640cb20ae": "78498806339d7f1be36dfc5c63c29850",
+    "b45a407febdc7dd6c442f5e15ef5aae116999e90": "9c50d42c017eba31e220433e6ecbe12b",
+    "dd83d6c18e376ffa6215ed73f2e62e4b18673faa": "78498806339d7f1be36dfc5c63c29850"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5668,7 +5670,7 @@
     "refs/heads/fix/runningsince-local-truth": "541750727abe390f6817fbb0fe64f82d051969ae",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
     "refs/heads/fix/security-audit-findings": "9fc71553626eaa310ee670b7d57169b8384c4a85",
-    "refs/heads/fix/seed-mark-when-copy-held": "d69b7d7ee3c8cfeff5d5c13236c0636a53e91af6",
+    "refs/heads/fix/seed-mark-when-copy-held": "b45a407febdc7dd6c442f5e15ef5aae116999e90",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -5690,7 +5692,7 @@
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
-    "refs/heads/fix/upnp-test-mapping-lease": "e2847cc387457aa989a03a25d8c8517640cb20ae",
+    "refs/heads/fix/upnp-test-mapping-lease": "dd83d6c18e376ffa6215ed73f2e62e4b18673faa",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
