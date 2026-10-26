@@ -711,6 +711,10 @@ function getHashes() {
     '78ab8a5c7cb526f5912cdaed1339149d',
     'f1173f81a5219599646e2814b5cde530',
     '24d4eeebbd0f478b572aa1647eb82941',
+    'bdc9f55ad768fb1f9ff1a969570b77c8',
+    'd1672d58a29b74817c1d8c2e5f0af6ef',
+    'cfae6dc1f4ffa2000a701f2bb459c715',
+    '2c9ad08cf1ab482f806dbcc495f83a4a',
   ];
 }
 
