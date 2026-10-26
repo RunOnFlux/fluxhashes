@@ -4913,6 +4913,13 @@
       "branch": "fix/hash-sync-stream-stall",
       "tag": null,
       "derived": true
+    },
+    "999d01ac49b269ae2c72bd229fcb842c": {
+      "published": "2026-10-26",
+      "commit": "c923aebfe07052e77178bd8b99f2a678b2cf6df8",
+      "branch": "fix/move-proof-from-the-event-log",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5490,7 +5497,8 @@
     "17994dded888e0b8c7fcbaf7e8e6f3f1c9818279": "aa66d26ae38c0d0e9f9a22c9e6cd5631",
     "e18fd58d0f3cd28214f1a35f7ff3be58748952c0": "0ca5b43c60e831a1d1c7ad930fc3832b",
     "caee2e3513f6a500e4c735b26ebd1933391f370e": "4aa97766468083440686e559b3fdfa3f",
-    "3e524c90349a2b22c8916a42b11778b4decdb760": "8ab40a42a42cee2c583bfae54ce6c1ed"
+    "3e524c90349a2b22c8916a42b11778b4decdb760": "8ab40a42a42cee2c583bfae54ce6c1ed",
+    "c923aebfe07052e77178bd8b99f2a678b2cf6df8": "999d01ac49b269ae2c72bd229fcb842c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5689,7 +5697,7 @@
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
-    "refs/heads/fix/move-proof-from-the-event-log": "17994dded888e0b8c7fcbaf7e8e6f3f1c9818279",
+    "refs/heads/fix/move-proof-from-the-event-log": "c923aebfe07052e77178bd8b99f2a678b2cf6df8",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
@@ -6108,7 +6116,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 347,
-    "issued_at": "2026-10-26T09:33:42.570Z"
+    "seq": 348,
+    "issued_at": "2026-10-26T10:21:03.892Z"
   }
 }
