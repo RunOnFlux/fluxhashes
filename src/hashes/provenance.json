@@ -5130,6 +5130,13 @@
       "branch": "lab/labnet-profiles-822",
       "tag": null,
       "derived": true
+    },
+    "32de0e9efe60f5436158d29bc2fae603": {
+      "published": "2026-10-28",
+      "commit": "2cec8930c154a169f8434fd554a37fbc8f769d04",
+      "branch": "fix/ip-change-hold-in-blocks",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5744,7 +5751,8 @@
     "817d43a6c5ca618e7628473f8601e1dc6869f596": "88afe0a5f3a87fa1f343cc607211745b",
     "37227a11213cf41c8109d0e44bb2a279410a1c77": "8d5587e53633a36f904f7b5c775ed15c",
     "6de75b1bf3df7a9b164c5588cacd6873fac932d0": "b4489a24a98c87f1fb2ab43db172f18c",
-    "b19b6780e8b717f331f6fee8d5120071c4e5b9bd": "84e4b6619eff145ed39bcb7806ba4900"
+    "b19b6780e8b717f331f6fee8d5120071c4e5b9bd": "84e4b6619eff145ed39bcb7806ba4900",
+    "2cec8930c154a169f8434fd554a37fbc8f769d04": "32de0e9efe60f5436158d29bc2fae603"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5942,7 +5950,7 @@
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/input-and-path-hardening": "4ec05eb46651b231b90b44c00fa06269c57f9807",
-    "refs/heads/fix/ip-change-hold-in-blocks": "37227a11213cf41c8109d0e44bb2a279410a1c77",
+    "refs/heads/fix/ip-change-hold-in-blocks": "2cec8930c154a169f8434fd554a37fbc8f769d04",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
@@ -6367,7 +6375,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 366,
-    "issued_at": "2026-10-28T15:13:59.547Z"
+    "seq": 367,
+    "issued_at": "2026-10-28T15:24:54.350Z"
   }
 }
