@@ -5102,6 +5102,13 @@
       "branch": "fix/input-and-path-hardening",
       "tag": null,
       "derived": true
+    },
+    "88afe0a5f3a87fa1f343cc607211745b": {
+      "published": "2026-10-28",
+      "commit": "a7287cb4bd71d35f062197521304924c25afe5e4",
+      "branch": "fix/app-volume-direct-io-and-redeploy",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5711,7 +5718,8 @@
     "5a3d64ec864b26d9f85f704db469ed2e947cc4ef": "8a585a41b6a3882f87c867683b401d24",
     "539a247d9d8c19b808ffb414d600aaf11503ed53": "458cb56b0acce21ea147907ecdbc1ed4",
     "cd90f63f59a5d884b1c06e0440e3df5fc367ab64": "458cb56b0acce21ea147907ecdbc1ed4",
-    "4ec05eb46651b231b90b44c00fa06269c57f9807": "78fd38b381415898db1102b689c5cae9"
+    "4ec05eb46651b231b90b44c00fa06269c57f9807": "78fd38b381415898db1102b689c5cae9",
+    "a7287cb4bd71d35f062197521304924c25afe5e4": "88afe0a5f3a87fa1f343cc607211745b"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5863,7 +5871,7 @@
     "refs/heads/fix/app-state-sync-liveness": "a0572fe83e74ca2173290f765465439010585845",
     "refs/heads/fix/app-update-after-expiry": "19746fd303b2589b8405d29351a93fef43d4897f",
     "refs/heads/fix/app-update-race": "db132ddce41091e3fca20897b5f9dd9d91f36c84",
-    "refs/heads/fix/app-volume-direct-io-and-redeploy": "d9a64ce5bc2effab2fd5d89c0bf41c2c740407da",
+    "refs/heads/fix/app-volume-direct-io-and-redeploy": "a7287cb4bd71d35f062197521304924c25afe5e4",
     "refs/heads/fix/app-volume-placement": "118ee7ed3cd214b45dd4a939c58eab7a38af28e7",
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
     "refs/heads/fix/arcane-no-setcap-node": "9da7579269162bc91390845ceb461eafc01285db",
@@ -6333,7 +6341,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 363,
-    "issued_at": "2026-10-28T14:01:11.091Z"
+    "seq": 364,
+    "issued_at": "2026-10-28T14:13:20.893Z"
   }
 }
