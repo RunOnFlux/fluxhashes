@@ -5081,6 +5081,13 @@
       "branch": "fix/move-proof-from-the-event-log",
       "tag": null,
       "derived": true
+    },
+    "8a585a41b6a3882f87c867683b401d24": {
+      "published": "2026-10-28",
+      "commit": "5a3d64ec864b26d9f85f704db469ed2e947cc4ef",
+      "branch": "fix/compose-cpu-floor",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5686,7 +5693,8 @@
     "3c5960d1fa0e03eb7dd445f2c746c596931b8cdb": "59dd0e7ef643fd8a0a8b5f3c10220498",
     "1eaee89d88b7e2d567d9c0965206c087aa9fd08f": "eb6f33bea6db2a1ef1fffb19da52a660",
     "a29d631a18fb5cbda4e1ee39af7936c5c213b241": "f58c8df3d7a0d5ea2ad86b77fd967cce",
-    "9b275d92b592f33e32518679d5666c79106f2ae9": "35661e269016119a1e86c93b0e2b17e0"
+    "9b275d92b592f33e32518679d5666c79106f2ae9": "35661e269016119a1e86c93b0e2b17e0",
+    "5a3d64ec864b26d9f85f704db469ed2e947cc4ef": "8a585a41b6a3882f87c867683b401d24"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5852,6 +5860,7 @@
     "refs/heads/fix/cloudui-atomic-swap": "73224dd9a9aae0280212d2029f120330f3829877",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
     "refs/heads/fix/compliance-sweep-follows-policy": "da0e9a05980210c465e6f8f19175750100376fee",
+    "refs/heads/fix/compose-cpu-floor": "5a3d64ec864b26d9f85f704db469ed2e947cc4ef",
     "refs/heads/fix/container-not-found-crash-and-spurious-uninstall": "a4877cc5691198572c459987ec3e0e0a585ce578",
     "refs/heads/fix/cpu-burst-correctness": "5a769b0cf0dbd644c761f083586545fe1a568f42",
     "refs/heads/fix/crossing-dial": "c08ea1f78b87b01ca29d844d86340d1268b63855",
@@ -6307,7 +6316,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 360,
-    "issued_at": "2026-10-28T13:02:36.105Z"
+    "seq": 361,
+    "issued_at": "2026-10-28T13:09:05.620Z"
   }
 }
