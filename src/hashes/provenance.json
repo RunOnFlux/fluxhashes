@@ -5053,6 +5053,34 @@
       "branch": "fix/app-volume-direct-io-and-redeploy",
       "tag": null,
       "derived": true
+    },
+    "59dd0e7ef643fd8a0a8b5f3c10220498": {
+      "published": "2026-10-28",
+      "commit": "3c5960d1fa0e03eb7dd445f2c746c596931b8cdb",
+      "branch": "fix/availability-not-listed",
+      "tag": null,
+      "derived": true
+    },
+    "eb6f33bea6db2a1ef1fffb19da52a660": {
+      "published": "2026-10-28",
+      "commit": "1eaee89d88b7e2d567d9c0965206c087aa9fd08f",
+      "branch": "fix/block-paced-work",
+      "tag": null,
+      "derived": true
+    },
+    "f58c8df3d7a0d5ea2ad86b77fd967cce": {
+      "published": "2026-10-28",
+      "commit": "a29d631a18fb5cbda4e1ee39af7936c5c213b241",
+      "branch": "fix/ip-change-hold-in-blocks",
+      "tag": null,
+      "derived": true
+    },
+    "35661e269016119a1e86c93b0e2b17e0": {
+      "published": "2026-10-28",
+      "commit": "9b275d92b592f33e32518679d5666c79106f2ae9",
+      "branch": "fix/move-proof-from-the-event-log",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5654,7 +5682,11 @@
     "cf9296a1b7b76adca6c2855901d16161f1989c28": "45396d7dd5186d459244cfb8da8a3153",
     "f3e8bb87c326a77ae1018208e6e3609909355161": "891c546a315d46ff6e30abf3af420461",
     "bf039899926bfbc155e9a9853fdf6c3c7098ee5c": "1d644df9c9cce89d78d3e6ba58ae539e",
-    "d9a64ce5bc2effab2fd5d89c0bf41c2c740407da": "130ebb133139132cbeb08951b1edfbf2"
+    "d9a64ce5bc2effab2fd5d89c0bf41c2c740407da": "130ebb133139132cbeb08951b1edfbf2",
+    "3c5960d1fa0e03eb7dd445f2c746c596931b8cdb": "59dd0e7ef643fd8a0a8b5f3c10220498",
+    "1eaee89d88b7e2d567d9c0965206c087aa9fd08f": "eb6f33bea6db2a1ef1fffb19da52a660",
+    "a29d631a18fb5cbda4e1ee39af7936c5c213b241": "f58c8df3d7a0d5ea2ad86b77fd967cce",
+    "9b275d92b592f33e32518679d5666c79106f2ae9": "35661e269016119a1e86c93b0e2b17e0"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5811,10 +5843,10 @@
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
     "refs/heads/fix/arcane-no-setcap-node": "9da7579269162bc91390845ceb461eafc01285db",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
-    "refs/heads/fix/availability-not-listed": "2e59de7e010a1c484e49a39e43c2052bc88617c1",
+    "refs/heads/fix/availability-not-listed": "3c5960d1fa0e03eb7dd445f2c746c596931b8cdb",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
-    "refs/heads/fix/block-paced-work": "cf9296a1b7b76adca6c2855901d16161f1989c28",
+    "refs/heads/fix/block-paced-work": "1eaee89d88b7e2d567d9c0965206c087aa9fd08f",
     "refs/heads/fix/blocked-apps-and-spawner-pool": "69905d6ce7287c5b7554d550f4c5eda827fceba0",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
     "refs/heads/fix/cloudui-atomic-swap": "73224dd9a9aae0280212d2029f120330f3829877",
@@ -5851,12 +5883,12 @@
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/input-and-path-hardening": "86f2dec9f819d41693e797bf8781467846f68deb",
-    "refs/heads/fix/ip-change-hold-in-blocks": "f3e8bb87c326a77ae1018208e6e3609909355161",
+    "refs/heads/fix/ip-change-hold-in-blocks": "a29d631a18fb5cbda4e1ee39af7936c5c213b241",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
-    "refs/heads/fix/move-proof-from-the-event-log": "bf039899926bfbc155e9a9853fdf6c3c7098ee5c",
+    "refs/heads/fix/move-proof-from-the-event-log": "9b275d92b592f33e32518679d5666c79106f2ae9",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
@@ -6275,7 +6307,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 359,
-    "issued_at": "2026-10-28T10:54:39.244Z"
+    "seq": 360,
+    "issued_at": "2026-10-28T13:02:36.105Z"
   }
 }
