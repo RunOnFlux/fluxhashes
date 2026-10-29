@@ -5193,6 +5193,13 @@
       "branch": "fix/upnp-test-mapping-lease",
       "tag": null,
       "derived": true
+    },
+    "7daf13471c4e4f38da5ef28653f1085c": {
+      "published": "2026-10-29",
+      "commit": "45183309831809f9d9065a2eeec7a802e4ac038f",
+      "branch": "feat/fluxd-credentials",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5818,7 +5825,8 @@
     "71f8cf61812c19d181b2be98b0e605df60002a8b": "f467b068203a2e8f0fc84bdd4fe29162",
     "f92150d4ae7f6a26610b9848433acbfd62636ffb": "d4709298082be7e6109cc3a7d8cdafc4",
     "707a56b3e89b775d02b2d4dc40ab1befbf20805d": "4179cc470b336e5c9bb060eb6ab904bb",
-    "03979997ed39e623c974b6ea3a5a4cb76169ed3b": "8e9299d6fccf0eccb4a425ef66c5d60a"
+    "03979997ed39e623c974b6ea3a5a4cb76169ed3b": "8e9299d6fccf0eccb4a425ef66c5d60a",
+    "45183309831809f9d9065a2eeec7a802e4ac038f": "7daf13471c4e4f38da5ef28653f1085c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5874,7 +5882,7 @@
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
-    "refs/heads/feat/fluxd-credentials": "13923afc99893d759e22c979cbf13823321790c2",
+    "refs/heads/feat/fluxd-credentials": "45183309831809f9d9065a2eeec7a802e4ac038f",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "a816760cb7264e52301042d94ef2d3d8ce0d7fb5",
@@ -6441,7 +6449,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 370,
-    "issued_at": "2026-10-29T09:35:38.375Z"
+    "seq": 371,
+    "issued_at": "2026-10-29T10:09:55.708Z"
   }
 }
