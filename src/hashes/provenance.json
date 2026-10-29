@@ -5256,6 +5256,20 @@
       "branch": "fix/input-and-path-hardening",
       "tag": null,
       "derived": true
+    },
+    "3fad46bd75279e256cecdd7f722f8114": {
+      "published": "2026-10-29",
+      "commit": "3465a4a05471e7b854d163bdb1ebcff733dbf304",
+      "branch": "development",
+      "tag": null,
+      "derived": true
+    },
+    "13f2cd3e1898e7f25269b43d3dccf37a": {
+      "published": "2026-10-29",
+      "commit": "976eab742c6484a9d12124dc983e0c2d942ca4a5",
+      "branch": "fix/move-proof-from-the-event-log",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5895,7 +5909,9 @@
     "f87c88a00eb5f4d154c64f6933e9dd08186e19eb": "49a28800ed1a21fc86493e33732090a0",
     "447f7bd937b0590d441b0188ac39de1546a970c4": "c5861a5769064e7445d19b3f037f7f6b",
     "50cf29ae3f8b2395d9287aa7c49a44a000dc1458": "f134f6a784efb976e117eaba36ddf584",
-    "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0": "455799699f7d9f51d96ac52c7eeebb4a"
+    "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0": "455799699f7d9f51d96ac52c7eeebb4a",
+    "3465a4a05471e7b854d163bdb1ebcff733dbf304": "3fad46bd75279e256cecdd7f722f8114",
+    "976eab742c6484a9d12124dc983e0c2d942ca4a5": "13f2cd3e1898e7f25269b43d3dccf37a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -5937,7 +5953,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "e265c9b1ba803f74df2be05a47550bb12486cf91",
+    "refs/heads/development": "3465a4a05471e7b854d163bdb1ebcff733dbf304",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -6098,7 +6114,7 @@
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
-    "refs/heads/fix/move-proof-from-the-event-log": "f87c88a00eb5f4d154c64f6933e9dd08186e19eb",
+    "refs/heads/fix/move-proof-from-the-event-log": "976eab742c6484a9d12124dc983e0c2d942ca4a5",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
@@ -6518,7 +6534,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 378,
-    "issued_at": "2026-10-29T15:18:51.173Z"
+    "seq": 379,
+    "issued_at": "2026-10-29T17:25:15.918Z"
   }
 }
