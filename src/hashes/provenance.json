@@ -5214,6 +5214,13 @@
       "branch": "fix/input-and-path-hardening",
       "tag": null,
       "derived": true
+    },
+    "79d07976674e47d13495c3a30488ed59": {
+      "published": "2026-10-29",
+      "commit": "8af6f2f5a9ee31134c544626c9231c627c116b14",
+      "branch": "fix/seed-mark-when-copy-held",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5842,7 +5849,8 @@
     "03979997ed39e623c974b6ea3a5a4cb76169ed3b": "8e9299d6fccf0eccb4a425ef66c5d60a",
     "45183309831809f9d9065a2eeec7a802e4ac038f": "7daf13471c4e4f38da5ef28653f1085c",
     "7789b608b9370014804b00a92a43910f57b88f7a": "a84049d7a090cdb35ad7a88ddb80bd36",
-    "73ea00e2ee1252de0540d209e2f4cdee6a311983": "07e86411fb4bee474665253b61190ccf"
+    "73ea00e2ee1252de0540d209e2f4cdee6a311983": "07e86411fb4bee474665253b61190ccf",
+    "8af6f2f5a9ee31134c544626c9231c627c116b14": "79d07976674e47d13495c3a30488ed59"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6066,7 +6074,7 @@
     "refs/heads/fix/runningsince-local-truth": "541750727abe390f6817fbb0fe64f82d051969ae",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
     "refs/heads/fix/security-audit-findings": "9fc71553626eaa310ee670b7d57169b8384c4a85",
-    "refs/heads/fix/seed-mark-when-copy-held": "707a56b3e89b775d02b2d4dc40ab1befbf20805d",
+    "refs/heads/fix/seed-mark-when-copy-held": "8af6f2f5a9ee31134c544626c9231c627c116b14",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -6465,7 +6473,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 373,
-    "issued_at": "2026-10-29T10:19:48.456Z"
+    "seq": 374,
+    "issued_at": "2026-10-29T11:40:35.955Z"
   }
 }
