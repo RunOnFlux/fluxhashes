@@ -5277,6 +5277,13 @@
       "branch": "fix/upnp-test-mapping-lease",
       "tag": null,
       "derived": true
+    },
+    "7ba9c2b319487339ba83e2e645b0b8d5": {
+      "published": "2026-10-29",
+      "commit": "e12ee48e1b778647a12f39792dfc6c9a7a6be2a4",
+      "branch": "fix/hash-sync-stream-stall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5919,7 +5926,8 @@
     "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0": "455799699f7d9f51d96ac52c7eeebb4a",
     "3465a4a05471e7b854d163bdb1ebcff733dbf304": "3fad46bd75279e256cecdd7f722f8114",
     "976eab742c6484a9d12124dc983e0c2d942ca4a5": "13f2cd3e1898e7f25269b43d3dccf37a",
-    "7b988356826e89a56e79f5e4ec86d2389bc90a4f": "bd7ef3a59f90919f8f82750373596c0f"
+    "7b988356826e89a56e79f5e4ec86d2389bc90a4f": "bd7ef3a59f90919f8f82750373596c0f",
+    "e12ee48e1b778647a12f39792dfc6c9a7a6be2a4": "7ba9c2b319487339ba83e2e645b0b8d5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6111,7 +6119,7 @@
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
-    "refs/heads/fix/hash-sync-stream-stall": "c4f3178f64aa708bfb7125bc7fd170864c3eec57",
+    "refs/heads/fix/hash-sync-stream-stall": "e12ee48e1b778647a12f39792dfc6c9a7a6be2a4",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
     "refs/heads/fix/host-stall-dos": "114b9f345cc2bf0a883e3724dbddd96d76bade52",
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
@@ -6542,7 +6550,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 380,
-    "issued_at": "2026-10-29T17:30:07.354Z"
+    "seq": 381,
+    "issued_at": "2026-10-29T17:30:36.758Z"
   }
 }
