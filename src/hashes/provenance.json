@@ -5270,6 +5270,13 @@
       "branch": "fix/move-proof-from-the-event-log",
       "tag": null,
       "derived": true
+    },
+    "bd7ef3a59f90919f8f82750373596c0f": {
+      "published": "2026-10-29",
+      "commit": "7b988356826e89a56e79f5e4ec86d2389bc90a4f",
+      "branch": "fix/upnp-test-mapping-lease",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5911,7 +5918,8 @@
     "50cf29ae3f8b2395d9287aa7c49a44a000dc1458": "f134f6a784efb976e117eaba36ddf584",
     "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0": "455799699f7d9f51d96ac52c7eeebb4a",
     "3465a4a05471e7b854d163bdb1ebcff733dbf304": "3fad46bd75279e256cecdd7f722f8114",
-    "976eab742c6484a9d12124dc983e0c2d942ca4a5": "13f2cd3e1898e7f25269b43d3dccf37a"
+    "976eab742c6484a9d12124dc983e0c2d942ca4a5": "13f2cd3e1898e7f25269b43d3dccf37a",
+    "7b988356826e89a56e79f5e4ec86d2389bc90a4f": "bd7ef3a59f90919f8f82750373596c0f"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6157,7 +6165,7 @@
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
-    "refs/heads/fix/upnp-test-mapping-lease": "21d99238efc1f0dfe5aced8c4c84df90e355d30c",
+    "refs/heads/fix/upnp-test-mapping-lease": "7b988356826e89a56e79f5e4ec86d2389bc90a4f",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
@@ -6534,7 +6542,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 379,
-    "issued_at": "2026-10-29T17:25:15.918Z"
+    "seq": 380,
+    "issued_at": "2026-10-29T17:30:07.354Z"
   }
 }
