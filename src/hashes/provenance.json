@@ -5179,6 +5179,20 @@
       "branch": "fix/upnp-test-mapping-lease",
       "tag": null,
       "derived": true
+    },
+    "4179cc470b336e5c9bb060eb6ab904bb": {
+      "published": "2026-10-29",
+      "commit": "707a56b3e89b775d02b2d4dc40ab1befbf20805d",
+      "branch": "fix/seed-mark-when-copy-held",
+      "tag": null,
+      "derived": true
+    },
+    "8e9299d6fccf0eccb4a425ef66c5d60a": {
+      "published": "2026-10-29",
+      "commit": "03979997ed39e623c974b6ea3a5a4cb76169ed3b",
+      "branch": "fix/upnp-test-mapping-lease",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5802,7 +5816,9 @@
     "7dc2019770337c34779b3c386f0b084c1a11449d": "f467b068203a2e8f0fc84bdd4fe29162",
     "f946aee579ad29f8778b954bc7c13b3666eaecce": "d4709298082be7e6109cc3a7d8cdafc4",
     "71f8cf61812c19d181b2be98b0e605df60002a8b": "f467b068203a2e8f0fc84bdd4fe29162",
-    "f92150d4ae7f6a26610b9848433acbfd62636ffb": "d4709298082be7e6109cc3a7d8cdafc4"
+    "f92150d4ae7f6a26610b9848433acbfd62636ffb": "d4709298082be7e6109cc3a7d8cdafc4",
+    "707a56b3e89b775d02b2d4dc40ab1befbf20805d": "4179cc470b336e5c9bb060eb6ab904bb",
+    "03979997ed39e623c974b6ea3a5a4cb76169ed3b": "8e9299d6fccf0eccb4a425ef66c5d60a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6026,7 +6042,7 @@
     "refs/heads/fix/runningsince-local-truth": "541750727abe390f6817fbb0fe64f82d051969ae",
     "refs/heads/fix/same-ip-port-collision": "84eb20a286b392618da0a6ad0cd770df52ac607d",
     "refs/heads/fix/security-audit-findings": "9fc71553626eaa310ee670b7d57169b8384c4a85",
-    "refs/heads/fix/seed-mark-when-copy-held": "71f8cf61812c19d181b2be98b0e605df60002a8b",
+    "refs/heads/fix/seed-mark-when-copy-held": "707a56b3e89b775d02b2d4dc40ab1befbf20805d",
     "refs/heads/fix/skip-availability-check-expired-nodes": "66882f75e65267fde297f00bb07d7fd1d7cecabc",
     "refs/heads/fix/skip-availability-check-ip-not-confirmed": "2e53b2ded58b6c1fe55418431b33237c850103ae",
     "refs/heads/fix/socket-address-default-port-compat": "ab9621e0ed465f3415fbd1edf3652ec6c3c4f207",
@@ -6048,7 +6064,7 @@
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
-    "refs/heads/fix/upnp-test-mapping-lease": "f92150d4ae7f6a26610b9848433acbfd62636ffb",
+    "refs/heads/fix/upnp-test-mapping-lease": "03979997ed39e623c974b6ea3a5a4cb76169ed3b",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
@@ -6425,7 +6441,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 369,
-    "issued_at": "2026-10-28T21:25:24.151Z"
+    "seq": 370,
+    "issued_at": "2026-10-29T09:35:38.375Z"
   }
 }
