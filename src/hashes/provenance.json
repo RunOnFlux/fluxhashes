@@ -5326,6 +5326,13 @@
       "branch": "fix/upnp-test-mapping-lease",
       "tag": null,
       "derived": true
+    },
+    "57cb5c92914c9970747eccc7bf5177d4": {
+      "published": "2026-10-30",
+      "commit": "0e5eb895547080a9a66b44311ec8ff8a19c36c10",
+      "branch": "fix/unpaid-message-caps",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -5975,7 +5982,8 @@
     "b6e00096db5b343c9fd3c2264f6163f24a3ee9c1": "dd0f4b567a4093ae1179279487ce3105",
     "d8d2693accd0504a93ba5bd016bdafe93e59dcbc": "ec97200999b835f7989797a9beedab89",
     "aa7d1d23cbe41e33fff4547d0e4d4e11491c3dbb": "48b92d484c6bf8d4cfeec9be2f5d7520",
-    "8f3dfc21ec73bf13570218148467e8dacead7f7c": "eeb15a160ff462348b9fbb3533816375"
+    "8f3dfc21ec73bf13570218148467e8dacead7f7c": "eeb15a160ff462348b9fbb3533816375",
+    "0e5eb895547080a9a66b44311ec8ff8a19c36c10": "57cb5c92914c9970747eccc7bf5177d4"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6218,6 +6226,7 @@
     "refs/heads/fix/syncthing-takeover": "9af013b6345b421f4f32413a39a6585a78c93bac",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
+    "refs/heads/fix/unpaid-message-caps": "0e5eb895547080a9a66b44311ec8ff8a19c36c10",
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
@@ -6598,7 +6607,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 384,
-    "issued_at": "2026-10-30T07:50:22.607Z"
+    "seq": 385,
+    "issued_at": "2026-10-30T11:18:43.633Z"
   }
 }
