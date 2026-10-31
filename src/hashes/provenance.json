@@ -5410,6 +5410,20 @@
       "branch": "fix/explorer-always-bootstraps",
       "tag": null,
       "derived": true
+    },
+    "542c93fd00b8224e652edd18d96582df": {
+      "published": "2026-10-31",
+      "commit": "df4688fd10449031d37dc581806094efbe96d48d",
+      "branch": "fix/hash-sync-stream-stall",
+      "tag": null,
+      "derived": true
+    },
+    "e28a0de46c05de7d1c4594d6c24210b5": {
+      "published": "2026-10-31",
+      "commit": "60e53dc3497d7f9215977c0ce48ba77a06cb4bf2",
+      "branch": "fix/upnp-test-mapping-lease",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6077,7 +6091,9 @@
     "4520c62874599da9641ba3f8ac4337bba2d007b2": "55c75124051803e03ecd882c644c3420",
     "3021f6fbbb1240a81d194ba6b8d625d8525c2eeb": "fbc9add00eb863af9ef0aff5f594b904",
     "a47848484ef73f5742ec3fe635d24a1f443202eb": "298b08a78cc6d54e9a776344c5b5c2e9",
-    "eb3a4f36d538514bb60804afc2571328c25148ea": "298b08a78cc6d54e9a776344c5b5c2e9"
+    "eb3a4f36d538514bb60804afc2571328c25148ea": "298b08a78cc6d54e9a776344c5b5c2e9",
+    "df4688fd10449031d37dc581806094efbe96d48d": "542c93fd00b8224e652edd18d96582df",
+    "60e53dc3497d7f9215977c0ce48ba77a06cb4bf2": "e28a0de46c05de7d1c4594d6c24210b5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6271,7 +6287,7 @@
     "refs/heads/fix/global-command-runs-locally": "786d30dddd75090889b42b2f19c497ce6b9e6edd",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
-    "refs/heads/fix/hash-sync-stream-stall": "aa7d1d23cbe41e33fff4547d0e4d4e11491c3dbb",
+    "refs/heads/fix/hash-sync-stream-stall": "df4688fd10449031d37dc581806094efbe96d48d",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
     "refs/heads/fix/host-stall-dos": "114b9f345cc2bf0a883e3724dbddd96d76bade52",
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
@@ -6326,7 +6342,7 @@
     "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
-    "refs/heads/fix/upnp-test-mapping-lease": "8f3dfc21ec73bf13570218148467e8dacead7f7c",
+    "refs/heads/fix/upnp-test-mapping-lease": "60e53dc3497d7f9215977c0ce48ba77a06cb4bf2",
     "refs/heads/fix/users-to-extend-resync": "25eecd35fa38c42f8bf36803df74fa9b65b3fa1f",
     "refs/heads/fix/validate-app-owner-signing-identity": "d08b71ffe9a1cd22cf44eb024453ddeb598fd5f1",
     "refs/heads/fix/verified-peer-identity": "9d4d88d35b08dc68049497ae1d579e9f72c39d28",
@@ -6703,7 +6719,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 394,
-    "issued_at": "2026-10-31T11:29:05.840Z"
+    "seq": 395,
+    "issued_at": "2026-10-31T12:12:14.433Z"
   }
 }
