@@ -5431,6 +5431,13 @@
       "branch": "fix/explorer-always-bootstraps",
       "tag": null,
       "derived": true
+    },
+    "1ba05aa3fa15b6b33d04e798add23578": {
+      "published": "2026-11-01",
+      "commit": "9de8631ad2507a980a34f5fc9f146860a2994168",
+      "branch": "feat/app-swap-pool",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6102,7 +6109,8 @@
     "df4688fd10449031d37dc581806094efbe96d48d": "542c93fd00b8224e652edd18d96582df",
     "60e53dc3497d7f9215977c0ce48ba77a06cb4bf2": "e28a0de46c05de7d1c4594d6c24210b5",
     "a4c37c51af1124e15357ceb944eab6fc074e3136": "298b08a78cc6d54e9a776344c5b5c2e9",
-    "6fac31d298d35b638a960b5a2c32b426bead936f": "67171a9701466b1f754e42e7f9cb089e"
+    "6fac31d298d35b638a960b5a2c32b426bead936f": "67171a9701466b1f754e42e7f9cb089e",
+    "9de8631ad2507a980a34f5fc9f146860a2994168": "1ba05aa3fa15b6b33d04e798add23578"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6149,6 +6157,7 @@
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
+    "refs/heads/feat/app-swap-pool": "9de8631ad2507a980a34f5fc9f146860a2994168",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
     "refs/heads/feat/btc-message-without-bitcoinjs": "ed54a728db59ab68d3bb0e03ca88bb1daba1bcc3",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
@@ -6728,7 +6737,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 396,
-    "issued_at": "2026-11-01T09:26:05.735Z"
+    "seq": 397,
+    "issued_at": "2026-11-01T09:28:10.108Z"
   }
 }
