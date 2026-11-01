@@ -6142,7 +6142,8 @@
     "30558004fc2c5c132326dbaf40dc45db533f337a": "6640d2a263cb3b2389fe9df7f041d1ad",
     "69d57ab717bbeffcea7a6ef9d6bf74660e7a194f": "ea103e95d837e9333fa1053f2a19b688",
     "cc4b5163eae41b695d3e80419290aa2528174599": "e6a33634be5a2a472dc688875f7addf8",
-    "0e18961f62b51a25a0c7fd32625a129cb0205446": "fde497eab420c34362e90fdefff4bb5b"
+    "0e18961f62b51a25a0c7fd32625a129cb0205446": "fde497eab420c34362e90fdefff4bb5b",
+    "7ff9a751831837f5ad05a69084a2986ba798c996": "67171a9701466b1f754e42e7f9cb089e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6322,7 +6323,7 @@
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
-    "refs/heads/fix/explorer-always-bootstraps": "6fac31d298d35b638a960b5a2c32b426bead936f",
+    "refs/heads/fix/explorer-always-bootstraps": "7ff9a751831837f5ad05a69084a2986ba798c996",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
