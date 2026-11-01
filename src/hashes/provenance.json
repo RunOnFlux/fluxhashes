@@ -5424,6 +5424,13 @@
       "branch": "fix/upnp-test-mapping-lease",
       "tag": null,
       "derived": true
+    },
+    "67171a9701466b1f754e42e7f9cb089e": {
+      "published": "2026-11-01",
+      "commit": "6fac31d298d35b638a960b5a2c32b426bead936f",
+      "branch": "fix/explorer-always-bootstraps",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6094,7 +6101,8 @@
     "eb3a4f36d538514bb60804afc2571328c25148ea": "298b08a78cc6d54e9a776344c5b5c2e9",
     "df4688fd10449031d37dc581806094efbe96d48d": "542c93fd00b8224e652edd18d96582df",
     "60e53dc3497d7f9215977c0ce48ba77a06cb4bf2": "e28a0de46c05de7d1c4594d6c24210b5",
-    "a4c37c51af1124e15357ceb944eab6fc074e3136": "298b08a78cc6d54e9a776344c5b5c2e9"
+    "a4c37c51af1124e15357ceb944eab6fc074e3136": "298b08a78cc6d54e9a776344c5b5c2e9",
+    "6fac31d298d35b638a960b5a2c32b426bead936f": "67171a9701466b1f754e42e7f9cb089e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6273,7 +6281,7 @@
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
-    "refs/heads/fix/explorer-always-bootstraps": "a4c37c51af1124e15357ceb944eab6fc074e3136",
+    "refs/heads/fix/explorer-always-bootstraps": "6fac31d298d35b638a960b5a2c32b426bead936f",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
@@ -6720,7 +6728,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 395,
-    "issued_at": "2026-10-31T12:12:14.433Z"
+    "seq": 396,
+    "issued_at": "2026-11-01T09:26:05.735Z"
   }
 }
