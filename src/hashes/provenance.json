@@ -5459,6 +5459,13 @@
       "branch": "feat/app-swap-pool",
       "tag": null,
       "derived": true
+    },
+    "fde497eab420c34362e90fdefff4bb5b": {
+      "published": "2026-11-01",
+      "commit": "0e18961f62b51a25a0c7fd32625a129cb0205446",
+      "branch": "fix/arcane-no-setcap-node",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6134,7 +6141,8 @@
     "9de8631ad2507a980a34f5fc9f146860a2994168": "1ba05aa3fa15b6b33d04e798add23578",
     "30558004fc2c5c132326dbaf40dc45db533f337a": "6640d2a263cb3b2389fe9df7f041d1ad",
     "69d57ab717bbeffcea7a6ef9d6bf74660e7a194f": "ea103e95d837e9333fa1053f2a19b688",
-    "cc4b5163eae41b695d3e80419290aa2528174599": "e6a33634be5a2a472dc688875f7addf8"
+    "cc4b5163eae41b695d3e80419290aa2528174599": "e6a33634be5a2a472dc688875f7addf8",
+    "0e18961f62b51a25a0c7fd32625a129cb0205446": "fde497eab420c34362e90fdefff4bb5b"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6290,7 +6298,7 @@
     "refs/heads/fix/app-volume-direct-io-and-redeploy": "a7287cb4bd71d35f062197521304924c25afe5e4",
     "refs/heads/fix/app-volume-placement": "118ee7ed3cd214b45dd4a939c58eab7a38af28e7",
     "refs/heads/fix/apprunning-is-a-claim": "163aa9439ae11de1ed7616cee5d5ea0d3c2ec603",
-    "refs/heads/fix/arcane-no-setcap-node": "9da7579269162bc91390845ceb461eafc01285db",
+    "refs/heads/fix/arcane-no-setcap-node": "0e18961f62b51a25a0c7fd32625a129cb0205446",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/availability-not-listed": "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
@@ -6761,7 +6769,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 400,
-    "issued_at": "2026-11-01T10:25:52.704Z"
+    "seq": 401,
+    "issued_at": "2026-11-01T12:49:20.024Z"
   }
 }
