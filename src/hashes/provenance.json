@@ -6228,7 +6228,9 @@
     "1a600d3e6703c2bbaf55fe0f0512a9371c4f1049": "044b9790721beb28808eb0f45bf1f882",
     "0bdbbd28385fe2db2dc8bf8b814741f86dd1e3ab": "a1be483738145748bbeceaa271227513",
     "1a2be318a2959b300dc2ba4151cfd5a2f17fc370": "3f8bbbcb4c637ace56f271ea7936e407",
-    "ae8b084511751bc54c4946fe3164c2a73f4ec000": "ffad00196030a3d20f009c451b3c1e70"
+    "ae8b084511751bc54c4946fe3164c2a73f4ec000": "ffad00196030a3d20f009c451b3c1e70",
+    "e9f39bcb04d579674a63c7534520530a3cdb8f93": "3f8bbbcb4c637ace56f271ea7936e407",
+    "89154e870ead1afc80f38b2a9e2c94709d8dad0d": "ffad00196030a3d20f009c451b3c1e70"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6285,10 +6287,10 @@
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
-    "refs/heads/feat/fluxd-credentials": "1a2be318a2959b300dc2ba4151cfd5a2f17fc370",
+    "refs/heads/feat/fluxd-credentials": "e9f39bcb04d579674a63c7534520530a3cdb8f93",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
-    "refs/heads/feat/fluxos-port-file": "ae8b084511751bc54c4946fe3164c2a73f4ec000",
+    "refs/heads/feat/fluxos-port-file": "89154e870ead1afc80f38b2a9e2c94709d8dad0d",
     "refs/heads/feat/game-server-cpu-throttle-exempt": "b88ffd077a690544797c4cdbd307dc8c428e7627",
     "refs/heads/feat/geolocation-misplaced": "3925dac8e827d13d3e6c0560054f406cc827496b",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
