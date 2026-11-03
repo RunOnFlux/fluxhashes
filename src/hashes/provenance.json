@@ -5606,6 +5606,13 @@
       "branch": "fix/unpaid-message-caps",
       "tag": null,
       "derived": true
+    },
+    "f7ad85920c84900deb8c4eb9e6e546a5": {
+      "published": "2026-11-03",
+      "commit": "7dc24f1485424ad5553dff44e746f4d749678285",
+      "branch": "fix/spawner-benchmark-verdict",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6314,7 +6321,8 @@
     "067168cea7ce92c9d9f3894fe1f4933b4b7f9433": "3f834afb2a9c66b03a41c0e53d42bd9c",
     "780fc4282c39e2b2f3154b537bf937b8103e47ca": "bc5e3f1e929a9150a820391310578338",
     "f52c31840f514d1934cfafa330387dcb90063c64": "bc5e3f1e929a9150a820391310578338",
-    "bcdf73458dc9f9f94c8ff7d936aa238ec1a2b31b": "f2b2347039c453c1056c758c6f8ea00f"
+    "bcdf73458dc9f9f94c8ff7d936aa238ec1a2b31b": "f2b2347039c453c1056c758c6f8ea00f",
+    "7dc24f1485424ad5553dff44e746f4d749678285": "f7ad85920c84900deb8c4eb9e6e546a5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6550,6 +6558,7 @@
     "refs/heads/fix/soft-redeploy-ent": "0fe783130b510faa21235dfe3f2f21a3cf318102",
     "refs/heads/fix/spawn-cadence-one-candidate": "74622dadebac6c810e1a17575aa0eac36dd83d87",
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
+    "refs/heads/fix/spawner-benchmark-verdict": "7dc24f1485424ad5553dff44e746f4d749678285",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
     "refs/heads/fix/surplus-trim-reads-enterprise-specs": "219bdc80c5066d62c3b3f82ac87691bd318c2cda",
@@ -6942,7 +6951,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 420,
-    "issued_at": "2026-11-03T13:36:57.080Z"
+    "seq": 421,
+    "issued_at": "2026-11-03T15:52:58.980Z"
   }
 }
