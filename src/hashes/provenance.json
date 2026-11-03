@@ -5557,6 +5557,13 @@
       "branch": "feat/fluxd-credentials",
       "tag": null,
       "derived": true
+    },
+    "c67f6c4dc5b5dabc4cb036b50e39af86": {
+      "published": "2026-11-03",
+      "commit": "696c09d491f802afe4e25b3bf3b177e13afd0be1",
+      "branch": "feat/fluxd-credentials",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6255,7 +6262,8 @@
     "44dc148864a4cf9291aa772b5375ebb9c360d093": "de830a55a41cbb3fad1f41fc8f86e491",
     "97299f9c002f81b024009cf7a00a3e4c01bad81d": "a3938efd842e3372e3357151300a2fe2",
     "7775066b1ef7eb4a0d0e8c8d462707bca3f5ca64": "369f569d2b127b6924cb815fae36aa5e",
-    "9b59194e1a659f684b28bbce75b5eb082bc55dfe": "369f569d2b127b6924cb815fae36aa5e"
+    "9b59194e1a659f684b28bbce75b5eb082bc55dfe": "369f569d2b127b6924cb815fae36aa5e",
+    "696c09d491f802afe4e25b3bf3b177e13afd0be1": "c67f6c4dc5b5dabc4cb036b50e39af86"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6312,7 +6320,7 @@
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
-    "refs/heads/feat/fluxd-credentials": "9b59194e1a659f684b28bbce75b5eb082bc55dfe",
+    "refs/heads/feat/fluxd-credentials": "696c09d491f802afe4e25b3bf3b177e13afd0be1",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "89154e870ead1afc80f38b2a9e2c94709d8dad0d",
@@ -6883,7 +6891,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 413,
-    "issued_at": "2026-11-03T07:51:12.680Z"
+    "seq": 414,
+    "issued_at": "2026-11-03T08:49:17.125Z"
   }
 }
