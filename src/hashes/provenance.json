@@ -5564,6 +5564,13 @@
       "branch": "feat/fluxd-credentials",
       "tag": null,
       "derived": true
+    },
+    "bd511927d95dda5ddc2b2a18608850b4": {
+      "published": "2026-11-03",
+      "commit": "219bdc80c5066d62c3b3f82ac87691bd318c2cda",
+      "branch": "fix/surplus-trim-reads-enterprise-specs",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6263,7 +6270,8 @@
     "97299f9c002f81b024009cf7a00a3e4c01bad81d": "a3938efd842e3372e3357151300a2fe2",
     "7775066b1ef7eb4a0d0e8c8d462707bca3f5ca64": "369f569d2b127b6924cb815fae36aa5e",
     "9b59194e1a659f684b28bbce75b5eb082bc55dfe": "369f569d2b127b6924cb815fae36aa5e",
-    "696c09d491f802afe4e25b3bf3b177e13afd0be1": "c67f6c4dc5b5dabc4cb036b50e39af86"
+    "696c09d491f802afe4e25b3bf3b177e13afd0be1": "c67f6c4dc5b5dabc4cb036b50e39af86",
+    "219bdc80c5066d62c3b3f82ac87691bd318c2cda": "bd511927d95dda5ddc2b2a18608850b4"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6501,7 +6509,7 @@
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
-    "refs/heads/fix/surplus-trim-reads-enterprise-specs": "3b8584741e5437d869e16a4f88cca28fe1e1ca8d",
+    "refs/heads/fix/surplus-trim-reads-enterprise-specs": "219bdc80c5066d62c3b3f82ac87691bd318c2cda",
     "refs/heads/fix/synced-restart-after-fluxos-restart": "104e97c6f504ed9583b53ac44c4f6b558ac61625",
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
@@ -6891,7 +6899,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 414,
-    "issued_at": "2026-11-03T08:49:17.125Z"
+    "seq": 415,
+    "issued_at": "2026-11-03T09:10:38.947Z"
   }
 }
