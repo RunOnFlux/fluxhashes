@@ -5613,6 +5613,20 @@
       "branch": "fix/spawner-benchmark-verdict",
       "tag": null,
       "derived": true
+    },
+    "50bc134a8159f50719801a5f84cccc3a": {
+      "published": "2026-11-03",
+      "commit": "01009d2e1bcc570c9da628a0cb90d69f9dc7c0c4",
+      "branch": "feat/geolocation-misplaced",
+      "tag": null,
+      "derived": true
+    },
+    "a43e75366469ed49d6a290af1a5040fe": {
+      "published": "2026-11-03",
+      "commit": "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8",
+      "branch": "fix/upload-created-folders-inherit-owner",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6322,7 +6336,9 @@
     "780fc4282c39e2b2f3154b537bf937b8103e47ca": "bc5e3f1e929a9150a820391310578338",
     "f52c31840f514d1934cfafa330387dcb90063c64": "bc5e3f1e929a9150a820391310578338",
     "bcdf73458dc9f9f94c8ff7d936aa238ec1a2b31b": "f2b2347039c453c1056c758c6f8ea00f",
-    "7dc24f1485424ad5553dff44e746f4d749678285": "f7ad85920c84900deb8c4eb9e6e546a5"
+    "7dc24f1485424ad5553dff44e746f4d749678285": "f7ad85920c84900deb8c4eb9e6e546a5",
+    "01009d2e1bcc570c9da628a0cb90d69f9dc7c0c4": "50bc134a8159f50719801a5f84cccc3a",
+    "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8": "a43e75366469ed49d6a290af1a5040fe"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6384,7 +6400,7 @@
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "89154e870ead1afc80f38b2a9e2c94709d8dad0d",
     "refs/heads/feat/game-server-cpu-throttle-exempt": "b88ffd077a690544797c4cdbd307dc8c428e7627",
-    "refs/heads/feat/geolocation-misplaced": "3925dac8e827d13d3e6c0560054f406cc827496b",
+    "refs/heads/feat/geolocation-misplaced": "01009d2e1bcc570c9da628a0cb90d69f9dc7c0c4",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
     "refs/heads/feat/kernel-taint-report": "780fc4282c39e2b2f3154b537bf937b8103e47ca",
     "refs/heads/feat/legacy-fluxadm-ssh": "161219f9eef30ddea84880be5d5d2c1aac9df26d",
@@ -6571,7 +6587,7 @@
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/unpaid-message-caps": "bcdf73458dc9f9f94c8ff7d936aa238ec1a2b31b",
-    "refs/heads/fix/upload-created-folders-inherit-owner": "45ab6a35e83accd3e6f26cf2748ccb5bde0c4399",
+    "refs/heads/fix/upload-created-folders-inherit-owner": "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
     "refs/heads/fix/upnp-test-mapping-lease": "990a4cf740169fd1da41436afec5e8db3bbdcc9f",
@@ -6951,7 +6967,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 421,
-    "issued_at": "2026-11-03T15:52:58.980Z"
+    "seq": 422,
+    "issued_at": "2026-11-03T16:04:21.289Z"
   }
 }
