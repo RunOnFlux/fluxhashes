@@ -5634,6 +5634,27 @@
       "branch": "fix/spawner-benchmark-verdict",
       "tag": null,
       "derived": true
+    },
+    "94a6e51d9554778a1698bf3f21f27d09": {
+      "published": "2026-11-04",
+      "commit": "2555e40367ad74601fadf86def0f339bb61866bd",
+      "branch": "fix/explorer-always-bootstraps",
+      "tag": null,
+      "derived": true
+    },
+    "fde7b3ed88e2def79ef700d37e8f050a": {
+      "published": "2026-11-04",
+      "commit": "5cdda777f724d00d59f4f4a3bd4cdcc55c61b5ca",
+      "branch": "fix/explorer-reorg-by-block-hash",
+      "tag": null,
+      "derived": true
+    },
+    "18353db4ebe9cf31152416532b256bb5": {
+      "published": "2026-11-04",
+      "commit": "223d9b45053865166344b638da11b77e84fc8625",
+      "branch": "fix/own-address-after-move",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6346,7 +6367,10 @@
     "7dc24f1485424ad5553dff44e746f4d749678285": "f7ad85920c84900deb8c4eb9e6e546a5",
     "01009d2e1bcc570c9da628a0cb90d69f9dc7c0c4": "50bc134a8159f50719801a5f84cccc3a",
     "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8": "a43e75366469ed49d6a290af1a5040fe",
-    "970f32c408df646c65e5edc6b79bb6f6036430a8": "7f702222fd98409580cc816de7bee08a"
+    "970f32c408df646c65e5edc6b79bb6f6036430a8": "7f702222fd98409580cc816de7bee08a",
+    "2555e40367ad74601fadf86def0f339bb61866bd": "94a6e51d9554778a1698bf3f21f27d09",
+    "5cdda777f724d00d59f4f4a3bd4cdcc55c61b5ca": "fde7b3ed88e2def79ef700d37e8f050a",
+    "223d9b45053865166344b638da11b77e84fc8625": "18353db4ebe9cf31152416532b256bb5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6526,8 +6550,8 @@
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
-    "refs/heads/fix/explorer-always-bootstraps": "34708e759d706e5b7ff02c8ed23b05f26dc5fdf7",
-    "refs/heads/fix/explorer-reorg-by-block-hash": "1a600d3e6703c2bbaf55fe0f0512a9371c4f1049",
+    "refs/heads/fix/explorer-always-bootstraps": "2555e40367ad74601fadf86def0f339bb61866bd",
+    "refs/heads/fix/explorer-reorg-by-block-hash": "5cdda777f724d00d59f4f4a3bd4cdcc55c61b5ca",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
@@ -6557,6 +6581,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
+    "refs/heads/fix/own-address-after-move": "223d9b45053865166344b638da11b77e84fc8625",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -6975,7 +7000,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 423,
-    "issued_at": "2026-11-03T16:32:47.125Z"
+    "seq": 424,
+    "issued_at": "2026-11-04T16:35:36.501Z"
   }
 }
