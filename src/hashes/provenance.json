@@ -5809,6 +5809,13 @@
       "branch": "fix/own-address-after-move",
       "tag": null,
       "derived": true
+    },
+    "790afaf75059978f7809dbadd17352f7": {
+      "published": "2026-11-05",
+      "commit": "7fd6ba29c498dc4039458c4fa98fa5b0a943b4dc",
+      "branch": "fix/unpaid-message-caps",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6550,7 +6557,8 @@
     "caa695f0d0c3acd80aa35561ab4d1cda2a2f1965": "074c0de19ef9c448da3efca7b344a47a",
     "54e0bd9ec462ef9cfec165bd337394135d9001f6": "72693be6e30f74f0e0f923c3ccf87236",
     "24da40324c02c8d3ace8e203efb34fad407d10dc": "c5ec08ea3109c3302c87aefa0f37ad1d",
-    "ee9df31ec9963f3355efd1015cba835cbaad1ddc": "47ae7f9b425cdb44e0d17788417a13ad"
+    "ee9df31ec9963f3355efd1015cba835cbaad1ddc": "47ae7f9b425cdb44e0d17788417a13ad",
+    "7fd6ba29c498dc4039458c4fa98fa5b0a943b4dc": "790afaf75059978f7809dbadd17352f7"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6802,7 +6810,7 @@
     "refs/heads/fix/syncthing-takeover": "9af013b6345b421f4f32413a39a6585a78c93bac",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
-    "refs/heads/fix/unpaid-message-caps": "f7f149ce03546c5a9f02b29c36ea1c63fb2657fe",
+    "refs/heads/fix/unpaid-message-caps": "7fd6ba29c498dc4039458c4fa98fa5b0a943b4dc",
     "refs/heads/fix/upload-created-folders-inherit-owner": "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
@@ -7183,7 +7191,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 442,
-    "issued_at": "2026-11-05T14:09:49.294Z"
+    "seq": 443,
+    "issued_at": "2026-11-05T15:44:04.623Z"
   }
 }
