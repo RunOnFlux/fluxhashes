@@ -5760,6 +5760,13 @@
       "branch": "fix/spawner-benchmark-verdict",
       "tag": null,
       "derived": true
+    },
+    "94bba7ecb53b0279851961c3d1809e65": {
+      "published": "2026-11-05",
+      "commit": "817ea52bf234222c8d7b076d21482845037c47de",
+      "branch": "fix/labnet-inbound-cap",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6492,7 +6499,9 @@
     "d5fe32a1007867165a233129685ccfebec61db95": "511e462dc7a9192a15f0f3f5d3f705dd",
     "d6bc44bf161cd4b501a422b1667d47949c9cc27c": "d26936de4977fcdbc6f95290cff122e9",
     "a2057d17af3fff4114420b226ef5f6ccf40eb37a": "98d613c8c49196aaf4fbd3a184033300",
-    "99405fcb08a1cbb88b9cc64c264a1e2519f1707d": "0f0e7f530015b7a87d1c9dab0e341e44"
+    "99405fcb08a1cbb88b9cc64c264a1e2519f1707d": "0f0e7f530015b7a87d1c9dab0e341e44",
+    "817ea52bf234222c8d7b076d21482845037c47de": "94bba7ecb53b0279851961c3d1809e65",
+    "2e8df42166a417c764b2136916f8bdb5ee6d7150": "94bba7ecb53b0279851961c3d1809e65"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6698,6 +6707,7 @@
     "refs/heads/fix/input-and-path-hardening": "447f7bd937b0590d441b0188ac39de1546a970c4",
     "refs/heads/fix/ip-change-hold-in-blocks": "8afd9395d15feed43f94a6db96c2004739de7c52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
+    "refs/heads/fix/labnet-inbound-cap": "817ea52bf234222c8d7b076d21482845037c47de",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
@@ -6767,7 +6777,7 @@
     "refs/heads/improvements_requests": "d8c8cdd83d454c5a12ff4afc4de5adadcafff523",
     "refs/heads/increaseimagesize": "b91a5da58a656d318c8ff1f65878d7ac809cd94f",
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
-    "refs/heads/lab/labnet-profiles": "5d46e370d0ba3953c3c80b5861d873c798532752",
+    "refs/heads/lab/labnet-profiles": "2e8df42166a417c764b2136916f8bdb5ee6d7150",
     "refs/heads/lab/labnet-profiles-822": "b19b6780e8b717f331f6fee8d5120071c4e5b9bd",
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
@@ -7124,7 +7134,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 437,
-    "issued_at": "2026-11-05T12:12:43.426Z"
+    "seq": 438,
+    "issued_at": "2026-11-05T12:57:49.645Z"
   }
 }
