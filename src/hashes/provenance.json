@@ -5711,6 +5711,20 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "511e462dc7a9192a15f0f3f5d3f705dd": {
+      "published": "2026-11-05",
+      "commit": "e5e1489a16bbf6a8d97bd24c1596cc8a556dc241",
+      "branch": "fix/spawner-benchmark-verdict",
+      "tag": null,
+      "derived": true
+    },
+    "c2f52e0b475e5cf24810033a5779231d": {
+      "published": "2026-11-05",
+      "commit": "5d46e370d0ba3953c3c80b5861d873c798532752",
+      "branch": "lab/labnet-profiles",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6435,7 +6449,9 @@
     "b52093fe60956215f8905446bbeaa4668c74f39b": "1b405ee559965ffcd2a49a94b1957d49",
     "b4291e71f9c8d8c4472b343f2e52a9e7664a4f8a": "dbbfe83aa19092154948a72a6f954da3",
     "4bf6c1ef63a8887178aa55ecf3d1991e7c146a03": "a67108fd7bb96c61cef8bf49eb6b9c4f",
-    "d0005079c48c7e054b36bc8abdb29aa5b978f2a2": "88728373951bd20ee739f08c28806875"
+    "d0005079c48c7e054b36bc8abdb29aa5b978f2a2": "88728373951bd20ee739f08c28806875",
+    "e5e1489a16bbf6a8d97bd24c1596cc8a556dc241": "511e462dc7a9192a15f0f3f5d3f705dd",
+    "5d46e370d0ba3953c3c80b5861d873c798532752": "c2f52e0b475e5cf24810033a5779231d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6672,7 +6688,7 @@
     "refs/heads/fix/soft-redeploy-ent": "0fe783130b510faa21235dfe3f2f21a3cf318102",
     "refs/heads/fix/spawn-cadence-one-candidate": "74622dadebac6c810e1a17575aa0eac36dd83d87",
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
-    "refs/heads/fix/spawner-benchmark-verdict": "970f32c408df646c65e5edc6b79bb6f6036430a8",
+    "refs/heads/fix/spawner-benchmark-verdict": "e5e1489a16bbf6a8d97bd24c1596cc8a556dc241",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
     "refs/heads/fix/surplus-trim-reads-enterprise-specs": "219bdc80c5066d62c3b3f82ac87691bd318c2cda",
@@ -6708,7 +6724,7 @@
     "refs/heads/improvements_requests": "d8c8cdd83d454c5a12ff4afc4de5adadcafff523",
     "refs/heads/increaseimagesize": "b91a5da58a656d318c8ff1f65878d7ac809cd94f",
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
-    "refs/heads/lab/labnet-profiles": "4bf6c1ef63a8887178aa55ecf3d1991e7c146a03",
+    "refs/heads/lab/labnet-profiles": "5d46e370d0ba3953c3c80b5861d873c798532752",
     "refs/heads/lab/labnet-profiles-822": "b19b6780e8b717f331f6fee8d5120071c4e5b9bd",
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
@@ -7065,7 +7081,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 432,
-    "issued_at": "2026-11-05T09:30:54.957Z"
+    "seq": 433,
+    "issued_at": "2026-11-05T10:50:33.972Z"
   }
 }
