@@ -5690,6 +5690,13 @@
       "branch": "feat/btc-message-without-bitcoinjs",
       "tag": null,
       "derived": true
+    },
+    "1b405ee559965ffcd2a49a94b1957d49": {
+      "published": "2026-11-05",
+      "commit": "b52093fe60956215f8905446bbeaa4668c74f39b",
+      "branch": "fix/own-address-after-move",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6410,7 +6417,8 @@
     "37c95ebd4d43bae1d2a2cf111fb8bbed3c77235f": "9a687a66290f5faa0fa84a5677b3c5aa",
     "097f18025f82687981216bebe3339c52038a7491": "8e1d309d50f055086d556475c74233e3",
     "f7f149ce03546c5a9f02b29c36ea1c63fb2657fe": "26a875550d50d24b136f94503677e246",
-    "608f4d95eccbf47410c1649a7212e05041dde241": "88728373951bd20ee739f08c28806875"
+    "608f4d95eccbf47410c1649a7212e05041dde241": "88728373951bd20ee739f08c28806875",
+    "b52093fe60956215f8905446bbeaa4668c74f39b": "1b405ee559965ffcd2a49a94b1957d49"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6621,7 +6629,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/own-address-after-move": "223d9b45053865166344b638da11b77e84fc8625",
+    "refs/heads/fix/own-address-after-move": "b52093fe60956215f8905446bbeaa4668c74f39b",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -7040,7 +7048,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 429,
-    "issued_at": "2026-11-05T08:42:08.664Z"
+    "seq": 430,
+    "issued_at": "2026-11-05T08:47:07.558Z"
   }
 }
