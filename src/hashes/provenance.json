@@ -5725,6 +5725,20 @@
       "branch": "lab/labnet-profiles",
       "tag": null,
       "derived": true
+    },
+    "a0e29e0570c1c453a1cc8851c10e2158": {
+      "published": "2026-11-05",
+      "commit": "0711c39c47ccb84cda73b57ede1dcd499d4a1cde",
+      "branch": "fix/explorer-reorg-by-block-hash",
+      "tag": null,
+      "derived": true
+    },
+    "10a419755fc795b121c11d1c04c5f4db": {
+      "published": "2026-11-05",
+      "commit": "48b500b82960f78b71054cc55dfa07f3ea097c2f",
+      "branch": "fix/own-address-after-move",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6451,7 +6465,10 @@
     "4bf6c1ef63a8887178aa55ecf3d1991e7c146a03": "a67108fd7bb96c61cef8bf49eb6b9c4f",
     "d0005079c48c7e054b36bc8abdb29aa5b978f2a2": "88728373951bd20ee739f08c28806875",
     "e5e1489a16bbf6a8d97bd24c1596cc8a556dc241": "511e462dc7a9192a15f0f3f5d3f705dd",
-    "5d46e370d0ba3953c3c80b5861d873c798532752": "c2f52e0b475e5cf24810033a5779231d"
+    "5d46e370d0ba3953c3c80b5861d873c798532752": "c2f52e0b475e5cf24810033a5779231d",
+    "0711c39c47ccb84cda73b57ede1dcd499d4a1cde": "a0e29e0570c1c453a1cc8851c10e2158",
+    "48b500b82960f78b71054cc55dfa07f3ea097c2f": "10a419755fc795b121c11d1c04c5f4db",
+    "d5fe32a1007867165a233129685ccfebec61db95": "511e462dc7a9192a15f0f3f5d3f705dd"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6632,7 +6649,7 @@
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
     "refs/heads/fix/explorer-always-bootstraps": "2555e40367ad74601fadf86def0f339bb61866bd",
-    "refs/heads/fix/explorer-reorg-by-block-hash": "5cdda777f724d00d59f4f4a3bd4cdcc55c61b5ca",
+    "refs/heads/fix/explorer-reorg-by-block-hash": "0711c39c47ccb84cda73b57ede1dcd499d4a1cde",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
@@ -6662,7 +6679,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/own-address-after-move": "b4291e71f9c8d8c4472b343f2e52a9e7664a4f8a",
+    "refs/heads/fix/own-address-after-move": "48b500b82960f78b71054cc55dfa07f3ea097c2f",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -6688,7 +6705,7 @@
     "refs/heads/fix/soft-redeploy-ent": "0fe783130b510faa21235dfe3f2f21a3cf318102",
     "refs/heads/fix/spawn-cadence-one-candidate": "74622dadebac6c810e1a17575aa0eac36dd83d87",
     "refs/heads/fix/spawn-null-apptorunaux": "4e2f9d9d909d6f6cb36930624961e80336b79951",
-    "refs/heads/fix/spawner-benchmark-verdict": "e5e1489a16bbf6a8d97bd24c1596cc8a556dc241",
+    "refs/heads/fix/spawner-benchmark-verdict": "d5fe32a1007867165a233129685ccfebec61db95",
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
     "refs/heads/fix/surplus-trim-reads-enterprise-specs": "219bdc80c5066d62c3b3f82ac87691bd318c2cda",
@@ -7081,7 +7098,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 433,
-    "issued_at": "2026-11-05T10:50:33.972Z"
+    "seq": 434,
+    "issued_at": "2026-11-05T11:13:15.827Z"
   }
 }
