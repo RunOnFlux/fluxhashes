@@ -5900,6 +5900,20 @@
       "branch": "development",
       "tag": "v8.23.0",
       "derived": true
+    },
+    "20cc582df43c57900e4a0ed4d7e1f3fd": {
+      "published": "2026-11-06",
+      "commit": "af478611527806f0e32e5ab13d5268cf914989b0",
+      "branch": "fix/explorer-reorg-by-block-hash",
+      "tag": null,
+      "derived": true
+    },
+    "5ac24d612bd18faf81b83d2c07a9c9c5": {
+      "published": "2026-11-06",
+      "commit": "8e616e2cd15118c092f197319e4ca27afb30398a",
+      "branch": "fix/own-address-after-move",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6659,7 +6673,9 @@
     "9dfe1a2d0752dd7369ad2b6d24f4aaa9ad6f238c": "88728373951bd20ee739f08c28806875",
     "e880e34da2410c7dad8a23e25ea38f2a505ccfa8": "80f25286fd95b326b4936a4dea548e65",
     "acb25df5d0ab2d606e4594a4cdfe673f85d72e0d": "074c0de19ef9c448da3efca7b344a47a",
-    "71fbe4473adedf7f027ac20157818c19c6a2b2ad": "80f25286fd95b326b4936a4dea548e65"
+    "71fbe4473adedf7f027ac20157818c19c6a2b2ad": "80f25286fd95b326b4936a4dea548e65",
+    "af478611527806f0e32e5ab13d5268cf914989b0": "20cc582df43c57900e4a0ed4d7e1f3fd",
+    "8e616e2cd15118c092f197319e4ca27afb30398a": "5ac24d612bd18faf81b83d2c07a9c9c5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6843,7 +6859,7 @@
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
     "refs/heads/fix/explorer-always-bootstraps": "4f655e57fe9b4b52dd1df36ba2d0d8b1d1aabafa",
-    "refs/heads/fix/explorer-reorg-by-block-hash": "c4f23bff5b3c62b78a19cfac79c0ce089b058e98",
+    "refs/heads/fix/explorer-reorg-by-block-hash": "af478611527806f0e32e5ab13d5268cf914989b0",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
@@ -6874,7 +6890,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/own-address-after-move": "b69858e7a11a65e1224167ed3b88c536e9f9d4f1",
+    "refs/heads/fix/own-address-after-move": "8e616e2cd15118c092f197319e4ca27afb30398a",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -7295,7 +7311,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 450,
-    "issued_at": "2026-11-06T14:46:13.198Z"
+    "seq": 451,
+    "issued_at": "2026-11-06T15:09:04.695Z"
   }
 }
