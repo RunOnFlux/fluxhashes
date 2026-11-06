@@ -5879,6 +5879,20 @@
       "branch": "feat/arcane-fluxos-image",
       "tag": null,
       "derived": true
+    },
+    "d3b33d50a64a6b402217e5c91472d0c5": {
+      "published": "2026-11-06",
+      "commit": "5cb90a2921a1f6eedd5e652d51e955f50294f945",
+      "branch": "feat/arcane-fluxos-image",
+      "tag": null,
+      "derived": true
+    },
+    "e537385187b9d709a60f7c87d098dd4d": {
+      "published": "2026-11-06",
+      "commit": "c4a2535f2e6277f4ca202a9c57dd5e672340f23a",
+      "branch": "fix/remove-development-mode",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6631,7 +6645,9 @@
     "b69858e7a11a65e1224167ed3b88c536e9f9d4f1": "456af027ecb21e35c1135d46ec0bb395",
     "20f9d28bfc9ed06afbba39aefa12004051cddabb": "395a8dae01febcb60e956edd02fc5750",
     "740ac4d7400fda5f048175b011ab87297ce786e0": "710c64869243c068d074650d6459941b",
-    "5e8644f877f375aecb4818408038479eaa79289e": "8c4a3c073f25ea943b02164c5321a8a7"
+    "5e8644f877f375aecb4818408038479eaa79289e": "8c4a3c073f25ea943b02164c5321a8a7",
+    "5cb90a2921a1f6eedd5e652d51e955f50294f945": "d3b33d50a64a6b402217e5c91472d0c5",
+    "c4a2535f2e6277f4ca202a9c57dd5e672340f23a": "e537385187b9d709a60f7c87d098dd4d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6679,7 +6695,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/app-swap-pool": "cc4b5163eae41b695d3e80419290aa2528174599",
-    "refs/heads/feat/arcane-fluxos-image": "5e8644f877f375aecb4818408038479eaa79289e",
+    "refs/heads/feat/arcane-fluxos-image": "5cb90a2921a1f6eedd5e652d51e955f50294f945",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
     "refs/heads/feat/btc-message-without-bitcoinjs": "608f4d95eccbf47410c1649a7212e05041dde241",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
@@ -6858,6 +6874,7 @@
     "refs/heads/fix/registry-private-address-guard": "fa40f6c0d1f26a7b051ba742b745f14028673dea",
     "refs/heads/fix/registry-unavailable-during-rebuild": "75d4edb6938f81a30d35205bebfb9633d03e1b5a",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
+    "refs/heads/fix/remove-development-mode": "c4a2535f2e6277f4ca202a9c57dd5e672340f23a",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
@@ -7265,7 +7282,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 448,
-    "issued_at": "2026-11-06T09:28:30.469Z"
+    "seq": 449,
+    "issued_at": "2026-11-06T10:15:46.195Z"
   }
 }
