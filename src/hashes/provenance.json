@@ -6606,7 +6606,8 @@
     "1d5b6f4ab3fb3fdd614ad7a16ff61e9fcb79ece2": "e68193c6cc11a94f0cf22e6bf9c43afc",
     "4f655e57fe9b4b52dd1df36ba2d0d8b1d1aabafa": "93f565bdf08a8eeac971c2282a50de5f",
     "c4f23bff5b3c62b78a19cfac79c0ce089b058e98": "543186c11b84609d79df6e0f5fc21cfb",
-    "5b8dd99850b6a96d942422bc02c8580c57a10308": "456af027ecb21e35c1135d46ec0bb395"
+    "5b8dd99850b6a96d942422bc02c8580c57a10308": "456af027ecb21e35c1135d46ec0bb395",
+    "b69858e7a11a65e1224167ed3b88c536e9f9d4f1": "456af027ecb21e35c1135d46ec0bb395"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6820,7 +6821,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/own-address-after-move": "5b8dd99850b6a96d942422bc02c8580c57a10308",
+    "refs/heads/fix/own-address-after-move": "b69858e7a11a65e1224167ed3b88c536e9f9d4f1",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
