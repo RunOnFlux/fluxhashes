@@ -5914,6 +5914,27 @@
       "branch": "fix/own-address-after-move",
       "tag": null,
       "derived": true
+    },
+    "7a2f07aef12815002f662c22f4daf41e": {
+      "published": "2026-11-06",
+      "commit": "5654b19d49b12c0ef5de8dc8294717f620be05d5",
+      "branch": "feat/arcane-fluxos-image",
+      "tag": null,
+      "derived": true
+    },
+    "5798d2ac0d2dd6ef91055a7556dbe312": {
+      "published": "2026-11-06",
+      "commit": "b72628eb6b60453020874dbe4c181398db0d3644",
+      "branch": "feat/network-profile-files",
+      "tag": null,
+      "derived": true
+    },
+    "7728d6f0c1d4439f20764b1d456eb836": {
+      "published": "2026-11-06",
+      "commit": "56123eb1f3ba028107a240811530677e3a087aa6",
+      "branch": "fix/remove-development-mode",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6675,7 +6696,10 @@
     "acb25df5d0ab2d606e4594a4cdfe673f85d72e0d": "074c0de19ef9c448da3efca7b344a47a",
     "71fbe4473adedf7f027ac20157818c19c6a2b2ad": "80f25286fd95b326b4936a4dea548e65",
     "af478611527806f0e32e5ab13d5268cf914989b0": "20cc582df43c57900e4a0ed4d7e1f3fd",
-    "8e616e2cd15118c092f197319e4ca27afb30398a": "5ac24d612bd18faf81b83d2c07a9c9c5"
+    "8e616e2cd15118c092f197319e4ca27afb30398a": "5ac24d612bd18faf81b83d2c07a9c9c5",
+    "5654b19d49b12c0ef5de8dc8294717f620be05d5": "7a2f07aef12815002f662c22f4daf41e",
+    "b72628eb6b60453020874dbe4c181398db0d3644": "5798d2ac0d2dd6ef91055a7556dbe312",
+    "56123eb1f3ba028107a240811530677e3a087aa6": "7728d6f0c1d4439f20764b1d456eb836"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6723,7 +6747,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/app-swap-pool": "cc4b5163eae41b695d3e80419290aa2528174599",
-    "refs/heads/feat/arcane-fluxos-image": "5cb90a2921a1f6eedd5e652d51e955f50294f945",
+    "refs/heads/feat/arcane-fluxos-image": "5654b19d49b12c0ef5de8dc8294717f620be05d5",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
     "refs/heads/feat/btc-message-without-bitcoinjs": "608f4d95eccbf47410c1649a7212e05041dde241",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
@@ -6743,7 +6767,7 @@
     "refs/heads/feat/kernel-taint-report": "780fc4282c39e2b2f3154b537bf937b8103e47ca",
     "refs/heads/feat/legacy-fluxadm-ssh": "161219f9eef30ddea84880be5d5d2c1aac9df26d",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
-    "refs/heads/feat/network-profile-files": "c8f49f8fad5048ac15c4701e130ad921f03a3646",
+    "refs/heads/feat/network-profile-files": "b72628eb6b60453020874dbe4c181398db0d3644",
     "refs/heads/feat/network-profiles": "d6bc44bf161cd4b501a422b1667d47949c9cc27c",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/registry-status-route": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
@@ -6902,7 +6926,7 @@
     "refs/heads/fix/registry-private-address-guard": "fa40f6c0d1f26a7b051ba742b745f14028673dea",
     "refs/heads/fix/registry-unavailable-during-rebuild": "75d4edb6938f81a30d35205bebfb9633d03e1b5a",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
-    "refs/heads/fix/remove-development-mode": "c4a2535f2e6277f4ca202a9c57dd5e672340f23a",
+    "refs/heads/fix/remove-development-mode": "56123eb1f3ba028107a240811530677e3a087aa6",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
@@ -7311,7 +7335,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 451,
-    "issued_at": "2026-11-06T15:09:04.695Z"
+    "seq": 452,
+    "issued_at": "2026-11-06T15:26:51.657Z"
   }
 }
