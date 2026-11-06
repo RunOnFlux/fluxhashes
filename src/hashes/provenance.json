@@ -5898,7 +5898,7 @@
       "published": "2026-11-06",
       "commit": "e880e34da2410c7dad8a23e25ea38f2a505ccfa8",
       "branch": "development",
-      "tag": null,
+      "tag": "v8.23.0",
       "derived": true
     }
   },
@@ -7278,6 +7278,7 @@
     "refs/tags/v8.21.0": "25c6beef8b49fe36e14304a880dc1031dad0a8c4",
     "refs/tags/v8.21.1": "9bb1419690914b1fe98209b56a6c3638b7d11c5c",
     "refs/tags/v8.22.0": "8dab5702e510f4af7583a8fa8205ab2740f8309f",
+    "refs/tags/v8.23.0": "71fbe4473adedf7f027ac20157818c19c6a2b2ad",
     "refs/tags/v8.3.0": "aa7c19aa686d24f9bee5d6302d46dad945f1926b",
     "refs/tags/v8.3.1": "96ccd537335d02e8d823dc83d95edeb7005852b3",
     "refs/tags/v8.4.0": "dc8da715684b30cf62577febec59ff5f883107b2",
