@@ -5956,6 +5956,13 @@
       "branch": "fix/enterprise-spec-is-encrypted-only",
       "tag": null,
       "derived": true
+    },
+    "9e7a30285f4774192bad19816469e557": {
+      "published": "2026-11-07",
+      "commit": "01a2d1fc44b6be9ba16f6110224763c09c2d3654",
+      "branch": "fix/enterprise-spec-is-encrypted-only",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6729,7 +6736,8 @@
     "dcde09fb16be3cd9dfc9c3bf27b60b0d5863fa51": "4885cb10d6c387caa0a3e3ae515ffcd5",
     "46be6a298a94ae5793c136f23f68f7d144f217ee": "4885cb10d6c387caa0a3e3ae515ffcd5",
     "0a296bbdd94d902bc55d5a692a211e7712cb7f03": "4885cb10d6c387caa0a3e3ae515ffcd5",
-    "f7b3a553dc3bfd0e37999ca51189d44669cba82b": "88cf10b1ed8fec5e4454f7eac4485c86"
+    "f7b3a553dc3bfd0e37999ca51189d44669cba82b": "88cf10b1ed8fec5e4454f7eac4485c86",
+    "01a2d1fc44b6be9ba16f6110224763c09c2d3654": "9e7a30285f4774192bad19816469e557"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6911,7 +6919,7 @@
     "refs/heads/fix/enterprise-app-decryption-bugs": "1f40fd9c33be4a2e0194f8d23d9657bc2b273267",
     "refs/heads/fix/enterprise-extender-renewal-decrypt": "621759ebfcec5a746ad0d90803d09220b838a05e",
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
-    "refs/heads/fix/enterprise-spec-is-encrypted-only": "f7b3a553dc3bfd0e37999ca51189d44669cba82b",
+    "refs/heads/fix/enterprise-spec-is-encrypted-only": "01a2d1fc44b6be9ba16f6110224763c09c2d3654",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
     "refs/heads/fix/explorer-always-bootstraps": "4f655e57fe9b4b52dd1df36ba2d0d8b1d1aabafa",
     "refs/heads/fix/explorer-reorg-by-block-hash": "af478611527806f0e32e5ab13d5268cf914989b0",
@@ -7367,7 +7375,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 455,
-    "issued_at": "2026-11-07T16:50:33.775Z"
+    "seq": 456,
+    "issued_at": "2026-11-07T16:55:45.900Z"
   }
 }
