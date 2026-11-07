@@ -5961,7 +5961,7 @@
       "published": "2026-11-07",
       "commit": "01a2d1fc44b6be9ba16f6110224763c09c2d3654",
       "branch": "fix/enterprise-spec-is-encrypted-only",
-      "tag": null,
+      "tag": "v8.23.1",
       "derived": true
     }
   },
@@ -6739,7 +6739,8 @@
     "f7b3a553dc3bfd0e37999ca51189d44669cba82b": "88cf10b1ed8fec5e4454f7eac4485c86",
     "01a2d1fc44b6be9ba16f6110224763c09c2d3654": "9e7a30285f4774192bad19816469e557",
     "54268c8aa7c11a58e22c9c5254e669900cf878f9": "9e7a30285f4774192bad19816469e557",
-    "da95c151dae1f182a1b6ad4d95aaa24131de7939": "9e7a30285f4774192bad19816469e557"
+    "da95c151dae1f182a1b6ad4d95aaa24131de7939": "9e7a30285f4774192bad19816469e557",
+    "69955f19870ca1767b75302e2d8210fa418289a9": "9e7a30285f4774192bad19816469e557"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7024,7 +7025,7 @@
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
     "refs/heads/loading": "647b87987769b94609b4ebc6c1cd896d325d1347",
     "refs/heads/localhost": "4a07e7313e7d6934f16e0c193be6356bf83a6823",
-    "refs/heads/master": "71fbe4473adedf7f027ac20157818c19c6a2b2ad",
+    "refs/heads/master": "69955f19870ca1767b75302e2d8210fa418289a9",
     "refs/heads/masterB": "2fd11101e8dc66274fbd698dd9a4aecd8b0491d8",
     "refs/heads/masterDev": "3b9325dc8af3db04a2fe342244e29b9d9a34d78c",
     "refs/heads/mongod-gpg": "9e60c845e87193e2a9bc7d6178c96c4ab820e9e1",
@@ -7361,6 +7362,7 @@
     "refs/tags/v8.21.1": "9bb1419690914b1fe98209b56a6c3638b7d11c5c",
     "refs/tags/v8.22.0": "8dab5702e510f4af7583a8fa8205ab2740f8309f",
     "refs/tags/v8.23.0": "71fbe4473adedf7f027ac20157818c19c6a2b2ad",
+    "refs/tags/v8.23.1": "69955f19870ca1767b75302e2d8210fa418289a9",
     "refs/tags/v8.3.0": "aa7c19aa686d24f9bee5d6302d46dad945f1926b",
     "refs/tags/v8.3.1": "96ccd537335d02e8d823dc83d95edeb7005852b3",
     "refs/tags/v8.4.0": "dc8da715684b30cf62577febec59ff5f883107b2",
