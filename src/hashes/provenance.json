@@ -6019,6 +6019,13 @@
       "branch": "feat/arcane-fluxos-image",
       "tag": null,
       "derived": true
+    },
+    "011f60ed77ef87116f860c5dc0753d2b": {
+      "published": "2026-11-09",
+      "commit": "cc7dcf053462f4375e3297b98f6379e48109aebd",
+      "branch": "feat/geolocation-misplaced",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6806,7 +6813,8 @@
     "79f4de4cd166cd6a71230e799f16702ba3a2a728": "748ef2dc9c22aa12750da4b2472aeb12",
     "28a5a1bc77ffd55842ef5d29d706dc97f888ce71": "24708d0be31dd2d4888b9e94306fdba3",
     "4ed1121cd4fc2ac1d396e51cbc01c86ff3e76d09": "aeae26eaa00d6c027b1e619a4bbde01a",
-    "7275fa332003bb653024b4a3a2c2f11ad052cfa5": "71f1eab69570e15c5c4754eb34ea884e"
+    "7275fa332003bb653024b4a3a2c2f11ad052cfa5": "71f1eab69570e15c5c4754eb34ea884e",
+    "cc7dcf053462f4375e3297b98f6379e48109aebd": "011f60ed77ef87116f860c5dc0753d2b"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6869,7 +6877,7 @@
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "89154e870ead1afc80f38b2a9e2c94709d8dad0d",
     "refs/heads/feat/game-server-cpu-throttle-exempt": "b88ffd077a690544797c4cdbd307dc8c428e7627",
-    "refs/heads/feat/geolocation-misplaced": "52262c410d5a94dc284f0f07f2d22df36cd75f73",
+    "refs/heads/feat/geolocation-misplaced": "cc7dcf053462f4375e3297b98f6379e48109aebd",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
     "refs/heads/feat/kernel-taint-report": "780fc4282c39e2b2f3154b537bf937b8103e47ca",
     "refs/heads/feat/legacy-fluxadm-ssh": "161219f9eef30ddea84880be5d5d2c1aac9df26d",
@@ -7445,7 +7453,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 461,
-    "issued_at": "2026-11-09T12:15:23.110Z"
+    "seq": 462,
+    "issued_at": "2026-11-09T12:24:38.490Z"
   }
 }
