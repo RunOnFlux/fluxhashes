@@ -6026,6 +6026,13 @@
       "branch": "feat/geolocation-misplaced",
       "tag": null,
       "derived": true
+    },
+    "be14af840884876c060af230afa79dc3": {
+      "published": "2026-11-09",
+      "commit": "37a5efc68a5e1de4a917cb3b82ec63ba9cb1c7ee",
+      "branch": "feat/dos-recurrence",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6814,7 +6821,8 @@
     "28a5a1bc77ffd55842ef5d29d706dc97f888ce71": "24708d0be31dd2d4888b9e94306fdba3",
     "4ed1121cd4fc2ac1d396e51cbc01c86ff3e76d09": "aeae26eaa00d6c027b1e619a4bbde01a",
     "7275fa332003bb653024b4a3a2c2f11ad052cfa5": "71f1eab69570e15c5c4754eb34ea884e",
-    "cc7dcf053462f4375e3297b98f6379e48109aebd": "011f60ed77ef87116f860c5dc0753d2b"
+    "cc7dcf053462f4375e3297b98f6379e48109aebd": "011f60ed77ef87116f860c5dc0753d2b",
+    "37a5efc68a5e1de4a917cb3b82ec63ba9cb1c7ee": "be14af840884876c060af230afa79dc3"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6869,6 +6877,7 @@
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
+    "refs/heads/feat/dos-recurrence": "37a5efc68a5e1de4a917cb3b82ec63ba9cb1c7ee",
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
@@ -7453,7 +7462,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 462,
-    "issued_at": "2026-11-09T12:24:38.490Z"
+    "seq": 463,
+    "issued_at": "2026-11-09T13:12:39.587Z"
   }
 }
