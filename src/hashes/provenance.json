@@ -6089,6 +6089,13 @@
       "branch": "feat/dos-recurrence",
       "tag": null,
       "derived": true
+    },
+    "1b7c86dc98258b73a24c6cc7639939ac": {
+      "published": "2026-11-10",
+      "commit": "b98b61d2b6d440356378f7d4a18240385d5178ce",
+      "branch": "feat/arcane-fluxos-image",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6897,7 +6904,8 @@
     "697f95d104d3ace05da476c8c130388bdc4d9070": "814954167ffc9575d98fcbd5caa66bdd",
     "bb9f5f1eb0227aa2cddef8e17ea63d7b25845e1a": "b0602b661ebfc48b4b0cfd09dc20363a",
     "01325af9cfae6344dc12c739a43fad0c89ff42d5": "814954167ffc9575d98fcbd5caa66bdd",
-    "9633c2501e3bb994ce615f33f311e99d52e57952": "78d40cfc0d7a014025a10de7567b949d"
+    "9633c2501e3bb994ce615f33f311e99d52e57952": "78d40cfc0d7a014025a10de7567b949d",
+    "b98b61d2b6d440356378f7d4a18240385d5178ce": "1b7c86dc98258b73a24c6cc7639939ac"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6945,7 +6953,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/app-swap-pool": "cc4b5163eae41b695d3e80419290aa2528174599",
-    "refs/heads/feat/arcane-fluxos-image": "5d29bbb8af6f550877f6ec730adeff8ef5d4035e",
+    "refs/heads/feat/arcane-fluxos-image": "b98b61d2b6d440356378f7d4a18240385d5178ce",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
     "refs/heads/feat/btc-message-without-bitcoinjs": "608f4d95eccbf47410c1649a7212e05041dde241",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
@@ -7537,7 +7545,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 466,
-    "issued_at": "2026-11-10T10:37:29.640Z"
+    "seq": 467,
+    "issued_at": "2026-11-10T11:06:02.883Z"
   }
 }
