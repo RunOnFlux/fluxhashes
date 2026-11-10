@@ -6054,6 +6054,34 @@
       "branch": "fix/own-address-after-move",
       "tag": null,
       "derived": true
+    },
+    "aa14c433e8d18d4ccd3af86b96fe1f61": {
+      "published": "2026-11-10",
+      "commit": "df033f6721e048a031d8df88373f16527f810b1f",
+      "branch": "fix/explorer-always-bootstraps",
+      "tag": null,
+      "derived": true
+    },
+    "b0602b661ebfc48b4b0cfd09dc20363a": {
+      "published": "2026-11-10",
+      "commit": "560f3d11c90baf6e6298c4b066cce94b271ec9ce",
+      "branch": "fix/explorer-reorg-by-block-hash",
+      "tag": null,
+      "derived": true
+    },
+    "814954167ffc9575d98fcbd5caa66bdd": {
+      "published": "2026-11-10",
+      "commit": "c1023fc660e58163a24c2eabc7312b593bea0ed1",
+      "branch": "fix/own-address-after-move",
+      "tag": null,
+      "derived": true
+    },
+    "b0352533e0c50ace7adca983c7894859": {
+      "published": "2026-11-10",
+      "commit": "701dc68ce7d4f5037a6ef82c07618388e2892894",
+      "branch": "fix/unpaid-message-caps",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6848,7 +6876,11 @@
     "5d29bbb8af6f550877f6ec730adeff8ef5d4035e": "71f1eab69570e15c5c4754eb34ea884e",
     "000931552f00ee21b080167b3edea4d60dcf2b3e": "31c2885889a64a51a234fed44355e6b7",
     "4d70a5fcca145bbc5dbbdfbee7f53f393a4a1e79": "450e8eeae830562263b77edb9059e1b5",
-    "ce4b2a4c1201d081b20f59edd0fa1df3de363b20": "e37ed97d78c8f6e0c4aee3bdd3c08534"
+    "ce4b2a4c1201d081b20f59edd0fa1df3de363b20": "e37ed97d78c8f6e0c4aee3bdd3c08534",
+    "df033f6721e048a031d8df88373f16527f810b1f": "aa14c433e8d18d4ccd3af86b96fe1f61",
+    "560f3d11c90baf6e6298c4b066cce94b271ec9ce": "b0602b661ebfc48b4b0cfd09dc20363a",
+    "c1023fc660e58163a24c2eabc7312b593bea0ed1": "814954167ffc9575d98fcbd5caa66bdd",
+    "701dc68ce7d4f5037a6ef82c07618388e2892894": "b0352533e0c50ace7adca983c7894859"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7033,8 +7065,8 @@
     "refs/heads/fix/enterprise-placement": "66a10c08cc40c1111e3ca85801304fe7a9433885",
     "refs/heads/fix/enterprise-spec-is-encrypted-only": "01a2d1fc44b6be9ba16f6110224763c09c2d3654",
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
-    "refs/heads/fix/explorer-always-bootstraps": "000931552f00ee21b080167b3edea4d60dcf2b3e",
-    "refs/heads/fix/explorer-reorg-by-block-hash": "4d70a5fcca145bbc5dbbdfbee7f53f393a4a1e79",
+    "refs/heads/fix/explorer-always-bootstraps": "df033f6721e048a031d8df88373f16527f810b1f",
+    "refs/heads/fix/explorer-reorg-by-block-hash": "560f3d11c90baf6e6298c4b066cce94b271ec9ce",
     "refs/heads/fix/explorer-waits-for-blocks": "62cf8bc9f29fc0463b7d9f1e7601a971ca687457",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
@@ -7065,7 +7097,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/own-address-after-move": "ce4b2a4c1201d081b20f59edd0fa1df3de363b20",
+    "refs/heads/fix/own-address-after-move": "c1023fc660e58163a24c2eabc7312b593bea0ed1",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -7104,7 +7136,7 @@
     "refs/heads/fix/syncthing-takeover": "9af013b6345b421f4f32413a39a6585a78c93bac",
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
-    "refs/heads/fix/unpaid-message-caps": "4ed1121cd4fc2ac1d396e51cbc01c86ff3e76d09",
+    "refs/heads/fix/unpaid-message-caps": "701dc68ce7d4f5037a6ef82c07618388e2892894",
     "refs/heads/fix/upload-created-folders-inherit-owner": "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
@@ -7488,7 +7520,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 464,
-    "issued_at": "2026-11-09T20:14:09.594Z"
+    "seq": 465,
+    "issued_at": "2026-11-10T10:11:40.158Z"
   }
 }
