@@ -6117,6 +6117,20 @@
       "branch": "fix/own-address-after-move",
       "tag": null,
       "derived": true
+    },
+    "3d30289046025c752edcf3d7843c9dfe": {
+      "published": "2026-11-11",
+      "commit": "412fb62eebf55b0226c72def7b215a9214ab1039",
+      "branch": "feat/dos-recurrence",
+      "tag": null,
+      "derived": true
+    },
+    "f76074462f36edc45196b978253cd05a": {
+      "published": "2026-11-11",
+      "commit": "4d0b6fd16c0be08bf00642bb47c032aede58fd24",
+      "branch": "fix/own-address-after-move",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6935,7 +6949,9 @@
     "96bd8025bd15076bb5f12ba983083dc0313b07ef": "1b7c86dc98258b73a24c6cc7639939ac",
     "83a843abf54ab54ca9e5322141183ee44cd4a70d": "3bffe6d6d48752f1abbeb0dc69061186",
     "890c00d5a975d661b1d59d120ed074a02322b4a8": "32e92da91f686aad795adeeb1a882534",
-    "0954f8ddafd95cdcc9307311672c473ae8d11220": "39e217e658ceb40e3287292f087de107"
+    "0954f8ddafd95cdcc9307311672c473ae8d11220": "39e217e658ceb40e3287292f087de107",
+    "412fb62eebf55b0226c72def7b215a9214ab1039": "3d30289046025c752edcf3d7843c9dfe",
+    "4d0b6fd16c0be08bf00642bb47c032aede58fd24": "f76074462f36edc45196b978253cd05a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -6990,7 +7006,7 @@
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
-    "refs/heads/feat/dos-recurrence": "890c00d5a975d661b1d59d120ed074a02322b4a8",
+    "refs/heads/feat/dos-recurrence": "412fb62eebf55b0226c72def7b215a9214ab1039",
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
@@ -7152,7 +7168,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/own-address-after-move": "0954f8ddafd95cdcc9307311672c473ae8d11220",
+    "refs/heads/fix/own-address-after-move": "4d0b6fd16c0be08bf00642bb47c032aede58fd24",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
     "refs/heads/fix/post-install-broadcast-ordering": "c8d567899ffed7c328dc1bb2f5530c146a268726",
@@ -7578,7 +7594,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 469,
-    "issued_at": "2026-11-11T07:40:34.843Z"
+    "seq": 470,
+    "issued_at": "2026-11-11T12:28:21.283Z"
   }
 }

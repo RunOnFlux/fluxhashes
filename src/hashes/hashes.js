@@ -874,6 +874,8 @@ function getHashes() {
     '3bffe6d6d48752f1abbeb0dc69061186',
     '32e92da91f686aad795adeeb1a882534',
     '39e217e658ceb40e3287292f087de107',
+    '3d30289046025c752edcf3d7843c9dfe',
+    'f76074462f36edc45196b978253cd05a',
   ];
 }
 
