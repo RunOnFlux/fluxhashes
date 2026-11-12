@@ -111,6 +111,34 @@ To rotate: generate a new key under the app's **Credentials → Key pairs**, rep
 environment secret, then delete the old key there. The client ID and the ruleset bypass do not
 change.
 
+## Publishing to the CDN
+
+`publish-hashlist.yml` runs after every signing run that succeeds. It puts
+`src/hashes/hashlist-signed.json`, byte for byte, on the CDN origin as the `components` document
+`hashlist` when the origin's list has a lower `seq` or the origin has none, waits until the origin
+offers it (every CDN holds it), and then dispatches `sign-manifest` in
+`RunOnFlux/fluxos-component-manifest`. It dispatches whether or not it published: a FluxOS
+release's hash is listed before its tag is cut, so the run that follows the tag has nothing to
+publish and the manifest run must still happen. `scripts/publish-hashlist.js` is the publisher.
+
+It holds two credentials, both in the `hashlist-signing` environment:
+
+- **The origin publisher certificate**, `ORIGIN_PUBLISHER_CERT` and `ORIGIN_PUBLISHER_KEY` (PEM),
+  and, where the origin's certificate is not signed by a public CA, that CA in the variable
+  `ORIGIN_CA`. The origin's address is the repository variable `ORIGIN_URL`; while it is unset
+  the publish is skipped. The origin's config limits this
+  certificate's subject to the `hashlist` document: it can publish no other document, no build
+  and no bootstrap, and can retire nothing. It carries no authority over the list either, since
+  every consumer verifies the list's signature.
+- **The dispatch app**, a GitHub App installed on `fluxos-component-manifest` only with Actions
+  read and write: its private key is `MANIFEST_DISPATCH_APP_KEY` and its client ID the variable
+  `MANIFEST_DISPATCH_APP_CLIENT_ID`. Each run mints an installation token limited to Actions
+  write on that repository. The dispatch has no inputs, so the token can start a manifest run and
+  cannot tell it what to sign.
+
+The publish runs one at a time and is never cancelled once it has started, unlike the signer: it
+waits on every CDN, and a newer signing request must not restart that wait.
+
 ## Trust
 
 Anyone who can land a workflow change on `master` can read the secrets; a GitHub secret is an
