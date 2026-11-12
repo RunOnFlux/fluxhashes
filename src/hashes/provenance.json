@@ -6173,6 +6173,13 @@
       "branch": "fix/input-and-path-hardening",
       "tag": null,
       "derived": true
+    },
+    "a39710d7e4013282581d7af4acb8f1b2": {
+      "published": "2026-11-12",
+      "commit": "8c2e8d6012223965c45f48d03211e8f69ca276b2",
+      "branch": "fix/synced-apps-on-misconfigured-nodes",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7017,7 +7024,8 @@
     "a17ffdaa794b7fb2d30be649781ce988c5b1be7f": "77f1f092a4b4d2c59d9e7b160b9c6664",
     "8c8e0f55ce1f0c04de9ed6566095d5343f11acda": "7788184c64b97c3cb105451a2b93dc86",
     "f6b1ba7491ad31207107f9b2707bc1dd4c90744a": "7788184c64b97c3cb105451a2b93dc86",
-    "8bac464340df6eece65c46b026311c147dde0c12": "1b7c86dc98258b73a24c6cc7639939ac"
+    "8bac464340df6eece65c46b026311c147dde0c12": "1b7c86dc98258b73a24c6cc7639939ac",
+    "8c2e8d6012223965c45f48d03211e8f69ca276b2": "a39710d7e4013282581d7af4acb8f1b2"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7265,6 +7273,7 @@
     "refs/heads/fix/spawner-expiration-check": "e179895752ec3e39d038de63efb98fd267c04a65",
     "refs/heads/fix/streamchain-local-sync-check": "876e0bef89067a63beff1a1e39ed6e33b01cb591",
     "refs/heads/fix/surplus-trim-reads-enterprise-specs": "219bdc80c5066d62c3b3f82ac87691bd318c2cda",
+    "refs/heads/fix/synced-apps-on-misconfigured-nodes": "8c2e8d6012223965c45f48d03211e8f69ca276b2",
     "refs/heads/fix/synced-restart-after-fluxos-restart": "104e97c6f504ed9583b53ac44c4f6b558ac61625",
     "refs/heads/fix/synced-share-defers-instead-of-stranding": "0c620c88c44bddf84f97ed451a4acb9dc9b8f91d",
     "refs/heads/fix/syncthing-first-run-gate": "d2a79fabeb3ef8e440a25efd2e623c1b80c412d8",
@@ -7660,7 +7669,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 474,
-    "issued_at": "2026-11-12T12:17:29.773Z"
+    "seq": 475,
+    "issued_at": "2026-11-12T14:17:58.418Z"
   }
 }
