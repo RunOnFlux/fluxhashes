@@ -6159,6 +6159,20 @@
       "branch": "feat/dos-recurrence",
       "tag": null,
       "derived": true
+    },
+    "7788184c64b97c3cb105451a2b93dc86": {
+      "published": "2026-11-12",
+      "commit": "7857480ae0a894517be6e6a39583516fa93373a8",
+      "branch": "fix/global-command-runs-locally",
+      "tag": null,
+      "derived": true
+    },
+    "77f1f092a4b4d2c59d9e7b160b9c6664": {
+      "published": "2026-11-12",
+      "commit": "1b7f7cc0a9357b90366701eda82b6ff168b9aac4",
+      "branch": "fix/input-and-path-hardening",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6995,7 +7009,9 @@
     "3a66b194922f352743e19d98a1c043e9ea5b6139": "6389107900f2be1797b4657061856421",
     "472fe3d5ea8245c898f5bea227d959757f8b8b90": "d4b83c5d616cf83cc23aafef83aeacc9",
     "889a0aedac58c35bfe740fbcff1e14bc3be7491a": "6389107900f2be1797b4657061856421",
-    "fc6338835b1cedeb9b4be6029a489843a5e528b8": "6389107900f2be1797b4657061856421"
+    "fc6338835b1cedeb9b4be6029a489843a5e528b8": "6389107900f2be1797b4657061856421",
+    "7857480ae0a894517be6e6a39583516fa93373a8": "7788184c64b97c3cb105451a2b93dc86",
+    "1b7f7cc0a9357b90366701eda82b6ff168b9aac4": "77f1f092a4b4d2c59d9e7b160b9c6664"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7193,7 +7209,7 @@
     "refs/heads/fix/g-primary-role": "b9527eac1b1e1c81d33627a4980c1b049863f957",
     "refs/heads/fix/g-standby-directory-revert-loop": "92e2fed6052c74e9aeef150c927aa95b3f45c92a",
     "refs/heads/fix/geolocation-cache-is-not-the-response": "e3452ba1596ff0a91b4060078dffccf30def7371",
-    "refs/heads/fix/global-command-runs-locally": "786d30dddd75090889b42b2f19c497ce6b9e6edd",
+    "refs/heads/fix/global-command-runs-locally": "7857480ae0a894517be6e6a39583516fa93373a8",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
     "refs/heads/fix/hash-sync-stream-stall": "2eae15536c8e7548b4b9418754c846c8ef02695b",
@@ -7201,7 +7217,7 @@
     "refs/heads/fix/host-stall-dos": "114b9f345cc2bf0a883e3724dbddd96d76bade52",
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
-    "refs/heads/fix/input-and-path-hardening": "447f7bd937b0590d441b0188ac39de1546a970c4",
+    "refs/heads/fix/input-and-path-hardening": "1b7f7cc0a9357b90366701eda82b6ff168b9aac4",
     "refs/heads/fix/ip-change-hold-in-blocks": "8afd9395d15feed43f94a6db96c2004739de7c52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/labnet-inbound-cap": "817ea52bf234222c8d7b076d21482845037c47de",
@@ -7638,7 +7654,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 473,
-    "issued_at": "2026-11-12T10:03:34.545Z"
+    "seq": 474,
+    "issued_at": "2026-11-12T12:17:29.773Z"
   }
 }
