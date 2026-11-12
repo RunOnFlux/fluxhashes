@@ -6145,6 +6145,13 @@
       "branch": "fix/own-address-after-move",
       "tag": null,
       "derived": true
+    },
+    "98845ac3ed74def74852b18bd95bab36": {
+      "published": "2026-11-12",
+      "commit": "bd8400ae6563308df5111fcbec025ad2fd917e01",
+      "branch": "feat/dos-recurrence",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -6973,7 +6980,10 @@
     "d442169e3a9496233fce31c6131a4f9fc4ad25e3": "74ffece36df8f8494417e8a3fee2a4b3",
     "0753d33e5737680abd566350126fe8de2394c6a9": "d4b83c5d616cf83cc23aafef83aeacc9",
     "3bb63955be8c6934401b59d2a3bdb45529350e36": "74ffece36df8f8494417e8a3fee2a4b3",
-    "412c3326bd179ac922e816bafa712328654d42c9": "74ffece36df8f8494417e8a3fee2a4b3"
+    "412c3326bd179ac922e816bafa712328654d42c9": "74ffece36df8f8494417e8a3fee2a4b3",
+    "104d79a349ed9dc714661a1d5475649e628d9e40": "1b7c86dc98258b73a24c6cc7639939ac",
+    "bd8400ae6563308df5111fcbec025ad2fd917e01": "98845ac3ed74def74852b18bd95bab36",
+    "24a4b3da657649945c375ef0b22a8d6a491cf8e3": "1b7c86dc98258b73a24c6cc7639939ac"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7021,14 +7031,14 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/app-swap-pool": "cc4b5163eae41b695d3e80419290aa2528174599",
-    "refs/heads/feat/arcane-fluxos-image": "3eefb4b15685f6c43a0c094cb5bfc4371836a072",
+    "refs/heads/feat/arcane-fluxos-image": "104d79a349ed9dc714661a1d5475649e628d9e40",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
     "refs/heads/feat/btc-message-without-bitcoinjs": "608f4d95eccbf47410c1649a7212e05041dde241",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
-    "refs/heads/feat/dos-recurrence": "412c3326bd179ac922e816bafa712328654d42c9",
+    "refs/heads/feat/dos-recurrence": "bd8400ae6563308df5111fcbec025ad2fd917e01",
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
@@ -7256,7 +7266,7 @@
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
     "refs/heads/lab/labnet-profiles": "2e8df42166a417c764b2136916f8bdb5ee6d7150",
     "refs/heads/lab/labnet-profiles-822": "b19b6780e8b717f331f6fee8d5120071c4e5b9bd",
-    "refs/heads/lab/runner-offer": "96bd8025bd15076bb5f12ba983083dc0313b07ef",
+    "refs/heads/lab/runner-offer": "24a4b3da657649945c375ef0b22a8d6a491cf8e3",
     "refs/heads/lab/seed-patch": "19b5d4f307dd3b9d5cedadba0044e671a16ba768",
     "refs/heads/lab/trial-freeze": "dc82b1ffb19d778f2f4c6d74ad53553f78a5ec76",
     "refs/heads/legacyissues": "20535840ce70e7993f6d2496ed84ab8039166682",
@@ -7616,7 +7626,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 471,
-    "issued_at": "2026-11-11T17:55:52.747Z"
+    "seq": 472,
+    "issued_at": "2026-11-12T07:53:43.919Z"
   }
 }
