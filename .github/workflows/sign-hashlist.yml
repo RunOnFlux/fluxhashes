@@ -64,7 +64,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: '20'
+          node-version: '24'
 
       # An installation token for this repository, Contents write and nothing else whatever the
       # app is later granted. It expires within the hour and is revoked when the job ends.
