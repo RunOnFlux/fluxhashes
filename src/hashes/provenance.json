@@ -6187,6 +6187,13 @@
       "branch": "fix/hash-sync-stream-stall",
       "tag": null,
       "derived": true
+    },
+    "358f0bbb95685f3c14d99d9f82239066": {
+      "published": "2026-11-13",
+      "commit": "657c6f9c7cd6c5f1701fe1842ee966a7ccc5e08a",
+      "branch": "fix/hash-sync-stream-stall",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7036,7 +7043,8 @@
     "e96dd8ac07b8b2864d4a30dda4feb6a1b3cfe01f": "1b7c86dc98258b73a24c6cc7639939ac",
     "64c9230322e43eae293139faeda3e73e8868ae1d": "1b7c86dc98258b73a24c6cc7639939ac",
     "3ffeec894c733d56798b16a7b3a7b80471bda0d6": "d83e3627e1e8e26716f075f8a9a13f1e",
-    "85fbbca8fcc8289487bd8d98644dfb5033cc8f09": "1b7c86dc98258b73a24c6cc7639939ac"
+    "85fbbca8fcc8289487bd8d98644dfb5033cc8f09": "1b7c86dc98258b73a24c6cc7639939ac",
+    "657c6f9c7cd6c5f1701fe1842ee966a7ccc5e08a": "358f0bbb95685f3c14d99d9f82239066"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7237,7 +7245,7 @@
     "refs/heads/fix/global-command-runs-locally": "8c8e0f55ce1f0c04de9ed6566095d5343f11acda",
     "refs/heads/fix/harden": "827f558f172b20203d9b3059eb374ce4a02cbd64",
     "refs/heads/fix/harness-keeper-paused-folder": "82bb8d3a988b4f505c680e3d2e36cc7df44b39ff",
-    "refs/heads/fix/hash-sync-stream-stall": "3ffeec894c733d56798b16a7b3a7b80471bda0d6",
+    "refs/heads/fix/hash-sync-stream-stall": "657c6f9c7cd6c5f1701fe1842ee966a7ccc5e08a",
     "refs/heads/fix/health-reports-unmeasured-hardware": "6638447e67d4c3eca028c553d14c8e55f41b305c",
     "refs/heads/fix/host-stall-dos": "114b9f345cc2bf0a883e3724dbddd96d76bade52",
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
@@ -7680,7 +7688,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 476,
-    "issued_at": "2026-11-13T06:48:57.554Z"
+    "seq": 477,
+    "issued_at": "2026-11-13T12:53:19.961Z"
   }
 }
