@@ -46,6 +46,11 @@ PR that edits them directly.
 Consumers pin a set of public keys and accept a document signed by any one of them, so a second key
 can take over without those consumers needing an update.
 
+The CDN takes the same two keys from the production keys document (flux-component-release
+`keys/prod.toml`, `[keys.hashlist]`: key 1 as `prod`, key 2 as `cold`): its release API serves, and
+the FluxOS manifest run reads, a list signed by either. A key added or replaced here goes into that
+document as well, in an HSM release session, before any list it signs can reach the CDN.
+
 | key | public key (raw ed25519, hex) | custody | use |
 |---|---|---|---|
 | 1 | `14837066068b258bfbd0749702056f7065361af44aed48761834744391cbbaaa` | CI, secret `HASHLIST_SIGNING_SEED_B64` in the `hashlist-signing` environment | day to day |
