@@ -180,14 +180,14 @@ test('a retiring list counts as none', async (t) => {
   assert.equal(origin.entry.state, 'offered');
 });
 
-for (const method of ['DELETE', 'PUT', 'POST']) {
+['DELETE', 'PUT', 'POST'].forEach((method) => {
   test(`an origin that refuses the ${method} fails the run with its answer`, async (t) => {
     const origin = await fakeOrigin({ refuse: method });
     t.after(origin.close);
     await assert.rejects(run(origin, 7), new RegExp(`${method} .*: 403 this certificate may not write`));
     assert.equal(origin.entry, null);
   });
-}
+});
 
 test('the command refuses an origin that is not https, and a missing certificate', () => {
   const command = (env) => spawnSync(process.execPath, [SCRIPT], { env: { PATH: process.env.PATH, ...env }, encoding: 'utf8' });
