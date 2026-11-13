@@ -1,0 +1,77 @@
+name: publish-hashlist
+
+# Puts the signed hash list on the CDN origin and then asks fluxos-component-manifest to sign the
+# FluxOS manifests: a node is offered a FluxOS only once the list carrying its hash is on every
+# CDN, so the list goes live first and the manifest run follows it.
+#
+# It runs after every sign-hashlist run that succeeds, whether or not that run signed anything. A
+# FluxOS release's hash is listed before its tag is cut, so the signing run that follows the tag
+# changes nothing, and the manifest run it must cause is dispatched from here all the same.
+#
+# Level-triggered, as the signer is: each run publishes master's list if the origin's is older,
+# waits until the origin offers it, and dispatches. A signing run that fails or is cancelled
+# publishes nothing; the next that succeeds does, the daily one included.
+#
+# The job is skipped while the repository variable ORIGIN_URL is unset.
+
+on:
+  workflow_run:
+    workflows: [sign-hashlist]
+    types: [completed]
+
+permissions:
+  contents: read
+
+# One publish at a time, never cancelled once running: a publish waits on every CDN, and the
+# signer's newest-request-takes-over must not restart that wait with each new request. A run
+# queued behind a running one checks out master when it starts, so it carries every list signed
+# while it waited; GitHub keeps only the newest queued run, which is the only one needed.
+concurrency:
+  group: publish-hashlist
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event.workflow_run.conclusion == 'success' && vars.ORIGIN_URL != ''
+    runs-on: ubuntu-latest
+    # Its deployment branch policy admits master only. A workflow_run run is on the default
+    # branch whatever ref the signing run was on.
+    environment: hashlist-signing
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: master
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+
+      # The origin limits this certificate to the `hashlist` document: it can publish no other
+      # document, no build and no bootstrap, and can retire nothing.
+      - name: Publish the signed list and wait until it is offered
+        env:
+          ORIGIN_URL: ${{ vars.ORIGIN_URL }}
+          ORIGIN_CA: ${{ vars.ORIGIN_CA }}
+          ORIGIN_CERT: ${{ secrets.ORIGIN_PUBLISHER_CERT }}
+          ORIGIN_KEY: ${{ secrets.ORIGIN_PUBLISHER_KEY }}
+        run: node scripts/publish-hashlist.js
+
+      # An installation token for fluxos-component-manifest, Actions write and nothing else
+      # whatever the app is later granted. It expires within the hour and is revoked when the job
+      # ends.
+      - name: Mint the dispatch token
+        id: dispatch-token
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          client-id: ${{ vars.MANIFEST_DISPATCH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.MANIFEST_DISPATCH_APP_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: fluxos-component-manifest
+          permission-actions: write
+
+      # The dispatch carries no input: the manifest run reads the offered list, the flux
+      # repository and the frontend's releases itself.
+      - name: Dispatch the manifest run
+        env:
+          GH_TOKEN: ${{ steps.dispatch-token.outputs.token }}
+        run: gh workflow run sign-manifest.yml --repo "$GITHUB_REPOSITORY_OWNER/fluxos-component-manifest" --ref master

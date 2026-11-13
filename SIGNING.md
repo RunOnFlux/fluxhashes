@@ -46,6 +46,11 @@ PR that edits them directly.
 Consumers pin a set of public keys and accept a document signed by any one of them, so a second key
 can take over without those consumers needing an update.
 
+The CDN takes the same two keys from the production keys document (flux-component-release
+`keys/prod.toml`, `[keys.hashlist]`: key 1 as `prod`, key 2 as `cold`): its release API serves, and
+the FluxOS manifest run reads, a list signed by either. A key added or replaced here goes into that
+document as well, in an HSM release session, before any list it signs can reach the CDN.
+
 | key | public key (raw ed25519, hex) | custody | use |
 |---|---|---|---|
 | 1 | `14837066068b258bfbd0749702056f7065361af44aed48761834744391cbbaaa` | CI, secret `HASHLIST_SIGNING_SEED_B64` in the `hashlist-signing` environment | day to day |
@@ -110,6 +115,34 @@ trailing comment; moving an action to a newer version means updating both.
 To rotate: generate a new key under the app's **Credentials → Key pairs**, replace the
 environment secret, then delete the old key there. The client ID and the ruleset bypass do not
 change.
+
+## Publishing to the CDN
+
+`publish-hashlist.yml` runs after every signing run that succeeds. It puts
+`src/hashes/hashlist-signed.json`, byte for byte, on the CDN origin as the `components` document
+`hashlist` when the origin's list has a lower `seq` or the origin has none, waits until the origin
+offers it (every CDN holds it), and then dispatches `sign-manifest` in
+`RunOnFlux/fluxos-component-manifest`. It dispatches whether or not it published: a FluxOS
+release's hash is listed before its tag is cut, so the run that follows the tag has nothing to
+publish and the manifest run must still happen. `scripts/publish-hashlist.js` is the publisher.
+
+It holds two credentials, both in the `hashlist-signing` environment:
+
+- **The origin publisher certificate**, `ORIGIN_PUBLISHER_CERT` and `ORIGIN_PUBLISHER_KEY` (PEM),
+  and, where the origin's certificate is not signed by a public CA, that CA in the variable
+  `ORIGIN_CA`. The origin's address is the repository variable `ORIGIN_URL`; while it is unset
+  the publish is skipped. The origin's config limits this
+  certificate's subject to the `hashlist` document: it can publish no other document, no build
+  and no bootstrap, and can retire nothing. It carries no authority over the list either, since
+  every consumer verifies the list's signature.
+- **The dispatch app**, a GitHub App installed on `fluxos-component-manifest` only with Actions
+  read and write: its private key is `MANIFEST_DISPATCH_APP_KEY` and its client ID the variable
+  `MANIFEST_DISPATCH_APP_CLIENT_ID`. Each run mints an installation token limited to Actions
+  write on that repository. The dispatch has no inputs, so the token can start a manifest run and
+  cannot tell it what to sign.
+
+The publish runs one at a time and is never cancelled once it has started, unlike the signer: it
+waits on every CDN, and a newer signing request must not restart that wait.
 
 ## Trust
 
