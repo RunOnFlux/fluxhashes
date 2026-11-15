@@ -6229,6 +6229,13 @@
       "branch": "fix/hash-sync-stream-stall",
       "tag": null,
       "derived": true
+    },
+    "19a8609252cccf8030add31047de6e96": {
+      "published": "2026-11-15",
+      "commit": "ed5e84577cddd76eb18d7ba5844196a7a7f903e3",
+      "branch": "fix/installed-app-rows-at-boot",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7089,7 +7096,8 @@
     "60278e643b5fbf9ac87c750a29b01e20b6eb2c07": "c0f5e90ad6cb7fdae88d01f6e2549c1a",
     "2bcbb75ba08837151176f77c4d724e6119223778": "fb3019baa60307abb35ff179bfcdfef6",
     "96235b100eaebaeb73d69d6782136fa3703107a9": "5f32dcf81578af6a7383ddb871ffc663",
-    "2ba3475b8ccfa0db00ecef2df87a373ebee0cb88": "5f32dcf81578af6a7383ddb871ffc663"
+    "2ba3475b8ccfa0db00ecef2df87a373ebee0cb88": "5f32dcf81578af6a7383ddb871ffc663",
+    "ed5e84577cddd76eb18d7ba5844196a7a7f903e3": "19a8609252cccf8030add31047de6e96"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7296,6 +7304,7 @@
     "refs/heads/fix/host-stall-test-release-once": "e5f5caefdc5e619969d4c044ef20a30a86c168cc",
     "refs/heads/fix/hosting-is-not-owning": "0431a6b5d40d966a382c4f620db5aa5fea49da52",
     "refs/heads/fix/input-and-path-hardening": "a3e1ee52e7baf7c36ffa2be867b670221d2263c9",
+    "refs/heads/fix/installed-app-rows-at-boot": "ed5e84577cddd76eb18d7ba5844196a7a7f903e3",
     "refs/heads/fix/ip-change-hold-in-blocks": "8afd9395d15feed43f94a6db96c2004739de7c52",
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/labnet-inbound-cap": "817ea52bf234222c8d7b076d21482845037c47de",
@@ -7733,7 +7742,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 480,
-    "issued_at": "2026-11-14T07:49:12.882Z"
+    "seq": 481,
+    "issued_at": "2026-11-15T09:27:29.741Z"
   }
 }
