@@ -6236,6 +6236,27 @@
       "branch": "fix/installed-app-rows-at-boot",
       "tag": "v8.24.0",
       "derived": true
+    },
+    "0415cee6e5cede2e547fdfc262bb890c": {
+      "published": "2026-11-15",
+      "commit": "57926ea8c52ee3440d25c2e1370ba7b27872cb09",
+      "branch": "feat/arcane-fluxos-image",
+      "tag": null,
+      "derived": true
+    },
+    "ae2fa4aac5fe798de509d0316b0c248c": {
+      "published": "2026-11-15",
+      "commit": "ae13960982568dcbf1345897ee51e7ad87014020",
+      "branch": "feat/network-profile-files",
+      "tag": null,
+      "derived": true
+    },
+    "b55d782fbb3f01641c52289ab7492dfb": {
+      "published": "2026-11-15",
+      "commit": "627362072894414ca93e3a8ef821665652992804",
+      "branch": "fix/remove-development-mode",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7100,7 +7121,10 @@
     "ed5e84577cddd76eb18d7ba5844196a7a7f903e3": "19a8609252cccf8030add31047de6e96",
     "154b6b98393c33b34318a7ed7c24c0b717f870c8": "19a8609252cccf8030add31047de6e96",
     "f979ae9ccca9649aa61ebb9ec826c022655dfa09": "19a8609252cccf8030add31047de6e96",
-    "cd7b9835666a7975a084926bfa0e2e3d7b086772": "19a8609252cccf8030add31047de6e96"
+    "cd7b9835666a7975a084926bfa0e2e3d7b086772": "19a8609252cccf8030add31047de6e96",
+    "57926ea8c52ee3440d25c2e1370ba7b27872cb09": "0415cee6e5cede2e547fdfc262bb890c",
+    "ae13960982568dcbf1345897ee51e7ad87014020": "ae2fa4aac5fe798de509d0316b0c248c",
+    "627362072894414ca93e3a8ef821665652992804": "b55d782fbb3f01641c52289ab7492dfb"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7148,7 +7172,7 @@
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
     "refs/heads/enterprisenetwork": "b832f8a62287b43a21a00454706e98621b11731f",
     "refs/heads/feat/app-swap-pool": "cc4b5163eae41b695d3e80419290aa2528174599",
-    "refs/heads/feat/arcane-fluxos-image": "01119beba37bbad037976d35978fda439a0fbcbf",
+    "refs/heads/feat/arcane-fluxos-image": "57926ea8c52ee3440d25c2e1370ba7b27872cb09",
     "refs/heads/feat/benchmark-socket": "e560f11d2137e06e1cb8c16e8b0fb826d1e786f6",
     "refs/heads/feat/btc-message-without-bitcoinjs": "608f4d95eccbf47410c1649a7212e05041dde241",
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
@@ -7169,7 +7193,7 @@
     "refs/heads/feat/kernel-taint-report": "780fc4282c39e2b2f3154b537bf937b8103e47ca",
     "refs/heads/feat/legacy-fluxadm-ssh": "161219f9eef30ddea84880be5d5d2c1aac9df26d",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
-    "refs/heads/feat/network-profile-files": "beb24a16cf15ddcac9536f511d1ad0faa82c4bf4",
+    "refs/heads/feat/network-profile-files": "ae13960982568dcbf1345897ee51e7ad87014020",
     "refs/heads/feat/network-profiles": "d6bc44bf161cd4b501a422b1667d47949c9cc27c",
     "refs/heads/feat/orbit-health-check": "98eeb861237630dabd38fb02113b5806d761ea05",
     "refs/heads/feat/registry-status-route": "2f79fbb7bfe1d28461afd92391d63bc2172c86e5",
@@ -7330,7 +7354,7 @@
     "refs/heads/fix/registry-private-address-guard": "fa40f6c0d1f26a7b051ba742b745f14028673dea",
     "refs/heads/fix/registry-unavailable-during-rebuild": "75d4edb6938f81a30d35205bebfb9633d03e1b5a",
     "refs/heads/fix/remote-download-stall": "8982a9d81cac2b33791d3bd9141c8274d2319b00",
-    "refs/heads/fix/remove-development-mode": "60278e643b5fbf9ac87c750a29b01e20b6eb2c07",
+    "refs/heads/fix/remove-development-mode": "627362072894414ca93e3a8ef821665652992804",
     "refs/heads/fix/remove-zelappspecifications": "969ecd055ff82d0189bb62983da56c0dcf65d1df",
     "refs/heads/fix/restart-always-and-backoff-cap": "3daa270108de5d7e9524eaf0db2697376a92258e",
     "refs/heads/fix/restart-pacing-crash-only": "c24d09937a178c359ef00cca74ea41af7d155694",
@@ -7746,7 +7770,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 481,
-    "issued_at": "2026-11-15T09:27:29.741Z"
+    "seq": 482,
+    "issued_at": "2026-11-15T15:39:39.430Z"
   }
 }
