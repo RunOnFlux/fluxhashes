@@ -6271,6 +6271,13 @@
       "branch": "fix/stable-node-list-sort",
       "tag": null,
       "derived": true
+    },
+    "b066e0210cf0d0ce2515f7861db366f5": {
+      "published": "2026-11-16",
+      "commit": "a5496d080db7ded7f42436c318e29582804a2fd2",
+      "branch": "fix/cloudui-atomic-swap",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7151,7 +7158,8 @@
     "54cd524684e12952788242d76a9b87648fe526c0": "0415cee6e5cede2e547fdfc262bb890c",
     "5847c346c60420c7604273064e6a691eff466db6": "91a944fbb31dc524b87d54a75e90d2e1",
     "cdd609959f39ac12df99a6436f239fab54b9302d": "d8a683fce5da1a29f948717a9a04bb8b",
-    "f17f802717afacfcb764a36e1fb1b35c21f3a6e6": "d8a683fce5da1a29f948717a9a04bb8b"
+    "f17f802717afacfcb764a36e1fb1b35c21f3a6e6": "d8a683fce5da1a29f948717a9a04bb8b",
+    "a5496d080db7ded7f42436c318e29582804a2fd2": "b066e0210cf0d0ce2515f7861db366f5"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7319,7 +7327,7 @@
     "refs/heads/fix/block-paced-work": "1eaee89d88b7e2d567d9c0965206c087aa9fd08f",
     "refs/heads/fix/blocked-apps-and-spawner-pool": "69905d6ce7287c5b7554d550f4c5eda827fceba0",
     "refs/heads/fix/bulk-reindex": "800e57f7086a4dcb176a6db5fb00dd92e2ca062f",
-    "refs/heads/fix/cloudui-atomic-swap": "73224dd9a9aae0280212d2029f120330f3829877",
+    "refs/heads/fix/cloudui-atomic-swap": "a5496d080db7ded7f42436c318e29582804a2fd2",
     "refs/heads/fix/commandpricing": "fff283d2f1b52186149830dab326210c87dffe2c",
     "refs/heads/fix/compliance-sweep-follows-policy": "da0e9a05980210c465e6f8f19175750100376fee",
     "refs/heads/fix/compose-cpu-floor": "c29d4ed777d3897d7f16b027a670a010115f2483",
@@ -7798,7 +7806,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 484,
-    "issued_at": "2026-11-16T11:05:44.765Z"
+    "seq": 485,
+    "issued_at": "2026-11-16T13:33:04.322Z"
   }
 }
