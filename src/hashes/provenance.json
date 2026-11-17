@@ -6292,6 +6292,13 @@
       "branch": "feat/container-runtime-dos",
       "tag": null,
       "derived": true
+    },
+    "a84e351fe29fb2df6c126a609053ccf0": {
+      "published": "2026-11-17",
+      "commit": "95ab422dc481b88562e177a052efc16cce559258",
+      "branch": "fix/network-path-reader",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7175,7 +7182,8 @@
     "f17f802717afacfcb764a36e1fb1b35c21f3a6e6": "d8a683fce5da1a29f948717a9a04bb8b",
     "a5496d080db7ded7f42436c318e29582804a2fd2": "b066e0210cf0d0ce2515f7861db366f5",
     "f36f25faa770c513b2e41b9c26324446159889c1": "94535f7359226a656e59101898137eda",
-    "b452ae48408cbac1921502020b30f06b47cbc82b": "1de4f9cd71d097feb06468d76c67435c"
+    "b452ae48408cbac1921502020b30f06b47cbc82b": "1de4f9cd71d097feb06468d76c67435c",
+    "95ab422dc481b88562e177a052efc16cce559258": "a84e351fe29fb2df6c126a609053ccf0"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7392,6 +7400,7 @@
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/move-proof-from-the-event-log": "be6645fceef17a624ff10305985a32d600c005df",
+    "refs/heads/fix/network-path-reader": "95ab422dc481b88562e177a052efc16cce559258",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
@@ -7824,7 +7833,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 487,
-    "issued_at": "2026-11-17T07:50:36.900Z"
+    "seq": 488,
+    "issued_at": "2026-11-17T11:44:59.635Z"
   }
 }
