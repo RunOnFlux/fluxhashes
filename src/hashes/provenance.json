@@ -6313,6 +6313,13 @@
       "branch": "feat/container-runtime-dos",
       "tag": null,
       "derived": true
+    },
+    "963f055ffbe0f4828a358d65d54e6691": {
+      "published": "2026-11-17",
+      "commit": "9e7a7ea75c20ebc0594849c772a1dfafc65a37ff",
+      "branch": "fix/network-path-reader",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7201,7 +7208,8 @@
     "75e25c0538c3c5fd895c39e086f369dc2bfd259d": "387d42c587b223ff3d397286b07816a7",
     "8983cc9990e5e178b7e9f921179827d30f7f0f4e": "1de4f9cd71d097feb06468d76c67435c",
     "1d5e4b880bf7e80b103aa0b79c9eff313d658082": "2fbae2bb55c98f67955eebb772010621",
-    "eb25cd2d5d367b3548d649741f0663b236f1e2a6": "2fbae2bb55c98f67955eebb772010621"
+    "eb25cd2d5d367b3548d649741f0663b236f1e2a6": "2fbae2bb55c98f67955eebb772010621",
+    "9e7a7ea75c20ebc0594849c772a1dfafc65a37ff": "963f055ffbe0f4828a358d65d54e6691"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7418,7 +7426,7 @@
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/move-proof-from-the-event-log": "be6645fceef17a624ff10305985a32d600c005df",
-    "refs/heads/fix/network-path-reader": "75e25c0538c3c5fd895c39e086f369dc2bfd259d",
+    "refs/heads/fix/network-path-reader": "9e7a7ea75c20ebc0594849c772a1dfafc65a37ff",
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
@@ -7851,7 +7859,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 490,
-    "issued_at": "2026-11-17T12:36:32.360Z"
+    "seq": 491,
+    "issued_at": "2026-11-17T12:49:09.497Z"
   }
 }
