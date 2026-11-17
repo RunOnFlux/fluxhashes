@@ -6285,6 +6285,13 @@
       "branch": "fix/backup-restore-run-authority",
       "tag": null,
       "derived": true
+    },
+    "1de4f9cd71d097feb06468d76c67435c": {
+      "published": "2026-11-17",
+      "commit": "b452ae48408cbac1921502020b30f06b47cbc82b",
+      "branch": "feat/container-runtime-dos",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7167,7 +7174,8 @@
     "cdd609959f39ac12df99a6436f239fab54b9302d": "d8a683fce5da1a29f948717a9a04bb8b",
     "f17f802717afacfcb764a36e1fb1b35c21f3a6e6": "d8a683fce5da1a29f948717a9a04bb8b",
     "a5496d080db7ded7f42436c318e29582804a2fd2": "b066e0210cf0d0ce2515f7861db366f5",
-    "f36f25faa770c513b2e41b9c26324446159889c1": "94535f7359226a656e59101898137eda"
+    "f36f25faa770c513b2e41b9c26324446159889c1": "94535f7359226a656e59101898137eda",
+    "b452ae48408cbac1921502020b30f06b47cbc82b": "1de4f9cd71d097feb06468d76c67435c"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7221,6 +7229,7 @@
     "refs/heads/feat/clock-drift-endpoint": "80c1cfa7e7626068c6820f05d49c11730e787c6d",
     "refs/heads/feat/compress-several-sources": "b066961f2418a63576d162f824973a935c4514a7",
     "refs/heads/feat/container-reconciler": "7d2cee9caae1b1584ef66b5cb177bb0fb43cc104",
+    "refs/heads/feat/container-runtime-dos": "b452ae48408cbac1921502020b30f06b47cbc82b",
     "refs/heads/feat/docker-event-crash-recovery": "bc64c97e71123448900102cb9f135f7f6f0cf57f",
     "refs/heads/feat/dos-recurrence": "889a0aedac58c35bfe740fbcff1e14bc3be7491a",
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
@@ -7815,7 +7824,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 486,
-    "issued_at": "2026-11-16T18:06:15.295Z"
+    "seq": 487,
+    "issued_at": "2026-11-17T07:50:36.900Z"
   }
 }
