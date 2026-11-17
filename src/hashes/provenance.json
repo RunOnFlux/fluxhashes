@@ -6320,6 +6320,13 @@
       "branch": "fix/network-path-reader",
       "tag": null,
       "derived": true
+    },
+    "604ccd04cfb5ea9c47d4edbe4f1a4a64": {
+      "published": "2026-11-17",
+      "commit": "8c8d3bfb0d7a84110c6e4053511656b3b4fb4180",
+      "branch": "development",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7209,7 +7216,8 @@
     "8983cc9990e5e178b7e9f921179827d30f7f0f4e": "1de4f9cd71d097feb06468d76c67435c",
     "1d5e4b880bf7e80b103aa0b79c9eff313d658082": "2fbae2bb55c98f67955eebb772010621",
     "eb25cd2d5d367b3548d649741f0663b236f1e2a6": "2fbae2bb55c98f67955eebb772010621",
-    "9e7a7ea75c20ebc0594849c772a1dfafc65a37ff": "963f055ffbe0f4828a358d65d54e6691"
+    "9e7a7ea75c20ebc0594849c772a1dfafc65a37ff": "963f055ffbe0f4828a358d65d54e6691",
+    "8c8d3bfb0d7a84110c6e4053511656b3b4fb4180": "604ccd04cfb5ea9c47d4edbe4f1a4a64"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7251,7 +7259,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "eb25cd2d5d367b3548d649741f0663b236f1e2a6",
+    "refs/heads/development": "8c8d3bfb0d7a84110c6e4053511656b3b4fb4180",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -7859,7 +7867,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 491,
-    "issued_at": "2026-11-17T12:49:09.497Z"
+    "seq": 492,
+    "issued_at": "2026-11-17T13:38:44.406Z"
   }
 }
