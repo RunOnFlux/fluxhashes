@@ -6348,6 +6348,13 @@
       "branch": "development",
       "tag": null,
       "derived": true
+    },
+    "57fd39ad2d209cd1d24cdfe3aa1ccd2e": {
+      "published": "2026-11-18",
+      "commit": "9c6137c0300068e9fc1185274f1b8bd551f277a0",
+      "branch": "fix/upload-created-folders-inherit-owner",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7242,7 +7249,8 @@
     "ed956019ef5c2bf28bab863ddbe89150d6b7d852": "a18afb1b54e55598fd63fb9b363cf49f",
     "2a9002c41ef8a29e322056e26b869b5576defd9f": "a0002d19da01da7b20e80c61bddbc909",
     "9a8b3ab9215740e21b34cc9d855e4013fc5987a7": "d9ab9a25f411a46e3d2d11acf087aae3",
-    "e8dd3dc79ee742de256324d1b60872e6f91c9d76": "a18afb1b54e55598fd63fb9b363cf49f"
+    "e8dd3dc79ee742de256324d1b60872e6f91c9d76": "a18afb1b54e55598fd63fb9b363cf49f",
+    "9c6137c0300068e9fc1185274f1b8bd551f277a0": "57fd39ad2d209cd1d24cdfe3aa1ccd2e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7505,7 +7513,7 @@
     "refs/heads/fix/terminal-crash-and-election-recovery": "1bc6cf6449e3880c970297ff6c291445456a0a09",
     "refs/heads/fix/terminal-exec-crash-and-masterslave-scheduler": "94ba16093c54a222e495f239e8fe9d9324187846",
     "refs/heads/fix/unpaid-message-caps": "701dc68ce7d4f5037a6ef82c07618388e2892894",
-    "refs/heads/fix/upload-created-folders-inherit-owner": "3d8c3d2f16ab4a43a2ae7e7f63f1347131cfe5b8",
+    "refs/heads/fix/upload-created-folders-inherit-owner": "9c6137c0300068e9fc1185274f1b8bd551f277a0",
     "refs/heads/fix/upnp-stale-mapping-sweep": "3e51c478a095de28e2122d0ca4a387ef98fbd3a9",
     "refs/heads/fix/upnp-table-exhaustion": "f68b2fdc6d504362e12d01a19acedd076fcfa335",
     "refs/heads/fix/upnp-test-mapping-lease": "990a4cf740169fd1da41436afec5e8db3bbdcc9f",
@@ -7892,7 +7900,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 495,
-    "issued_at": "2026-11-18T08:57:13.118Z"
+    "seq": 496,
+    "issued_at": "2026-11-18T12:05:23.873Z"
   }
 }
