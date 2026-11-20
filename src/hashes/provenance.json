@@ -6390,6 +6390,20 @@
       "branch": "fix/one-operation-per-app",
       "tag": null,
       "derived": true
+    },
+    "0cc568f9f32f48b75a0e49ccfe75a11d": {
+      "published": "2026-11-20",
+      "commit": "09742c1b3c21687cf0c943d13cc73212b0e97b74",
+      "branch": "fix/backup-restore-run-authority",
+      "tag": null,
+      "derived": true
+    },
+    "b093102417084ea8ac61d7cfeb36e37a": {
+      "published": "2026-11-20",
+      "commit": "355eb9d36db12f3b5bb493c39b0316900a0289a0",
+      "branch": "fix/one-operation-per-app",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7295,7 +7309,9 @@
     "6dbe607a73f601e52bd37b0ac2794e927deeb14e": "9a43f8b22644b90b1285c06d71ae6125",
     "bb3385e82be739137add57c3ee26698c829e7a82": "9a43f8b22644b90b1285c06d71ae6125",
     "f403523ff979dbf1e830048f076cc6e64047a37c": "9a43f8b22644b90b1285c06d71ae6125",
-    "59308c7284f724c5279e6a3cfb0f08ab792fd150": "9a43f8b22644b90b1285c06d71ae6125"
+    "59308c7284f724c5279e6a3cfb0f08ab792fd150": "9a43f8b22644b90b1285c06d71ae6125",
+    "09742c1b3c21687cf0c943d13cc73212b0e97b74": "0cc568f9f32f48b75a0e49ccfe75a11d",
+    "355eb9d36db12f3b5bb493c39b0316900a0289a0": "b093102417084ea8ac61d7cfeb36e37a"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7459,7 +7475,7 @@
     "refs/heads/fix/arcane-no-setcap-node": "0e18961f62b51a25a0c7fd32625a129cb0205446",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/availability-not-listed": "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0",
-    "refs/heads/fix/backup-restore-run-authority": "0b71f215a0ab444754d9b235d73d501e051551b6",
+    "refs/heads/fix/backup-restore-run-authority": "09742c1b3c21687cf0c943d13cc73212b0e97b74",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/block-paced-work": "1eaee89d88b7e2d567d9c0965206c087aa9fd08f",
@@ -7516,7 +7532,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/one-operation-per-app": "59308c7284f724c5279e6a3cfb0f08ab792fd150",
+    "refs/heads/fix/one-operation-per-app": "355eb9d36db12f3b5bb493c39b0316900a0289a0",
     "refs/heads/fix/own-address-after-move": "0753d33e5737680abd566350126fe8de2394c6a9",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
@@ -7946,7 +7962,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 501,
-    "issued_at": "2026-11-20T18:48:43.358Z"
+    "seq": 502,
+    "issued_at": "2026-11-20T20:21:30.352Z"
   }
 }
