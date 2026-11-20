@@ -6369,6 +6369,13 @@
       "branch": "fix/backup-restore-run-authority",
       "tag": null,
       "derived": true
+    },
+    "a9d5773e11ff9a9796fe9bc7df355e76": {
+      "published": "2026-11-20",
+      "commit": "a3efe3d0ebca08c3635f15c72834d34222a3b53d",
+      "branch": "fix/backup-restore-run-authority",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7268,7 +7275,8 @@
     "396cc107bd6345ebbcb1ac46d6955ff16f0c5f56": "57fd39ad2d209cd1d24cdfe3aa1ccd2e",
     "d31907ecdf0cb67e1fc01c0d6e1f40984bc09749": "68448e8359a8c4306180c8c4a3c7c2a8",
     "0326c9b7b7df304137ea681d7f31d0af5fa7c901": "68448e8359a8c4306180c8c4a3c7c2a8",
-    "d80a758e52b0f0058afa5c3bf21530dffb109fc0": "286e32f7926774aa79ddd4be41d993d4"
+    "d80a758e52b0f0058afa5c3bf21530dffb109fc0": "286e32f7926774aa79ddd4be41d993d4",
+    "a3efe3d0ebca08c3635f15c72834d34222a3b53d": "a9d5773e11ff9a9796fe9bc7df355e76"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7432,7 +7440,7 @@
     "refs/heads/fix/arcane-no-setcap-node": "0e18961f62b51a25a0c7fd32625a129cb0205446",
     "refs/heads/fix/async-lock-semaphore": "a44ed07c5cbcb184931933a88b666e4a31296364",
     "refs/heads/fix/availability-not-listed": "0cc6f1f8aa7690c7a8eabfec3d1f6c28787eeae0",
-    "refs/heads/fix/backup-restore-run-authority": "d80a758e52b0f0058afa5c3bf21530dffb109fc0",
+    "refs/heads/fix/backup-restore-run-authority": "a3efe3d0ebca08c3635f15c72834d34222a3b53d",
     "refs/heads/fix/backup-restore-running-state": "47445c0f0df23fd0d4064f0be7f5ff626aeab763",
     "refs/heads/fix/benchmark-debug-arcane-path": "3c148ccd1eb47191b7e2e5c803038b8ab62e579a",
     "refs/heads/fix/block-paced-work": "1eaee89d88b7e2d567d9c0965206c087aa9fd08f",
@@ -7918,7 +7926,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 498,
-    "issued_at": "2026-11-18T19:18:35.834Z"
+    "seq": 499,
+    "issued_at": "2026-11-20T08:31:09.255Z"
   }
 }
