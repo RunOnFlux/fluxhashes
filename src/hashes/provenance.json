@@ -6383,6 +6383,13 @@
       "branch": "fix/backup-restore-run-authority",
       "tag": null,
       "derived": true
+    },
+    "9a43f8b22644b90b1285c06d71ae6125": {
+      "published": "2026-11-20",
+      "commit": "6dbe607a73f601e52bd37b0ac2794e927deeb14e",
+      "branch": "fix/one-operation-per-app",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7284,7 +7291,8 @@
     "0326c9b7b7df304137ea681d7f31d0af5fa7c901": "68448e8359a8c4306180c8c4a3c7c2a8",
     "d80a758e52b0f0058afa5c3bf21530dffb109fc0": "286e32f7926774aa79ddd4be41d993d4",
     "a3efe3d0ebca08c3635f15c72834d34222a3b53d": "a9d5773e11ff9a9796fe9bc7df355e76",
-    "0b71f215a0ab444754d9b235d73d501e051551b6": "def5e2672f486e573e8cc3ae65997b20"
+    "0b71f215a0ab444754d9b235d73d501e051551b6": "def5e2672f486e573e8cc3ae65997b20",
+    "6dbe607a73f601e52bd37b0ac2794e927deeb14e": "9a43f8b22644b90b1285c06d71ae6125"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7505,6 +7513,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
+    "refs/heads/fix/one-operation-per-app": "6dbe607a73f601e52bd37b0ac2794e927deeb14e",
     "refs/heads/fix/own-address-after-move": "0753d33e5737680abd566350126fe8de2394c6a9",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
@@ -7934,7 +7943,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 500,
-    "issued_at": "2026-11-20T18:43:25.917Z"
+    "seq": 501,
+    "issued_at": "2026-11-20T18:48:43.358Z"
   }
 }
