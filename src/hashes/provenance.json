@@ -6404,6 +6404,13 @@
       "branch": "fix/one-operation-per-app",
       "tag": null,
       "derived": true
+    },
+    "0e74e7f013cba08b885385cbd87aad47": {
+      "published": "2026-11-22",
+      "commit": "ec61eb91e057e33c4357fa7efa5085a5bb191502",
+      "branch": "feat/fluxd-reported-directories",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7314,7 +7321,8 @@
     "355eb9d36db12f3b5bb493c39b0316900a0289a0": "b093102417084ea8ac61d7cfeb36e37a",
     "f45365fdf932a8a6bd237546b92ee9631405903b": "b093102417084ea8ac61d7cfeb36e37a",
     "577ab690ec6ab13fbba6f72c690e37a88cadab1e": "0cc568f9f32f48b75a0e49ccfe75a11d",
-    "f4db86b093e794a578606f27aeb85fefc2768bdd": "b093102417084ea8ac61d7cfeb36e37a"
+    "f4db86b093e794a578606f27aeb85fefc2768bdd": "b093102417084ea8ac61d7cfeb36e37a",
+    "ec61eb91e057e33c4357fa7efa5085a5bb191502": "0e74e7f013cba08b885385cbd87aad47"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7375,6 +7383,7 @@
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
     "refs/heads/feat/fluxd-credentials": "696c09d491f802afe4e25b3bf3b177e13afd0be1",
+    "refs/heads/feat/fluxd-reported-directories": "ec61eb91e057e33c4357fa7efa5085a5bb191502",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
     "refs/heads/feat/fluxos-memory-reduction": "5b25add9d24d6e9bdbccef46dcf8bb768aed99ba",
     "refs/heads/feat/fluxos-port-file": "89154e870ead1afc80f38b2a9e2c94709d8dad0d",
@@ -7965,7 +7974,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 502,
-    "issued_at": "2026-11-20T20:21:30.352Z"
+    "seq": 503,
+    "issued_at": "2026-11-22T07:39:39.896Z"
   }
 }
