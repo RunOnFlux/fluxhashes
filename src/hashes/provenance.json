@@ -6453,6 +6453,13 @@
       "branch": "feat/hashlist-peer-exchange",
       "tag": null,
       "derived": true
+    },
+    "c6c3b918f0d6cd03b11d895c2ba91c6d": {
+      "published": "2026-11-24",
+      "commit": "b923739dc9f906802b165cbc7f43a5d4aad60fc5",
+      "branch": "feat/hashlist-peer-exchange",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7373,7 +7380,8 @@
     "e0da5d441c65c2ab4d38214bfe0d9460d24777ce": "748eee0daa2b66dc3ee0ae06bab305e2",
     "f989027ff9c5ee2ed0e788801d75345608927365": "4a77805cdc2fa571cff0fa31a8a0eaea",
     "f3e9567715660251052274a9832e0ad2c8f3f2e3": "4a77805cdc2fa571cff0fa31a8a0eaea",
-    "647ab56db86b88ca0d6171d4a9b322d911b9c30d": "e3c366fa838440a87c25a4baf0b85652"
+    "647ab56db86b88ca0d6171d4a9b322d911b9c30d": "e3c366fa838440a87c25a4baf0b85652",
+    "b923739dc9f906802b165cbc7f43a5d4aad60fc5": "c6c3b918f0d6cd03b11d895c2ba91c6d"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7441,7 +7449,7 @@
     "refs/heads/feat/game-server-cpu-throttle-exempt": "b88ffd077a690544797c4cdbd307dc8c428e7627",
     "refs/heads/feat/geolocation-misplaced": "9fe385750bfd80a9852823aeed3f9b5cf8896282",
     "refs/heads/feat/hashlist-dispatch": "b5571ab9b6b7b41f51574be1280f72e8ca24860f",
-    "refs/heads/feat/hashlist-peer-exchange": "647ab56db86b88ca0d6171d4a9b322d911b9c30d",
+    "refs/heads/feat/hashlist-peer-exchange": "b923739dc9f906802b165cbc7f43a5d4aad60fc5",
     "refs/heads/feat/kernel-taint-report": "780fc4282c39e2b2f3154b537bf937b8103e47ca",
     "refs/heads/feat/legacy-fluxadm-ssh": "161219f9eef30ddea84880be5d5d2c1aac9df26d",
     "refs/heads/feat/mongodb-version-info": "820aaca49772bc97ba8ed202a81b591980884b38",
@@ -8026,7 +8034,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 509,
-    "issued_at": "2026-11-24T10:31:24.816Z"
+    "seq": 510,
+    "issued_at": "2026-11-24T10:33:28.534Z"
   }
 }
