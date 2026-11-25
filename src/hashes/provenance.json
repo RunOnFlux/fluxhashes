@@ -6502,6 +6502,13 @@
       "branch": "fix/one-operation-per-app",
       "tag": null,
       "derived": true
+    },
+    "7866bf4d026ee32e35f1335933950c9e": {
+      "published": "2026-11-25",
+      "commit": "78f338d7e052f18de32fdf76048cb0916cb56358",
+      "branch": "fix/one-operation-per-app",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7435,7 +7442,8 @@
     "5992ee726dd1730acb7c68a289e2924da93021d4": "ea2ff74f4f775e65da003eda0c5d9270",
     "02d3dc8b10e1eb1e05fd3b4bef7849c6127ef495": "ea2ff74f4f775e65da003eda0c5d9270",
     "049210cf0a867004bf1c34b13968bec9dc7d3ec3": "ea2ff74f4f775e65da003eda0c5d9270",
-    "ec7717ff75e28f0727160c7e3d21c9ff8222c1ac": "2dee20f2f3165663477d8e4973c5eba4"
+    "ec7717ff75e28f0727160c7e3d21c9ff8222c1ac": "2dee20f2f3165663477d8e4973c5eba4",
+    "78f338d7e052f18de32fdf76048cb0916cb56358": "7866bf4d026ee32e35f1335933950c9e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7658,7 +7666,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/one-operation-per-app": "ec7717ff75e28f0727160c7e3d21c9ff8222c1ac",
+    "refs/heads/fix/one-operation-per-app": "78f338d7e052f18de32fdf76048cb0916cb56358",
     "refs/heads/fix/own-address-after-move": "0753d33e5737680abd566350126fe8de2394c6a9",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
@@ -8088,7 +8096,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 516,
-    "issued_at": "2026-11-25T15:30:12.321Z"
+    "seq": 517,
+    "issued_at": "2026-11-25T17:40:33.624Z"
   }
 }
