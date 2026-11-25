@@ -6509,6 +6509,13 @@
       "branch": "fix/one-operation-per-app",
       "tag": null,
       "derived": true
+    },
+    "0ccac1f9c2c7b008d8b2cded00226fc0": {
+      "published": "2026-11-25",
+      "commit": "8fd0a7a256675abfda9c2af6ca34de382a398ff5",
+      "branch": "feat/flux-upnpd",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7443,7 +7450,8 @@
     "02d3dc8b10e1eb1e05fd3b4bef7849c6127ef495": "ea2ff74f4f775e65da003eda0c5d9270",
     "049210cf0a867004bf1c34b13968bec9dc7d3ec3": "ea2ff74f4f775e65da003eda0c5d9270",
     "ec7717ff75e28f0727160c7e3d21c9ff8222c1ac": "2dee20f2f3165663477d8e4973c5eba4",
-    "78f338d7e052f18de32fdf76048cb0916cb56358": "7866bf4d026ee32e35f1335933950c9e"
+    "78f338d7e052f18de32fdf76048cb0916cb56358": "7866bf4d026ee32e35f1335933950c9e",
+    "8fd0a7a256675abfda9c2af6ca34de382a398ff5": "0ccac1f9c2c7b008d8b2cded00226fc0"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7503,6 +7511,7 @@
     "refs/heads/feat/dos-residential-non-arcane": "88079c0a74664f8e0016b1c8be08d5d9937e8318",
     "refs/heads/feat/enterprise-image-cache": "6a14eb4d5b07072feedd57d75e840d7c085a0164",
     "refs/heads/feat/eslint9-modernize": "5f17f996328c54c81fff0bc7b66cbbf999c5d558",
+    "refs/heads/feat/flux-upnpd": "8fd0a7a256675abfda9c2af6ca34de382a398ff5",
     "refs/heads/feat/fluxd-credentials": "696c09d491f802afe4e25b3bf3b177e13afd0be1",
     "refs/heads/feat/fluxd-reported-directories": "597a10cba5ccee190bd83a150947f825263bf769",
     "refs/heads/feat/fluxd-zmq-hashblockheight-topics": "c2b61ed1a18269e02efb99706d2805da1942ac4e",
@@ -8096,7 +8105,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 517,
-    "issued_at": "2026-11-25T17:40:33.624Z"
+    "seq": 518,
+    "issued_at": "2026-11-25T18:04:52.374Z"
   }
 }
