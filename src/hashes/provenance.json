@@ -7451,7 +7451,9 @@
     "049210cf0a867004bf1c34b13968bec9dc7d3ec3": "ea2ff74f4f775e65da003eda0c5d9270",
     "ec7717ff75e28f0727160c7e3d21c9ff8222c1ac": "2dee20f2f3165663477d8e4973c5eba4",
     "78f338d7e052f18de32fdf76048cb0916cb56358": "7866bf4d026ee32e35f1335933950c9e",
-    "8fd0a7a256675abfda9c2af6ca34de382a398ff5": "0ccac1f9c2c7b008d8b2cded00226fc0"
+    "8fd0a7a256675abfda9c2af6ca34de382a398ff5": "0ccac1f9c2c7b008d8b2cded00226fc0",
+    "8e07ca51f5dfb146a036c8d134edd1c63865cf74": "0cc568f9f32f48b75a0e49ccfe75a11d",
+    "38017e3ad8a6688f968262236919605b9da1c056": "7866bf4d026ee32e35f1335933950c9e"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7493,7 +7495,7 @@
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
-    "refs/heads/development": "396cc107bd6345ebbcb1ac46d6955ff16f0c5f56",
+    "refs/heads/development": "8e07ca51f5dfb146a036c8d134edd1c63865cf74",
     "refs/heads/encryptiontest": "28b74bc5e7996e8057ffd7e289cc42b7dc98c79f",
     "refs/heads/enterprise-app-image-redaction": "1da0c097d2a1b561194aa90ca5ac717df4583cb7",
     "refs/heads/enterprise-changes": "41326b8705714e4388e85ee26a1dfd256c0bc65a",
@@ -7675,7 +7677,7 @@
     "refs/heads/fix/networkstate-unknown-is-not-absent": "618d01c3112b80a21745fcba9ca7aa325fece617",
     "refs/heads/fix/node-firewall": "a6566cb03ba292cdb2872e4c630eadd59bd21748",
     "refs/heads/fix/nodetier-unavailable-while-daemon-warms": "ff03cfd216cf70ad2879fc7976cd5ad5aa2c5ba9",
-    "refs/heads/fix/one-operation-per-app": "78f338d7e052f18de32fdf76048cb0916cb56358",
+    "refs/heads/fix/one-operation-per-app": "38017e3ad8a6688f968262236919605b9da1c056",
     "refs/heads/fix/own-address-after-move": "0753d33e5737680abd566350126fe8de2394c6a9",
     "refs/heads/fix/peer-gated-readiness": "2856ed9f1a6bc09ece902a2d1d85ea133ddb78ba",
     "refs/heads/fix/peer-liveness-credits-any-traffic": "71e8e4db6073449bbf1d62e625ce415d0b90b56f",
