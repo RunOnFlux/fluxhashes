@@ -6523,6 +6523,13 @@
       "branch": "feat/flux-upnpd",
       "tag": null,
       "derived": true
+    },
+    "99e50fa6c1b40c87a991a933a5972306": {
+      "published": "2026-11-26",
+      "commit": "8c56024a308c869a5a878593983a09aba800f556",
+      "branch": "lab/flux-upnpd",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7462,7 +7469,8 @@
     "8e07ca51f5dfb146a036c8d134edd1c63865cf74": "0cc568f9f32f48b75a0e49ccfe75a11d",
     "38017e3ad8a6688f968262236919605b9da1c056": "7866bf4d026ee32e35f1335933950c9e",
     "5f48c5b30b30c2f6f13ed9cc401669b002e9d31a": "7f56a7cc352c1103f8fbc48a9d68fe9f",
-    "218f72d563c392005108130c7d38be459a995465": "7866bf4d026ee32e35f1335933950c9e"
+    "218f72d563c392005108130c7d38be459a995465": "7866bf4d026ee32e35f1335933950c9e",
+    "8c56024a308c869a5a878593983a09aba800f556": "99e50fa6c1b40c87a991a933a5972306"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7753,6 +7761,7 @@
     "refs/heads/increaseimagesize": "b91a5da58a656d318c8ff1f65878d7ac809cd94f",
     "refs/heads/lab/arcane-trial": "7454dea6e20db3db841eace5245f790367155fc6",
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
+    "refs/heads/lab/flux-upnpd": "8c56024a308c869a5a878593983a09aba800f556",
     "refs/heads/lab/labnet-profiles": "2e8df42166a417c764b2136916f8bdb5ee6d7150",
     "refs/heads/lab/labnet-profiles-822": "b19b6780e8b717f331f6fee8d5120071c4e5b9bd",
     "refs/heads/lab/runner-offer": "85fbbca8fcc8289487bd8d98644dfb5033cc8f09",
@@ -8116,7 +8125,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 519,
-    "issued_at": "2026-11-25T19:51:07.996Z"
+    "seq": 520,
+    "issued_at": "2026-11-26T06:41:14.671Z"
   }
 }
