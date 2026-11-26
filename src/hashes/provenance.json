@@ -6544,6 +6544,13 @@
       "branch": "feat/flux-upnpd",
       "tag": null,
       "derived": true
+    },
+    "69a0f47df5ed04484c53198dd6423e60": {
+      "published": "2026-11-26",
+      "commit": "9c6f9ab13453468d5abcf2356e14ef23ce280c2c",
+      "branch": "lab/flux-upnpd",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7488,7 +7495,8 @@
     "13f9deca976fa91e8b7419a22de95121f7bd2128": "cf575e988fcb67c86490ebcf147902a8",
     "5f8feb73e6001e794d8dd482ec0a74b930dfb543": "cf575e988fcb67c86490ebcf147902a8",
     "267c61c00b3d017a2150751e16df0ccee538d7af": "df52984d5e0a49e0d95756bd204515a2",
-    "bb776290d27bd38765dd8961fee68353d72b18c0": "cf575e988fcb67c86490ebcf147902a8"
+    "bb776290d27bd38765dd8961fee68353d72b18c0": "cf575e988fcb67c86490ebcf147902a8",
+    "9c6f9ab13453468d5abcf2356e14ef23ce280c2c": "69a0f47df5ed04484c53198dd6423e60"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7779,7 +7787,7 @@
     "refs/heads/increaseimagesize": "b91a5da58a656d318c8ff1f65878d7ac809cd94f",
     "refs/heads/lab/arcane-trial": "7454dea6e20db3db841eace5245f790367155fc6",
     "refs/heads/lab/benchmark-socket-notify": "5f5d460f8fc512ee7e9674ccd23f22e68bc1f118",
-    "refs/heads/lab/flux-upnpd": "8c56024a308c869a5a878593983a09aba800f556",
+    "refs/heads/lab/flux-upnpd": "9c6f9ab13453468d5abcf2356e14ef23ce280c2c",
     "refs/heads/lab/labnet-profiles": "2e8df42166a417c764b2136916f8bdb5ee6d7150",
     "refs/heads/lab/labnet-profiles-822": "b19b6780e8b717f331f6fee8d5120071c4e5b9bd",
     "refs/heads/lab/runner-offer": "85fbbca8fcc8289487bd8d98644dfb5033cc8f09",
@@ -8143,7 +8151,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 522,
-    "issued_at": "2026-11-26T11:22:09.028Z"
+    "seq": 523,
+    "issued_at": "2026-11-26T11:55:27.109Z"
   }
 }
