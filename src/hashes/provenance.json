@@ -6530,6 +6530,13 @@
       "branch": "lab/flux-upnpd",
       "tag": null,
       "derived": true
+    },
+    "cf575e988fcb67c86490ebcf147902a8": {
+      "published": "2026-11-26",
+      "commit": "13f9deca976fa91e8b7419a22de95121f7bd2128",
+      "branch": "fix/explorer-waits-for-blocks",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7470,7 +7477,8 @@
     "38017e3ad8a6688f968262236919605b9da1c056": "7866bf4d026ee32e35f1335933950c9e",
     "5f48c5b30b30c2f6f13ed9cc401669b002e9d31a": "7f56a7cc352c1103f8fbc48a9d68fe9f",
     "218f72d563c392005108130c7d38be459a995465": "7866bf4d026ee32e35f1335933950c9e",
-    "8c56024a308c869a5a878593983a09aba800f556": "99e50fa6c1b40c87a991a933a5972306"
+    "8c56024a308c869a5a878593983a09aba800f556": "99e50fa6c1b40c87a991a933a5972306",
+    "13f9deca976fa91e8b7419a22de95121f7bd2128": "cf575e988fcb67c86490ebcf147902a8"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7662,7 +7670,7 @@
     "refs/heads/fix/every-g-component": "5e3108fb354b7cd1ccf734d3e4bb56fb8e0a3dbc",
     "refs/heads/fix/explorer-always-bootstraps": "13769bf3fe980711cfab2b167a1988517d7161ac",
     "refs/heads/fix/explorer-reorg-by-block-hash": "ac5d93bb70b84ce921be77f827e31a054c95e493",
-    "refs/heads/fix/explorer-waits-for-blocks": "0326c9b7b7df304137ea681d7f31d0af5fa7c901",
+    "refs/heads/fix/explorer-waits-for-blocks": "13f9deca976fa91e8b7419a22de95121f7bd2128",
     "refs/heads/fix/external-endpoints-configurable": "dd0e059044cb6e304d6775102b5ed6ae425cbbaf",
     "refs/heads/fix/far-nodes-dockerhub-connect-timeout": "51dc5aac5e16c032b96a4e4d7c313f0a8f14c0c9",
     "refs/heads/fix/fluxhashes-publish-in-place": "4030b5df9d8717bc728d4976377127511e113ec3",
@@ -8125,7 +8133,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 520,
-    "issued_at": "2026-11-26T06:41:14.671Z"
+    "seq": 521,
+    "issued_at": "2026-11-26T07:22:13.254Z"
   }
 }
