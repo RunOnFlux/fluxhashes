@@ -7506,7 +7506,9 @@
     "5371dd566a3ea7370ac1b8b09a4ae89d79de0c54": "cf575e988fcb67c86490ebcf147902a8",
     "bda057ab6ac9dde7f5ea0d6292c2e88758b13598": "cf575e988fcb67c86490ebcf147902a8",
     "378e67dd70f9bc353d46d98fffb21c3c6740f079": "cf575e988fcb67c86490ebcf147902a8",
-    "0160afadd0d0bfac065545490f15c572dae19a2b": "cf575e988fcb67c86490ebcf147902a8"
+    "0160afadd0d0bfac065545490f15c572dae19a2b": "cf575e988fcb67c86490ebcf147902a8",
+    "0573accc866316d53987e9ebbc18d13c61b6a236": "cf575e988fcb67c86490ebcf147902a8",
+    "62a3cd932e552a1d4cad28154581e57b932c7b85": "cf575e988fcb67c86490ebcf147902a8"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7731,7 +7733,7 @@
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/labnet-inbound-cap": "817ea52bf234222c8d7b076d21482845037c47de",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
-    "refs/heads/fix/lock-version-follows-package": "0160afadd0d0bfac065545490f15c572dae19a2b",
+    "refs/heads/fix/lock-version-follows-package": "0573accc866316d53987e9ebbc18d13c61b6a236",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/move-proof-from-the-event-log": "be6645fceef17a624ff10305985a32d600c005df",
