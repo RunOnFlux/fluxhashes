@@ -7516,7 +7516,8 @@
     "0160afadd0d0bfac065545490f15c572dae19a2b": "cf575e988fcb67c86490ebcf147902a8",
     "0573accc866316d53987e9ebbc18d13c61b6a236": "cf575e988fcb67c86490ebcf147902a8",
     "62a3cd932e552a1d4cad28154581e57b932c7b85": "cf575e988fcb67c86490ebcf147902a8",
-    "6ad47afd5bc7117b7903b742c6ff91285cf58ae6": "5dc1ffc050d1e20b15a02e75540b02d7"
+    "6ad47afd5bc7117b7903b742c6ff91285cf58ae6": "5dc1ffc050d1e20b15a02e75540b02d7",
+    "5492277a45478112c0de749bfaec3847db49fdf3": "cf575e988fcb67c86490ebcf147902a8"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7551,6 +7552,7 @@
     "refs/heads/bugfix/www_auth_header": "4fbd65dfe13a3e2bc79176006ca671f2717cbd80",
     "refs/heads/burst": "af8267770ab6b37434c2f2a5047c5cb3cdc4c8a4",
     "refs/heads/checkout-loading": "6d97c7e4ce55fd161db36675b74a914b11b28560",
+    "refs/heads/chore/deps-2026-11-27": "5492277a45478112c0de749bfaec3847db49fdf3",
     "refs/heads/chore/eslint-cleanup": "d2a17375e339e5fa2d4382317053ed6efbb78ed3",
     "refs/heads/chore/nat-upnp-2": "d0f4261d086a430ebf3751a71c096f17b1e385cc",
     "refs/heads/chore/nat-upnp-2.0.6": "07e63358e78a871d03b2a23211e2f14c51cfe5e3",
