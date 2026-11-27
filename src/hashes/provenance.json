@@ -6558,6 +6558,13 @@
       "branch": "fix/lock-version-follows-package",
       "tag": null,
       "derived": true
+    },
+    "9d15a79397e9da421496f9442c5fad0b": {
+      "published": "2026-11-27",
+      "commit": "48b54efcb5012e670b7209da1a69c5d0f06c7c41",
+      "branch": "fix/lock-version-follows-package",
+      "tag": null,
+      "derived": true
     }
   },
   "commits": {
@@ -7517,7 +7524,8 @@
     "0573accc866316d53987e9ebbc18d13c61b6a236": "cf575e988fcb67c86490ebcf147902a8",
     "62a3cd932e552a1d4cad28154581e57b932c7b85": "cf575e988fcb67c86490ebcf147902a8",
     "6ad47afd5bc7117b7903b742c6ff91285cf58ae6": "5dc1ffc050d1e20b15a02e75540b02d7",
-    "5492277a45478112c0de749bfaec3847db49fdf3": "cf575e988fcb67c86490ebcf147902a8"
+    "5492277a45478112c0de749bfaec3847db49fdf3": "cf575e988fcb67c86490ebcf147902a8",
+    "48b54efcb5012e670b7209da1a69c5d0f06c7c41": "9d15a79397e9da421496f9442c5fad0b"
   },
   "refs": {
     "refs/heads/alihm-patch-1": "82ce9f52bce3d398975a2b34a8d8c14d6ad5700a",
@@ -7558,13 +7566,8 @@
     "refs/heads/chore/nat-upnp-2.0.6": "07e63358e78a871d03b2a23211e2f14c51cfe5e3",
     "refs/heads/copilot/docker-restart-policy": "719bfd8ea5f526888cca51d3646a1fa40a54253f",
     "refs/heads/decrypt-previous-fix": "5a922ee30a640d4ae8a2929ed59a35fe8a941038",
-    "refs/heads/dependabot/npm_and_yarn/axios-1.21.1": "df9234847bc0553b5b86737e00f95dfd0bc140c0",
     "refs/heads/dependabot/npm_and_yarn/babel/core-7.29.13": "3dafc02f38f3d5823b410316aac03bfd14b7eaf9",
-    "refs/heads/dependabot/npm_and_yarn/fast-xml-parser-5.12.1": "7e4da196cbc94f1aea9e98249e8733a2b21cec41",
     "refs/heads/dependabot/npm_and_yarn/js-yaml-4.3.2": "af9f54bd4c372f2ae4f9f323ab80648640f86945",
-    "refs/heads/dependabot/npm_and_yarn/morgan-1.12.1": "6815f022e811354a847d48a249b613ca1e263b83",
-    "refs/heads/dependabot/npm_and_yarn/multi-0a3c4c2672": "5371dd566a3ea7370ac1b8b09a4ae89d79de0c54",
-    "refs/heads/dependabot/npm_and_yarn/qs-6.16.1": "bda057ab6ac9dde7f5ea0d6292c2e88758b13598",
     "refs/heads/dependabot/npm_and_yarn/test-infra/runner/undici-7.30.1": "378e67dd70f9bc353d46d98fffb21c3c6740f079",
     "refs/heads/dependson": "5b4e1a94d82f3a31e8fe47badca785e034e83b3e",
     "refs/heads/dev-mongod": "b6aa3c6ad7051ee3d7b9aec1bd12fba9f8cfeeee",
@@ -7743,7 +7746,7 @@
     "refs/heads/fix/isportopen-timeout-hang": "536af99508381d6268985e23e0c4a4552a480e72",
     "refs/heads/fix/labnet-inbound-cap": "817ea52bf234222c8d7b076d21482845037c47de",
     "refs/heads/fix/local-mounts-and-coldstart-scaffolding": "212a296ae1c383907b0e94d3c4b21041adeb6542",
-    "refs/heads/fix/lock-version-follows-package": "6ad47afd5bc7117b7903b742c6ff91285cf58ae6",
+    "refs/heads/fix/lock-version-follows-package": "48b54efcb5012e670b7209da1a69c5d0f06c7c41",
     "refs/heads/fix/masterslave-fdm-port": "9d79781476927458e4fef37ae237cb157adae1fd",
     "refs/heads/fix/monitoring-routes-and-control-endpoint-caching": "ccd4f17d445f660a5c381383b4027da0db33f4ff",
     "refs/heads/fix/move-proof-from-the-event-log": "be6645fceef17a624ff10305985a32d600c005df",
@@ -8183,7 +8186,7 @@
     "refs/tags/v8.9.2": "42ccf6ce34ba8a29eeae5c588768133d9a71e9ea"
   },
   "signed": {
-    "seq": 524,
-    "issued_at": "2026-11-27T11:20:04.758Z"
+    "seq": 525,
+    "issued_at": "2026-11-27T11:54:29.017Z"
   }
 }
